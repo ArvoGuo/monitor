@@ -1,0 +1,54 @@
+<h1>查询</h1>
+<form role="form">
+  <div class="form-group">
+    <label for="" class="radio-inline">
+      <input type="radio" name="search-kind" value="client" checked>Client
+    </label>
+    <label for="" class="radio-inline">
+      <input type="radio" name="search-kind" value="user">User
+    </label>
+    <label for="" class="radio-inline">
+      <input type="radio" name="search-kind" value="restaurant">Restaurant
+    </label>
+  </div>
+  <div class="form-group">
+    <label for="" ><span class="radio-value">client</span>:</label>
+    <input type="text" name="model" class="form-control">
+  </div>
+   <div class="form-group">
+    <label for="" >TimeBegin:</label>
+    <input type="text" name="time-begin" class="form-control ">
+  </div>
+   <div class="form-group">
+    <label for="" >TimeEnd:</label>
+    <input type="text" name="time-end" class="form-control">
+  </div>
+</form>
+<div>
+  <button class="btn btn-success search-submit">查询</button>
+</div>
+<table class="table table-striped result">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>startTime</th>
+      <th>endTime</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+<script type="text/template" id="result-template">
+  <tr>
+      <td>{0}</td>
+      <td>{1}</td>
+      <td>{2}</td>
+      <td>{3}</td>
+      <td>{4}</td>
+      <td>{5}</td>
+    </tr>
+</script>

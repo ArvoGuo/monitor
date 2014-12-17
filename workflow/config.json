@@ -1,0 +1,12 @@
+{
+  "develop": {
+    "srcSass": "develop/style/app.sass",
+    "distSass": "develop/app.css",
+    "serveConfig": {
+      "server": {
+        "baseDir": ["develop/.tmp","develop"]
+      },
+      "files": ["develop/index.html","develop/**/*"]
+    }
+  }
+}

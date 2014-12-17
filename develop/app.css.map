@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "",
+	"sources": [
+		"develop/style/app.sass",
+		"develop/style/main.sass",
+		"develop/style/layout/layout.sass"
+	],
+	"sourcesContent": [],
+	"mappings": ";;;;AEAA,MAAM;EACJ,QAAQ;EACR,SAAS;EACT,QAAQ;;;AACV,OAAO,KAAK,OAAO,KAAK,QAAQ;EAE5B,OAAO;EACP,QAAQ;;;AACZ;EACE,OAAO;EACP,QAAQ;EACR,OAAO;EACP,kBAAkB;EAClB,UAAU;EACV,SAAS;;;AACX;EACE,OAAO;EACP,QAAQ;EACR,aAAa;EACb,kBAAkB;EAClB,UAAU;EACV,KAAK;EACL,MAAM;EACN,oBAAqB;EACrB,SAAS;;EAAX,IAAI;IAEA,MAAM;;;AACV;EACE,QAAQ;EACR,OAAO;EACP,YAAY;;;AACd;EACE,QAAQ;EACR,OAAO;EACP,YAAW;;;AACb;EACE,SAAS",
+	"names": []
+}
