@@ -74,13 +74,63 @@ var daycount = new Chart({
           /*第一个chart结束*/
           /*第二个chart开始*/
           (function(self,list){
-
+            var mergeList = getMergeList(list);
+            var naposVersions = getVersionArray(mergeList,1);
+            var systemVersions = getVersionArray(mergeList,2);
+            var dataArray = getDataArray(mergeList,naposVersions,systemVersions);
+            console.log(systemVersions)
+            console.log(dataArray)
           })(self,list);
           /*第二个chart结束*/
         }
       }
     });
   };
+  function getDataArray(mergeList,naposVersions,systemVersions){
+    var data = [];
+    naposVersions.forEach(function(){
+      data.push([]);
+    });
+    data.map(function(item,index){
+      systemVersions.map(function(system){
+        var Num = function(system,index,mergeList){
+          var d = '-';
+          for(var i = 0; i < mergeList.length; i++){
+            if(mergeList[i][1] == naposVersions[index] && mergeList[i][2] == system){
+              d = mergeList[i][3];
+            }
+          }
+          return d;
+        }(system,index,mergeList);
+        item.push(Num);
+
+      })
+    });
+    return data;
+  }
+
+  function getVersionArray(list,index){
+    var array = [];
+    list.map(function(item){
+      if(array.indexOf(item[index]) < 0){
+        array.push(item[index]);
+      }
+    });
+    return array;
+  }
+
+  function getMergeList(list){
+    var array = [];
+    list.map(function(item){
+      var temp = [];
+      temp.push(item[0]);
+      temp.push(item[1]);
+      temp.push(item[2] + item[3]);
+      temp.push(item[4]);
+      array.push(temp);
+    });
+    return array;
+  }
 
   function sort(list) {
     var napos = {};
