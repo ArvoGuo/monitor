@@ -21,8 +21,6 @@ var daycount = new Chart({
 });
 
 (function(daycount) {
-  var NaposData = {};
-  var WindowsData = {};
   daycount.paint = function(url) {
     var self = this;
     self.lodingShow();
@@ -31,54 +29,54 @@ var daycount = new Chart({
       success: function(data) {
         if (typeof data === "object" && data.app_os_ratio.length > 0) {
           var list = data.app_os_ratio;
-          var allApps = [],
-            allAppVersions = [],
-            allSystems = [],
-            allSystemVersions = [];
-          allApps = getAllKind(0, list);
-          allAppVersion = getAllKind(1, list);
-          allAppVersions = getAllKindVersion(list, allApps, 1);
-          allSystems = getAllKind(2, list);
-          allSystemVersion = getAllKind(3, list);
-          allSystemVersions = getAllKindVersion(list, allSystems, 2);
-
-          /* 绘制各个版本中 系统的数量*/
-          var sortBySystems = []; //sortBySystems[x][y] x:System y:appVersion
-          sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
-          daycount.option.xAxis = [];
-          daycount.option.series = [];
-          daycount.option.legend.data = allSystems;
-          daycount.option.xAxis.push({
-            name: 'NaposVersion',
-            type: 'category',
-            data: allAppVersion
-          });
-          sortBySystems.map(function(item, index) {
-            daycount.option.series.push({
-              name: allSystems[index],
-              type: 'bar',
-              itemStyle: {
-                normal: {
-                  barBorderRadius: 5,
-                  label: {
-                    show: true,
+          /*第一个chart 开始*/
+          (function(self, list,daycount) {
+            var allApps = getAllKind(0, list);
+            var allAppVersion = getAllKind(1, list);
+            var allSystems = getAllKind(2, list);
+            var allSystemVersion = getAllKind(3, list);
+            /* 绘制各个版本中 系统的数量*/
+            var sortBySystems = []; //sortBySystems[x][y] x:System y:appVersion
+            sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
+            daycount.option.xAxis = [];
+            daycount.option.series = [];
+            daycount.option.legend.data = allSystems;
+            daycount.option.xAxis.push({
+              name: 'NaposVersion',
+              type: 'category',
+              data: allAppVersion
+            });
+            sortBySystems.map(function(item, index) {
+              daycount.option.series.push({
+                name: allSystems[index],
+                type: 'bar',
+                itemStyle: {
+                  normal: {
+                    barBorderRadius: 5,
+                    label: {
+                      show: true,
+                    }
+                  },
+                  emphasis: {
+                    barBorderRadius: 5,
+                    label: {
+                      show: true,
+                    }
                   }
                 },
-                emphasis: {
-                  barBorderRadius: 5,
-                  label: {
-                    show: true,
-                  }
-                }
-              },
-              data: item
+                data: item
+              });
             });
-          });
-          self.lodingHide();
-          self.chart.setOption(self.option);
+            self.lodingHide();
+            $('.chart').show();
+            self.chart.setOption(self.option);
+          })(self, list, daycount);
+          /*第一个chart结束*/
+          /*第二个chart开始*/
+          (function(self,list){
 
-          console.log(sortBySystems)
-          console.log(allApps, allAppVersion, allSystems, allSystemVersion);
+          })(self,list);
+          /*第二个chart结束*/
         }
       }
     });

@@ -63,6 +63,7 @@ var intime = new Chart({
           if(self.option.repair){
             repair(self.option);
           }
+          $('.chart').show();
           self.chart.setOption(self.option);
         }
       }

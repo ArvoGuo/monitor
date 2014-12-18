@@ -22,6 +22,7 @@ html,body
   position: fixed
   top: 0
   left: 0
+  transition: left 1s ease
   -webkit-transition:  left 0.3s ease-out
   z-index: 10
   ul
@@ -39,13 +40,17 @@ html,body
         transition: background-color 100ms ease-in-out
         &:hover
           background-color: #ccc
-
-
+          color: #fff
+@media screen and (max-width: 1380px)
+  #nav
+    left: -200px
+    &:hover
+      left: 0
 #main
   margin: 0 auto
   width: 1100px
   min-height: 400px
-#chart
+#chart,.chart
   margin: 0 auto
   width: 100%
   min-height:400px

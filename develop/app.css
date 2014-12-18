@@ -31,17 +31,18 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
+  transition: left 1s ease;
   -webkit-transition: left 0.3s ease-out;
   z-index: 10; }
-  /* line 27, /Users/Arvo/github/monitor/develop/style/layout/layout */
+  /* line 28, /Users/Arvo/github/monitor/develop/style/layout/layout */
   #nav ul {
     margin: 20px 0 0 0;
     padding: 0;
     list-style: none; }
-    /* line 31, /Users/Arvo/github/monitor/develop/style/layout/layout */
+    /* line 32, /Users/Arvo/github/monitor/develop/style/layout/layout */
     #nav ul li {
       margin: 0; }
-      /* line 33, /Users/Arvo/github/monitor/develop/style/layout/layout */
+      /* line 34, /Users/Arvo/github/monitor/develop/style/layout/layout */
       #nav ul li a {
         display: block;
         color: #fafafa;
@@ -49,63 +50,73 @@ html, body {
         text-decoration: none;
         text-align: center;
         transition: background-color 100ms ease-in-out; }
-        /* line 40, /Users/Arvo/github/monitor/develop/style/layout/layout */
+        /* line 41, /Users/Arvo/github/monitor/develop/style/layout/layout */
         #nav ul li a:hover {
-          background-color: #ccc; }
+          background-color: #ccc;
+          color: #fff; }
 
-/* line 44, /Users/Arvo/github/monitor/develop/style/layout/layout */
+@media screen and (max-width: 1380px) {
+  /* line 45, /Users/Arvo/github/monitor/develop/style/layout/layout */
+  #nav {
+    left: -200px; }
+    /* line 47, /Users/Arvo/github/monitor/develop/style/layout/layout */
+    #nav:hover {
+      left: 0; }
+ }
+
+/* line 49, /Users/Arvo/github/monitor/develop/style/layout/layout */
 #main {
   margin: 0 auto;
   width: 1100px;
   min-height: 400px; }
 
-/* line 48, /Users/Arvo/github/monitor/develop/style/layout/layout */
-#chart {
+/* line 53, /Users/Arvo/github/monitor/develop/style/layout/layout */
+#chart, .chart {
   margin: 0 auto;
   width: 100%;
   min-height: 400px; }
 
-/* line 52, /Users/Arvo/github/monitor/develop/style/layout/layout */
+/* line 57, /Users/Arvo/github/monitor/develop/style/layout/layout */
 #part-info {
   padding: 30px 0; }
 
-/* line 54, /Users/Arvo/github/monitor/develop/style/layout/layout */
+/* line 59, /Users/Arvo/github/monitor/develop/style/layout/layout */
 .result-client-info {
   margin: 50px auto;
   padding-top: 1px; }
 
-/* line 57, /Users/Arvo/github/monitor/develop/style/layout/layout */
+/* line 62, /Users/Arvo/github/monitor/develop/style/layout/layout */
 .result-client-period {
   margin: 20px auto;
   width: 100%;
   height: 60px; }
-  /* line 61, /Users/Arvo/github/monitor/develop/style/layout/layout */
+  /* line 66, /Users/Arvo/github/monitor/develop/style/layout/layout */
   .result-client-period .caption {
     color: #777;
     text-align: left; }
-  /* line 64, /Users/Arvo/github/monitor/develop/style/layout/layout */
+  /* line 69, /Users/Arvo/github/monitor/develop/style/layout/layout */
   .result-client-period .bar {
     width: 100%;
     height: 30px;
     position: relative;
     border: solid 1px #ccc;
     border-top: none; }
-    /* line 70, /Users/Arvo/github/monitor/develop/style/layout/layout */
+    /* line 75, /Users/Arvo/github/monitor/develop/style/layout/layout */
     .result-client-period .bar .tag-start {
       position: absolute;
       left: -30px;
       bottom: -30px; }
-    /* line 74, /Users/Arvo/github/monitor/develop/style/layout/layout */
+    /* line 79, /Users/Arvo/github/monitor/develop/style/layout/layout */
     .result-client-period .bar .tag-end {
       position: absolute;
       right: -30px;
       bottom: -30px; }
-    /* line 79, /Users/Arvo/github/monitor/develop/style/layout/layout */
+    /* line 84, /Users/Arvo/github/monitor/develop/style/layout/layout */
     .result-client-period .bar .period {
       width: 100%;
       height: 100%;
       position: relative; }
-      /* line 83, /Users/Arvo/github/monitor/develop/style/layout/layout */
+      /* line 88, /Users/Arvo/github/monitor/develop/style/layout/layout */
       .result-client-period .bar .period .block {
         height: 100%;
         position: absolute;
@@ -114,10 +125,10 @@ html, body {
         left: 0;
         bottom: 0;
         cursor: pointer; }
-        /* line 92, /Users/Arvo/github/monitor/develop/style/layout/layout */
+        /* line 97, /Users/Arvo/github/monitor/develop/style/layout/layout */
         .result-client-period .bar .period .block:hover .info {
           visibility: visible; }
-        /* line 94, /Users/Arvo/github/monitor/develop/style/layout/layout */
+        /* line 99, /Users/Arvo/github/monitor/develop/style/layout/layout */
         .result-client-period .bar .period .block .info {
           width: 140px;
           padding: 5px 5px;
