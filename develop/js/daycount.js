@@ -19,6 +19,25 @@ var daycount = new Chart({
   }],
   series: []
 });
+daycount.optionAmass = function() {
+  return {
+    title: {
+      text: '日统计',
+      subtext: '模拟数据'
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: []
+    },
+    xAxis: [],
+    yAxis: [{
+      type: 'value',
+    }],
+    series: []
+  };
+}();
 
 (function(daycount) {
   daycount.paint = function(url) {
@@ -30,7 +49,7 @@ var daycount = new Chart({
         if (typeof data === "object" && data.app_os_ratio.length > 0) {
           var list = data.app_os_ratio;
           /*第一个chart 开始*/
-          (function(self, list,daycount) {
+          (function(self, list, daycount) {
             var allApps = getAllKind(0, list);
             var allAppVersion = getAllKind(1, list);
             var allSystems = getAllKind(2, list);
@@ -73,35 +92,68 @@ var daycount = new Chart({
           })(self, list, daycount);
           /*第一个chart结束*/
           /*第二个chart开始*/
-          (function(self,list){
+          (function(self, list) {
             var mergeList = getMergeList(list);
-            var naposVersions = getVersionArray(mergeList,1);
-            var systemVersions = getVersionArray(mergeList,2);
-            var dataArray = getDataArray(mergeList,naposVersions,systemVersions);
-            console.log(systemVersions)
+            var naposVersions = getVersionArray(mergeList, 1);
+            var systemVersions = getVersionArray(mergeList, 2);
+            var dataArray = getDataArray(mergeList, naposVersions, systemVersions);
             console.log(dataArray)
-          })(self,list);
+            self.optionAmass.legend = {
+              data: naposVersions
+            }
+            self.optionAmass.series = [];
+            self.optionAmass.xAxis = {
+              name: 'SystemVersion',
+              type: 'category',
+              axisLabel:{
+                interval: 0
+              },
+              show: true,
+              data: systemVersions
+            };
+            for (var i = 0; i < naposVersions.length; i++) {
+              self.optionAmass.series.push({
+                name: naposVersions[i],
+                type: 'bar',
+                stack: 'Napos',
+                data: dataArray[i],
+                itemStyle: {
+                  normal: {
+                    barBorderRadius: 5,
+                  },
+                  emphasis: {
+                    barBorderRadius: 5,
+                  }
+                }
+              });
+            }
+            console.log(systemVersions)
+            $('.chart').show();
+            self.otherChart[0].setOption(self.optionAmass);
+          })(self, list);
           /*第二个chart结束*/
         }
       }
     });
   };
-  function getDataArray(mergeList,naposVersions,systemVersions){
+
+  function getDataArray(mergeList, naposVersions, systemVersions) {
     var data = [];
-    naposVersions.forEach(function(){
+    naposVersions.forEach(function() {
       data.push([]);
     });
-    data.map(function(item,index){
-      systemVersions.map(function(system){
-        var Num = function(system,index,mergeList){
-          var d = '-';
-          for(var i = 0; i < mergeList.length; i++){
-            if(mergeList[i][1] == naposVersions[index] && mergeList[i][2] == system){
+    data.map(function(item, index) {
+      systemVersions.map(function(system) {
+        var Num = function(system, index, mergeList) {
+          // var d = '-';
+          var d = 0;
+          for (var i = 0; i < mergeList.length; i++) {
+            if (mergeList[i][1] == naposVersions[index] && mergeList[i][2] == system) {
               d = mergeList[i][3];
             }
           }
           return d;
-        }(system,index,mergeList);
+        }(system, index, mergeList);
         item.push(Num);
 
       })
@@ -109,19 +161,19 @@ var daycount = new Chart({
     return data;
   }
 
-  function getVersionArray(list,index){
+  function getVersionArray(list, index) {
     var array = [];
-    list.map(function(item){
-      if(array.indexOf(item[index]) < 0){
+    list.map(function(item) {
+      if (array.indexOf(item[index]) < 0) {
         array.push(item[index]);
       }
     });
     return array;
   }
 
-  function getMergeList(list){
+  function getMergeList(list) {
     var array = [];
-    list.map(function(item){
+    list.map(function(item) {
       var temp = [];
       temp.push(item[0]);
       temp.push(item[1]);
