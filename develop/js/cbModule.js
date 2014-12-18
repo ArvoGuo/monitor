@@ -129,6 +129,22 @@ var searchCb = function() {
   $('#part-info input[name=search-kind]').on('click', function() {
     var value = $('#part-info input[name=search-kind]:checked').val();
     $('.radio-value').text(value);
+    var changeTb = function(value){
+      var name;
+      if(value == 'client'){
+        name = ['ClientId','UserId','RestaurantId'];
+      }
+      if(value == 'user'){
+        name = ['UserId','ClientId','RestaurantId'];
+      }
+      if(value == 'restaurant'){
+        name = ['RestaurantId','UserId','ClientId'];
+      }
+      return name;
+    }(value);
+    $('#part-info .result .tb_id').map(function(index,item){
+      $(item).text(changeTb[index]);
+    });
   });
   $('.search-submit').on('click', function() {
     var kind = $('.radio-value').text();
