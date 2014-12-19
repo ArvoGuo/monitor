@@ -1,7 +1,9 @@
 var daycount = new Chart({
   title: {
-    text: '日统计',
-    subtext: '模拟数据'
+    text: 'Analysis of Napos',
+    subtext: '模拟数据',
+    x: 'center',
+    y: 'top'
   },
   tooltip: {
     trigger: 'axis'
@@ -11,7 +13,6 @@ var daycount = new Chart({
   },
   xAxis: [],
   yAxis: [{
-    name: 'Number',
     type: 'value',
     axisLabel: {
       formatter: '{value}'
@@ -19,35 +20,28 @@ var daycount = new Chart({
   }],
   series: []
 });
-daycount.optionAmass = function() {
-  return {
-    title: {
-      text: '日统计',
-      subtext: '模拟数据'
-    },
-    tooltip: {
-      trigger: 'axis'
-    },
-    legend: {
-      data: []
-    },
-    xAxis: [],
-    yAxis: [{
-      type: 'value',
-    }],
-    series: []
-  };
-}();
-
+daycount.setProperty('itemStyle', {
+  normal: {
+    barBorderRadius: 5,
+  },
+  emphasis: {
+    barBorderRadius: 5,
+  }
+});
+daycount.setProperty('grid', {
+  x2: 115,
+  y2: 115
+});
 (function(daycount) {
   daycount.paint = function(url) {
     var self = this;
-    self.lodingShow();
     $.ajax({
       url: url,
       success: function(data) {
         if (typeof data === "object" && data.app_os_ratio.length > 0) {
           var list = data.app_os_ratio;
+
+
           /*第一个chart 开始*/
           (function(self, list, daycount) {
             var allApps = getAllKind(0, list);
@@ -59,7 +53,13 @@ daycount.optionAmass = function() {
             sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
             daycount.option.xAxis = [];
             daycount.option.series = [];
-            daycount.option.legend.data = allSystems;
+            daycount.option.legend = {
+              orient: 'vertical',
+              x: 'right',
+              y: 'top',
+              data: allSystems
+            };
+            daycount.option.grid = self.grid;
             daycount.option.xAxis.push({
               name: 'NaposVersion',
               type: 'category',
@@ -69,72 +69,160 @@ daycount.optionAmass = function() {
               daycount.option.series.push({
                 name: allSystems[index],
                 type: 'bar',
-                itemStyle: {
-                  normal: {
-                    barBorderRadius: 5,
-                    label: {
-                      show: true,
-                    }
-                  },
-                  emphasis: {
-                    barBorderRadius: 5,
-                    label: {
-                      show: true,
-                    }
-                  }
-                },
+                stack: 'OS',
+                itemStyle: self.itemStyle,
                 data: item
               });
             });
-            self.lodingHide();
-            $('.chart').show();
-            self.chart.setOption(self.option);
+            Charts['chart-main'].ele.show();
+            Charts['chart-main'].chart.setOption(self.option);
           })(self, list, daycount);
           /*第一个chart结束*/
-          /*第二个chart开始*/
+
+
+          /*chartAmass开始*/
           (function(self, list) {
             var mergeList = getMergeList(list);
             var naposVersions = getVersionArray(mergeList, 1);
+            var naposVersionsName = getPreAddString('NAPOS/', naposVersions);
             var systemVersions = getVersionArray(mergeList, 2);
             var dataArray = getDataArray(mergeList, naposVersions, systemVersions);
-            console.log(dataArray)
-            self.optionAmass.legend = {
-              data: naposVersions
-            }
-            self.optionAmass.series = [];
-            self.optionAmass.xAxis = {
-              name: 'SystemVersion',
-              type: 'category',
-              axisLabel:{
-                interval: 0
+            /*add to self*/
+            self.setProperty('mergeList', mergeList);
+            self.setProperty('naposVersions', naposVersions);
+            self.setProperty('systemVersions', systemVersions);
+            self.setProperty('dataArray', dataArray);
+            self.setProperty('naposVersionsName', naposVersionsName);
+            /*--*/
+            var optionAmass = {
+              title: {
+                text: 'Analysis of OS',
+                subtext: '模拟数据',
+                x: 'center',
+                y: 'top'
               },
-              show: true,
-              data: systemVersions
+              tooltip: {
+                trigger: 'axis'
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVersionsName
+              },
+              grid: self.grid,
+              series: [],
+              xAxis: {
+                name: 'SystemVersion',
+                type: 'category',
+                axisLabel: {
+                  interval: 0
+                },
+                show: true,
+                data: systemVersions
+              },
+              yAxis: [{
+                type: 'value',
+              }]
             };
             for (var i = 0; i < naposVersions.length; i++) {
-              self.optionAmass.series.push({
-                name: naposVersions[i],
+              optionAmass.series.push({
+                name: naposVersionsName[i],
                 type: 'bar',
                 stack: 'Napos',
                 data: dataArray[i],
-                itemStyle: {
-                  normal: {
-                    barBorderRadius: 5,
-                  },
-                  emphasis: {
-                    barBorderRadius: 5,
-                  }
-                }
+                itemStyle: self.itemStyle
               });
             }
-            console.log(systemVersions)
-            $('.chart').show();
-            self.otherChart[0].setOption(self.optionAmass);
+            Charts['chart-amass'].ele.show();
+            Charts['chart-amass'].chart.setOption(optionAmass);
           })(self, list);
-          /*第二个chart结束*/
+          /*chartAmass结束*/
+
+
+          /*chartPercentage开始*/
+          (function(self, list) {
+            var mergeList = self.mergeList;
+            var naposVersions = self.naposVersions;
+            var systemVersions = self.systemVersions;
+            var naposVersionsName = self.naposVersionsName;
+            var dataArray = self.dataArray;
+            var naposPercent = getPercentArray(mergeList, naposVersions);
+            var itemStyle = {
+              normal: {
+                label: {
+                  formatter: function(a, b, c, d) {
+                    return b + ' - ' + (d - 0).toFixed(0) + '%';
+                  }
+                }
+              },
+              emphasis: {
+                label: {
+                  show: true,
+                  position: 'inner',
+                  formatter: "{b}\n{d}%"
+                }
+              }
+            };
+            var option = {
+              title: {
+                text: 'Analysis of NAPOS',
+                subtext: '模拟数据',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVersionsName
+              },
+              calculable: true,
+              series: [{
+                name: 'NAPOS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: itemStyle,
+                roseType: 'area',
+                data: naposPercent
+              }]
+            };
+            Charts['chart-percent'].ele.show();
+            Charts['chart-percent'].chart.setOption(option);
+          })(self, list);
+          /*chartPercentage结束*/
         }
       }
     });
+  };
+
+  function getPercentArray(list, percentName) {
+    var array = [];
+    percentName.forEach(function() {
+      array.push({});
+    });
+    percentName.forEach(function(item, index) {
+      list.forEach(function(listItem) {
+        if (listItem[1] == item) {
+          array[index].name = listItem[0].toUpperCase() + '/' + item;
+          array[index].value = listItem[3];
+        }
+      });
+    });
+    return array;
+  }
+
+  function getPreAddString(string, preArray) {
+    var array = [];
+    preArray.forEach(function(item) {
+      array.push(string + '' + item);
+    });
+    return array;
   };
 
   function getDataArray(mergeList, naposVersions, systemVersions) {

@@ -46,11 +46,9 @@ var intime = new Chart({
   };
   intime.paint = function(url) {
     var self = this;
-    self.lodingShow();
     $.ajax({
       url: url,
       success: function(data) {
-        self.lodingHide();
         if (typeof data === 'object' && data.userrst_for_client.length > 1) {
           var list = data.userrst_for_client;
           self.reset();
@@ -63,8 +61,8 @@ var intime = new Chart({
           if(self.option.repair){
             repair(self.option);
           }
-          $('.chart').show();
-          self.chart.setOption(self.option);
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.setOption(self.option);
         }
       }
     });
