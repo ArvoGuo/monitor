@@ -1,37 +1,16 @@
-var daycount = new Chart({
-  title: {
-    text: 'Analysis of Napos',
-    subtext: '模拟数据',
-    x: 'center',
-    y: 'top'
-  },
-  tooltip: {
-    trigger: 'axis'
-  },
-  legend: {
-    data: []
-  },
-  xAxis: [],
-  yAxis: [{
-    type: 'value',
-    axisLabel: {
-      formatter: '{value}'
-    }
-  }],
-  series: []
-});
-daycount.setProperty('itemStyle', {
+var daycount = {};
+daycount.itemStyle = {
   normal: {
     barBorderRadius: 5,
   },
   emphasis: {
     barBorderRadius: 5,
   }
-});
-daycount.setProperty('grid', {
+};
+daycount.grid = {
   x2: 115,
   y2: 115
-});
+};
 (function(daycount) {
   daycount.paint = function(url) {
     var self = this;
@@ -40,7 +19,6 @@ daycount.setProperty('grid', {
       success: function(data) {
         if (typeof data === "object" && data.app_os_ratio.length > 0) {
           var list = data.app_os_ratio;
-
 
           /*第一个chart 开始*/
           (function(self, list, daycount) {
@@ -51,22 +29,39 @@ daycount.setProperty('grid', {
             /* 绘制各个版本中 系统的数量*/
             var sortBySystems = []; //sortBySystems[x][y] x:System y:appVersion
             sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
-            daycount.option.xAxis = [];
-            daycount.option.series = [];
-            daycount.option.legend = {
-              orient: 'vertical',
-              x: 'right',
-              y: 'top',
-              data: allSystems
+            var option = {
+              title: {
+                text: 'Analysis of Napos',
+                subtext: '模拟数据',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'axis'
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: allSystems
+              },
+              grid: self.grid,
+              xAxis: [],
+              yAxis: [{
+                type: 'value',
+                axisLabel: {
+                  formatter: '{value}'
+                }
+              }],
+              series: []
             };
-            daycount.option.grid = self.grid;
-            daycount.option.xAxis.push({
+            option.xAxis.push({
               name: 'NaposVersion',
               type: 'category',
               data: allAppVersion
             });
             sortBySystems.map(function(item, index) {
-              daycount.option.series.push({
+              option.series.push({
                 name: allSystems[index],
                 type: 'bar',
                 stack: 'OS',
@@ -75,10 +70,9 @@ daycount.setProperty('grid', {
               });
             });
             Charts['chart-main'].ele.show();
-            Charts['chart-main'].chart.setOption(self.option);
+            Charts['chart-main'].chart.setOption(option);
           })(self, list, daycount);
           /*第一个chart结束*/
-
 
           /*chartAmass开始*/
           (function(self, list) {
@@ -88,11 +82,11 @@ daycount.setProperty('grid', {
             var systemVersions = getVersionArray(mergeList, 2);
             var dataArray = getDataArray(mergeList, naposVersions, systemVersions);
             /*add to self*/
-            self.setProperty('mergeList', mergeList);
-            self.setProperty('naposVersions', naposVersions);
-            self.setProperty('systemVersions', systemVersions);
-            self.setProperty('dataArray', dataArray);
-            self.setProperty('naposVersionsName', naposVersionsName);
+            self.mergeList = mergeList;
+            self.naposVersions = naposVersions;
+            self.systemVersions = systemVersions;
+            self.dataArray = dataArray;
+            self.naposVersionsName = naposVersionsName;
             /*--*/
             var optionAmass = {
               title: {
@@ -144,10 +138,8 @@ daycount.setProperty('grid', {
           (function(self, list) {
             var mergeList = self.mergeList;
             var naposVersions = self.naposVersions;
-            var systemVersions = self.systemVersions;
             var naposVersionsName = self.naposVersionsName;
-            var dataArray = self.dataArray;
-            var naposPercent = getPercentArray(mergeList, naposVersions,1);
+            var naposPercent = getPercentArray(mergeList, naposVersions, 1);
             var itemStyle = {
               normal: {
                 label: {
@@ -201,8 +193,7 @@ daycount.setProperty('grid', {
           (function(self, list) {
             var mergeList = self.mergeList;
             var systemVersions = self.systemVersions;
-            var dataArray = self.dataArray;
-            var osPercent = getPercentArray(mergeList, systemVersions,2);
+            var osPercent = getPercentArray(mergeList, systemVersions, 2);
             var itemStyle = {
               normal: {
                 label: {
@@ -256,7 +247,7 @@ daycount.setProperty('grid', {
     });
   };
 
-  function getPercentArray(list, percentName,propertyIndex) {
+  function getPercentArray(list, percentName, propertyIndex) {
     var array = [];
     percentName.forEach(function() {
       array.push({});
@@ -264,10 +255,10 @@ daycount.setProperty('grid', {
     percentName.forEach(function(item, index) {
       list.forEach(function(listItem) {
         if (listItem[propertyIndex] == item) {
-          if (propertyIndex == 1){
+          if (propertyIndex == 1) {
             array[index].name = listItem[0].toUpperCase() + '/' + item;
           }
-          if (propertyIndex == 2){
+          if (propertyIndex == 2) {
             array[index].name = item;
           }
           array[index].value = listItem[3];

@@ -8,7 +8,7 @@
   "prizeSwitch": 1,
   "ajaxList": {
     "/activitystatspermin": {
-      "userrst_for_client": [
+      "activity_stats_per_mintue": [
         [
           "Fri, 12 Dec 2014 11:08:00 GMT",
           8,

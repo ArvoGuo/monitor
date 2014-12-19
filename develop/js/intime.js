@@ -49,8 +49,8 @@ var intime = new Chart({
     $.ajax({
       url: url,
       success: function(data) {
-        if (typeof data === 'object' && data.userrst_for_client.length > 1) {
-          var list = data.userrst_for_client;
+        if (typeof data === 'object' && data.activity_stats_per_mintue.length > 1) {
+          var list = data.activity_stats_per_mintue;
           self.reset();
           list.map(function(item) {
             self.option.xAxis[0].data.push(self.formatDate(item[0]));
