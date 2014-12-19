@@ -140,14 +140,14 @@ daycount.setProperty('grid', {
           /*chartAmass结束*/
 
 
-          /*chartPercentage开始*/
+          /*chart-percent-napos开始*/
           (function(self, list) {
             var mergeList = self.mergeList;
             var naposVersions = self.naposVersions;
             var systemVersions = self.systemVersions;
             var naposVersionsName = self.naposVersionsName;
             var dataArray = self.dataArray;
-            var naposPercent = getPercentArray(mergeList, naposVersions);
+            var naposPercent = getPercentArray(mergeList, naposVersions,1);
             var itemStyle = {
               normal: {
                 label: {
@@ -192,24 +192,84 @@ daycount.setProperty('grid', {
                 data: naposPercent
               }]
             };
-            Charts['chart-percent'].ele.show();
-            Charts['chart-percent'].chart.setOption(option);
+            Charts['chart-percent-napos'].ele.show();
+            Charts['chart-percent-napos'].chart.setOption(option);
           })(self, list);
-          /*chartPercentage结束*/
+          /*chart-percent-napos结束*/
+
+          /*chart-percent-os开始*/
+          (function(self, list) {
+            var mergeList = self.mergeList;
+            var systemVersions = self.systemVersions;
+            var dataArray = self.dataArray;
+            var osPercent = getPercentArray(mergeList, systemVersions,2);
+            var itemStyle = {
+              normal: {
+                label: {
+                  formatter: function(a, b, c, d) {
+                    return b + ' - ' + (d - 0).toFixed(0) + '%';
+                  }
+                }
+              },
+              emphasis: {
+                label: {
+                  show: true,
+                  position: 'inner',
+                  formatter: "{b}\n{d}%"
+                }
+              }
+            };
+            var option = {
+              title: {
+                text: 'Analysis of OS',
+                subtext: '模拟数据',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: systemVersions
+              },
+              calculable: true,
+              series: [{
+                name: 'OS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: itemStyle,
+                roseType: 'area',
+                data: osPercent
+              }]
+            };
+            Charts['chart-percent-os'].ele.show();
+            Charts['chart-percent-os'].chart.setOption(option);
+          })(self, list);
+          /*chart-percent-os结束*/
         }
       }
     });
   };
 
-  function getPercentArray(list, percentName) {
+  function getPercentArray(list, percentName,propertyIndex) {
     var array = [];
     percentName.forEach(function() {
       array.push({});
     });
     percentName.forEach(function(item, index) {
       list.forEach(function(listItem) {
-        if (listItem[1] == item) {
-          array[index].name = listItem[0].toUpperCase() + '/' + item;
+        if (listItem[propertyIndex] == item) {
+          if (propertyIndex == 1){
+            array[index].name = listItem[0].toUpperCase() + '/' + item;
+          }
+          if (propertyIndex == 2){
+            array[index].name = item;
+          }
           array[index].value = listItem[3];
         }
       });

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var chartsNames = ['chart-main','chart-amass','chart-percent'];
+  var chartsNames = ['chart-main','chart-amass','chart-percent-napos','chart-percent-os'];
   window.Charts = {};
   chartsNames.forEach(function(name){
     var ele = $('<div class="chart"></div>');
