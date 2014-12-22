@@ -1,18 +1,21 @@
 {
   "name": "monitor",
   "version": "1.0.0",
-  "description": "",
+  "description": "- for dev",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.8.10",
+    "del": "^1.1.0",
+    "gulp-clean": "^0.3.1",
+    "browser-sync": "^1.7.3",
     "jquery": "^2.1.1",
+    "gulp-uglify": "^1.0.2",
+    "gulp-concat": "^2.4.2",
     "node-sass": "^1.2.3",
-    "require-dir": "^0.1.0"
+    "require-dir": "^0.1.0",
+    "rimraf": "^2.2.8"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ArvoGuo/monitor.git"

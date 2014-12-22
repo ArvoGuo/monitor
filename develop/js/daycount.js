@@ -14,6 +14,7 @@ daycount.grid = {
 (function(daycount) {
   daycount.paint = function(url) {
     var self = this;
+    window.init(false );
     $.ajax({
       url: url,
       success: function(data) {
@@ -32,7 +33,6 @@ daycount.grid = {
             var option = {
               title: {
                 text: 'Analysis of Napos',
-                subtext: '模拟数据',
                 x: 'center',
                 y: 'top'
               },
@@ -91,7 +91,6 @@ daycount.grid = {
             var optionAmass = {
               title: {
                 text: 'Analysis of OS',
-                subtext: '模拟数据',
                 x: 'center',
                 y: 'top'
               },
@@ -159,7 +158,6 @@ daycount.grid = {
             var option = {
               title: {
                 text: 'Analysis of NAPOS',
-                subtext: '模拟数据',
                 x: 'center',
                 y: 'top'
               },
@@ -213,7 +211,6 @@ daycount.grid = {
             var option = {
               title: {
                 text: 'Analysis of OS',
-                subtext: '模拟数据',
                 x: 'center',
                 y: 'top'
               },
@@ -246,6 +243,16 @@ daycount.grid = {
       }
     });
   };
+  daycount.paintBySystem = function(url){
+    var self = this;
+    window.init(false);
+    $.ajax({
+      url: url,
+      success: function(data){
+
+      }
+    });
+  }
 
   function getPercentArray(list, percentName, propertyIndex) {
     var array = [];
@@ -464,6 +471,6 @@ daycount.grid = {
       });
     });
     return sortBySystems;
-  };
+  }
 
 })(daycount);

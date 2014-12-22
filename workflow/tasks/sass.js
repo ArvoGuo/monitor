@@ -6,9 +6,7 @@ var _sass = function(){
     success: function(){
 
     },
-    outFile: config.develop.distSass,
-    sourceComments: true,
-    sourceMap: 'app.css.map'
+    outFile: config.develop.distSass
   });
 };
 module.exports = _sass;

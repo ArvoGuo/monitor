@@ -1,8 +1,9 @@
-###develop
-- for dev
+Monitor-Staic
+=============
+#### Get Started
 
-###product
-- for pro
+npm install
 
-#workflow
-- for bulid and serve
+### Output Static
+
+gulp build:dist

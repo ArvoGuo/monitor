@@ -10,10 +10,13 @@ $(document).ready(function(){
     };
   });
   window.interval = 0;
-  window.init = function() {
-    $('#part-info').html('');
+  window.init = function(infoClear) {
+    if(infoClear){
+      $('#part-info').html('');
+    }
     for(var i in Charts){
       Charts[i].ele.hide();
+      Charts[i].chart.hideLoading();
       Charts[i].chart.clear();
     }
     clearInterval(interval);

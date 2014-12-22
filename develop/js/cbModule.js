@@ -1,5 +1,5 @@
 var Config = {
-  pageRange: 2
+  pageRange: 15
 };
 
 var Tool = {
@@ -11,7 +11,7 @@ var Tool = {
   formatDate: function(value) {
     var date = new Date(value);
     var yy = date.getFullYear();
-    var mm = date.getMonth();
+    var mm = date.getMonth() + 1;
     var dd = Tool.formatTime(date.getDate());
     var h = Tool.formatTime(date.getHours());
     var m = Tool.formatTime(date.getMinutes());
@@ -23,6 +23,13 @@ var Tool = {
   },
   toTime: function(date) {
     return (new Date(date)).getTime();
+  },
+  yesterday: function() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate();
+    return yy + '-' + mm + '-' + dd + ' 23:59';
   }
 };
 
@@ -33,7 +40,7 @@ var navCb = function() {
   $('.action').on('click', function() {
     var url = $(this).attr('act');
     var kind = $(this).attr('kind');
-    init();
+    init(true);
     switch (kind) {
       case "intime":
         intime.paint(url);
@@ -77,14 +84,14 @@ var clientinfoCb = function() {
         var templateClient = $('.result-client-info-template').html();
         var clientInfoEle = $('.result-client-info tbody');
         /**formatData*/
-        clientInfos.map(function(item){
+        clientInfos.map(function(item) {
           item[9] = Tool.formatDate(item[9]);
         });
-        var clientInfosPaint = function(data,Ele){
+        var clientInfosPaint = function(data, Ele) {
           data = data || clientInfos;
           Ele = Ele || clientInfoEle;
           var html = '';
-          data.map(function(item){
+          data.map(function(item) {
             html += Tool.substituteArray(templateClient, item);
           });
           Ele.html('').append(html);
@@ -144,14 +151,29 @@ var clientinfoCb = function() {
  * 日统计模块
  */
 var daycountCb = function() {
+  var getUrl = function(act) {
+    var obj = {
+      'default': '/apposratio',
+      'android': '',
+      'ios': '',
+      'windows': ''
+    };
+    return obj[act];
+  };
   $('.daycount-submit').on('click', function() {
-    var url = '/apposratio';
+    var act = $(this).attr('act');
+    var url = getUrl(act);
     var value = $('.daycount-date').val();
     if (value) {
       url += '?stats_day=' + value;
     }
-    daycount.paint(url);
+    if (act == 'default') {
+      daycount.paint(url);
+    } else {
+      daycount.paintBySystem(url);
+    }
   });
+  daycount.paint(getUrl('default') + '?stats_day=' + Tool.yesterday);
 };
 /*
  * 查询模块
@@ -189,14 +211,14 @@ var searchCb = function() {
         var list = data[Object.keys(data)[0]];
         var template = $('#result-template').html();
         /*formateData*/
-        list.map(function(item){
+        list.map(function(item) {
           item[4] = Tool.formatDate(item[4]);
           item[5] = Tool.formatDate(item[5]);
         });
-        var resultPaint = function(data,Ele){
+        var resultPaint = function(data, Ele) {
           var html = '';
           Ele = Ele || $('.result tbody');
-          data.map(function(item){
+          data.map(function(item) {
             html += Tool.substituteArray(template, item);
           });
           Ele.html('').append(html);
