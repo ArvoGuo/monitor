@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var requireDir = require('require-dir');
-var clean = require('gulp-clean');
 var config = require('./workflow/config.json');
 var sass = require('./workflow/tasks/sass');
 var serve = require('./workflow/tasks/serve');
@@ -10,10 +9,6 @@ var build = require('./workflow/tasks/build');
 var watch = function() {
   gulp.watch('develop/style/**/*.{sass,scss}', ['sass']);
 };
-gulp.task('clean', function () {
-    return gulp.src('dist/*', {read: false})
-        .pipe(clean());
-});
 gulp.task('html:dist',['sass'], function() {
   return gulp.src(['develop/index.html','develop/app.{css,map}','develop/config.json'])
     .pipe(gulp.dest('dist'));
@@ -38,6 +33,6 @@ gulp.task('serve', serve);
 gulp.task('watch', watch);
 gulp.task('uglifyjs',uglifyjs);
 gulp.task('build', ['sass','uglifyjs'], build);
-gulp.task('build:dist', ['build', 'clean', 'js:dist','html:dist','images:dist','include:dist']);
+gulp.task('build:dist', ['build', 'js:dist','html:dist','images:dist','include:dist']);
 
 gulp.task('default', ['watch', 'sass', 'serve']);
