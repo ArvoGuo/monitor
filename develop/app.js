@@ -2746,7 +2746,8 @@ $(document).ready(function(){
     }
   };
 });
-var api = "http://monitor.napos.solo/api";
+//var api = "http://monitor.napos.solo/api";
+var api = "http://monitor.napos.io/api";
 var Config = {
   pageRange: 15
 };
@@ -3063,7 +3064,6 @@ var searchCb = function() {
   }
 };
 $(document).ready(function() {
-
     $('#top').load('./include/top.html');
     $('#nav').load('./include/navigate.html', navCb);
   });
