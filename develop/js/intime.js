@@ -1,6 +1,6 @@
 var intime = new Chart({
   title: {},
-  tootip: {
+  tooltip: {
     trigger: 'axis'
   },
   legend: {

@@ -107,11 +107,16 @@ var intimeCb = function() {
     Charts['chart-main'].chart.showLoading({
       text: '正在查询..', //loading话术
     });
+
     var start = $('.startTime').val();
     var end = $('.endTime').val();
     var url = api + getUrl(start, end);
     intime.paintByTime(url);
+
     window.interval = setInterval(function() {
+      var start = $('.startTime').val();
+      var end = $('.endTime').val();
+      var url = api + getUrl(start, end);
       intime.paintByTime(url);
     }, 60000);
   });
