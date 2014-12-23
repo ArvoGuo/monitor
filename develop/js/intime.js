@@ -1,10 +1,9 @@
 var intime = new Chart({
-  tooltip: {
+  title: {},
+  tootip: {
     trigger: 'axis'
   },
-  legend: { // 图例配置
-    padding: 5, // 图例内边距，单位px，默认上下左右内边距为5
-    itemGap: 10, // Legend各个item之间的间隔，横向布局时为水平间隔，纵向布局时为纵向间隔
+  legend: {
     data: ['Client', 'Keeper', 'Restaurant']
   },
   xAxis: [{
@@ -13,8 +12,7 @@ var intime = new Chart({
     data: []
   }],
   yAxis: [{
-    type: 'value',
-    boundaryGap: [0.1, 0.1]
+    type: 'value'
   }],
   series: [{
     name: 'Client',
@@ -28,43 +26,39 @@ var intime = new Chart({
     name: 'Restaurant',
     type: 'line',
     data: []
-  }],
-  repair: false
+  }]
 });
+
 (function(intime) {
-  intime.reset = function() {
+  intime.paintByTime = function(url) {
     var self = this;
+    window.init(false, false);
     self.option.xAxis[0].data = [];
     self.option.series[0].data = [];
     self.option.series[1].data = [];
     self.option.series[2].data = [];
-  };
-  intime.paint = function(url, date) {
-    var self = this;
     $.ajax({
-      url: url + '?stats_minute=' + (date || today()),
+      url: url,
       success: function(data) {
-        if (typeof data === 'object' && data.activity_stats_per_mintue.length > 1) {
-          var list = data.activity_stats_per_mintue;
-          self.reset();
-          list.map(function(item) {
-            self.option.xAxis[0].data.push(self.formatDate(item[0]));
-            self.option.series[0].data.push(item[1]);
-            self.option.series[1].data.push(item[2]);
-            self.option.series[2].data.push(item[3]);
-          });
-          if (self.option.repair) {
-            repair(self.option);
-          }
-          Charts['chart-main'].ele.show();
-          Charts['chart-main'].chart.setOption(self.option);
-        } else {
+        var list = data.activity_stats;
+        if (list.length < 1) {
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.showLoading({
             text: '对不起，查询数据为空！', //loading话术
           });
+          return;
         }
-
+        (function(list) {
+          list.map(function(item, index) {
+            self.option.xAxis[0].data.push(item.time);
+            self.option.series[0].data.push(item.client);
+            self.option.series[1].data.push(item.keeper);
+            self.option.series[2].data.push(item.rst);
+          });
+          Charts['chart-main'].chart.hideLoading();
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.setOption(self.option);
+        })(list);
       }
     });
   };

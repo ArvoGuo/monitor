@@ -3,5 +3,6 @@
 /node_modules
 /product
 /develop/bower_components/*
+/develop/images/*
 /dist
 /bower_components

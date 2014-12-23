@@ -41,10 +41,3029 @@ var n=[this._mapDataMap[e].transform.left,this._mapDataMap[e].transform.top];ret
 }),n("echarts/util/mapData/geoJson/tai_wan_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"7100",properties:{name:"台湾",cp:[121.0295,23.6082],childNum:1},geometry:{type:"Polygon",coordinates:["@@\\s@pS}aekgKSuSsMß`¡CqZ·be@Q^o@gieMp]}}Ľc_Kk{ùA¡r[uom@ÑĥJiq©mŉq¯Bq]ÙYgSåk_gwU­isTEĕiqiUEkue_OSsZaWKo¡­qycY£w}ĩĕS§Z©SN¥SyLÑ¡±Ks^IYPdY[UoFp}´\\¬\\j]eÜò¤¡ā a\\bnUãº¹Ìs¼j®[cíȈEĝĆ`ļf¶®K|VØDdKGpVnUFjpHF`B[pMºxÖjbpÎxp¬|ÎŸÜÒC²®ÜApZG~dÞàV¨|¸`|²tx~\\~|dFf^zGĄŚhdL\\hĸ¼OªP®lV`p\\]Xpllæ¤CpQ|oF}fMRiNSon_²qämMNM\\"],encodeOffsets:[[124853,25650]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/tian_jin_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"120225",properties:{name:"蓟县",cp:[117.4672,40.004],childNum:1},geometry:{type:"Polygon",coordinates:["@@EUDAEI@WNMNCBFAHFFNACDJDPBD@@GD@DIFFHEFGDBDEQOFG@EI_KG@OcJQM]RMEKBGPG@[LaCIICBWKCEEG@WBQHCDFD@HSLEJI@IHWECFGAAEKCGDBFCBSBIDCKKHEADMJMFABKOKEQAA@IEEG@GIQAEK@OZEESMOLlu@SLUTYFQCMG@@SQUAYKAACA@IB@BDB@B@DC@@BGAEFAA@BEGKJCC@AGAIHA@@JC@QEIP@@A@EGIDC@O@C@@@@CJCWKABFLBBEBSQGBAAMIEM@AKBcJEN@BEBCFMAEFEF@J@BG@BFABECKFG@AFQ@@F@BEB@@A@@AAAKAE@GFGDECEFEECBKIKDELDFEDYH@EIACDCHKBEB@BAAC@ADBHABKJIAIJICEDGDCD@@A@A@DHCHJHDFEFGBKRKBGIK@GIMHSBCH_BOJECCJCFKKMD@DNJEDEGC@OJCJHRUL@HRJ@H[DCNKDZHCTFDHCFFKR`TANVDFZRDLFARB@HPAPG`ILAR@TERNDFNHDLCLDDCXDYbHF@FEB@LDDVE@JPNfXPINCVDJJD@NJPAJHLXHDNANHhB@DPNLRMTBFRBHHr@`NBFEBOCCBIAQJDHCHLHFA@HSDCRLFTB@HEFLNF@PELBDJALFLTC@EPFLLP@tUHQJDfIHGTB^JTCPDLKAIBATFPADIEGECEMJ@JIAIHGECFEAGDI\\SPOXAFCL@BQTQBBTMZECYGAHA@GJAE@HCAEME@IECFKJADDBABLTHHG@ILEAMNDJCDHEBF@@JNFJELDFKTOT@JETBFFHBHEHKI@@IJEJ@XKEOUMS@AF@CEB"],encodeOffsets:[[120575,41009]]}},{type:"Feature",id:"120114",properties:{name:"武清区",cp:[117.0621,39.4121],childNum:1},geometry:{type:"Polygon",coordinates:["@@FWôµ@IFCLIB@EHNBp]AGEAKAEDMGZKFGBGME@ILGP@HEFB@BXMEAHUGC@IHCLOD@X[NWHWPKAEF[@EKIOL@EKGBNMJ@EIEHKBIC@BAKMIACCFQZCF]DB@ERAKADIHGEIBCGIIECFaGLZO@EFCNGAGDGAKL@BMG@IE@ADSDEH[JGC@CGA@BMDeK@EIACFE@@GG@FIAMM@CCGC@EM@ADE@CFMAAGHBDKIEAJG@DOGCDEKAGIS@KFCHKAEHIE]BeKNO[IFIOELC@A]GMBKVYCDDgGAICARc@MW@AQE@DGI@@AQ@@BKBAIQQYEFW@CEADIGGBCEIiMEMF_LGEKMBBDWEBGRC@E_CHYGCH_IAED@FFBQh@FGJaJ}AHRAREF@bE\\C@CT`FHC@\\BBF@BID@HGDDJ@@FAHKBARECKDAZBJIVNHCTA@EREAMLHDAFFBVFFC@RNRETHD@FOJMACH@CAB@P@DF@@FGDWE@FFSIEMKQDYCCHKb^JADOCIDGNDBdBCFJB@EC\\A@BJEA@JAAAD@HHD@LFBCFF@BERDHNhZQHMBGHOACCEBWEGD@PSJKCGEUD@CINLFGHE@AJK@HDABBHTB@F`DBFLBBHEDARCFG@ABJBAPVFE^FBGLGCFG_BMLEXGAAFE@@JNRVJHFALFBEHQJCTbNDHCF@PlFLJSXCHFHfVBTNJ\\BPJXC^FAVNFCHFB@FFH@JF@\\ABCFD\\BDMCAAJKQBGAILOEGHILECQLWFENJHADC@QxNHFJNLDFA@CBA@DUÂmR@FBL@BD"],encodeOffsets:[[119959,40574]]}},{type:"Feature",id:"120115",properties:{name:"宝坻区",cp:[117.4274,39.5913],childNum:1},geometry:{type:"Polygon",coordinates:["@@TZbB@JHD@DODCLM@AP@LL@BNH@ETFN@`E@DNG@CHLBCJA@AICFKDDBKA@\\N@AFNAGRBFjFFFL@DHLBLFQPcXAZMJ]GAVHAIZJFNE@JpDRRDCLFDGXA@EFF@CFFPDfEBDB@DCHCFCJDJIJBLI@I@CB@@ADBB@FALADGDC@@H@BB@FZGFCCE@@FMLALJDAFFFEFDFCB@@AHCF@L@@BBB@BB@FC@E@@R@BEL@HEFD@G@AH@AIB@@@FEFEBALDDEFAFO^IF@JCBBFPNJJ@D@PRDCEKBAXL@BIFD@T@JE@BHHJORFDI@@B@JGH@@B@BDDLIFFHCD@D@DEE@BAAAB@DAF@B@H@NGLJLMRDNMfGIEPMI@GDAKK@KIDIJ@GE@CFDN@FE@GFEPGV@TCDFKHBBF@RW@DD@@ID@TJFKIKLI@EP@IGBCLAEKLEN@KSHIGYACSD@SEAMBBMGEBMQBCMIGKFB[D@HDLPHDBC@IFITDLG@IIIFGVBNJDLN@VIRI@YIAIHIC@CLKZCBEE@JECEIHEAKGDGECBGEEM@@DA@CCCBBEGA[GEDBBoNAAH]MKiIAWKQoIIPMFQAEEDMH@FMSUYIeF@EK@BIOEKJEBICFKaKPFAFSE@LWCCFMHDDEKESBOGBKIEIODLG@CCDEQCEDWEMDIEIB@EHGEEDAEAa@@HqDEJGF[AECCFa@WCEIKAAEQB@FCAE^YDERDDJBLNABD@AJGLJF@FNIAMLH@FPKLJ@FE\\BFOLGXMXW\\C@KPGD@JHDGVFBWN@AEAGFO@KH@JNFAHEHYLNHFCLBFBBHo^MAFGA@KJED@Jó¶EX"],encodeOffsets:[[119959,40574]]}},{type:"Feature",id:"120223",properties:{name:"静海县",cp:[116.9824,38.8312],childNum:1},geometry:{type:"Polygon",coordinates:["@@NGFMDATCNDR@CCbINEHNJA@C\\EEGVE@IhE[wepc¢·²^QEKIEKIgiQDkehY£uSDBMkUDOJDHC@GF@CAFBFEN@CQ@BeP@@G@HD@@MHQKi@[IGCOCESE@GMA_OcCGDu`a@VZzKDkJBLNXGDqKEWE@cFEFA@ISIi@@KMABJGBcMuFEzGVH\\ATSEUBeALCEMG@CEBUHUCGXaBPtUBBFIBFTDFF@DDKBFNGBJPHXDDMDCLJ^mBIHIL@LR\\@LCR[@@z@NFD@LLBNb@RHDBNTPT\\F@BJF@BXCFBHHBDLFB@HODADE@@JHVXCPDHCFTLBBFNCDCCCU@@GAABEHHZHBCAEdEjFDD@GfD@DXFCHF@ERFDLBH@"],encodeOffsets:[[119688,40010]]}},{type:"Feature",id:"120221",properties:{name:"宁河县",cp:[117.6801,39.3853],childNum:1},geometry:{type:"Polygon",coordinates:["@@BFLBFJXDb@DEFD\\BHEFIrC@Gb@FBCBFFGH@FJAJFNCXFFCRDCFDDH@CKJPJFALPHTALFCFGCENDDKXF@ETEBObLELJDFALIPFAJL@@FfEZJTVENG@CNFFRBNEJOpJLRBXjJNLG^BBpMAAFC\\HHBAFDADDB@@CN@FFAHFDCHLHFBJGFCFUNKJJTD\\XUXF\\^F@DDDQXXBRLRCBDFEVCDLVDpUl@LEDJHAPRFGL@CETGPBTCDDVI@CFF@GFDCCVGLKEK[Y@MECISG@BKNSCGCKWEAaEBEKNGFSECO@GGM@GYI@DÅCMLHPTF@DJHAVVNKEGDETJ^[TJNNd@NOAMFYJ@@GFANDPEJB^aOadSTQSI@MHBDIEOKCG@EEFCKCqXO@@DMFENCDDHCCGJ]AKFoDaGGHYFDHKJiCMFGC@EQ@AEHGAC@IEAATKOHGIC@IXIFEoGE[JCFCDHNmRADFZMF[EEBMO{GU@AOW@@]ZeHBDEHBKEfQkuIWBs@EC@d[@[^EDMTKCEEcI@cDAB@FCBCACmOCG{PYHeBgPwPFDDALFFFCHQGSD@BHFAR[TaFYXMASUiGFL@DQNCJI@@D@PLDN`ETEFIGMCGBCE~CAIFDPEHGEQPHJADFJGHCJLB"],encodeOffsets:[[120145,40295]]}},{type:"Feature",id:"120109",properties:{name:"大港区",cp:[117.3875,38.757],childNum:1},geometry:{type:"Polygon",coordinates:["@@JFFL°_`ONJKDDFIFZN xlb~yFVNRrdJGzDPVFBCTNND\\UR@E`F@@Ip@IWGUoawOEE@ÏDgK{İEEMFëCb@KwOCDHHKBDJCDEEEAGHOABFABMCgDLSQ@CFEBMgYIDQINE@AUSwSAdYEHQMEyK[KI@GRMLE@@OqOoBOnpJ@BmEAFHL^FDB[C@BBDVFAHFJENB@sNEjQAMYsUgCSBGDJH@\\LjGR@NC@@G@HO@AfR@DM@EFEADBE@@HGDICCPlVANTC¤vgZlfRChjLJ"],encodeOffsets:[[120065,39771]]}},{type:"Feature",id:"120107",properties:{name:"塘沽区",cp:[117.6801,38.9987],childNum:1},geometry:{type:"Polygon",coordinates:["@@|ODHnPBDADEDA@CB@ddJFFLDNSFC\\]\\@@cFD@nACOMW@M@ITURBRZNHNWRQoOj½fcqAqeiDÿÍyÓįFL|Ch@ÐFFxPpbHVJXo@@JCTR^BPABQA]^MB@bE@@FQBFVJRH@FXtPNZSBAja@@NDTLJrQTHFXZFB`"],encodeOffsets:[[120391,40118]]}},{type:"Feature",id:"120111",properties:{name:"西青区",cp:[117.1829,39.0022],childNum:1},geometry:{type:"Polygon",coordinates:["@@@LHAHRHATh`LHNHDG`HDGZ`D@FQDAHXFACNAFLVRTBFOfHDCVBFQH@HSXHEPFB@LDBF[bDbLFKJBFLADBDjLvCPEI]FGEIGCBEUSjcFiBIVWfaHCjN^HtwBBFGPBJGjFBEGECGDONMFAP]TDHQOWCMGAMHKIJEIGQ]aDlUG]VGEGDC{PEbBZmE@@GH@BCA@FMQCFMYMJECELCMI_P¯`]R±¡¸odfx\\gF@JUFFH[F@DIBGMMFaJDDQ@MCSDCBENMH"],encodeOffsets:[[119688,40010]]}},{type:"Feature",id:"120113",properties:{name:"北辰区",cp:[117.1761,39.2548],childNum:1},geometry:{type:"Polygon",coordinates:["@@ROHFFGCOJEDB}DFHANDJHFEFSM_KC@O@CJ@DIRM@CEKKALFKACHoLSJSIBETDJaEIIE]E]K[MYUYQILC@GF[MGNKEK@A@BCWECAIFEFYAGFOMI[OFuDiKACBCEKIAELaKaCE\\CA@KEAFOWGGTG@ERUACDeGEPSAUQKHE`FNjNFJADHHCJFB@DEXZFRRBJLA@AR@@BJ@CHF@BRX@@NQdDBBJhHCCZDLUNA^H@BKDPFEJ\\JMPfL^AJFFGLBDGLET@HJLBCFHDCPH@BIJFCLGABHNBDEF@BCN@@FHDDDN@BNEJH@@HF@DEJB@FfLNC@AHB@DHD\\IFGTCBCF@@JNH@ALKHBHCHBDMFEP@KYbHDEJF"],encodeOffsets:[[120139,40273]]}},{type:"Feature",id:"120110",properties:{name:"东丽区",cp:[117.4013,39.1223],childNum:1},geometry:{type:"Polygon",coordinates:["@@ZV\\N^L^FJFFJIbSCAFTJTIpKDGLBEKLBjHTVNBZWbE\\SBQGE@ATCRHDGEEKECBECxOhOfAZGA_YEEWSGqRKISC@Mb@BiTAMYsOEWG@IQEURA@EF@@acUOXQRYCUDCHDTEF[SUEgAYDcVGJM`iAWDWLQRMHUHgDsDBLHJFCFDFGHBFFVEAGHCJN@RJFPIhBD\\FENCPWA@LFBAFHBEJUEARCDIAEDQBRNa^"],encodeOffsets:[[120048,40134]]}},{type:"Feature",id:"120108",properties:{name:"汉沽区",cp:[117.8888,39.2191],childNum:1},geometry:{type:"Polygon",coordinates:["@@LMEI\\MTABKN@FCDMH@COAcH[AoēAM¡Wa[MeqpQRMXMGQYQASV@J@NNXDPmBAtJXlveRLFGACFGAYf@^X@BPV@|HNPFA\\FNEEYBCnQGMDCDE\\IHFpEFWJ@JJDGHLPBSFB@JBDGHBFR@@FHDNEjDLICGZEHGbHpCLE^BHIDDCGDCFMNE@CP@rWLDEDFFH@"],encodeOffsets:[[120859,40235]]}},{type:"Feature",id:"120112",properties:{name:"津南区",cp:[117.3958,38.9603],childNum:1},geometry:{type:"Polygon",coordinates:["@@TLv@CNHFFBHGZFETNPhCVGNGRQXKXCjBN_HIdUZChBVF\\TFECSDGVCZDRQPWdVNA^]RBBAAOQ]DSE@F_Q@[VMCSMADUECOHycIqMQEU}zkawENRDENB@ADG@@HF@YnaAOF|CDFHUHH^kVbCR^JHIFLJNGHBDNPXGRSCO^EBMNCPDHHFAFiEIHOAEH"],encodeOffsets:[[120045,39982]]}},{type:"Feature",id:"120103",properties:{name:"河西区",cp:[117.2365,39.0804],childNum:1},geometry:{type:"Polygon",coordinates:["@@d@hZNFdcLYXKRCtCMOFSYEGHEAGEDMu@SKAAsx]GMTGt"],encodeOffsets:[[119992,40041]]}},{type:"Feature",id:"120102",properties:{name:"河东区",cp:[117.2571,39.1209],childNum:1},geometry:{type:"Polygon",coordinates:["@@ZBVFFIGABEEA@KXBDOFM[EACJgOIE@QIMGDBHUFEEGAEHECEDGIAKQDWLKZcdQPEP@FOFBJTJ@HNORJf@DBCN"],encodeOffsets:[[120063,40098]]}},{type:"Feature",id:"120104",properties:{name:"南开区",cp:[117.1527,39.1065],childNum:1},geometry:{type:"Polygon",coordinates:["@@NMVDCG\\E^B@HlB@YEDS@CHsNSiMGDebUXAJEjidVTAFHDFJ"],encodeOffsets:[[119940,40093]]}},{type:"Feature",id:"120105",properties:{name:"河北区",cp:[117.2145,39.1615],childNum:1},geometry:{type:"Polygon",coordinates:["@@DBXFADB@L@LFHM\\NHED@JKZRb]QMRAFCJBDCBQYADMCAe@QIMP@GSIAIPE@E[EGH@ZEF]^HJAXK@KF"],encodeOffsets:[[119980,40125]]}},{type:"Feature",id:"120106",properties:{name:"红桥区",cp:[117.1596,39.1663],childNum:1},geometry:{type:"Polygon",coordinates:["@@J\\PNHEZBFEJELEL@BWGI^]FEkA@G]A[FDHUCMNEHJ^"],encodeOffsets:[[119942,40112]]}},{type:"Feature",id:"120101",properties:{name:"和平区",cp:[117.2008,39.1189],childNum:1},geometry:{type:"Polygon",coordinates:["@@DT@FCHG\\FFOROMEgYc@"],encodeOffsets:[[119992,40041]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/world_geo",[],function(){return{type:"FeatureCollection",offset:{x:170,y:90},features:[{type:"Feature",id:"AFG",properties:{name:"Afghanistan"},geometry:{type:"Polygon",coordinates:["@@ࡪ͇وŐǬϠڐŶӂʮǚڦ۾ǌƀ̚ІɣʪҴMوǯʲĹ،˒˰ǋ˖ϪԈiżŬĘͺβ̈Ҕȏĝʱʪ¡ý۷ͪ˟̊ǰώĊԼϖׂ×ࢀAƬʋӧĥяƹ७ĭࣗǭӫλȤΣĪллΛ͑ɳ̡ߛͦ։՗ɅΥԕ²ԋ͡ɿ̳þٝŋğɻسDҵӇ܍થΓבôǝȁԇņ࠿űටіހހåզُƚßՔ˟ڢάҢιŮɲؒ΂ਸ"],encodeOffsets:[[62680,36506]]}},{type:"Feature",id:"AGO",properties:{name:"Angola"},geometry:{type:"MultiPolygon",coordinates:[["@@ȸصʌԋȘ˕͐ѯ֊æˤŠҬşŲɀɂӨԶ®ƤіHñ̡৴RfՉǞ͕ūԑÖԫ˪̷­ৃȼüκsԴŴϦ¹ĘʹĩСƨϿů̿î́ყZᦵ֤ۋպԽ໳΁᎝Š׋Ж₭ŵÏԃϞկ~ԉƝЙǅÿՈŜ݊̂ޒªΰ˚ݶȨΆӘռːϐĘج«ӊʣ̜ɡԚȵԎ®Ǩʶͬʭ߼ǣ֚сՐĄǎΌŔʒg̎ĸៜ["],["@@ɉėɣلͼδʪƘ̀˽̩ǯƍɍλ"]],encodeOffsets:[[[16719,-6018]],[[12736,-5820]]]}},{type:"Feature",id:"ALB",properties:{name:"Albania"},geometry:{type:"Polygon",coordinates:["@@Ń˷ŢέΒȳiə˗ŧ»˙ϷСƛÐgȂү˰ñАîֶŖʼƗƂÉˌθаÂƿɨôǴɥȪďȨ̂"],encodeOffsets:[[21085,42860]]}},{type:"Feature",id:"ARE",properties:{name:"United Arab Emirates"},geometry:{type:"Polygon",coordinates:["@@Ƭ¤ɱڂƂ۞uԖ{ֺ֪ظՠՎԮǆ˹ŖڑѕGçճƪŝϝǑE΅ʓΏuͷǝǱᡋъ͏࡚Ț"],encodeOffsets:[[52818,24828]]}},{type:"Feature",id:"ARG",properties:{name:"Argentina"},geometry:{type:"MultiPolygon",coordinates:[["@@ߗ§ѓ̔ԑx࣑@Aሞ͒ϵрؿનԋ୲ȿϙп"],["@@Ӵ؇͠ڰॠƊǷ໶ോۊŷਆاࡾ͡Ŧχࠡ౧ࡒɭ़ŷڔƈނ٢Ǝݐжǈфӝiڣۻҩ֟΁ॅࠃ૭ଧȽڥɣࡹT࠷ǽȇÝիËѫ੨ܙŗ׃Հν§Ч߯ઁఛ҉။ǩउĎǰԅǣػƺщԋ̏ࡱř̪͕߱ɗŜ࠳֨ʧҠˆʢѧޛʻڭԹūࡋȣ҇ߏEڃљʋؿؙࠞߦǝ˿ݭ঳Ӄձটލͧ΅Ͽ˔ࢍ֔ӡΟ¨ީƀ᎓ŒΑӪhؾ֓Ą̃̏óࢺ٤φˈՒĭьѾܔ̬૘ěӲξǄę̈́ϵǚˢΜϛ͈ȝॺ͸Ǣƙ਀ȠࡲɤݢԊ̨ʭࠐEޚَոo۰ӒࠎDޜɓƶϭฐԬࡺÿࠀ̜ބռ߂צԺʥ͢Ǭ˔ඔࣶд̀ࢎĹɂ۬ݺશȱ"]],encodeOffsets:[[[-67072,-56524]],[[-66524,-22605]]]}},{type:"Feature",id:"ARM",properties:{name:"Armenia"},geometry:{type:"Polygon",coordinates:["@@୞ƀǨə͌ƣǛɁ҄˽ʁˋΦɫϘƏl׋̣}΃ӢHżχCʝɤǩuͧʖرȼĄФƛ̒"],encodeOffsets:[[44629,42079]]}},{type:"Feature",id:"ATF",properties:{name:"French Southern and Antarctic Lands"},geometry:{type:"Polygon",coordinates:["@@ը˃ߐĿǅɽϣಇÃq҂ŮΎÊǢ"],encodeOffsets:[[70590,-49792]]}},{type:"Feature",id:"AUS",properties:{name:"Australia"},geometry:{type:"MultiPolygon",coordinates:[["@@ߺ́ҜŘپǊԎÉÐঽ˽́ēگ̉ɰ׍בǧ®ԫԭܘŗֈӝܸtϬռõ"],["@@̢ڇբ̈́˦ΡЖ͟đϋǴܛŸнɄĹɬܕąѥ˖֭࣬ѭצЋ֞λŋȯӔՃࣧ͜ͲȂ;ηȴźƢࢹ׬ԩϸ͋ڀڹʀڭtӏËԳА܋µݓơϵɩݡjӕǕ׻χއثЭ̫ٱ˫гʝܧ͕нɅػŉׁªˇӕ̇वޡ·ϫ͙ԕέ۟ψԥƪżѬҝǃ݁؉ܩɪӉƄӑÔ߿ʐիԮƻْțьЭ;߱ĸˢРȯزЧ׉ݝƷѮҬŶӞ͘ЬãجہܑԿ˽͏ڛٽΊ~ҀԿ،ѹ̀ǂȘઃԚןz߯Цຓāછ̝ख़˫ߡÈࢻљܯȗǉѱ̳Ϳ܉qՅõݑƶ׿ğֽԁ҃ʕуʁЗˋؕ֛Bࢽ՜ҋǄlӖкŘƚȒ̠ĺאģӼѻࡖƏӒӎͭնsʚϋͰĽڄӓڔřΪτε˳ެиʑʞ͗aјеڎă˄țʦĠӠǢȸŘрęӮΎ؀Úٕ΢׀ۀˬЦΪٜ̰ϤàɴĻڎ̺ԚĤŶȀɞüҬoࢨʖҚώɊ҆ӲѐͲvҘט܎ΠܩΦǚ̗Ј˂ТψǻĸٖҠаȮͨцƜ`ɼτĭdɂτŦОŔبϫҲӽՂMՖÿǱҦДڪϜɘſȾκӒԘ̒јıۺǂeі؛ˢ҂Ū֎ȻҀ·ۼɋʈĐԶʵӬʊ͂ñȠǊϬеɡ͉҇ͻ˿Įͱʙп̗ЭÔʁڜҫ٨ˏѠ́؈ӻʂBѰɍŶʷߤ˵ֈ˼ǐҊǠόľҤʰڞŝОÔʔīӔŌنǈǠŽˬȮѾǆҦtʈ̸̾ʂЩÎՃȾķΛ̨ёÚӇ̥"]],encodeOffsets:[[[148888,-41771]],[[147008,-14093]]]}},{type:"Feature",id:"AUT",properties:{name:"Austria"},geometry:{type:"Polygon",coordinates:["@@Û΃ӁCǎǻ˧էǇƗܽsщȏۛÞயɐȉ̊ࠧƣĭǅԗŢѕxϝƶźȴƬʪ²ьɹŤɜݎ׸ƮЖ}ˀǣþƜšո̠ń̒ϰز˓ӀΆ̐ÚٶʱЂªϰǁãŃČ̅"],encodeOffsets:[[17388,49279]]}},{type:"Feature",id:"AZE",properties:{name:"Azerbaijan"},geometry:{type:"MultiPolygon",coordinates:[["@@ʞɣψDGŻ΄ӡֽŒщϰƃ͆Ǫv"],["@@ϊËƞɈԈͺѴѵђ׭ϺʸɧۗãƣٵƟ̭̍ȝvзȽ¥ԻѲ̂дʝʚ̿×যإk׌ϗƐΥɬʂˌ҃˾ǜɂ͋ƤǧɚȶƎضʍҐ¹ŘĲбҔɔŚʀ׀ԙ"]],encodeOffsets:[[[46083,40694]],[[48511,42210]]]}},{type:"Feature",id:"BDI",properties:{name:"Burundi"},geometry:{type:"Polygon",coordinates:["@@Á০ɃϢԜßʲӎҀÅ¸ͧǸȏT˗ȹǭ͛ѫ̧̥΍"],encodeOffsets:[[30045,-4607]]}},{type:"Feature",id:"BEL",properties:{name:"Belgium"},geometry:{type:"Polygon",coordinates:["@@؜áުǪՐοҦȝħ֧ɕĝһܿϦћßדІϷͶϷ`ũ̒ڪǔ"],encodeOffsets:[[3395,52579]]}},{type:"Feature",id:"BEN",properties:{name:"Benin"},geometry:{type:"Polygon",coordinates:["@@ۛįȹ׆ኞǛǦЮ̇̌ʱʞņѶ̀ĨǠξЪĀȀʤˮʘ̠F٘ә˩ȎӽǓͷĘɧСԳʵʳǁՉt՗µണ"],encodeOffsets:[[2757,6410]]}},{type:"Feature",id:"BFA",properties:{name:"Burkina Faso"},geometry:{type:"Polygon",coordinates:["@@ֹɐϽ̍Ƀϗǰƥ˦ϙǾÅӦɮΤo˴ښۢŬּɲȴОœΚǢŘɎٴϖǆˀ޼ΒҦŢɀǇՠJáСŔϣӀչНॺȏmֻǿʣЩÿǟν˿ħ݁lϳâ˓ƉωÖร¡qӉŘم"],encodeOffsets:[[-2895,9874]]}},{type:"Feature",id:"BGD",properties:{name:"Bangladesh"},geometry:{type:"Polygon",coordinates:["@@i׽̉ŶÆگʉѬµєǅКΕӨޟü΋˃ҳΧǠũƵʃĠ͗øŽۖ̅لƜԒԫɤȆ̪Հ̼؅Ѽ֮̔ږεВ£ô׏ߞřު^Ӟƛϯ܅ϕµʷӍҢѥƎ՞ɶFѶ೯"],encodeOffsets:[[94897,22571]]}},{type:"Feature",id:"BGR",properties:{name:"Bulgaria"},geometry:{type:"Polygon",coordinates:["@@ʎΉ͚Ö٦ſ௾«иɌবȜ̩ؒӴĕѥΏ̫׹˔ӏܣŒࡥ˃Uлޅÿס̊ڧɱة|Ñ֊сːƒŢĝĴƘˌ͌ˀСδ÷̬ȸȐ"],encodeOffsets:[[23201,45297]]}},{type:"Feature",id:"BHS",properties:{name:"The Bahamas"},geometry:{type:"MultiPolygon",coordinates:[["@@ȵ£ɇӜ̿ʐǾՔʨۣ̎Jӥ"],["@@ࣷƅÏ̴Ђäֈ{~ɕ"],["@@ƟׯƷņ`ѮϓͪCĪڐϗ"]],encodeOffsets:[[[-79395,24330]],[[-79687,27218]],[[-78848,27229]]]}},{type:"Feature",id:"BIH",properties:{name:"Bosnia and Herzegovina"},geometry:{type:"Polygon",coordinates:["@@̦FȿσМ͓ūЃȡƽû˙țūҥݓ͈ͅΘ͋Ȅϭ̾ǻʺЩϾǬΒ̞ȕǼǨϾnܠƓ׈\\Ϟȅ"],encodeOffsets:[[19462,45937]]}},{type:"Feature",id:"BLR",properties:{name:"Belarus"},geometry:{type:"Polygon",coordinates:["@@߼Mࣰ̈́ȚӄېːÿϔԜƚ͖ࣘࢮɁŢȻѲĴࠒȧĊЁǷɧՄս΂Ƴ»Ʊ֦Ʃʎɡ͝ǿڳǉÿȠ˧ȸ՝ܝ¹ʵȁÃхͭĆݷ¡əȞ̿ƥ́ŨڍjफȬࡕàٱmҡɩГeϐʷϴԌǢLͰɷ͌ϊ"],encodeOffsets:[[24048,55207]]}},{type:"Feature",id:"BLZ",properties:{name:"Belize"},geometry:{type:"Polygon",coordinates:["@@OŮĸƴı̞ԔǄZHūǄGaɭƋεôŻĕ̝ÀăīщǓɟƱǓ̅ʣ@àॆPژ"],encodeOffsets:[[-91282,18236]]}},{type:"Feature",id:"BMU",properties:{name:"Bermuda"},geometry:{type:"Polygon",coordinates:["@@OEMA]NOGNG\\Q^McMOI_OK@CQSGa@WNLVWHFLJXVFGJ`ZRTDLeeWKIHGIK@@[MQNi`]VDTBHCJAPBJLVFjT^LV\\RJZRn^RH`TfJjZHHOTTFJP_NOX[EYQQKMEJOLANJH@HQHAARF@ZEPS[U_IcRQXE@EEKKOCGGCQCOGISKYGUC"],encodeOffsets:[[-66334,33083]]}},{type:"Feature",id:"BOL",properties:{name:"Bolivia"},geometry:{type:"Polygon",coordinates:["@@य़͟گӳ؈વȲ۫ݹ؅ŗ͡୆ҋऺˆ߾ѳ΢ŏ؆ЫֲՌ࣢αۺȖ˰ƭ̶͠рh܎¤נǸ˶ܩഠزíѠnȈʪ݀;Ѷ͂સƚęؽļ͓ãࣰ֛ݫऴƑ̻ͦ֨ǕΐʑՈTӦʟӟǐʕZγʓa͒এྖūӟĜͧҞɽȤԹƫڋɯρĄӏʿǥaʶ޳јޭ^ัʓЕ݋sҋͥ৕ƉǸ"],encodeOffsets:[[-64354,-22563]]}},{type:"Feature",id:"BRA",properties:{name:"Brazil"},geometry:{type:"Polygon",coordinates:["@@૮ନॆࠄ֠΂ۼҪjڤуӞеǇǒӜŖӼBҦ̡ƴ̿Ƌ̻į͔ýޔƿʤ֥ɪ΃ǏࢱǈÈଜʝҴˀǦăӐɰςƬڌȣԺҝɾěͨŬӠྕ͑ঐʔbYδǏʖӠӥʠՇSΏʒ֧ǖ̼ͥळƒ࣯ݬä֜Ļ͔Ěؾષƙѵ́ܿͽȇʩџmرîӃƟϡĪÈ౨ۏӷݏv҄ͅ֏¶ǲΰұԞΓݴɜƶA΢ԖʎċҔɊ̈Ôϼ०ֲێǊŔŴݴϚᘰpθſӔύ̬LؐӀƒǚē͐ӯĔYՀ࿖k˦̂ɸˉǐӷǂļҨѻٸÆǌʲشȞΊƐĮΤ׸ʆ¯Ǯ܅ðśՊ֞ϓɒǀþجŅڜȿʐȤ؀žल̮͎̾ŏʂѪȜȗŉσ̀ŵȖϷɷ̏ƅ܏ɌыÔϳԬϿЮ¥ĢǒˆϠƦ˚ɢҬíȲҚçøǢƗǘĎʐͺõЈĒӔǱξǥʺɪȊŘɿДÒ͒͊ʴؤӼޒ˺¢ȺҫҼ฽҈Ƒxׅمەʾʩ๤Ɓࡃٔր੐̟ඊԡШӱƏҫ঎ʶ࿐ѹఴఔ۝੸व٪ʏܖ̦˅˸੭Ɣԗͯ൹ёշஅୡՙोثܯȿgɻءÒ༽ɹಓęօˇͧƫ૱࡛઱ƛࢁڹηȟԋ࣯Fೕ͓סύवʗ঩ڝ܅࠯ũطƔҫƽࡓȏЧחҥट๕݉ڗ֯Ͻϥߛ։ӑɷӈψЊӟֲڇҬࡹՠ̹{ࡅٰձę"],encodeOffsets:[[-59008,-30941]]}},{type:"Feature",id:"BRN",properties:{name:"Brunei"},geometry:{type:"Polygon",coordinates:["@@ͬ̾܎ҢЯ·՛Бǭ˹ϥѦ"],encodeOffsets:[[116945,4635]]}},{type:"Feature",id:"BTN",properties:{name:"Bhutan"},geometry:{type:"Polygon",coordinates:["@@΂ˍÏԩۇ{ۿÈՇſޅ͊kǚ֌زҒɈ׸șѺqπɥ"],encodeOffsets:[[93898,28439]]}},{type:"Feature",id:"BWA",properties:{name:"Botswana"},geometry:{type:"Polygon",coordinates:["@@ǜƭ˄ӡॎइήĝD̑ʚՑٰŹ՚ϝ஑أݭع˩֓ʧ́ҙãƧГďʽ՝țہ¤БɾΟĸХșȵГЉʧпϑ׻đȇ̐üԠӽߚɧŲAរࠤ|Ჾشಖ͎̎΍՜ͤʮDӂȎưÙ͔ڣ"],encodeOffsets:[[26265,-18980]]}},{type:"Feature",id:"CAF",properties:{name:"Central African Republic"},geometry:{type:"Polygon",coordinates:["@@ۜÚƺɎƔgȾȏ੔͐Τ͠Ѭ̌ĉ̐ʂüߺ½߆ϴ؊ࣺю;ՐƜĪΫӜԿF΃ƋΓÄʻ̆ʍٖοҢͻT˗֠ѫΖεɆԋغͩƊˉˣęաpكĘ̹ïųȱ˕}ͧǲधнϥĎŗÝʥԕطǐؙĊ՗̴ۓ˸҉˓͛яùדգ²֩ƘԅѻѯޱėʐϦϧ˔̳Ѡï̠ЇѮæʢċΞÞٴȬƴц࡜"],encodeOffsets:[[15647,7601]]}},{type:"Feature",id:"CAN",properties:{name:"Canada"},geometry:{type:"MultiPolygon",coordinates:[["@@؎œުxЯ΅̵Å੥Φȿˬ͆ʸ̎С"],["@@Хcઝ˂ޯІ̄î૆Ɂ࡮Η|Ʒ"],["@@хŝൡϢʥ̘ݩ̌Ưʈࡻư͕ҜðȚࢨǿԨŵ߄ė˺̃дЋ࠼΍Όҩ"],["@@։ܿո˴֠ǵ̏̉ݚɱϰȴ࠼ʵʹ؛טƞņѿʼԷΝ݉ϝփǂǾیɻńইܯԅצЂ߫Ȳࣙ¹࿅~ŹʠԼ̐λɬ۸Ԓࢄ೾Զӎܲ̂϶ǋɫ҅Չ"],["@@@@@@@@߰äʥ॓ܶگͯDԑϪ̵ϮчʾƻτºˎЂŋ"],["@@͡ѳχîəʢ Î͖ʦΆkɈǣ"],["@@ঝҧץnǿɪزϲ଼SiǍ"],["@@ƼυјżӨɗं˽४ʽöЍؤÞ׶˥ݙ˃ಳȬҽϚ࠭ҁ஡ѣ˿Ӯଗăܴдņڌ˺ޔ؈å"],["@@ष¥ȿЪΦҼޖŜپɷXέħřձʛ"],["@@Է̍ଉʬۃğଫϘ݊ʼטζࢼʃԎƯʦǅԠ͍"],["@@G࡭૰ڄ৐եʡح߾֥࢚؈ؖܨ°ईஞÝఔūૼй¼зس҃פ҇ŃУ࿩חୡŻࢃʨʣуߵ۽ʓοই֩ளÇڏΡÇձ঍Ŀਉڻ࣭ु͙ڏ±উంƕϜ޻ϼّ୲ǔ༞εࡀ͋׺Ѕ੆ɳࢸΟ൶µࣴąƍܫʼࡋ،ळనߗ٨˚ҔࡺѭೢףѶഎЀ॒לҮהç֭֘܌৷لলࢤνݾ˫ಾגȘ෸ɫࡸć۠ɚ޴˵ਚӣʮ͙ຄÛ}۷˪ਜ਼ގſ،ӵ௖Ұߦऔ֌ϸٺݣબੳघ৙͵Յ૤Ӂݰӓംɏբˍͬ܃ټŏͶͅÖऻ؍́׽̏൯̗੏ۑ෇ƋᅛǮుPࢇÍ۱׽ੳω௉૗ॵޡ܌Ɛഘૄᄈ۪సČݔЫߍ֟ˊࣟ˜هતп൸ŨࡆीÎ؍ժ̥ਣսᇷԁ࠯ͽय؁ٓÖ܆ฤ۞഍णĹջӆBନύʐ֛ƛ˧ɚٙىʱٹ̕ϡΥŽˏ¥čȹ໽A౥MϛƷࢵ؃Ŀßˍ͝ޗBࠛGϛƅƊǑøʯeďષлࡽſউ҅Ɂ@˷ƂĥŦnĔȂ̎ЂҦʘӺǙܴǵނ࢕ЂľƬūĺɳ@ǛƆ¥ȤǍēɥ¾ĊȡĊćɚٵːڹ˪ࠑ͘߁̨ݧʃ˝Sਕɔڻŉࠁʺ࡫Ɔו¾ʻƜƫҤ˳IE͓჏BᮝA᭯@ᡃ@ᠿ@៙@ᢡ@ࠛ@᠁@ᛷ@őF྽ࠜ׵δຽΐҳݖŤԨ੻ΨƧڴ৭؎iѠҲКwՌෙ՘࡭ॠՁ׾ޑϚ֣ΈѿѢࡇ˕ࠇҹݛւדπࠋɸࠟ|JⷎNᷲ༬ȭ೘Й࢘û݆ΖৰˀఢĹ఼τ൘Ⱦ־ΑظȠȊЄ׈ęෆݫ૦֬ŖّਔƐ͆ʖৰ·౼Λዸ̭ୄƛࠖÄଊэ஁зຶǷᗘĲܒƦࣆԋࣴьࡩΦժ˼৾ڦĎڴȩࡊҗरä๢ϛಬƄ௬oĭԺݞƦದ˵KߑՖڠڰuϞࡊ࣑԰কͺäघশ؎ૌƇࡘχଞॅݗЭ༠ǝ"],["@@нϿሎʬୠщॊіސ˟یࠛфΒ׭ࡰ݊Ŭ࠲Ƈश͹ՆࠉʼץථеະЉĝσൡã՚͓˱ູ̯Ƃฃɪঋ»ཅ˷ᒃű๻āҕІଫɮݙģਛږ֔ĚಘƜஈરƦྷȞᅗã஗jѷ̴ዎͲಗ[ืɚ۶ـגͮᖬԠ࡬ǋ"],["@@݉ևಹך˸Ş૸ٔȁ"],["@@öɵࢿ|ࣟjࣿőʑ¼ऍѾ̠ИÈነěชң"],["@@ڎԽޤڴᒆΈ෺ࢅůջဒʒߒͮሀыୄЏŊν༚Ȑ࢘՗᎐ܸͩ͹ߐ޻໯ϹጘչೲȁீޙೖÇʽכ้ঋਗά೓߲ઙĿŁӕࢪӥଜϯΌɟմࠩ́׿੕ɪᑏڨஎܣ࢔ԕƎ̉ᗱͲᅩӤ৳Ц̌ʂయќ௥Т`ʑᝡƅ܃˾ֆؤ཈dႸņ˫̜̊оચࠊɳϊ͕˾౿Рၳ˺՞ɆࢷԺ݋´ڏ˸҇ʛ຿ŅᵝȈᄫʚഹŴۥ̐࢞Ϧ஝Hˉ࡚٦ݨࡺ΄ᓪɢأի"],["@@৊ǯຄńɖʑ޷Е౜αƱݳ൝͗߳ê׉͎ᐡٮjˎ႖ĽएռসР"],["@@࣓عय़Խ݆`кѮΨ࠰ɮცྈȱళݟ৉Ǎ"],["@@ᕍЙѷςኹѺήΤ׌ؘܰւࠑԦᭊƀ஬ǧᒰ±ࠄʑࣖΝ੍ɃᏝןਫי@ν"],["@@ҙ͙௝Øৱɖ҂Ϛீɨܼ̬̍ˇ"],["@@ٞϵљϣس൱đࣗƈjӬ൝ÝÁٮࣜౌ˺ஂµÜŎ"],["@@̙͢ݠƘࢢƪЩԝЋ᭗Žᑯη౩mŅ˜პϊ④ĳ୯Ʈପࠐ߈ɾᛄ˳๶ӻฺÛறߨޔ̪ࢄĭ˲Џ"],["@@ढ˓ကFܨˡȑ́८ȍՔȧଊ௬ë೸ǼႊðീÏ࣒ͅȊ΍ԽɟభǷ੽ĸᜱŻႫcഫļᖁ˔̃ҦĹжࡇξ჋ĺঅʼ͂ΈႾÁ"],["@@ŗ٣٩̇޹£༝Ϋ഍ŹଗǼ@@ුؼႮծಆ[ସŬ"],["@@ϣy༽Âɡɼၜ]מƻĵĩ"],["@@༩ʋఝ˔ڼˎ௮Đஈſ˩ʥ"],["@@৽ǏඉBbŤࡴʦҌદǝ"],["@@కǥۃȚέ͂áΎજӪÅ৐̇ɫ̣"],["@@͜Ε൏Ĥ൩˘ሏߺʠ৫ȮÕ͐࿶ŕᗢ̫ٞЍ"],["@@০˕ଽʟ༇ك๥Óდņࣗ΄^̦ڔɢ໡Oए˨ՑϠ׌ώ׊ʲࡴÎοȖዜ¨੶҅මǵ൞ǃڒև"],["@@ᖢßᅮŅ໤ɫɡᏅη᎙ǟݻȉᆬJጡԙേʃ෯ۇႿƓՙǡᡷěୈĿׇƭ۞бߙ˽ಛʃЋ͡୫ʣŞȏ෬lȳᖟԋᔧɴឿŻధĸཟªĿЖ༊Ȑб؆ԢÐᖤγ଩բഹǈڼ͘๰Ȩʄ̊஋͠ΥѠᘞڒĝ಼̪ቃĬ᰽Á๣˸۩ͼগʘȁ˺దǈঘ࿲ƌం̺ਬ©ࣤɽٔҒૐƈບĢᢲҀĝ᝚ƚᆔÁᆒÁ"]],encodeOffsets:[[[-65192,47668]],[[-63289,50284]],[[-126474,49675]],[[-57481,51904]],[[-135895,55337]],[[-81168,63651]],[[-83863,64216]],[[-87205,67234]],[[-77686,68761]],[[-97943,70767]],[[-92720,71166]],[[-116907,74877]],[[-107008,75183]],[[-78172,74858]],[[-88639,74914]],[[-102764,75617]],[[-95433,74519]],[[-123351,73097]],[[-95859,76780]],[[-100864,78562]],[[-110808,78031]],[[-96956,78949]],[[-118987,79509]],[[-96092,79381]],[[-112831,79562]],[[-112295,80489]],[[-98130,79931]],[[-102461,80205]],[[-89108,81572]],[[-70144,85101]]]}},{type:"Feature",id:"CHE",properties:{name:"Switzerland"},geometry:{type:"Polygon",coordinates:["@@ƫŹȳϞƵіwá΅χƙةŀǻ͹ЏơƄһ˵Л¡αǶ˽ςБſ^ϠؚҾɈϤûɲƞ܎MǦǼ࣒ʱ"],encodeOffsets:[[9825,48666]]}},{type:"Feature",id:"CHL",properties:{name:"Chile"},geometry:{type:"MultiPolygon",coordinates:[["@@Bም࣒@Ԓw˧ͻܛʻЭӻä؏ʨ࢟ŨੑҸ࡫Ҏୃशۘǭ୼֗૜̟ѢϬ˘ֺޠΎװı"],["@@͢୅؆ŘĺɁ˿ࢍࣵгඓǫ˓ʦ͡ץԹջ߁̛ރĀ߿ԫࡹϮฏɔƵCޛӑࠍpۯٍշFޙʮࠏԉ̧ɣݡȟࡱƚ৿ͷǡȞॹϜ͇ˡΛ϶ǙĚ̓νǃĜӱ̫૗ѽܓĮыˇՑ٣υôࢹ̧̐֔ÄgؽΒө᎔őުſݝPЙȷݷ̣Ɖ޹Σoॅ˚१ג@@ਲ਼ӔˁՒʄӰх֒Ņ෤Φ߰ࢴٰౣʔߞݒ˸ඊत̏Ѯგ֝ɠʿ਻ՉŠ˂ல˺༒ϮָʍࠎéूΠԨപ׈എΤబȗ఼ʤۚĵਞӮਆưྺ˒ნˀሤÕ൘ǩ஄ќɌɦњЬֱŐ؅ѴΡ˅߽Ҍह"]],encodeOffsets:[[[-70281,-53899]],[[-69857,-22010]]]}},{type:"Feature",id:"CHN",properties:{name:"China"},geometry:{type:"MultiPolygon",coordinates:[["@@ԑഓΫۏѷ܂ĩخӶࠜڦَϨʡƣԓ","@@ܩЗۏʺyܢаϠࣾɾӚoȊ͍σσșӟ"],["@@ฬˍ঺ׯͼ߃౨Cܰͨ൸ʜѳݱ͙̭˽ः֡ࠇ৵ƪܝ̑ɜܙť঳ѕwLяթӺͯһಙαƀѹܩЍ˂ֽ׭ऑҋۃա୭ʑأϽࣝɭ҂ϴǭ͞ږ֠ѹѲܷ̓ॉ׏ԫթ࠙¡ѓϻѸ֩یƏϕڔʕस׶ݚ͝լuƌѱஓɻϻҏࠇућיࣜҥͦࠝԞޓ֮٥_دՅɯȪ҃ӶʻŻۃɇڗҷ÷ؗࣧڹિޭোିޡୟۻृĩԣύ̃˘Ӈй୭сࢵŹ˻ࢱҭ·ə؎Ȧ͘ૻːЇƍࡍɔЏ΀ƄӜޏƶЙܑ̀҃ࠇīڡJ҉ȳѥūŶ॥҃x÷Ȣ}Ύ؝ʓεƸر͂ʔۤՏǎȧޜࢱƓĴাߔۮۚ{٠νȨ˭ӶӭÙࣟŲ˴ΜϿԺ׳Ν۵ȸॷ՗އسڳĿοɦѹr׷Țґɇ֋رëڌԟǭওĈोȖڿτٵǔ˯ЖҽŦࡓոکʴΑȩଢ଼טࠛՒɽऐ׾őіͭјĐۆࣙঠ൧ͼʝ٦ةϼƫʌųӎ͜ԛȔ˟ďɇިʈȔśȠߤЈ׈ǐࢸő͆՜ંĲͮ̚೜ҔŠȐãӐּɔݱฦဘͲјȈ؆ຒဠˡҲϞ¢ࡆۦĀٖ֔͢èɚו۸ѽப̿׆ڱ͕ঙ̢ηূƝଆŝ৪ԻԲġϤޟӲӿऒnჄȉ૤Ŝࠦůఔԛ৮BόʽঐҌബ̈ాঘ̒׾҈ך˰Ƌˤˍ͔ѴըӀùࡺǝ࠸Ѿ౲͚؞֊נʆ௠ŐڐĥĠ̘ݿזګː٥̳ࠣžӇŃɏΆר࠾Цو৚̓ஆՎQτݸࢾҲːWҪңȦۜмਰƲ૜vసʡ݈̱԰ࡏ̀α̊ԩ̶ࠕ"]],encodeOffsets:[[[124701,24980],[112988,19127]],[[130722,50955]]]}},{type:"Feature",id:"CIV",properties:{name:"Ivory Coast"},geometry:{type:"Polygon",coordinates:["@@ϣUוǒ՟Wহƥ׍ʍ̯ࠫǋvÞۖĄŀ}ͨΣΚˉÈʕɲǾώčО ʔƄB¸ξÝǌĄŜ̸ĶȹڨȗΎæ˸ǘÞŊúɸųٮOƸʖƢgʎĦžΫȞłΌŰϚǽƦ˥Ϙǯ̎ɄϾֺɏɠ஡Ο۷ɕेθܣͧ"],encodeOffsets:[[-2924,5115]]}},{type:"Feature",id:"CMR",properties:{name:"Cameroon"},geometry:{type:"Polygon",coordinates:["@@Ľ°ӻŇԝŒЋÅ൅nŬڒ͟֊ϧƚǟϖɋŦXɶɎתЎ߸ʒRԄӮ͈bҾΉ־˲ĀΔȌͺžь҆ΊǞךǲȊŢѨɜ՚۾ٲ¬˨ĠƲͫͰˌʂ¶ͮ՟Ê֏֏ҜޅҷTʁÏϥČǻЅӸөμƛŠΏˆ׃ſɩх࡛ȫƳÝٳČΝåʡЈѭð̴̟џϨ˓ϥĘʏÓґڛȤڷɜ੗"],encodeOffsets:[[13390,2322]]}},{type:"Feature",id:"COD",properties:{name:"Democratic Republic of the Congo"},geometry:{type:"Polygon",coordinates:["@@»ঙͶŕˑ̗͓ɟ͍ѫǯϷ±ګț͍OهʍɹԃŗÝýҟɄϡÂ৥ưޝċѧǘӣӤҹҒ੕ͥĒ૿ƙɣĵʇՙȊχƫষĻࡇɨƫט͝ɲƴìٟࣟR·Ҧ̳ΨٟŠȋѰԣ˅ڧŞ˫ϢՕüϽqµʾ́rϥºԳųιtȻû®ৄ˩̸ÕԬŬԒǝ͖eՊ৳Qò̢ѕG­ƣԵɁӧűȿҫŠˣş։å͏Ѱȗ˖ʋԌȷض៛\\̍ķʑh΋œşʼɊĘμƎɎ̪ǰɚđ˼͐ҜSÄʃ̼ƩӶՄӨШɆː۔θࠆϬўքМĪˌt̰Ǝ̆«ӊŀݖǐԾʦ҈¸Ԕúה͜ѐҊ˔۔˷՘ؚ̳ĉظǏʦԖŘÞϦčनоͨǱ˖~ŴȲ̺ðلėբoˤĚԘۙϘķɤƖϲÅҶǲȦΫ݊֏"],encodeOffsets:[[31574,3594]]}},{type:"Feature",id:"COG",properties:{name:"Republic of the Congo"},geometry:{type:"Polygon",coordinates:["@@̿˾ʩƗͻγۏࢸٖҪ̓֌˾ɂ֦ĺäό҆ЗݐʴЈł֒ĝڀЉӺζ঄ȽǘسçɻѢÔξ੘ڸɛڜȣÔҒѰ޲ԆѼ֪Ɨդ±·ԓʥ҇ǏԽĿݕ¬Ӊƍ̅s̯ĩˋփЛϫѝηࠅۓɅˏӧЧӵՃ̻ƪÃʄқT˻͏əĒ"],encodeOffsets:[[13308,-4895]]}},{type:"Feature",id:"COL",properties:{name:"Colombia"},geometry:{type:"Polygon",coordinates:["@@ΫȤЭ˨ʅƅ܉Ŝȱΰƽ_࠿Ӓŕʺ̼ÚтȢ̦иÊΞՆ͐Ѵ̳ȦǄӦȏސǸɚƃ܄ͻ҄ņТ˔ÑǂʠțӶĺŬѢـהΌĚT˦ƺ܂ӖϸՊfäǪڂéڌъ͞ȊОК̖»ɚɛǍ˱գƕɇп͗ʋʓ̷Ĺ׵ɷӭѢÇņϭȄȁâ͹ĳ̵ǫȸéȨ̉ઊĄӦŃעܡͼĚ؂­ӐĪ̔ƟƱҍȇ˯ß׻ǜ֑ʆʟȉэл̨ȃɠ̋ʰ࠹ǁĻǏӸɷˊ˥́࿕lZԿӰē͏ǙĔҿƑK؏ώ̫ƀӓoηϙᘯп҂ʣpժࡤٟϾԍị̈ƤҧɝصŀӵࢤϳɐˍІ֑Њɡā"],encodeOffsets:[[-77182,-155]]}},{type:"Feature",id:"CRI",properties:{name:"Costa Rica"},geometry:{type:"Polygon",coordinates:["@@җȆǟǮĬƤȄɷȪͥǔ́ņÅʖəƮÄʑǗȩȓɸˑĊŗǞLʮŎˆʁŠȖǌŴňֆɝȖŊˊéƔǥʜÇȪǲɈҙ͖ͷЂΩ͗õLͷǪűűıƱëǟ©Ǖ"],encodeOffsets:[[-84956,8423]]}},{type:"Feature",id:"CUB",properties:{name:"Cuba"},geometry:{type:"Polygon",coordinates:["@@ܨÑڊW߄˹̭ͮ޺Ĩ̔ȡ܈ԳԺϛˢ\\ԆǟÕʁئٌ΅ıȟ֑Ń֡¥׃âளą֜Ҷ΁ɔէÈ̃ʐȥӎӃ޵ɦʥǬભž̋ǐ̀ɀࠗ¨׿ѧΏ[ťȳеğΫĂѺʸǼ̤ϞȈіǎَĄȰĢ"],encodeOffsets:[[-84242,23746]]}},{type:"Feature",id:"-99",properties:{name:"Northern Cyprus"},geometry:{type:"Polygon",coordinates:["@@ÐJŨȮ؄Yކʢ֧ΧÔƿęǇÙűj¥iĎÑ¾ǋVɫïƿ¬"],encodeOffsets:[[33518,35984]]}},{type:"Feature",id:"CYP",properties:{name:"Cyprus"},geometry:{type:"Polygon",coordinates:["@@ãࡱͿЩŊȟͶЎǀ«ɬðǌUÒ½jč¦ŲiǈÚĚ"],encodeOffsets:[[34789,35900]]}},{type:"Feature",id:"CZE",properties:{name:"Czech Republic"},geometry:{type:"Polygon",coordinates:["@@ϯǂЁ©ٵʲ̏Ùҿ΅ر˔ӃΰѕȬėΠƧʠؒǾ̸Ⱦ׾ǎɂǆɜīϒĖЊ˓ؼñ¿ɳҘǧŲɒּĥĄʿز»ϮЯʡCŽƯȕÅȑǇ¡wý˹ēϋbšȁ"],encodeOffsets:[[17368,49764]]}},{type:"Feature",id:"DEU",properties:{name:"Germany"},geometry:{type:"Polygon",coordinates:["@@d͗ࡔțS̗ࡢǂҾɰॊͧІˋȞёɹɣ̨̙Ⱥ҅ß́Έ՛ϑĕɛĬɁǅ׽Ǎ̷ȽؑǽƨʟĘΟіȫӄί̑ϯ̟ŃŢշýƛʿǤЕ~׷ƭݍţɛыɺʩ±࣑ʲǥǻ܍Nń״ьֺ௅ƸЇɘ´ςǗȐĨ֨ƗࢢԎ@Ɉ͂Ⱦޔƿ˴ǐǲ۰°Ƽȃ֮вȓ̀ӈٌōՠŸ"],encodeOffsets:[[10161,56303]]}},{type:"Feature",id:"DJI",properties:{name:"Djibouti"},geometry:{type:"Polygon",coordinates:["@@ȤʹΑӏȩήɯ̱҇ȅƬȭÏҷb_ʮßɶ˴Ѐ̐ϊήñʪȴ"],encodeOffsets:[[44116,13005]]}},{type:"Feature",id:"DNK",properties:{name:"Denmark"},geometry:{type:"MultiPolygon",coordinates:[["@@ԋڹ࢟ӄŝΒ௼˨ˎу"],["@@ȵ̓ʡĞ؁؁ɮХ՟ŷًŎͽҲ}࡬Ɣɪʌʦ݌À̐ɴڮʂѝʟ˙ĶɽҘŵ"]],encodeOffsets:[[[12995,56945]],[[11175,57814]]]}},{type:"Feature",id:"DOM",properties:{name:"Dominican Republic"},geometry:{type:"Polygon",coordinates:["@@ŀƞپIӾɏɜtƴ̕ҠhʡϐЮ̷̯ͿЍǼϫˡ¢ƱƵ͑½ŷȲˣťͳֻɏƆ§ʎjɬɍʦȲƚÞ͒óҜ"],encodeOffsets:[[-73433,20188]]}},{type:"Feature",id:"DZA",properties:{name:"Algeria"},geometry:{type:"Polygon",coordinates:["@@ᮩཽᝩ࿷இϑटćU՘ϵƌԹʊȧЀᬻᆴᬻᆴṕᎠfǌ@ÊQ঺ബب࠼Ÿێɦ͎тচͪجӢòϞ̶સƚƸ͜ɛǲ̃ࢲ¹Ԟ́ՠ߰ҠࣦƢՌΎ߶ʰ෎Ƭർæшůߊͨ࣌P΀ȝֺ¾ǟћƄߟȡۙԭҵôمۊԃRȯԮ͹Ϊຝ˖ݏ°ϵƧۇÔϥŃҟòՇͫΗӺؓέ̘ҵϼƸڒϷςՃ"],encodeOffsets:[[12288,24035]]}},{type:"Feature",id:"ECU",properties:{name:"Ecuador"},geometry:{type:"Polygon",coordinates:["@@҂غǻξ͍ϵԉςǞʀƙބ̎ŴƺԼ͆զÍ΄ҢǸ׀Ͱࡀӑƾ`Ȳί܊śʆƆЮ˧άȣŞٓʽճࣷ࢟য়ͧԥܵǃ֣Ӆ΋ΙъͻĞ΍áw̮ʈȨıΔ"],encodeOffsets:[[-82229,-3486]]}},{type:"Feature",id:"EGY",properties:{name:"Egypt"},geometry:{type:"Polygon",coordinates:["@@ɽͷǹىɫѩȝƥ˩˔ϛϒ׵ஸđùΐࢯԪࡋٌವ̴ҙ˒ӃݮछǗƣճ঒ݭƨǣΏ@Ὁ@⁩@@ᶶ@Ჴʥڲɐ԰Żά̤Ж૦b߲ɝ࠲ʛϴſ٨ˊΌʊݎêװŃɮеȜ˜ڨȣټ³аɄւ෽"],encodeOffsets:[[35761,30210]]}},{type:"Feature",id:"ERI",properties:{name:"Eritrea"},geometry:{type:"Polygon",coordinates:["@@˻˖ΉӰϋ˒ɏܷ̄ͶֻXȭǬӯȡԛϢʽط঑ǬęʹβఀĊ֒ˆʴؤƐьӒӦঃɴޗҢУବߏҲӍҖӝˀ˿аʧʩȳέò"],encodeOffsets:[[43368,12844]]}},{type:"Feature",id:"ESP",properties:{name:"Spain"},geometry:{type:"Polygon",coordinates:["@@¦״΃θஒ؆ਊƱ૾NࣂƝۦªമͰ͛໺ϡ̨ǺीϝআŊ®ӥߓ֓ઁǯõ˱ԩү͕ہ͞ӑӟϑǹճىǗש٥੧_ߟhՃ͍̓ͅЩê̵˴ʃӚ޷žé˦̶̀Śɬ̃ʢɶրͳԌδèЈƎŬZپϲɪɻфөƝŁӹCɁЬ΃ū̥ɇ"],encodeOffsets:[[-9251,42886]]}},{type:"Feature",id:"EST",properties:{name:"Estonia"},geometry:{type:"Polygon",coordinates:["@@ĮӸ̱ŁՓ̘ñӘਫ਼ɼ੔Ũ࣮Ƒࢂ|Ŵƣׯӝʞ޵ΫˉۙDܡ̸ρļ܏Ʃ"],encodeOffsets:[[24897,59181]]}},{type:"Feature",id:"ETH",properties:{name:"Ethiopia"},geometry:{type:"Polygon",coordinates:["@@ԜϡӰȢȮǫּWܸ͵ɐ̃όˑΊӯ˼˕̏ω˳Ͽàɵ`ʭҸaȮÐȆƫǽ̴̕ҧ̴Й̛͎ᩨঽۺNᛛᡃફݟףաeɯ˅ַB͹˴ލΙʝΓ֕àȃĬȟwˇT੟܌ב@˹ˢ@ҾѧƘӻࣴϥȚƧʹэЦԧÒ˸ӐҀrŲʰ[ݲʞࢠЊɾĎ΄ήٜԔи΀ࠠƆܠ঒ǫʾظ"],encodeOffsets:[[38816,15319]]}},{type:"Feature",id:"FIN",properties:{name:"Finland"},geometry:{type:"Polygon",coordinates:["@@ūיಀ֓ޡى঎ख़֡ܛݴس΅յఘֻ́ѓޭӟᅡੵໃá๑̯ൃǯӡҞ߿ˠȈࠢСݶАӪނՆ኎࣮֖Ǭē΢ୟЈ˳͜uಒ಻ֲ૩ЪԊɞतѻલ¦ࣘȭߠϊЬ؞ಬ˶઄ͯΡכ"],encodeOffsets:[[29279,70723]]}},{type:"Feature",id:"FJI",properties:{name:"Fiji"},geometry:{type:"MultiPolygon",coordinates:[["@@̂ʍƓѭԳŗҩļąτ͖̀ϤĻȼƐ"],["@@՛ǯŅ̼оǤˊ°Ӱˀ@ЧՕȷ"],["@@é­@ШǨĽЗ"]],encodeOffsets:[[[182655,-17756]],[[183669,-17204]],[[-184235,-16897]]]}},{type:"Feature",id:"FLK",properties:{name:"Falkland Islands"},geometry:{type:"Polygon",coordinates:["@@৘Ԍ܎ȿԌʹڦϙʥ̋ଋʥϙ̌܋ϙпϚ"],encodeOffsets:[[-62668,-53094]]}},{type:"Feature",id:"FRA",properties:{name:"France"},geometry:{type:"MultiPolygon",coordinates:[["@@ˣ٭ϡǠș֢ǜ̺ը͎Ɯܛ"],["@@הЅќà݀ϥȊñʎjЈɗெƷыֹŃ׳ɱƝϣüɇؙҽ]ϟВƀ˾ρʁʚ̿̅ʯɐٱҖŃĩηݿӅစɬ௧˗ĩԑঅŉिϞ̧ǹ໹Ϣͯ͜ѢԎǆူࢁࢤإю౹͒čؖઠǾථɏˇॎߌέዠپʨێܾǞŪ̑ϸ_ϸ͵"]],encodeOffsets:[[[9790,43165]],[[3675,51589]]]}},{type:"Feature",id:"GAB",properties:{name:"Gabon"},geometry:{type:"Polygon",coordinates:["@@ࡹࡔ։ۚԙࢄ˨ǾˎȲؔǜخ˴¶௢SOৠЌÆԞőӼňľ¯ÓνɼѡشèȾǗεঃЊӹĞٿŁ֑ʳЇݏ҅Иãϋ֥Ĺ˽Ɂ̈́֋ٕҩ"],encodeOffsets:[[11361,-4074]]}},{type:"Feature",id:"GBR",properties:{name:"United Kingdom"},geometry:{type:"MultiPolygon",coordinates:[["@@҉ֽًǦԱ[ǦҊǥ҈۴ࣔԳ"],["@@࣋ࣧࡦŘऄIɕۅݯݩࢄÃäĕݠ঱ֺƇԬढ़ʈͧৰǅķ՝ѓʗͲѣݱѯ૳Rෝɱϻǒ։ϿޥĪם͍ҁǘ௼ࢨݪǺOBಽƔʃͰ࢜ʺҡҐǆռఢ÷D@ŮӤ֛Ԯ_\\৵ƨȧɬ̨ϒˡɴҍЇ·߶щє̨ࢆٶھڤá০ì"]],encodeOffsets:[[[-5797,55864]],[[-3077,60043]]]}},{type:"Feature",id:"GEO",properties:{name:"Georgia"},geometry:{type:"Polygon",coordinates:["@@Ųάȿִӟ̲ҭĬ̯ʴĺĲ܄ƝఆƋଦЕƦƻԚƂ޶ǭʴ·Նșɓřвғŗıҏºصʎȵƍଢ଼ſ߳Юࣅ¡"],encodeOffsets:[[42552,42533]]}},{type:"Feature",id:"GHA",properties:{name:"Ghana"},geometry:{type:"Polygon",coordinates:["@@೉ӯҳ˽ݳʑݡʆͨηܤɖैΠ۸ɟ஢ŗنrӊฤ¢ϊÕ˔ƊϴáÕʿΖџC؍Ąڍɂ̫ȅݳäйɢՓȈ̍"],encodeOffsets:[[1086,6072]]}},{type:"Feature",id:"GIN",properties:{name:"Guinea"},geometry:{type:"Polygon",coordinates:["@@ʃtǡͷʁJǏǴÈͶΗԨɕħǵmɳ³V̮ƇɘʔǻΜɹ̜ڥDțǁɵoƝǷīɹ҅σρӼ͛͢ɋŊȿǖħϊūȂʓƐώЦʮeɖƘȄDƄŎï˨ĢĖd˶МU؀ȱȄlÚĤҜáŨ´¶̭ƆBɖŒƔɸɇάãɲǺ˖ŒȬŠǚuȈȁĴɳΆΙǣɏ˙ǴĊŀį«ʡʲʍǗÝå˷Ș΍Ⱥڧ̷ĵăśÞǋ·νƃA"],encodeOffsets:[[-8641,7871]]}},{type:"Feature",id:"GMB",properties:{name:"Gambia"},geometry:{type:"Polygon",coordinates:["@@ņόࣶzȎȦˊ`ͨȷʼIˢƚǞʏεȋιdέǰ̷ȗƭQȫŝއl"],encodeOffsets:[[-17245,13468]]}},{type:"Feature",id:"GNB",properties:{name:"Guinea Bissau"},geometry:{type:"Polygon",coordinates:["@@҅ΘΝÈȕʀLŸʯǴÁǶѼƌ˦ɦĨ༈c˵ġĕð˧ƃōȃCɕƗʭfύХ"],encodeOffsets:[[-15493,11306]]}},{type:"Feature",id:"GNQ",properties:{name:"Equatorial Guinea"},geometry:{type:"Polygon",coordinates:["@@ƿŴ़̀െmPয়௡T˳µ"],encodeOffsets:[[9721,1035]]}},{type:"Feature",id:"GRC",properties:{name:"Greece"},geometry:{type:"MultiPolygon",coordinates:[["@@Ҡ˱ٺ¶شÑqƣҜĶĿʛ௃íTƒਁǎƺΦ"],["@@ʹՁȥĥԟ|ѫĀৱɓ׌ҿяƋҳAѻўƿȁȊԅрЁ̓ǿҴϯжʑ^ӅޥɠʜѕՓĕ͈ݏ֏Yۍμ̿ڦƧ֒͝ϮљӐÉʆϸТ¼˚˘Ũjɚռö͌ȀҖgƒƦǆت{ڨɲע̉ކĀVмЦɝ"]],encodeOffsets:[[[24269,36562]],[[27243,42560]]]}},{type:"Feature",id:"GRL",properties:{name:"Greenland"},geometry:{type:"Polygon",coordinates:["@@ᬜԆ᱒ੴ̴ᲈĄ䀦Ŀ㉊ڗ༅͕ộ⭏ćшƫᲐĠᡚ́࿈ʴۦ̝इӧᒞ̺✘͚ᠼǋҾΫ⃝ױӃȕ᧑ơወ¡ছؕگկध৚շಽ൧ˇ༂ѽȢ܋࣍ýઞܡህÑঈ΁˟̑இŽ୥E੆֩\\Ϗပΐћɣଌȿ઼ԣ͈ڱກǉ٫͖ਣӘ˼֭উѵᕖ୆¯ᖯܵᗿڏឧ́ओIࢅ͓ୟࢱᅵכׅ૧ȷ஽ȝܛԱ[כыտോڧͺٿϗ۝љࠍஅ½఍ۈဿLࠁҢ֕ࠐฝਲэոŗݮ୓ޢ̢ئ֗̒ࠪচొ̺ͨΘǬڀॡ̕қůݯţਏ˜Éְ͢҂ެ\\႔ɟ෿Քݩ˾࠷ş۫ȼम޴ԝ̺ڗ׈ৡࢼ੯͚XΚᖷӮᄻÖᖟᏅ×ইˌวՈᕂ˄ၚ¬≹ɖ቉΄Ś͜ẊИᶎИ̪͘ᗗ̠ܺͰ᯲ז௢ĚΓϘጲɜᣚƂᣖRࣺʽᕺҨፘ̽୺áპ˙ፅҐŘή"],encodeOffsets:[[-47886,84612]]}},{type:"Feature",id:"GTM",properties:{name:"Guatemala"},geometry:{type:"Polygon",coordinates:["@@ћƦԻfϩǖҍΌrʖĮȠšƾКۆ઄Ft˸Ƌ¾ġǺ̵Ț̹ˬϜDBӂ޸BަUOڗßॅʤ@˚ƱòŰʘŃϥ͍ЉɻÏǉâǑǧɇȟ½¬ıƿġ˽Ƀ}ŭ"],encodeOffsets:[[-92257,14065]]}},{type:"Feature",id:"GUF",properties:{name:"French Guiana"},geometry:{type:"Polygon",coordinates:["@@͉͑ГÑŗʀȉʹɩνǦɈΪòϤƢή͛ӸáֺѪܠ˸ğؤȥࢸۿƔ·ӻޑʳأ"],encodeOffsets:[[-53817,2565]]}},{type:"Feature",id:"GUY",properties:{name:"Guyana"},geometry:{type:"Polygon",coordinates:["@@ր̯Դյzџ̈́o҈Чͪ̇Ƈݱԛɕ°ȣƹџϊ؏ːAŎӃԢܳȱҫî˙ɡϟƥ˅ġǑЭ¦ԫЀÓϴɋьƆܐɸ̐ȕϸ˿ŶŊτțȘѩْ֩ɬɲiϲԬƊȾƾ˽̸ô̬ږӲ"],encodeOffsets:[[-61192,8568]]}},{type:"Feature",id:"HND",properties:{name:"Honduras"},geometry:{type:"Polygon",coordinates:["@@ơˀʭòÐʹŗĞǣÒσĳŔʩƈǷǚʛìǨɈáǒÐǊЊɼϦ͎ĔȂƨʊ\\þåž¦ϸùϲv˒ĢİĦˎ©ȪÉɘnǖòϨśƄkʲƿʐį̏Źɜɳ˽jśŕ̇ŋɃAȅŃǙƛźĕ{ŇȩăRaǥ̉ɳƹıđĽʛǞǹɣǫPȟqlЭūQĿȓʽ"],encodeOffsets:[[-89412,13297]]}},{type:"Feature",id:"HRV",properties:{name:"Croatia"},geometry:{type:"Polygon",coordinates:["@@Ȳ͗ˊʇ͓̓ϝȆׇ[ܟƔϽmǻǧ̝ȖǫΑЪϽǼʹϮ̽͌ȃ͆Ηݔ͇ġƛ߃̶ӣ̢ޑʠ۹ؤǞØϥΞe˲եƄʱγʝˮn̆bגƸƚ˸ƍͤgGɼ̈ĒĈͺڞɠˊĻؼέۜǉ̼Ų"],encodeOffsets:[[19282,47011]]}},{type:"Feature",id:"HTI",properties:{name:"Haiti"},geometry:{type:"Polygon",coordinates:["@@ԢܰƁôқÝ͑ȱƙɎʥiɫ֏ƜЅÍԡÔϽƿ҉ʾö˔ޜśيã̢ȈϧθP͎ՋžȌɶ"],encodeOffsets:[[-74946,20394]]}},{type:"Feature",id:"HUN",properties:{name:"Hungary"},geometry:{type:"Polygon",coordinates:["@@˨ըǍǼӂDÜ΄ђɋ̲ğ۸ļäǚͮ~ЦžĜÃЂŀȠȢˠ¼࣒ʭǴĒҲɭÎɣԡǭЉ֫ԕ֭کǁԽ١ə̻űۛǊػήˉļǍ˴ƗV"],encodeOffsets:[[16592,47977]]}},{type:"Feature",id:"IDN",properties:{name:"Indonesia"},geometry:{type:"MultiPolygon",coordinates:[["@@Λe૝ך޴ǒѴʭ̎ʭ»ɩ"],["@@ܙȁĳĶø˸ΰԢࠨͬĐǓfʫշع"],["@@̢ɣԲèȼΥॿǛ׉őҍP̀ӚҤPɤ̖"],["@@ūұ౅ʅૣľE̬ښǪՂʥ֔Üݬ̮"],["@@ྔċȂΌ༘З̪կీƵਐӿय़͋ऍ͸ݻwࢍØ޻ưঅ͎؝ČΓŁ໕ΌƣΰޑØּߤ৶·ڴ͡ΒÛŘ̗"],["@@ѝֱćنƬ̠Ǭ˴ȒʗCЏ"],["@@̿˥ׅƸǏΰࡘ¢Ⱦˣ"],["@@̨ٝۿΌۯìӃÅׇȦҦਠऎʕ"],["@@ɼയ࢈ԉ۰ࢼ८ԔݜBܘ̉خ̛ࣘǇbᩑbᩑݟې࡟ǜȷʇ੡}ΦۂՈɺɕࣲЕ۸࿃܆ۗêృަʛУ͑óȏ̮GκٛЮ̢ࣞ״gëɠ௵DͩԄݥƺΡдଈȰњ˜ഘ·Ƃ̹"],["@@ڭ࠭كǉ߱ǐඓ¥ܽŧţٍݪݛҒϠ༪˸çϯλŪιӯ͙݉ߒ੿Ƶ˿ݲॻQտ҅ʙ̐͡Мی࠙͗ȻɶŊ͖؅ӲØࠌ֕ʭîওறՓũίʚʌޜŽ߸ΛPʻֺΎվŤښф౎ǮΎ܎ذپʛ੖śॴࠨ؎Ʀȉ"],["@@©ܽџĈŷԝΌѷɽĵ͹Ւʟ੺ǚڤ˨̨ÔҝӸóĀ΃"],["@@सާহį˫ֵݿַ߱u࠷͕౻ŭ̚ॕϙͫԤ׳´лːৃ̟̩Оս¯ۗĬŹૺнɺЕܘŝ݀ĮުԂ֐Ɩָ֗ӅըǠ՜ÑӪъЖôߒɽۆǶњୠ͔̈̆क़ॲ@ܰƙӍݷآߓơϭ"],["@@छkۻ۰અۊέԚٍۄзؾٕ୴۪݅ʙܠ̳ڀݵՊѭܘمҺࢗऒóђզಢǋݔࠓٮ֫ҪΓߔࣙࡢ_ۺֹӠ۳٘ϥͳۉӖ̞̅sƜו̊ҵؠõФՏɁ਱ಟ"]],encodeOffsets:[[[123613,-10485]],[[127423,-10383]],[[120730,-8289]],[[125854,-8288]],[[111231,-6940]],[[137959,-6363]],[[130304,-3542]],[[133603,-3168]],[[137363,-1179]],[[128247,1454]],[[131777,1160]],[[120705,1872]],[[108358,-5992]]]}},{type:"Feature",id:"IND",properties:{name:"India"},geometry:{type:"Polygon",coordinates:["@@ࣚটďۅͮїѕ׽ŒɾएࠜՑ୞חՑϟ͛޻ࠀͅߊЭરһସŉӜёٮāৠȝ۪bĪͪŋՖÞβԠǮìڋlǙކ͉Ոƀ܀Çۈ|ÐԪ΁ˎڴŀވشॸ՘۶ȷ״ΞЀԹ˳Λ࣠űÜ͇̍Ʒèԫ׷Ʋછׅ~ӓҩ۵§ХϏۗځȒࢇȏ˹ĚΣгȥѵ೰ɵEƍ՝ҡѦʸӎϖ¶ϰ܆ӝƜީ]ߝŚóאБ¤ڕζ֭̓؆ѻԿ̻ȅ̩Ԭɣƛԑ̆كžەţֱ̫Zਛǩ´ك҃ӻ௃֡ळ঩كՋ࠷ջCϭлȹݳ̝Ͻ«ʥٙǪધ®ۡΣߙI෗ѣ¡ϣٙʰˣދʃ˱֯͵ʍߑ޸ϳ୴͑ࡒ̍Јѿ߰ȻੂơՀޅ଼Α࿀ʣ੾HৰǍ޾௣ԉףĶ઱৲И̤ʝͤড܊֖֔ᇜCǗܞҽюĩ٨ջϘऒࢢঊÙ࢞ࢢՄ࡞ࠄࡈ_״ܒӠڳд֪݂̇̕Ьβ౤ȱपŰߺ۸"],encodeOffsets:[[79706,36346]]}},{type:"Feature",id:"IRL",properties:{name:"Ireland"},geometry:{type:"Polygon",coordinates:["@@ƒ׷ًݣ๯ӹ஑Ŷڼ࢚ѭࡢତڄٌϼǦ҇ǥ҉Բ\\ٌǥ"],encodeOffsets:[[-6346,55161]]}},{type:"Feature",id:"IRN",properties:{name:"Iran"},geometry:{type:"Polygon",coordinates:["@@݈ǌװӔ֚{τƾװýघэڤğ।ݓظòۻ΁਷ɱؑκŭΫҡˠڡàՓِƙæեݿݿжѵ͸ԓߦυx݉ДƋêϯ௉ѡ̓উཌྷʪࣷȖेŊΧਐЕƪ٣ƭࡑНਇ˦ࡑ٦߳ʈ֗ߘا૪ҍƋՕ˦̻͝ҭѴS҂ˍ@Ɛ،ѝٔ਍Ң׉ߜȜپц̂ÙӬտʨխ৊ҟڨǐʼʿ६ּʈƄͅъϯ־ő̤~রئ̀Øʞʙ́гԼѱȾ¦ˈإߖǩ׎у஠ƟಾɞĄȞ"],encodeOffsets:[[55216,38092]]}},{type:"Feature",id:"IRQ",properties:{name:"Iraq"},geometry:{type:"Polygon",coordinates:["@@րʧÚӫх́țٽ׊ߛ਎ҡўٓƏ؋ˎ@TҁҮѳӿ¤֟ê؝߭༟äᛍၖఫךৡɪ͹৾ᇶ࢔͆৬āؘҢȺјԾΰž঎Ň̐ɉЖƚծ৉"],encodeOffsets:[[46511,36842]]}},{type:"Feature",id:"ISL",properties:{name:"Iceland"},geometry:{type:"Polygon",coordinates:["@@șիॊֵથٙᝓֹܣƵૉŮᚑˈࠠψᆧЪ๪ǎʘᄋȜ֨նౠŰಸ֭౨Ҝ੒ʃൌ҄ආÑ"],encodeOffsets:[[-14856,68051]]}},{type:"Feature",id:"ISR",properties:{name:"Israel"},geometry:{type:"Polygon",coordinates:["@@ƥ˅̣Ŝǫ֓ɂĥɋřɛЄŖp͛нഉց෾ʔˢË¶ɞϼǠيŤɆzVˬCþƦɤ\\`·ŕŵhM"],encodeOffsets:[[36578,33495]]}},{type:"Feature",id:"ITA",properties:{name:"Italy"},geometry:{type:"MultiPolygon",coordinates:[["@@̟ڋŲʹǭѝٝ̈́ёĞ୩ѐŞќজûࡪĠْò"],["@@Ԍ׭ş૕ϣÂ΁˫͇ɞ২ȓӒҨ¥рʼ"],["@@ரɏĝЯȬΧڝŪہ̗²зĻʇˠё߀чцۛदڱچLȲȃɽǗݪ̥ؠʩܜѫĔƿƽ̛үϼܳƐΝի؈̷ıѫΗ¹҅ܛΕÝHʲǢҊǼǶ͝ӤʱшΑŀʛδգƴεͶثÆٿϜޑմ֯ӜʿࠪйĮہˤϯŕӝϵΓÕĪθҕńɏٲ̆ʰʙ̀ʂβǵМ¢Ҽ˶ƢƃАǼͺتĿψƚâΆԘšĮǆࠨƤȊ̉"]],encodeOffsets:[[[15893,39149]],[[9432,42200]],[[12674,47890]]]}},{type:"Feature",id:"JAM",properties:{name:"Jamaica"},geometry:{type:"Polygon",coordinates:["@@֢÷ҀȫƔɯןeʭƗҹƊӑ̪ĶȔΜÎȒ"],encodeOffsets:[[-79431,18935]]}},{type:"Feature",id:"JOR",properties:{name:"Jordan"},geometry:{type:"Polygon",coordinates:["@@Ʀˆपͫ࿪ࣆͺ৽ǅų၅у࠸࠿ˣƛƑ˭ٙřȩ̡εʵधƆŨоഊo͜Ůʚ@Ԥ"],encodeOffsets:[[36399,33172]]}},{type:"Feature",id:"JPN",properties:{name:"Japan"},geometry:{type:"MultiPolygon",coordinates:[["@@ņ˽ҿԕΉːљțɝӭշʈRЊҬԆӌīΊΜؠǹ"],["@@́ڡƤсѩף੹Ѓ๏½ணॡ͔֡غษȃষЃঝe࡞أ֗෗իΝН͜ȶݶՏʒͿ־ߐʶѲՈࡌѢ؞ָာʤ࣎ǣࢠ๺֔Б௾ࡀӌ͜ՈਈƟा΢ՎࣀƸҞୗ}ڻޥࡍbࢁ"],["@@נǵרΤȈहఝɯ݁࠱೓ָқँण]ř࠴д٨࣌²ʖ୐ʜټন࢓٤˯"]],encodeOffsets:[[[137870,34969]],[[144360,38034]],[[147365,45235]]]}},{type:"Feature",id:"KAZ",properties:{name:"Kazakhstan"},geometry:{type:"Polygon",coordinates:["@@ӕƹ્דο׹̹KɱЊ੫ǡێХNÚࡆ৓ؘ෷ßডũߣݶۋ͆ಥ׼ƽðᓗӹᶽљ£יچ֧ɼॕǩχ˧±ȲȶΖǅ̊অ˺ϛݮҩɆ˜ࠊāؘ܎ƎܼűƲࠎƭԲ࠿£܍ȴঃσ޵ǭяƌĐўՙ֘دw܉֬ӞِʕǢڢऊࡺӣŀؘჄࣴಾtᇢ׉঺ͻࢼΠ೰j੺ѥʔʠ୼ɂЊഷ׀߮Цƿɮ߮ɔ؅ֺϬ˼Ḯ̈ШȺᑆ̴ݰΒຢǹ˄ࢉ࢚Ȳઆ˹éҝ߮´ᑌߎ̭ˁ੶٭ሠᒑ҄ѰୄӛீɎҪƯКӟטǋΨΥ઎ŒѾԣٕ֓ۥÿ¡ࡅұϝဟˢ؅ຑїȇဗͱݲลֻɓäӏԭŬу̠ఝĖඃx̧ġ஥ΞӉǧŽӹ൩̂փşȉρ"],encodeOffsets:[[72666,43281]]}},{type:"Feature",id:"KEN",properties:{name:"Kenya"},geometry:{type:"Polygon",coordinates:["@@ӾۙיͱȹΕ̿Õšףˑ͹Ǐ֑ͷ˥஻ࡀËӤᵁႌƙĢSࢺʊ;а֌̨ؔσ॰įтЉ׎ԬԈ֬ֆѨƗ@ҽ˺ˡג@੠܋ˈSȠxȄī֖ßʞΔގΚͺ˳ָAܽ॑Xᵣ"],encodeOffsets:[[41977,-878]]}},{type:"Feature",id:"KGZ",properties:{name:"Kyrgyzstan"},geometry:{type:"Polygon",coordinates:["@@ȊςքŠ൪́žӺӊǨ஦Ν̨Ģ඄wఞĕф̟Ԯūşȏ೛ғ̙ͭઁıͅ՛ࢷŒׇǏߣЇŜȟʇȓཟŵਡ˘࣫ÝĂӜࣴƕ̮ʸٖĉ੾؂঻ѸױȽإ͂۶ծʟĊ"],encodeOffsets:[[72666,43281]]}},{type:"Feature",id:"KHM",properties:{name:"Cambodia"},geometry:{type:"Polygon",coordinates:["@@΁Ѭыࢄȣ২ՠۨઘǆ߀ťۚ͡Ϟׄݖ̱Ȝ֕Ļ৕ඳ٧τԙࢥÓܫͷ۱Ū"],encodeOffsets:[[105982,10888]]}},{type:"Feature",id:"KOR",properties:{name:"South Korea"},geometry:{type:"Polygon",coordinates:["@@ܨযȺխPॷ̓ҥݽǉڥΏݳïĥҚƼـχ࢔ذƚֻܘÂúϒ͞Ϝצ¢ΨÈŨȮ"],encodeOffsets:[[131431,39539]]}},{type:"Feature",id:"CS-KM",properties:{name:"Kosovo"},geometry:{type:"Polygon",coordinates:["@@ǣŃPĘ́ȩĐǳɦƾȌȪÒŜ˨ư²Ţşƾ¿ŌƅƒǎƻŢLĥȳĳĳ×ȉӹŻ"],encodeOffsets:[[21261,43062]]}},{type:"Feature",id:"KWT",properties:{name:"Kuwait"},geometry:{type:"Polygon",coordinates:["@@Ǭχõȓ˔هשuȽАݟĆ؞߮֠é"],encodeOffsets:[[49126,30696]]}},{type:"Feature",id:"LAO",properties:{name:"Laos"},geometry:{type:"Polygon",coordinates:["@@˚Ϝ܆ڹܸ¿ٕࠦھٍÎǛ̉ӯyʣƨࢯԅoݬȸࢮ֧³ԎηʸǴ̲ܐնøȡ҄wŵ०ѦŬӮڏϖޅਚO͚ܹ՝ɗʉ̟৔ԉۦ঳Ռ݋َ׏ɄץƵ࠿ݕ̲ϝ׃ۙ͢"],encodeOffsets:[[107745,14616]]}},{type:"Feature",id:"LBN",properties:{name:"Lebanon"},geometry:{type:"Polygon",coordinates:["@@ɣ[ýƥ˫D̘ۄмעfϘ§Ɛͣқ̓ȷҟ"],encodeOffsets:[[36681,34077]]}},{type:"Feature",id:"LBR",properties:{name:"Liberia"},geometry:{type:"Polygon",coordinates:["@@ɗQࡽАޅٖ܏Ң֣ըȪː¬ʔϜҘϺϺǶnɖĨΘԧÇ͵ǐǳʂIǢ͸ʄsʓĎНǽύʖɱˊÇΤΙ~ͧăĿÝە"],encodeOffsets:[[-7897,4470]]}},{type:"Feature",id:"LBY",properties:{name:"Libya"},geometry:{type:"Polygon",coordinates:["@@ק̷ҿҤ೧βρՄڑϸϻƷ̗ҶήӹؔͬΘñՈńҠÓϦƨۈ¯϶˕ݐШȜðΠėΒ־͔ʶːЦʌ´٦দ́ΜðۮƓ૞ϓЀݛݮǍஆΙࣆйЦɔЖϮț٠˂Ф؄ЀׂŘ଒ǣ˺ϑ̺Iˌƛ࠴ıȲˣ̣ЕżΫɏԯʦڱ@Ჳ@ᶵ@့ॱGYΙ‧ྐ‧ྒࡓҟ"],encodeOffsets:[[15208,23412]]}},{type:"Feature",id:"LKA",properties:{name:"Sri Lanka"},geometry:{type:"Polygon",coordinates:["@@ų࢓ΙʇܵȓЍڜƫீϠ഼׆ұϺסО࢓"],encodeOffsets:[[83751,7704]]}},{type:"Feature",id:"LSO",properties:{name:"Lesotho"},geometry:{type:"Polygon",coordinates:["@@̆ʩʳУƛ˛ҳſƹˍ̛ċؿ٨҄ՐҖ͢ϼǠξʵ"],encodeOffsets:[[29674,-29650]]}},{type:"Feature",id:"LTU",properties:{name:"Lithuania"},geometry:{type:"Polygon",coordinates:["@@ãɊĚɲχƄࢡƨǱ۸२ʴඬÁࠜĊŞǩ҂Ã߲СĀϓۏˏșӃ࣯̓߻NȫʶљĜ"],encodeOffsets:[[23277,55632]]}},{type:"Feature",id:"LUX",properties:{name:"Luxembourg"},geometry:{type:"Polygon",coordinates:["@@ǘȏ³ρʍiȉòĞҼɖ"],encodeOffsets:[[6189,51332]]}},{type:"Feature",id:"LVA",properties:{name:"Latvia"},geometry:{type:"Polygon",coordinates:["@@نЮՆߊ˼ڜعڪhǊ٤ܐƪςĻܢ̷ۚCКȕîС˒ӷ͕ࣗԛƙ߱ТҁÄŝǪࠛĉණÂ१ʳ"],encodeOffsets:[[21562,57376]]}},{type:"Feature",id:"MAR",properties:{name:"Morocco"},geometry:{type:"Polygon",coordinates:["@@ԒΥߜÎࢊȃκU͂՟ºԝ̄ࢱɜǱƷ͛ષƙϝ̵ӡñثঙ͍ͩсۍɥ࠻ŷഫاRহŷ@@@p҉Ա˓ȑϡ@̥Ŋ۹ě˛ٻʿÕЁ੕ୟ࣡ˣୋ΅ϗĵ̡ቅãaD ϶͒ɮ˞ѪÃ˶̀פҴՖ˲ƊɞӬp҂̤Բ̪֔Ւ࡬f\\ц͔ްĢڎָтɠۮۮȿਸ਼͊ܢŔѶդ֨ࡈϦخΐ֘࢈˄ԪؤI"],encodeOffsets:[[-5318,36614]]}},{type:"Feature",id:"MDA",properties:{name:"Moldova"},geometry:{type:"Polygon",coordinates:["@@ȨŮ֒ĊؤʽΊϞɥÑ˵̪ƏŨΗ̊ɇÏűƾčɝ×ӷ|ĉŜǫãÒƭɱˍƥ˽ɁĝƯϦĘΪςӝԂˉΠʹʠʯĈ"],encodeOffsets:[[27259,49379]]}},{type:"Feature",id:"MDG",properties:{name:"Madagascar"},geometry:{type:"Polygon",coordinates:["@@ɠΥȺ։Ɗঢ়ɒϽĉЗƩʙ˷ӰǁʝǈثõΥɵȗ¿܅ͧওб୅ԯཧ͑ୟϛইہȣܻΡӛɊڙ̜ɳѺÇݘ̑ڠù؂Ʈ؄ϰƢD˪Дِø՚șЈǃՌãޠ̊ҺŔՒмҶǤ̶Ʋτ\\ӐӎۖԮʦцŗάΦĵҪ׎fԐ˦ϔ̊ί"],encodeOffsets:[[50733,-12769]]}},{type:"Feature",id:"MEX",properties:{name:"Mexico"},geometry:{type:"Polygon",coordinates:["@@͙݅ƥ؁Õ૷ąЧƤқʺЧǚٳ֎سȞӏ͢бࢾɝΐΙ݄ɾٚĎؼưՊƠՖ΂ȨӬè۸Ƣʖ֬ɚࢶȚݔԚîȬǱЙҋԁȥԝƸƥűγɁٽɅɎǭcǃY̝ԓƳĲķPŭޥV޷AAӁϛC̺˫̶șĢǹƌ½s˷ઃEЙۅŢƽĭȟqʕ्ࣞџ˘ۇɖҷÓګ́чĉץɜؿǄ޹ϬؿŠ्ϸ۱ВɃɤҹº࡯ˈΓϦࣗӊсՌȧЦ˪ĈđʈȖɔJ̄˱Ϙùͮ˭ъ݋࠴ࡋڀУԼܝ΄ƷȴŸԲѓȞӹФȽהҍæӣѸϿФˀҍو̓٠^͔؇ͬ˫ӑɴƇͿƔЕĆف̀΋خׁƒȡŸÓŎ˽Ƭ\\ǜթʮɇǴ̕Նё˨ޯʠρɸϿ²ѷКͶϡ̨ϑqƭΝ̱ƫJɛԞջӎ؃РїɈؚŵҖЏʺֿϒŏŇɃɖԭȰӷӦÖÚΊ³̸̼Ϝ٩׶ӱɶ̱Հ̷վϳڦͿݲॖÞ੪ĞÿǑ౔СኀףဪPژ@DΌผ@̪̕јˇԀσ˨ѭȾҥѢʩۤʥՊڒۊhפͱфֹ̄ӯӸӏȂחɾЃپʹ׮ȁ͞|"],encodeOffsets:[[-99471,26491]]}},{type:"Feature",id:"MKD",properties:{name:"Macedonia"},geometry:{type:"Polygon",coordinates:["@@ńOǤӺżȊ˺¶ϴbтˏÒ։ǅƑƥҕh͋ǿջõΑȴšήń˸"],encodeOffsets:[[21085,42860]]}},{type:"Feature",id:"MLI",properties:{name:"Mali"},geometry:{type:"Polygon",coordinates:["@@˰ƶƘӶˊpזɻӄǖ͖ÇŴȈ⁚^ȈךƣļЛ⋈Л⋆౾dᬼᆳᬼᆳȨϿԺʉ϶ƋV՗ठĈFካҟ֗íԭݛƃ଩ï̳̗ա՟Iȿǈҥš޻ΑǅʿٳϕŗɍΙǡНŔɱȳūֻڙۡp˳ɭΣÆӥ΋ůȝŁŽάʍĥơhƷʕ٭PɷŴŉùʱʎ¬ʢĿİǳĉ˚Ǥɐ΅ΚĳɴȇȂǙvȫş˕őɱǹΫäɷɈƓɕőƅAµ̮ʾí̽͘ʀǓӔԺ"],encodeOffsets:[[-12462,14968]]}},{type:"Feature",id:"MMR",properties:{name:"Myanmar"},geometry:{type:"Polygon",coordinates:["@@ӫηץϥࣥΟƳО݅ՔؗΈօ̭ܵ̃ƹȪу֖ڙĪҷ_ϵ͠ދң޵Сࡷăذʴ٠˯ӼæࣸͽѤ˛৔Ʊਗ਼εۢօуॕ׳ҽöԳȠ̂ਪǫ޾څॺļ̢ӭņ׭ۆÅڰ̊ŵj׾дȦęΤȐ˺࢈ڂȑϐۘ¨ЦҪ۶}Ӕજ׆׸ƱçԬ̎ƸÛ͈ӮÚˮӵξȧ|ٟۙߓۭĳঽࢲƔȨޛՐǍʓۣز́ζƷ؞ʔ~΍܏յǳ̱ӓȗ"],encodeOffsets:[[101933,20672]]}},{type:"Feature",id:"MNE",properties:{name:"Montenegro"},geometry:{type:"Polygon",coordinates:["@@ÁǀηЯÊˋǫÞɽ˞εǖĢƜŬҦ˚ȜƾüɠƟŬśˠě͌ǧçïƽȋɧó"],encodeOffsets:[[20277,43521]]}},{type:"Feature",id:"MNG",properties:{name:"Mongolia"},geometry:{type:"Polygon",coordinates:["@@ࢮƢ྄ܤ౬Єܴʳ࢚]֘Ͻ࠼ௐɁࠈגͿӶࢊࢊश΍ނįনɍǈؿஜΛߐƺਫ਼ŌࡆōࠖЗԚѕެT੒Ƌޜȼૈƒ௸פԌĝѰ˭ৌêХهק࠽ɐ΅ӈńࠤŽ٦̴ڬˏހוğ̗ڏĦ௟ŏןʅ؝։౱͙࠷ѽࡹǞҿúѳէˎ͓ƌˣי˯׽҇গ̑ఽഫ̇এҋϋʾ৭AఓԜࠥŰૣśჃȊऑmӱԀϣޠԱĢ৩ԼଅŞুƞ̡θ͖চׅڲன̀۷Ѿəז"],encodeOffsets:[[89858,50481]]}},{type:"Feature",id:"MOZ",properties:{name:"Mozambique"},geometry:{type:"Polygon",coordinates:["@@لæ৞ʁɖńגt̚ʦԌaऀ͜ڞӤƊϕ࠷ľ݅ಿƨЫʣ׷͙׍՗Եޏ͉ृСॉ͓ࣕƵוׯ΋ȗí׳ЌُǔӱZʣƪ¦{ࠗƋϷȤƝűΓΗ̗ۗ˳য়ҕρ̳ðΟɊÉíѵّRïϊůϖí̠ƬपɓװГஂࢬ॔ɜ؆ŶúĨӶƉʞغǐ׌E੠ѥ˒ЏÔǹȼϳǰ۫gÅ̼āװᢈۘӚЕɴüͨɅ¸͵ǯϷØסոԱʲ׌ζǰíઊΙ؈̣˖̅]ɽદɾٔ"],encodeOffsets:[[35390,-11796]]}},{type:"Feature",id:"MRT",properties:{name:"Mauritania"},geometry:{type:"Polygon",coordinates:["@@և־ԗؤ֍ɞГʚҵUЧǽйð˽ˏïҐɺаŀߊģࠨĵкČмɑЎѵδǾˬᾔMǃ௎ȴќ߀øᒸ᪂©F౞Ṗ᎟౽cМ⋅М⋇ƤĻȇי⁙]ųȇ͕ÈӃǕוɼˉoƗӵ˯Ƶ"],encodeOffsets:[[-12462,14968]]}},{type:"Feature",id:"MWI",properties:{name:"Malawi"},geometry:{type:"Polygon",coordinates:["@@ɽٓɾથ̆^̤˕Κ؇îઉεǯʱ׋շԲ×עǰϸ·ͶͧɆɳûәЖѵɔʮޮ˄̈Ǉۢǚڼƞɪɉ܌Ѕϐ࠘ƽǜɵ˶Ϲɾଡ"],encodeOffsets:[[35390,-11796]]}},{type:"Feature",id:"MYS",properties:{name:"Malaysia"},geometry:{type:"MultiPolygon",coordinates:[["@@àћֈĶ˞ΈȘýӸԓΜ֛¶֣ęϡĆ˿Öӻ̒ɵͤݑe˳׫Éߑخ঵ښįђӟ֚ś̡۠ҜĠؔȃΤƤƮۈρ"],["@@أ˹ܯƚॱ@̅ॗ͓̇љୟۅǵߑɾЕóөщ՛Òէǟַӆƕ֘؜˽ٮǀǜ܆άǂ৖Ǻ׾ڔЬՐϦѥǮ˺В¸՜а٪אшڀͼHќыιֆɻ۬ʧÑ֝͡¥ƮЧ"]],encodeOffsets:[[[103502,6354]],[[121466,4586]]]}},{type:"Feature",id:"NAM",properties:{name:"Namibia"},geometry:{type:"Polygon",coordinates:["@@رٌؖ͡ȃࠊȷ،˯ಒm৒ŅҞ͛Όѡۜѳ৘ǽՆۃࠐ»٢КǆԊƞհ}ԄϝŶÐ₮׌Е᎞ş໴΂یȒհµͨȍPéӁȍʭC՛͍ͣΎಕ̍س{ᲽࠣBយA᷋ݣѕҋÕՇǄϗÔƗάͩɰГг"],encodeOffsets:[[16738,-29262]]}},{type:"Feature",id:"NCL",properties:{name:"New Caledonia"},geometry:{type:"Polygon",coordinates:["@@ېԵѨϭ͉ȫҥɪ׹ϚէѼ։פś˶β[Һ˹φ˷ˎɻ"],encodeOffsets:[[169759,-21585]]}},{type:"Feature",id:"NER",properties:{name:"Niger"},geometry:{type:"Polygon",coordinates:["@@nּॹȐОҿպœϤâТբ̴̘ପðݜƄîԮҠ֘Eኬஈϒᝪ࿸᮪ཾ೨αӀңר̸ȸಯ̾ɓ`ˋΔ˽ǻί͕ၻ«ધੳߋγૉΔ̵CեբmčЃʁµˋƻm֩ंȟځҷٱʔҍ¸ʏşӯ~ӷΧѓq৯ѢЉȵѓb̿͆ࡅ̼ࣗıɕǻşӗʋ͹ÍݣٗӚ̟E˭ʗ"],encodeOffsets:[[2207,12227]]}},{type:"Feature",id:"NGA",properties:{name:"Nigeria"},geometry:{type:"Polygon",coordinates:["@@ࢍ̡͉¬͓ȉڥl҇Ղˡ؊שֆكYݍB¶തs՘ǂՊʶʴТԴėɨǔ͸ȍӾ˪ÎݤʌͺŠӘɖǼࣘĲࡆ̻̀ͅєaЊȶৰѡєrӸΨӰ}ʐŠҎ·ٲʓڂҸȠ֪ँƼnͬͯğƱ«˧۽ٱɛՙšѧǱȉǝי҅ΉŽыȋ͹ÿΓֽ˱ҽΊ͇aԃӭʑQЍ߷ɍש"],encodeOffsets:[[8705,4887]]}},{type:"Feature",id:"NIC",properties:{name:"Nicaragua"},geometry:{type:"Polygon",coordinates:["@@̃ˆϽͺȁ˲Ο˄сϜĤžƒŵÚÒʾŀȔŬRkЮȠrǬOǺɤʜǝĒľƺĲ̊ɴbǦĄQňȪĖ|ƜŹǚȆńɄB̈ŌŜŖ˾iïă§ȉĐ̫ȗ˹ěͷυ®ɏtϙŹĉýΫÌɛǣɋ ɩźƏȩǱʛÈƓǦˉêȕŉօɞųŇ"],encodeOffsets:[[-87769,11355]]}},{type:"Feature",id:"NLD",properties:{name:"Netherlands"},geometry:{type:"Polygon",coordinates:["@@ۦyǀ˳Ƚޓɇ́ԍ@ƘࢡҥȞՏπީǩ؛âѠɲ݀ఆଲΘ"],encodeOffsets:[[6220,54795]]}},{type:"Feature",id:"NOR",properties:{name:"Norway"},geometry:{type:"MultiPolygon",coordinates:[["@@᥆ؙઍɣऄՅෛ͵ڵû΢לઃͰಫ˵Ы؝ߟωࣗȮ઱¥णѼԉɝԷūփནƊɝҵ߭Hևױ࠿झಫ஁̨˹̇ͫ࠯bձ޿¾૟՞э˥ধֻۧυӛ֝Ԫဋঁ૫ȟ୏є̛ࣚˇ኶ޞզᕠ۶ဌࢂ໤୦፺ྴඦلᘼ੊ᇎπ൪­౮ۢ໖ພǘ"],["@@ም΅๝Ȝ׆ɐԕˎეǚͮ̿ொȍ"],["@@᪖صᑟͥұأ݅ǁЍۡৣᅵԢނ̘ఽʐ࿕܂ٷڄᘎ̜Ң̋஦\\͊˼௾੖̋"],["@@࿮̏ఝҍ᝱ı៙ƖƫɴஹdँϬᣴɼ௞ȫࡘʤᑺȽ"]],encodeOffsets:[[[28842,72894]],[[25318,79723]],[[18690,81615]],[[26059,82338]]]}},{type:"Feature",id:"NPL",properties:{name:"Nepal"},geometry:{type:"Polygon",coordinates:["@@ÝαŌՕĩͩ۩aয়Ȟ٭ĂӛђଷŊયҼ߉Ю߿͆͜޼ՒϠΒȪڪʳࡔշҾť˰ЕٶǓۀσौȕঔć"],encodeOffsets:[[90236,28546]]}},{type:"Feature",id:"NZL",properties:{name:"New Zealand"},geometry:{type:"MultiPolygon",coordinates:[["@@Ȓ΋װ;ʐΡBΝ̹ϳչإїͷ̴З٭Yܗ̓ɣջӋࡗڇϓнʇޝlխˢࣱÐƗ̰Ҍذ੐ࠦժǀ׾͌ܜѰԎѦώظ͈ɆŰҶלϴȆΧ"],["@@،ࢫlָϜɯŲًڰ˛֨ãӒ͎юĭȯݗʯӫٛjɡʭþαūƻͅҏзֹ٭ͯƟɘΕŨӞ۔˟ҨࣛͲz̦؈̌ƚ٨լͻ֜vƪБΎڋݔΗת̸àҚұٺɑʂݡ"]],encodeOffsets:[[[177173,-41901]],[[178803,-37024]]]}},{type:"Feature",id:"OMN",properties:{name:"Oman"},geometry:{type:"MultiPolygon",coordinates:[["@@ֹ̻ϟªǩȧƉэļ֗ÿĻϯFԽ̻ćХȓǯԹP͡ɃJͻПɷҩĂ֗˳ϱ³˝טٿ൴ᠾ࠾֖၂ϩתv͸ʔΐFΆϞǒƩŞèմіHϖֵҸ̧؞ŋӼƳϜӕɨ˧̞ŃCȉ̩ԃƅɽΟˏ"],["@@ŉƳǅ˺ʔ˺ľñā΍"]],encodeOffsets:[[[60274,21621]],[[57745,26518]]]}},{type:"Feature",id:"PAK",properties:{name:"Pakistan"},geometry:{type:"Polygon",coordinates:["@@تϻʞ٥൨ͻ߹۷ऩůౣȲЫα̖݁̈֩ڴгܑӟ`׳ࠃࡇՃ࡝࢝ࢡউÚऑࢡռϗĪ٧ҾэǘܝᇛD֓֕؛Ɇʣ؀٭٘໻ǁിeஃŝ̈́ঊொѢéϰГƌw݊ߥφͷԔеѶඨѕࡀŲԈŅǞȂגóદΔ܎ҶӈشCĠɼٞŌ̴ý͢ʀ±ԌΦԖ՘Ɇͥ֊ߜɴ̢͒мΜĩмȣΤӬμࣘǮ८ĮѐƺӨĦ"],encodeOffsets:[[76962,38025]]}},{type:"Feature",id:"PAN",properties:{name:"Panama"},geometry:{type:"Polygon",coordinates:["@@˫ʎǵҒȺɢɅÎƿˤлɸοÁǝ̇ͻɁǽĉǩВҗɯŅŧŭϷ©ơԈŋƛˡ¸ǝ͸·ÈɓİέCǻĩŶªǖìǠƲŲĲǩŲK͸͘ö̠̝iǱͲĀæɴȵЮÔΨɄԜǞ˺ʤҬ·ĉҶώơ˜ʧ̈́ɵĹūȜӵǁʟ˓ÒŅС"],encodeOffsets:[[-79750,7398]]}},{type:"Feature",id:"PER",properties:{name:"Peru"},geometry:{type:"Polygon",coordinates:["@@ɥљћɋࡅӘñΈရࡊທࣾ٫԰ΏۜƐʎ܅ાࠣ༄ߍီ΅Ϥ˃ؤٷպױͼ˖ϒПߢʼךڢՎĲΓʇȧx̭ΎâͼĝΚщӆΌǄ֤ԦܶৠͨࣸࢠʾմŝٔɢĂ֒ЉˎЅϴɏӶࢣضĿҨɞ̤ƣԎð٠Ͻթࡣʤoрҁݳ œųۍǉ॥ֱÓϻɉ̇ČғԕʍBΡɛƵΔݳҲԝǱί֐µ͆҃ݐuېӸÇ౧ϢĩӄƠܪടǷ˵£ןg܍͟пƮ̵ȕ˯β۹Ջ࣡"],encodeOffsets:[[-71260,-18001]]}},{type:"Feature",id:"PHL",properties:{name:"Philippines"},geometry:{type:"MultiPolygon",coordinates:[["@@Đ֏ºҽ˹ޑ̫ࡨϽэˎإʉϿ঩Ӧɿ؊ʰЎՑЈˁΑЃثҵƑʖ͢۾ՌʀҜ̈́̔ϝٔɰƎϒרv·ٰڼЋêхÐ̱"],["@@̟ˡˁՍ˃ʝԫ׈ǦɤɂɾĢԸҨ¸Ɖ֣جߺāߡ"],["@@ૣߕЬט؈԰Ԏ׊Ѱ࠲Ʈۅևҧѳֿ"],["@@Ԏʹ՘BgΗϳΣՕʧϸÒєŽА"],["@@ʀभ٫ɞj˭ȶԯЍȋעʧªƁԘӶãY͈ԣٜ߮mɴ̻"],["@@ɟܩέоѓ٘ܚ̡̈"],["@@ԮʉʶɖüɇƍΑ˼׻ɛۥӷ˥ƁڳȊڝѾġϊĲਾүăҙ˜ȫēϯٻЮ̵Ѵɍ̯՗ԊރůлȆ¨ΎˀɊʣȘŇ̡бӚűμߨͺˡĔೄ˜ހԘA"]],encodeOffsets:[[[129410,8617]],[[126959,10526]],[[121349,9540]],[[124809,12178]],[[128515,12455]],[[124445,13384]],[[124234,18949]]]}},{type:"Feature",id:"PNG",properties:{name:"Papua New Guinea"},geometry:{type:"MultiPolygon",coordinates:[["@@ɽčε͔ρՔǷ٘ŜĆĜʡʬȏРՑЈ˵ŝɽ"],["@@ѯçƃɽҟȱћȟѽBۏʔӑɺêʺݬũҠàŶЖŦrĆѽӐÜʂ˼Ҹ̚ġӸԌfǜƏgү˯ԡ"],["@@ݤտղࢻӖω٬ƛʥǁࣀΝġʏ֋ÏȷɔܟĦࡕŴٷ՚ӉҦѧ݀ભπ܇ʇԡˣńإڇ˿һƖࢅaᩒaᩒภ׃༊ӓׄїҴхŸӵඔԱȲѽޛěȄ֕"],["@@ʿɡǁӸȝ͘ϝ˞ӍΪ؇ʚɺȮҒɻ˸ȁΜȫʹΛ͊ˏĶѧ"]],encodeOffsets:[[[159622,-6983]],[[155631,-5609]],[[150725,-7565]],[[156816,-4607]]]}},{type:"Feature",id:"POL",properties:{name:"Poland"},geometry:{type:"Polygon",coordinates:["@@·՜à̂ȹ̧҆̚ɺɤȝђָʘ಼ϴ੒˴࠼ƙÚȱ߸Yਚħ໶^њěȬʵωɸ͋KͯԋǡʸϳfϏцܻěɽзįރۥɒϗǿ¶ߙ͔؁šЇĒӹǵч̖Ήŕ³¼ϭаر¼ăˀֻĦűɑҗǨÀɴػòЉ˔"],encodeOffsets:[[15378,52334]]}},{type:"Feature",id:"PRI",properties:{name:"Puerto Rico"},geometry:{type:"Polygon",coordinates:["@@јõưǕɋɃمLӫ·άŢŬیK"],encodeOffsets:[[-67873,18960]]}},{type:"Feature",id:"PRK",properties:{name:"North Korea"},geometry:{type:"Polygon",coordinates:["@@Şƥ͉ºη˵ʣ˷׽ѣȅƫƧ̓ʝ֓ƏηɥηįġͰƋӈσŧȭΧÇץ¡͝ϛϑÁùСǆĵƿʙéǀɑüɥƆɰφȤİõƶɆҒÅƎөĠЇɤۄբऒҌ־׮ЎˁܪſѺಚβͰҼժӹ"],encodeOffsets:[[133776,43413]]}},{type:"Feature",id:"PRT",properties:{name:"Portugal"},geometry:{type:"Polygon",coordinates:["@@̦Ɉ΄ŬɂЫӺDƞłӪɼуϱɩYٽƍūЇγçʹԋɵտ̄ʡřɫ̵̿ê˥ͷɓѷŠџġŸڂÿԬϓþȩ͈äռͰ̨ÒͼǪԎkΤǙ̠˲"],encodeOffsets:[[-9251,42886]]}},{type:"Feature",id:"PRY",properties:{name:"Paraguay"},geometry:{type:"Polygon",coordinates:["@@ͦ৖tҌЖ݌าʔޮ]޴їbʵʞҳÇଛࢲǇ΄ǐ֦ɩǀʣþޓİ͓̼̀ƌ̢ƳAҥŕӻǑӛƍݏށ١ړƇऻŸࡑɮࠢ౨ťψࡽ͢ਅبۉŸ໵ൌ"],encodeOffsets:[[-64189,-22783]]}},{type:"Feature",id:"QAT",properties:{name:"Qatar"},geometry:{type:"Polygon",coordinates:["@@ÇؔɨѲɰĜʬˁdӯǽӳɵÑʫǖ"],encodeOffsets:[[52030,25349]]}},{type:"Feature",id:"ROU",properties:{name:"Romania"},geometry:{type:"Polygon",coordinates:["@@δǶԴġՠGϸȳ˺źبĄɄȠΠ@ʰćʺʟˊΟӞԁρėΩưϥϒƹЂƊϠƟpɏПǹʯĀɻ৥ӳĖ̪ؑফțзɋ௽¬٥ƀ͙ÕʍΊƵƦȚƘȷŀ˃ȋөʔßΌԟȢĥˌҕͤڪǂԖ֮Њ֬ԢǮ"],encodeOffsets:[[23256,49032]]}},{type:"Feature",id:"RUS",properties:{name:"Russia"},geometry:{type:"MultiPolygon",coordinates:[["@@ࡌ๫కˤԫ்ࠌࡳyוُԒսٱƻ۸Ĥࠊħ࣢Țٌ૴ӯࠜôରަϮͭϴϐŠɔ։̆ߵuࠟΎࡑ"],["@@໵]ਙĨȒτ୊˚ࢢƧψƃęɱäɉ"],["@@֦Ƚțؐᗸű࿨޻࠭λ൛ēsࠑͳǩ޽~ٗ̊ૣʖȉθ࡟Ǝॗŉҗ̎Ǽ̸৓ȥϚЃӉΣ@„Ꮪٛᔺ࠳ïԷ"],["@@ः©ƭˌੲΖ@ַ"],["@@ળ»@ָň܈E௒ʉïŗࡽȩ"],["@@ౡMႣĤƧ¬ߘͪੀþஞ͏ĸə"],["@@ॿͩഉø༛ͨȪ˖༨ųᑔɗ"],["@@ډرᶽzඃȣမղҎ׀૎ǂᕞᴬѽ"],["@@ӹóᩣŊɟώູɦūҒ࡮ǶҞသܒޙĺ፨݆ɩϢሤѺ᪪բ᫠ǀ෴̸࿐Ŋאͩ֟ʻᲗз᢭Џᤙߝఫࠍ೉߱Ǡۥྎۏ"],["@@ɨгސȲឤYቈЧڬ̿ȽѧङʝᕅүفʟਬşఖɃݴǄєաτɔഊƂ᧪ƑȴϽ↲ů´ٜᄼƥഄLബѷϮ՝ӹΙੌڋ೔Ϳ߸ࢦഖϙ෢ɦྼʵؤʀൖş؅ޮૐζ䢀ձܐӿᔲٛ₎ǄာƑ۪΍Ĺؙਜʇ૴Ǥ๰vཚǑཪĢะݛਪˎڷ՞ϐώᧆɻფºᝂБ୲ν@”MKઇσઝÖݶҁԄەϲɧĮΏɑɝ༧Ǿ᚝مݛĭ౽ן௛ԧ̱ϣய׊ᔗڇϣ̸ߵΫ૱Ř˓ց৙߽ͻड़ȋő௣ޭΫ۱Δα฽ѕ̅ॡభȳʥ࡟ே޳ׂ̳έ௬ҵለИ୘܀ԆªϾರȊຊ੒คࡺຢڢڮஆ৷ëԍۗᒉइۍਖᓧ˷ᑃටۚԧሙɕಝēÔ؊ಯŶ਩ЭᢵƠ᪏ʟᨩ࿛ủጝ೚ŁаՃࠄȅ՞оईÃௌऍ܍ځ࠽ë্ϛഉ్௓˯ׇଙ঑ଇॻթӹ૩ӱՉYՇФૻؙſ˩ŝƦKѐіxŦ঴ɛܚܞ̒৶Ʃ֢ࠈ˾ऄ͚̮Ѵݲ൷ʛܯͧ౧Dͻ߄হװหˎ̵ࠖ̉Ԫ̿βԯࡐ̲݇షʢ૛uਯƱۛлҤȥXҩұˑݷࢻRσஅՍ৙̈́োéѯˮԋĞ௷ףેƑޛȻੑƌޫSԙіࠕИࡅŎ੝ŋߏƹ஛ΜǇـধɎށİवΎࢉࢉ΀ӵࠇב௏ɂ࠻֗Ͼ࢙^ܳʴ౫Ѓྃܣࢭơ͡çѽԤઍőΧΦחǌЙӠҩưிɍୃӜ҃ѯሟᒒੵٮ̮˂ᑋߍ߭³êҞઅ˺࢙ȱ˃ࢊມǺݯΑᑅ̳Чȹḭ̇ϫ˻؆ֹ߭ɓǀɭ߭ХസֿɁЉ୻ʓʟ੹Ѧ೯iࢻΟহͼᇡ׊ಽsჃࣳĿؗࡹӤڡउʖǡӝُ܊֫ذx՚֗ďѝѐƋϥӽ߿Ƒ࠳ࢁކߕĉ֣ࣼফԇ͹ƝɇωÌֿԚɿՅȚʳΈ޵ǮԙƁƥƼଥЖఅƌ܃ƞĹıੱ܂य़̈́ܩӴؒƈۤ۰ҹͪఌ΄uȀݯƉώѠɼ߼ÖƄ˪ȅҪ΀ѰWʚఉ˚ӭUԯЀ١ƃ੩̐lǒ̗θڟ¤éʼɀǞ՝ӈࢋąʭ¦Ƀȑ̽ȷ՞ȟ˨ǊĀڴ͞Ȁʍɢ֥ƪ¼Ʋ΁ƴՃվǸɨĉЂࠑȨѱĳšȼࢭɂˑӸíТЙȖάˊʝ޶װӞųƤक़ҬࢡЎᅢ੶ޮӠ͂єగּΆնݳش֢ܜ঍ग़ޢي౿֔ŬךڶüොͶࢀ̈൦ԕᘨȧṺो٤ЋÆ֓टѳ൏ɡ⏷ٔ؟Ńൌ؛ÂϵÆ࡫ઌʯڂɓňРԑΰ՘͈᎖Թ۾Ȳ֣؜ዦࠖޢµ޸̋Ӫ׀۫ԄЪԊءԶᚠˑӔҹ੡ĻNҳڌ˽ಜǼȶ՚ჶАᰪܞي£ࠣԙਬĕ׼˼༾xఢΐफ़ԏॖ֌ࢡӢѪˤ២ʫ୒ʿᴾॣ֚ѰࡡѺ{ǴৣĈˢЌ҅ټ}ː༄ݾրކزǒᕮɛǬұߕڽԺˋ˒חȏଵऒԧέ֕࿫஝०ŭ̢ͮऎɎɞжܮЎөӌϼֈࣿêȫҲڢࡈણۆຒ֦șװмnѴүͧ߷࣐Ƶϥ؄ඤͦლ¬༈ӏݛ۪ċࣆศǞ፾ᆘŌہѮংւॲx࿎иᕠŐ˪ɲᕂþیȋሴҀ໲aɶδߤΨጤΈ෸˗ଥȷበŹ"],["@@ⵙ͕ໞીےĦقÃᒈӋʟͿ"],["@@૽ōݱÛśƏঙƑ࣫ȦӐʾል~࿞ƶ౨XǢɧӘȬߊƐఞǿ͗ŷ"],["@@ᆳĿᚉʎඅ͎٣׾଩ǔᔆָᆎȎ࿌чኬ߻ȹݯ"]],encodeOffsets:[[[147096,51966]],[[23277,55632]],[[-179214,68183]],[[184320,72533]],[[-182982,72595]],[[147051,74970]],[[154350,76887]],[[148569,77377]],[[58917,72418]],[[109538,78822]],[[107598,80187]],[[52364,82481]],[[102339,80775]]]}},{type:"Feature",id:"RWA",properties:{name:"Rwanda"},geometry:{type:"Polygon",coordinates:["@@ͬӃµӵʏŁѿÆʱӍԛàþҠŘÞԄʎɺȰďԈʸ"],encodeOffsets:[[31150,-1161]]}},{type:"Feature",id:"ESH",properties:{name:"Western Sahara"},geometry:{type:"Polygon",coordinates:["@@oҊŸ@@ÉeǋEౝ᪁ªᒷ޿÷ȳћǄ்ᾓNǽ˫΢bCቆäĶ̢ΆϘˤୌୠ࣢Ђ੖ˀÖ˜ټۺĜ̦ŉϢ@˔ȒԲ"],encodeOffsets:[[-9005,27772]]}},{type:"Feature",id:"SAU",properties:{name:"Saudi Arabia"},geometry:{type:"Polygon",coordinates:["@@ŉΪʩʨÝͲѡ̞҃۴ʁۆׇ׀ϑƐ֋ߠīאӾӕञϿ͠ґǨˡӖ°ȎɹѦʕȊ͝زԟڴѓ־лIžҦ̌ļͲनƅζʶȪ̢ٚŚƒˮˤƜ࠷ࡀ၆фǆŴৢɩబיᛎၕ༠ãݠąȾЏתv͠ܥаȓƠִ̏Λ¼΍ċ˩ł˯ʎɽŐ˟ŲȵʬǕɶÒǆ͍ș࡙͐ᡌщǞǲϪש֕၁ᠽ࠽ᝑ͑޷ϙ׻ࢥϹƕɁˬ͏§߻ĎƷČॹmɫùΉɔɝЭĒΟρˋ"],encodeOffsets:[[43807,16741]]}},{type:"Feature",id:"SDN",properties:{name:"Sudan"},geometry:{type:"Polygon",coordinates:["@@śhdмĵ̀џͨĵ؄ĶبϳÌÍȇԍ©Ȭʕðԍңңл؅џđ۹Ӫͅǥđʓџǃǥ࠵@řǦ؃̡ƝɳîѝӬƟɲ؃ŗɱϵɏݣ˿ǁʳğå ̅ʎÃʼƌΔE΄ӛՀĩάZȰ̱ʜUӦǭ͖̍µĎ̰ɒΖħΐˢʴǫȞɞ԰ϨئܦÏ¥ ZΚॲH@း⁪@Ὂ@ῼ@˔ࠗȁƳŪࡻ্̰͌ȷҠ̳ыӑأƏ˅ʳĉ֑α௿ĚͳƅܟͿࠟԓзέٛč΃Љɽʝ࢟Dĳ"],encodeOffsets:[[34779,9692]]}},{type:"Feature",id:"SDS",properties:{name:"South Sudan"},geometry:{type:"Polygon",coordinates:["@@Xٽűʯѿq˷ӏԨÑюХƨͳϦșӼࣳ֫օԫԇԫϭסFگȟՕȊ΋ɭ݉֐ȥάҵǱϱÆɣƕϗĸԗۚƉˊعͪɅԌΕζ֟ѬS˘ҡͼ֯͠ʴĠ̀ǂɐݤɲ϶؄ŘƠɱўӫɴí̢ƞ؄Śǥ࠶@ǦѠǄĒʔ͆ǦۺөѠĒм؆ҤҤïԎȫʖԎªÎȈϴËĵاĶ؃ѠͧĶ˿cлŜg"],encodeOffsets:[[34779,9692]]}},{type:"Feature",id:"SEN",properties:{name:"Senegal"},geometry:{type:"Polygon",coordinates:["@@΍ٺн̚φǄРמȦќ˾ːкïШǾҶVДʙ֎ɝԘأֈֽԹǔӓ̾ɿî͗ʽŧ³қâÙģȃk׿ȲЛV༇ɥħ˥ѻƋƏ٢ވkȬŞƮR̸ȘήǯκcζȌǝʐˡƙʻJͧȸˉ_ȍȥࣵy"],encodeOffsets:[[-17114,13922]]}},{type:"Feature",id:"SLB",properties:{name:"Solomon Islands"},geometry:{type:"MultiPolygon",coordinates:[["@@ɾ˿חN͉ԬԈȯǜ"],["@@͝mԧĎǫżÀͮֈƁ˜ǭƎə"],["@@ųƹحܰǫԈ˺@̠ڥʹЗ"],["@@ǛڅΦҟ̠̿˪ŰĐϮȫېϭȢˉ"],["@@Ǘ³οȒ·Ί¨ƖԈΡͰ˛"]],encodeOffsets:[[[166010,-10734]],[[164713,-10109]],[[165561,-9830]],[[163713,-8537]],[[161320,-7524]]]}},{type:"Feature",id:"SLE",properties:{name:"Sierra Leone"},geometry:{type:"Polygon",coordinates:["@@ɧØ؁ͺѩ҈Ƨ̬Ĺت҆τĬɺƞǸɶpȜǂڦCɺ̛ǼΛʓƈɗṶɴ´ϹϹϛҗ«ʓȩˏ"],encodeOffsets:[[-11713,6949]]}},{type:"Feature",id:"SLV",properties:{name:"El Salvador"},geometry:{type:"Polygon",coordinates:["@@ġȡӡ^̡Ą΍ǘұÀʃǶ~Ů˾ɄǀĢ«ĲȠ¾ʜëǸǙʪƇœτĴǤÑŘĝÏͳ"],encodeOffsets:[[-89900,13706]]}},{type:"Feature",id:"-99",properties:{name:"Somaliland"},geometry:{type:"Polygon",coordinates:["@@ϛԩד۫۹Mᩧা͍̜̳К̳ҨǾ̖̲҈˚ƹǒΏϜΗкGߊɌࣴĴ݌ʼиÆ̚ƶӎKaE΋Aࡑ@ѫ"],encodeOffsets:[[50113,9679]]}},{type:"Feature",id:"SOM",properties:{name:"Somalia"},geometry:{type:"Polygon",coordinates:["@@ѼĎЊ˾͈FpɵýӧHѳǯ̣ʁࣥЙयԱ੷ܝ௷ܓवধ଩ࡁڹష࠯޳ٕँৱȗѷȍȣӽۚWᵤܾ॒ɰˆբfݠפબᛜᡄה۬ϜԪ@ѬBࡒFΌLbːhϰŰ"],encodeOffsets:[[50923,11857]]}},{type:"Feature",id:"SRB",properties:{name:"Republic of Serbia"},geometry:{type:"Polygon",coordinates:["@@Ԡȡà΋Ӫʓ˄ȌȸĿșƗƶƥȷȏø̫Тγ͋ʿƗˋĞĳƑšϳa˹µØĴĴĦȴšKǍƼƑ ŋƆƽÀšŠƯ±ś˧ȩÑèð͋Ǩ˟ĜūŜɟƠȢŬЄЛ͔ɀτ̥Ë͔́ˉʈȱ͘٢ɚԾҖͣĦˋ"],encodeOffsets:[[21376,46507]]}},{type:"Feature",id:"SUR",properties:{name:"Suriname"},geometry:{type:"Polygon",coordinates:["@@৔ǙĞưڶÔࣚɥѩܟâֹͤӽƥίóϩɉΛӓǲЇđ͹öčʏƘǗ÷ǡҙèԡܴōӄˏBωؐƺѠ¯ȤԜɖƈݲ"],encodeOffsets:[[-58518,6117]]}},{type:"Feature",id:"SVK",properties:{name:"Slovakia"},geometry:{type:"Polygon",coordinates:["@@´»ΊŖш̕ӺǶЈđ؂Ţߚ͓ɷɓǏ͹ǳđ࣑ʮ˟»ȟȡЁĿěÄХŽͭ}ãǙ۷Ļ̱ĠёɌċ̆äńŢȂόa˺Ĕxþǈ¢ÆȒȖžưʢD"],encodeOffsets:[[19306,50685]]}},{type:"Feature",id:"SVN",properties:{name:"Slovenia"},geometry:{type:"Polygon",coordinates:["@@ۜÝъȐܾtǈƘƘUǎ˳ڝɟć͹̇đHɻͣh˷ƎƷƙבȈúȫΨĞа"],encodeOffsets:[[14138,47626]]}},{type:"Feature",id:"SWE",properties:{name:"Sweden"},geometry:{type:"Polygon",coordinates:["@@ࠁוƀԥ೹ڭྱܡؓஃײףߦүޗॅ࢑ȝ͍තӋ޿৳ĆӅڗঃˉߐ۳॔ٓஐφӜּۨ˦ন՝ю½ૠղ߀࠰ä̧ͬ˺ಬஂࡀञֈײ߮GɞҶཔƉŬքԸ૪Щ಼ֱv಑˴͛ฃʃ"],encodeOffsets:[[22716,67302]]}},{type:"Feature",id:"SWZ",properties:{name:"Swaziland"},geometry:{type:"Polygon",coordinates:["@@ǡύӭěԅҖS̄ɰ̀ĂʔʐÒшƵŰϕðω"],encodeOffsets:[[32842,-27375]]}},{type:"Feature",id:"SYR",properties:{name:"Syria"},geometry:{type:"Polygon",coordinates:["@@࿩ࣅऩͬgNŖŶ_ΈȸҠҜ̈́Əͤϗ¨ÿٞȶΌɤȀɤȀ°Ҹ˞Ǐऎɺ҂ƿۖFॴ̀Ґaक़žїԽҡȹĂؗͅ৫ᇵ࢓"],encodeOffsets:[[39724,34180]]}},{type:"Feature",id:"TCD",properties:{name:"Chad"},geometry:{type:"Polygon",coordinates:["@@ĎЄաnDզΓ̶δ૊ੴߌ¬ન͖ၼǼΰΓ˾_ˌ̽ɔȷರࡔҠ…ྑ…ྏ¦ ܥÐϧإɝԯǬȝˡʳĨΏɑΕč̯̎¶Ǯ͕Vӥ̲ʛYȯՏƛэͽ؉ࣹ߅ϳ߹¾ʁûĊ̏ѫ̋Σ͟੓͏ȽȐƓhƹɍۛÙƀɪ˅ׄşΐλƜӷӪǼІϦċʂÐҸSқކ֐É֐ͭՠ"],encodeOffsets:[[14844,13169]]}},{type:"Feature",id:"TGO",properties:{name:"Togo"},geometry:{type:"Polygon",coordinates:["@@ڱǳȇ̎ɡՔãкȆݴɁ̬ăڎD؎ΕѠÖˀ݂kŅѵʲʝ̈̋ЭǜǥኝȺׅ"],encodeOffsets:[[1911,6290]]}},{type:"Feature",id:"THA",properties:{name:"Thailand"},geometry:{type:"Polygon",coordinates:["@@ݭϬܗeŬڈ݉Káऋґ௯˙ݏÌ؋ն΀ދưܭҶӓԚĭѤѧ˝·ևĵßќۇςƣƭͧ͒ƝжҁӄПЌƏӳǃҲĠԾʚ߬ТࡸҤ޶͟ތ`϶ĩҸ֕ښȩф̄ƺ̮ܶ·ֆՓؘН݆ΠƴϦࣦצӬθӔȘθʷ´ԍ֨ȷࢭpݫࢰԆʤƧӰzǜَ̊ÍٖڽÀࠥںܷ܅˙ϛ޿Ŧગǅ՟ۧȤ১"],encodeOffsets:[[105047,12480]]}},{type:"Feature",id:"TJK",properties:{name:"Tajikistan"},geometry:{type:"Polygon",coordinates:["@@̭ʷࣳƖāӛ࣬Þਢ˗འŶɈާˠĐԜȓ͛ŴӍࡿBׁØԻϕύĉ̉ǯͩˠþ۸ʩ¢ĞʲғȐα̇ė͹Żūԇj˕ϩ˯ǌ؋ˑʱĺӀࡘǹض؟ȨɔφۮЌҬˌբ૲ȜǩϵŤɹΎv"],encodeOffsets:[[72719,41211]]}},{type:"Feature",id:"TKM",properties:{name:"Turkmenistan"},geometry:{type:"Polygon",coordinates:["@@ñۼطॣݔڣĠगюׯþσƽ֙|ׯӓ݇ǋƻרŪ࢞ٽ˶Ɏֺ֏¸Ȇ۾ߊȵ݈ˎؓԎʉӔڱɋď؛ʿհψ˨ॖǪ֨ɻךڅњ¤ॆ\\Əцܖ̂۾ӦଆѹĜڡ͐ǣࣦˮƳаࡽ०ׇոЃ࢞Щ૤ΫwԥʩЅɤſ̙۽ǋǙڥӁʭڏŵǫϟهŏࡩ͈"],encodeOffsets:[[62680,36506]]}},{type:"Feature",id:"TLS",properties:{name:"East Timor"},geometry:{type:"Polygon",coordinates:["@@ĲȤܢȌזˀŀ͆Ľ̯ɫ࢕ο۳ʋeʬďǔ"],encodeOffsets:[[127968,-9106]]}},{type:"Feature",id:"TTO",properties:{name:"Trinidad and Tobago"},geometry:{type:"Polygon",coordinates:["@@ӚŊǮصۭġƯúʒɲiͪ"],encodeOffsets:[[-63160,11019]]}},{type:"Feature",id:"TUN",properties:{name:"Tunisia"},geometry:{type:"Polygon",coordinates:["@@ΩພԭͺQȰۉԄóنԮҶȢۚƃߠǠќࣶͺךĵ}ы܊̲ÒǉпЫMϱ̆ȽōܫփхǄқѤaɄЍ͊ſ³٥Хʋʵˏֽ͓ĘΑïΟЧț"],encodeOffsets:[[9710,31035]]}},{type:"Feature",id:"TUR",properties:{name:"Turkey"},geometry:{type:"MultiPolygon",coordinates:[["@@஺͗ঐżܤõলѬࣆ¢ߴЭƜ̑ăУزȻͨʕֻʇˀ५ǏʻҠڧЕƙ̏Ɋ঍ňίŽॗŽҏbॳ̿ەEҁǀऍɹ˝ǐ¯ҷɣǿɣǿ̱Ϡ͈͂ԟí۱ȖֿәౣĥڹҊࣟȗΑׇĳ߻҄ࣻeӽ࠶ؗҰЦٸՓВठߨಒΜྀٔŏ৞հ঒ʄർlุף"],["@@۫ҏ˃Ϻ\\ǦȦĦʺՂХɞࡦ˄ܤőĴ͓ܼ˓Ƶȵি±Ωʷ"]],encodeOffsets:[[[37800,42328]],[[27845,41668]]]}},{type:"Feature",id:"TZA",properties:{name:"United Republic of Tanzania"},geometry:{type:"Polygon",coordinates:["@@ƚġᵂႋÌӣ஼࠿ϱਙ¸Ӊՠ̩~ɓɳԓ¶ʭÇГ̌Ճΐ̰ࠡǿڝӣࣿ͛ԋb̙ʥבsɕŃঢ়ʂكåɽଢ˵ϺǛɶࠗƾӉʨՕƘͯƘΗɈґ੖ӣҺǗӤČѨƯޞΎ ̨̦͜ѬȺǮS˘ǷȐ·ͨʐł¶Ӷͫӄ̎Ķऄ[ႎà"],encodeOffsets:[[34718,-972]]}},{type:"Feature",id:"UGA",properties:{name:"Uganda"},geometry:{type:"Polygon",coordinates:["@@ः\\̍ĵԇʷȯĐPوȜ͎²ڬǰϸ͎Ѭ͔ɠ˒̘͵Ŗ¼চΌɮՖȉڰȠעEԬϮЊ׍İсτ९̧ؓЯ֋ʉͽTࢹႍß"],encodeOffsets:[[32631,-1052]]}},{type:"Feature",id:"UKR",properties:{name:"Ukraine"},geometry:{type:"Polygon",coordinates:["@@̾ɄȒʮ¥ࢌĆ՞Ӈȿǝêʻڠ£̘ηkǑ੪̏٢Ƅ԰ϿӮVఊ˙XʙͿѯȆҩƃ˩߻Õџɻύڡã֑˕޽«ܣ̻¸ԹЪȭࡨ¼Ǐ̛ँơଛӟұǠȄЂࣽʘƨǈߪ˪ʑȔಯɆË̼ީĻ̷ҧٱةϟƠЁƉϑƺɂĞƦ˾ɲˎÑƮǬäĊśӸ{ɞØƽĎÐŲ̉ɈŧΘ̩ƐÒ˶ϝɦΉأʾ֑ĉȧŭΟ@Ƀȟاă˹ŹϷȴ՟HԳĢγǵÍɤұɮǐͺɸɔȀµɑϘބۦиİĜɾхܼДҢɪٲnࡖßबȫڎi͂ŧ̀Ʀɚȝݸ¢ͮąÄцʶȂܞº"],encodeOffsets:[[32549,53353]]}},{type:"Feature",id:"URY",properties:{name:"Uruguay"},geometry:{type:"Polygon",coordinates:["@@ղĚࡆٯ̺|ࡺ՟ڈҫӠֱχЉɸӇεՇॉұاǚғěޥΰ֫ԟҬÞլǾȈS࠸ɤࡺȾڦ"],encodeOffsets:[[-59008,-30941]]}},{type:"Feature",id:"USA",properties:{name:"United States of America"},geometry:{type:"MultiPolygon",coordinates:[["@@ũƕȽŤ|ɾƓ̨¦ĤƤƎÍǔ¸þÜe͐ƙƬñƌőɊ̍q¯͟ǵˏſ"],["@@˭ÑƟǮīèQÀĈî̘āɘŹëĵ"],["@@ĝ҉|Úĸа"],["@@­µÓŻŃȒɤŚêÃʐ˥"],["@@ıĉ˱ƴªÖŸĈȘijȝ"],["@@Ƭңʼƛז½࡬ƅࠂʹڼŊਖɓ˞Tݨʄ߂̧ࠒ͗ں˩ٶˏĈəȢĉ½ĉɦǎĔ¦ȣǜƅɴ@ŬĹĽƫ࢖ЁǶށǚܳʗӹЁҥȁ̍mēĦť˸Ɓɂ@ঊ҆ࡾƀસмfĐ÷ʰƉǒϜƆࠜHޘAˎ͞ŀàࢶ؄ϜƸ౦N໾BĎȺː¦Φž̖Ϣʲٺٚي˨ə֜ƜώʏAଧռӅƢ˝࣋Пࡷ̃ࢱʝѻӿƛȋSѽˤѽΒsė̬ʦȇãʇ֥ƋЗhةƥλ¥ӥ¥۫ʏఀǂʠǃ୳ʥ՗C|ĺʭɷʚǹ׽ؑ٧×Ɏȁª˟ɀǪҍȼƭ^ͅˏ͛ҿڡûʺֲѕ͎įۦǉεǴՑևƀׂ˓ߛʊÍĖ̃ŠࡁՕدࢇʝցӱнÁэ̱ţ˭इձӁЍЅӽŻׯƪ׍ˬܗώשLεЊঅ֥͛ȿԡʣŃЯĺƁς͋ȖѻܢϹٞű͢Ǥ֐ɽҦٻ۲͟źࡑϡƭ¦СϼՃȺोŁݗĤٙÍΏſƲɟaͽǴǓǇō̵Ů́ǃ؍طѺܻĿ؏ȚԹÏۻȝއح࠳γҝБȕϗUׅ¨ЕǄ˹͝{׭ȂٽʺɽЄȁטӷӐ̃ӰуֺףͲۉgՉڑۣʦѡʪȽҦ˧Ѯӿτїˈ̩̖ป@C΋ڗ@ဩOቿפ౓ТĀǒ੩ĝॕÝƙіխӚϻĴğʌһ¦̝ɪޭĊɉƌĹҢࠁࡊ۩ୠȚχˤٯ۴řۆ҃ҞȀۢܜˍ٢͠ߊĸނĺނƱૼˇܘʓ϶ĸǐ௒˷҂ߋȺɜƇې˷ێᛸ@᠂@ࠜ@ᢢ@៚@ᡀ@ᡄ@᭰@ᮞBაAF͔˴J"],["@@࠽͋ѕɐŽЀބ̘҆Ÿ֐ÉΤʻܫЍ"],["@@ԧŽսƾԛɮࠦƞښùĂ͑"],["@@԰ǅԾĒڸɛ࠲őéĝُǱٕǾ͋Ʋݍµȧôº̈́"],["@@؊ϛώǌහ»¹ȕ౾ƛࡨČᄚ˅ྤā٨ŉ૦Ǝౢʧࣲŝ@@MᷱIⷍࠠ{ࠌɵהρݜցࠈҺࡈ˖Ҁѡ֤·ޒϙՂ׽࡮य़ේ՗xՋұЙҥ͂ݍˌʃܺએںҍߎ߯Ä೷rটʌ჉ࢎߩǄ฽̜୑í࿻ϬৃΨटǯǦ׏ҫÁঁǫ݉˱झǳťӶϚࠚࣀʶɱɂੱҵֵ֑௅ױؚСߏ׿ࣗΗࡁʱȻωಽѡ˅ϿছΫֽÞ޷ɻ࡝˹ۧ˫෹ʉſƘऀϾࠔʸࣆҠਬĨвΈ୘ԊȈǚب̒ƢْђӸॹʫ˓Ơҕ̧շюɧ̝̽м࠿ͳԩBïԄƲ̮ե̚થǇ܁ЀַȬIӈ٩Ϊ͘ӘۆҸ̚њںÖ־ƇڴМ؎ï٘ʼƻϨҹưج͖ԩWࢻǽʯȃڏȄஏĥ௷ȬΛ͸੟Ӧ୾ΘመШ۔@ŕнᄢڽԶਕ͌ױр߫ΨଽˈҺѲ๰ਗ਼ϦȨФ࡬ЎࠊĪཪώޜÉಐ҄ౚǭ"]],encodeOffsets:[[[-159275,19542]],[[-159825,21140]],[[-160520,21686]],[[-161436,21834]],[[-163169,22510]],[[-97093,50575]],[[-156678,58487]],[[-169553,61348]],[[-175853,65314]],[[-158789,72856]]]}},{type:"Feature",id:"UZB",properties:{name:"Uzbekistan"},geometry:{type:"Polygon",coordinates:["@@xԦૣά࢝ЪշЄ॥׈Яࡾ˭ƴࣥ͏ǤěڢଅѺ۽ӥܕ́Ɛхॅ[ᶾᓘӺƾïದ׻یͅߤݵঢŪ෸à৔ؗÙࡅЦMǢۍ੬ɲЉ̺Lπ׺૎הӖƺʠĉ۵խئ́ײȾ়ѷ੽؁ٕĊ΍uţɺǪ϶૱țˋաЋҫۭ ɓυؠȧǺصҿࡗهǰҳN"],encodeOffsets:[[68116,38260]]}},{type:"Feature",id:"VEN",properties:{name:"Venezuela"},geometry:{type:"Polygon",coordinates:["@@yȣӱĭ˜ϡYѭυӥ͆ڙδÆȌ؈ʻ̒§َਸ਼΀řІ̎ˆ̞ןל_մҵ˧ݮQ࣌ĔӖϕٞĻҼʾXɄਨ¼৖\\܉ʛ˼Їڦ×ِЯƆڧѬn͢ȣڕӱó̫˾̷ȽƽԫƉjϱɫɱّ֪Őʁ̭͍ऱ̽׿Žʏȣڛɀثņƿýϔɑ֝ŜՉ܆ï°ǭ׷ʅĭΣΉƏسȝǋʱٷÅҧѼʯ࠺ɟ̧̌ȄюмȊʅʠǛ֒à׼Ȉ˰ƲҎ̓Ơӏĩ؁®ͻęסܢӥńઉăȧ̊ȷêǬĴ̶áͺȃȂŅϮѡÈɸӮĺ׶ʔ̸͘ʌɈрդƖ"],encodeOffsets:[[-73043,12059]]}},{type:"Feature",id:"VNM",properties:{name:"Vietnam"},geometry:{type:"Polygon",coordinates:["@@૭ܗ۫ߍȁ׍٠ࢭ޺ળނԱԞګϪ།ŕ๓۫փ१եۇ۫਷ޱ̧ՠʀ֬دӌܬ͸ࢦÔσԚප٨ļ৖ț֖ƶࡀɃצٍאՋ݌ۥ঴৓Ԋʊ̠՞ɘ͙ܺਙPϕކӭڐҊȴڢIࠈĬܒ҄К̿ސƵƃӛАͿࡎɓ"],encodeOffsets:[[110644,22070]]}},{type:"Feature",id:"VUT",properties:{name:"Vanuatu"},geometry:{type:"MultiPolygon",coordinates:[["@@ˣō˭ςɤՆӗ"],["@@ƌڱɥŀǩ­ťɴi٢Дʵ"]],encodeOffsets:[[[171874,-16861]],[[171119,-15292]]]}},{type:"Feature",id:"PSE",properties:{name:"West Bank"},geometry:{type:"Polygon",coordinates:["@@@ԣŭʙЃŕɜɌŚɁĦǬ̤֔ś"],encodeOffsets:[[36399,33172]]}},{type:"Feature",id:"YEM",properties:{name:"Yemen"},geometry:{type:"Polygon",coordinates:["@@؉ɥǋύo˹࠷Οഇϻݩףυ±ʥºӭΑ՗ǉ۷©ɃµǿɛəÕŻɇеlˍœ׉¨ɓӬzҠƍʜǑتʋΊǚ¤đϨĸǊξςˌđΠɞЮΊɓɬúॺnƸċ߼č͐¨ɂ˫ϺƖ׼ࢦ޸Ϛᝒ͒ڀ൳˞ח"],encodeOffsets:[[54384,17051]]}},{type:"Feature",id:"ZAF",properties:{name:"South Africa"},geometry:{type:"Polygon",coordinates:["@@ǏŧΣяɻћӇ׻ोࢁףԋًϣ࢛͙ѓ«ŇɷԛŰеǅ࣫ǊԙĹΏ¬ࡿͩܓƃԱͅϡoΣ̚˳fαϒśŏɦLӰ˙֞˔ƴs٤ս޼х܈AF׽તДдͪɯƘΫϘÓՈǃҌÖݤіB᷌ɨűӾߙûԟȈ̏׼ĒрϒЊʨȶДЦȚΠķВɽۂ£՞ȜĐʾƨДҚäʨ͂˪֔ݮغஒؤ΂UОƛ˲Ķ҂ċД஁ɔׯƫऩî̟чƶʏÑāʓɯ̿T̃ԆҕӮĜǢώْQȿؑıۥɑϛֵщ","@@νʶϻǟҕ҃͡Տـ٧̜ČƺˎҴƀƜ˜ʴФ̅ʪ"],encodeOffsets:[[32278,-29959],[29674,-29650]]}},{type:"Feature",id:"ZMB",properties:{name:"Zambia"},geometry:{type:"Polygon",coordinates:["@@ІϏɊ܋ƝɩǙڻǈۡ˃̇ʭޭѶɓᢇۗĂׯٍřӍͯĹ̛̅ßܵۓҭխ˳o˗ĬऱĠƯÚOêͧȎկ¶ۋȑչԾ֣یᦶშYí̂Ű̀ƧЀĪТėʺ̂q¶ʽϾrՖûˬϡڨŝԤˆȌѯ٠ş̴ΧΈҥ٠Që࣠ɱƳח͞ɧƬļࡈƬসȉψʈ՚ɤĶ଀ƚͦđΘɇͰƗՖƗӊʧ"],encodeOffsets:[[33546,-9452]]}},{type:"Feature",id:"ZWE",properties:{name:"Zimbabwe"},geometry:{type:"Polygon",coordinates:["@@ҁČ˱ĵНƜ΁VՙϞٯźʙՒC̒έĞ्ई˃ӢǛƮ͓ڤलğ˘ī˴pҮծܶ۔̜àĺ̆ӎͰَŚÆ̻۬hϴǯǺȻАÓѦˑF੟Ǐ׋عƊʝħӵŵùɛ؅ࢫ॓"],encodeOffsets:[[31941,-22785]]}}],UTF8Encoding:!0}
 }),n("echarts/util/mapData/geoJson/xiang_gang_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"8100",properties:{name:"香港",cp:[114.2784,22.3057],childNum:1},geometry:{type:"Polygon",coordinates:["@@@}ScTʟ@cWuJÁ]l¦RLj¼BĄà H@TOHCTDDDHDNAT@PEHDDNJLX@BABALHFF@DKHADBBLDHHFBLEJB@GDBBFBADDB@@KFAFBBJJA@BB@@FFDDADFF@FADDDBJC@AFBD@@DDD@DAA@D@DB@DHHBFJBBFEHDFAN@DGDC@DLCBDDCFDlAFBFCBEF@BC@GDAB@FD@DZJX´HĐMja@Ý`p_PCZ@lLnRGSDMFK|a\\Y}­§Mën"],encodeOffsets:[[117078,22678]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/xin_jiang_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"6528",properties:{name:"巴音郭楞蒙古自治州",cp:[88.1653,39.6002],childNum:9},geometry:{type:"Polygon",coordinates:["@@@ÈÒĊanwŎVȮ¦ͪŃĢÜōȂçČéƐżLɆóĊĊaʊŁ±¯²Um»ˌmÈ»VʠţWÑÅ¯ǓéôƑƒğÆīŎī@Ƿwô˺LÞ¯ƨVǪÑƒĢȘV°wĢôk°¯ƒ»΀@Ȃ»ĸǔ@΀͔ôôLɆó̐ÝɜLɲōͪƨóŤK@ī@IU܃ÛmȻţǩÝ˹ÛǉťǓǫō@Ɲ²¯VçōKͿŁΗÇţ»ƽɅƑLÓŏÅÅɱV@ÝĊU¯ÑĊĭÞLÞŎJ±̃XȣˌōlUÈ¯ŎKÆƅ°XÑÜ±nŗġV¯óaUƧUōŁÑ±çɲ¥lĉkğ°k¥nğţL¯ÝÝUƽĬ΁lķ°@ōXÿÝ¯V»ŹLʉÞɱŤĉó°ÝJ¦ÝKÝ£ţÜÈĉ@xǩUċƑ@ky͓¹`U²ĉVġ»ğa¯¥ť@ĉó@ŻÛÛJw¯nó¯ġWƽʩķÝɛwĉĕÝ¼ȭÞķō@ó£Å΀Ƒ¯ôȯÞ¯ȰÆōèĉXÇ¼ó@ÝnºĸÞVƜĸȚUʶõˀĵĖɱŎÝĖVࢰӒѢ°˘nϚVˌÈmɼĵŦW¤öʊõʔ@°ÈXVènŎȁb¯ǫĉ±Èğ`ġwōÔğ»mVVÝ¥ó@ĸķô@bXĶmV²²`Þ_ɴbͪÈ°ÞWĸÈŌmÞkɲÈUÆ»n¼ǬVķĸźô¯°n¦ɄÇÈ"],encodeOffsets:[[86986,44534]]}},{type:"Feature",id:"6532",properties:{name:"和田地区",cp:[81.167,36.9855],childNum:8},geometry:{type:"Polygon",coordinates:["@@ƨ¥èź٨ΘƑᩄbUࢯÞĕɲōĶĕöʿVʵķșUƛÝķm¹Þô@È»ĊWŎçÅ°ȯȰÝ°óƒÆͿĉ»̽çnmɱĵƧºóUƽ@±wóL¯°̻L±Æ¯Vƴķb¯VÇ¥ğ²Ǖbk¥ÇKlÅɱġ@ÑóK@ÇaÝXğţxĉČǫķê¯K@ÑaŹƑK¼¯VóaónġwóÞéUġbóĉğÇl¹aUóğKWVÅ¯nÇŋƑķnʇ»óxĉwçÇ°Åw°ċXób±kÈÇJm²ţx@ÒÝŦÇºnó¼n°ÇbUÒ±¼XĸĠłƽXmwĉºzÈÜmnxmx²ĖmÒbnƧêUºĊêÆVóĖóUĉ¼ÅĬƑ°ɆƆŻŚlłÞL¼nĠ¼@ÞÞź@ŎÞ°VɄɴжϼِ͈Ŏ"],encodeOffsets:[[81293,39764]]}},{type:"Feature",id:"6522",properties:{name:"哈密地区",cp:[93.7793,42.9236],childNum:3},geometry:{type:"Polygon",coordinates:["@@WnŐÆĶLĢ¦ţºźlxÅĸƽŚɄĮè@ô²ÞUĔƐńV°¯ĸX¦Ɛm̐bƒ»Ɇa΀ĢƐLˤȘÑnІǉĸÿn¯ĶaŎ¯ĢĕȘ¯°΂la¯¥ǕǔwˤӱlťО̻nŻmɃĕċţUw°WUóƨÅţķ°ýV±óÅǓéʉ¯ƽŁéōǖȁÝƏůǕw˹ǫȗǓƧǕVýé@ĬţLƧôͩɱŎɛK̏ÞɅôóK@²@°ōŘ¼lŦ¯ŰóƜÛlV¼ķ¼°kȰŰĠǬŚÝŎmĖ`@ÇÜn"],encodeOffsets:[[93387,44539]]}},{type:"Feature",id:"6529",properties:{name:"阿克苏地区",cp:[82.9797,41.0229],childNum:10},geometry:{type:"Polygon",coordinates:["@@VÆxˌŎÞŎ°nȂÒ°²VĊ¯VğƾˍǬƨÞÞKÈÞĊVźôɆÞĢèŌôWČ²ŤVÞĸʶbl¯ôn_VÆĸlmÞnVź_ĸ¼ȮmǖéĸW°°ĸJkʠ¼Æw°¤ÈlxɆzČºĶI²ÆǔU°ô@Þ¦UnUĠ¼ŎÓĢxĠ_²ÇĊǬ°ȂamōçUÇW@¯öʓõʉX£ĶťnɻÇUˋmϙ¯˗ӑѡᩃaΗƒɜ°xWƴUxɃÒˣ¤ɅwğʉōóÝŹ±°ȗ@¯Æƒ²¼","@@ōгwȁ¥Ƨ°ŹÑķV¼ÞêĊ»lĵm¦ÅW@ĀôÈźaɜxÈbÞÆĶIОŘnIÇŃÛÝĊÑĠƏ"],encodeOffsets:[[80022,41294],[83914,41474]]}},{type:"Feature",id:"6543",properties:{name:"阿勒泰地区",cp:[88.2971,47.0929],childNum:7},geometry:{type:"Polygon",coordinates:["@@ɲˣĊIÈ¥ÅU±Ċýkō°ĉƽó»ĶƽXóʵʵȯƑÅȁɅ¯ĉ@ÇሗK֛@@ˤV֜ʵрƒǬVĸƑŎ@ƆϯÑóķ@ʇ»ķ¦έmlÈĸĊX¼WźÛÞÝѸĢČþĀĊôάVö¼ĊUƨ°°èŎČUÜÆóôVôô²êȘlˌç°`n²ǬĊaÛ°±kğmm»@°ÝɆÛÅÇVaÝVm͔ğôÝÈb@n¯ÜUĢÑĊ@źīżWŤÈǖWôŁÆI²ÓƨL@ĊXmmÑÆ»ȰÑkĶō@ý°m¯"],encodeOffsets:[[92656,48460]]}},{type:"Feature",id:"6531",properties:{name:"喀什地区",cp:[77.168,37.8534],childNum:13},geometry:{type:"Polygon",coordinates:["@@Č@°ĠôÓô@Ŏĉ@Ƴĸ@Ť£ĢlVôWVóřXĉŤêÞ@ƐÒĢÑlèÈV@ĠIk°ÆŘ@ÈÈĀ@ǶťÒğ@@ÒĉlŻ_@ƧĖÅĬōÆ@bźÞnƒlVÝĬWÆ¼ʇÝÅ@ÇÅÈwWóĉ±ğzĬČƨÆÝIĉÝ¯bÇÑĉ¯ʈV°xUŰĊ¤ƪ_ôÓɚI@lȚXȮŎlɴȘ՘¦ɲÆʈ_ɴźôÞʊŎĠɆxˤ£ɄÑVwXƳ¯wɛŹ٧çƧ¦ōُ͇еϻɃɳUÝ¯@ōÝŹ@Ý»mğ»ÝKkŁżřɅƅƒ¯ÆīĊ»ôVôĕÅUĉéV¹ƨémanÑ±ĕnwmwnÇÛyĉ¹ŹlŏkĵèķmōÞġKñÔċKÅèĉzômxȗÿƿI@þÅČÝKÝ°@¼ÈVº@ÅĢÆUċłnÝÆǕČĵJm£ÝJ¦@ĊxV°ƏLċ¼ǩ@m@ÅĢómÇÆğ¹ÇÆĖÞKxwô¦ÆÑÆL²ÆƾU±ŚÅŻĖ@ĬŤÈñ@ǔÇxÈÇƒ","@@VÇţ°ğUĠ¯mk¯ó¥ķIġÿƏbĉa±ÒĸĀlKU_m»nwm@ÈŤ¦ĉbÞ°±Þżł̦°ĢŁVé"],encodeOffsets:[[76624,39196],[81507,40877]]}},{type:"Feature",id:"6542",properties:{name:"塔城地区",cp:[86.6272,45.8514],childNum:7},geometry:{type:"Polygon",coordinates:["@@ήnĸ¥ʈ¼ĸ@ôϰÒ@ƅƒōUķƑǫʶпU֛܃LګK@΋ĸ@Æ£ÞġÅĠċLVÝ»@Å»Ýnm¯»nŻĊ@nķŃ@¯ómóÛÝǟ¯aÝóȭ¥ōUmxĉbÇÑ@bUº¯X¯ÆƧbVÒĉnǕw¯°ƑVÇ@kx±UɱnÅK¯ƒĠǠU°ɜL@°xnĬĀŋŎÇLğϱÞέƜkôÅĀǕłĸĊŤUŰĢ°¦ȂϰÜɨ°x@°żǠÆƈČVĠ»ČL°ÇbĊÑ̐óÞlĶwÞɆVÞwǬxǪţÈ¼ÜLŐĶˢ@","@@óKĵĀV͈ĉłƾǊÆŤzXl°ÆL²¼źôÈĢǔ¦lô°ɜÞʊĠğÅm»ʵƳƑʝȗīV¥¯ĉ°Ñ@ŃÅI»ĉmğnaċƨbVğwġ¯@UōaĉÝJğÑÆŎkŎÞĀlź¦"],encodeOffsets:[[87593,48184],[86884,45760]]}},{type:"Feature",id:"6523",properties:{name:"昌吉回族自治州",cp:[89.6814,44.4507],childNum:7},geometry:{type:"MultiPolygon",coordinates:[["@@መL@È°ĊȂɆƒÆĊ£ťôWÓɆbĢÅŎÆ¦ČÑW¥°ķU¯ƏŃVē±Ý@óçĭɃƾřÆķkwŹŤ¹ġ¥ĵKŏÅXmˍщwǓ¤Ƒ@wóōVķ£ɱġôÛa±ÒȁóèţIVƽ¼k¤ó¹ġJmx»ÝU²@ÅÆĸǫŎĊmŎǬ՘"],["@@Þô°bÞǠôÜôn@°ĸńǶkł¼UÞKğČÆÝĢÅ¤ķ@@ΌڬL܄K@ˣȂ˭lĉÅW¥ĵVÆý@ŃÞēUŃȗƅ@ŹƩǕĉ»k»ÇVğóřXŻKƏċêȁèÛŎġͩń"]],encodeOffsets:[[[90113,46080]],[[87638,44579]]]}},{type:"Feature",id:"6530",properties:{name:"克孜勒苏柯尔克孜自治州",cp:[74.6301,39.5233],childNum:4},geometry:{type:"Polygon",coordinates:["@@ˎǫĠƽ°UUĉ¯±ȁÑm¯ÝōˋōwUÅ±»ÅƑ°Ș@²¯ɳʇ`ɱÅ¥՗ɳȗōkȭșW@kəJóÔƩ`ĉ£Vů¯wU°ʇĊÈÒ°aĊÞÞJÅċƧīĠyĊ²XôÇxÈÆÆ@ÞʈÅ»XÞīUƑkmŹÝ@aŎÅÆīƨĕ@ż`Ċk@ÑĠ@ŦÑ@ǵÇÿ@ÇÅŗl¯ğJ@ÇUkçġÒƏÑÝ@ţéWĊôŚUóXUġkţ¤ķ@@ƴōĊó@óÔğ¯ċ@@Ò¤kôˣŰ͓k»KX¯ċwƧôğɐÒôIVÆ¯UķǬķn¼ôb°ÒȰVVÈÞ°ĸó¤V¼°V°²êlĢÒUƨ¦ôȰƴĊVV¼ǖIċĊÞɜénČW˸ǸařÈw±īçĸ¤ĊôwĸUĢ¦éǖĬĀô¼lÞkÒ°x°ƆÞxÆV²ǔ»b°wÞȘ¥°nŎV@°ʠèŰȂb"],encodeOffsets:[[80269,42396]]}},{type:"Feature",id:"6521",properties:{name:"吐鲁番地区",cp:[89.6375,42.4127],childNum:3},geometry:{type:"Polygon",coordinates:["@@ôKĉǪa²¼lÜô@ʠê°ĬôȂ²ÑÜbĢóɲĸ¤ŎUô@xƒǔ£ъxˎmÈÛ@_nĕÞōřǫğůlȯ¯ĸ»U»Ükôƛ°ůkť»Ŏŗ@¯@±͓óͿǓ@ķȁ¼Ϳ@Ƒ¼¯°ólġ¯xȗUġƑǩÒƧUÝ°˹Kóx@ǸōĬÅĬƑĠóƒǔêÆ°XÒʟŤUÇ¼ˋnn¼±V²°ȂUŌÝbʟǔɅô@żǬaҎÈ"],encodeOffsets:[[90248,44371]]}},{type:"Feature",id:"6540",properties:{name:"伊犁哈萨克自治州",cp:[82.5513,43.5498],childNum:10},geometry:{type:"MultiPolygon",coordinates:[["@@ĉÆŘȁ̐mÞ¯ĀX°±¼@ƾ¯ƴ°ŎÝþŋ¦WÜÞbȂĉźUÇmwVUȂóô@ȰÝ΀nÆJnƾʠŌLČóǪ¯¥ǔaǖŌaôÝĢLxÆLɲm²VlwÈ@Uƒ°¯ǖxĊmUÑƨa°Å°WV¹aÇɃÈm¥°¯ŹóĸķǫUm»Å¼ÇVɱlÝŋnķÇÝX¯ͩÇɳaÝ`±_U±ĵnWa@ĸóķ¯ǓV±ÅĵJċ¹ɅykwÇ¯£Åxʟ»lķI¯X¯ķêǕȭnķ»Ź`±kÞ@Ýô@Þ°xŤŎIƨÆUxō¯²ǔĬǬlUŚ"],["@@ÞĀlź¦¯ĸŤKÞċƨbVğwġ¯@ţƽJ"]],encodeOffsets:[[[82722,44337]],[[86817,45456]]]}},{type:"Feature",id:"6527",properties:{name:"博尔塔拉蒙古自治州",cp:[81.8481,44.6979],childNum:3},geometry:{type:"Polygon",coordinates:["@@ήƛϲÝĠÈKŌōÿmīw@¯ɛKV¯ğǟ°ƑwġKóÞŋbǕǓb¦ǩ°ċôŋKʟƽmÅImͿȯÞó@ȁôUVnxÈŹVȁĊÝabŻ£¯°lóxȂŤĸkĊÞyĊêĊmĢxVƨÈĠXΘÆĠÔźɆţ°LXƾŤŤb"],encodeOffsets:[[84555,46311]]}},{type:"Feature",id:"6501",properties:{name:"乌鲁木齐市",cp:[87.9236,43.5883],childNum:4},geometry:{type:"Polygon",coordinates:["@@WôŚUĠÈl¼Ċ¼ƪǖ@źȘƆ@ýlÜXVŘÞ¦V¼kĖóÒèkĊȁˮ֜@ǫ՗nōĉǬōķÆÅ@±ÞV¼nwĢIôºl£ƾ»UŤJôçó¯īʟéó@kÛ±»ǩbĊóLҍÇǫb@ŻɆóʠǓaŋÞȁVʉłĉbĉɅô"],encodeOffsets:[[88887,44146]]}},{type:"Feature",id:"6502",properties:{name:"克拉玛依市",cp:[85.2869,45.5054],childNum:2},geometry:{type:"MultiPolygon",coordinates:[["@@ɜÞʊĊýVaÅm»ʵƳƑʝȗīV¥¯ĉ°Ñ@ŃÅI»ĉmğnaÝţL°ķóKĵĀV͈ĉłƾǊÆŤzXl°ÆL²¼źôÈĢǔ¦lô°"],["@@ƾIŤ@UUwōaĉÝJğÑÆŎkŎ"]],encodeOffsets:[[[87424,47245]],[[86817,45456]]]}},{type:"Feature",id:"659002",properties:{name:"阿拉尔市",cp:[81.2769,40.6549],childNum:1},geometry:{type:"Polygon",coordinates:["@@nIÇŃÛÝĊÑĠƏōгwȁ¥Ƨ°ŹÑķV¼ÞêĊ»lĵm¦ÅW@ĀôÈźaɜxÈbÞÆĶIОŘ"],encodeOffsets:[[83824,41929]]}},{type:"Feature",id:"659003",properties:{name:"图木舒克市",cp:[79.1345,39.8749],childNum:1},geometry:{type:"Polygon",coordinates:["@@VéVÇţ°ğUĠ¯mk¯ó¥ķIġÿƏbĉa±ÒĸĀlKU_m»nwm@ÈŤ¦ĉbÞ°±Þżł̦°ĢŁ"],encodeOffsets:[[81496,40962]]}},{type:"Feature",id:"659004",properties:{name:"五家渠市",cp:[87.5391,44.3024],childNum:1},geometry:{type:"Polygon",coordinates:["@@çôÑlĕU»¥ÝUŗWkÛ@þVńÝĔ@ńÅþĶUX¦Æ"],encodeOffsets:[[89674,45636]]}},{type:"Feature",id:"659001",properties:{name:"石河子市",cp:[86.0229,44.2914],childNum:1},geometry:{type:"Polygon",coordinates:["@@lŁǵmĉ@mż¼n°ÞmÆ¼@"],encodeOffsets:[[88178,45529]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/xi_zang_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"5424",properties:{name:"那曲地区",cp:[88.1982,33.3215],childNum:10},geometry:{type:"Polygon",coordinates:["@@ƨʔĸbÜºÞwnxźbÞ°ô@ĶĸIÈ¼ĊJŎÈôUÝƒ¤ǔLÞŎ@ĢȘblôLÇźçÈ¤ôL¥ÞIÞ¯ĶxʊťƨƿÑĉXVķŦ¯ȂKÇǕÑ¯IU£¯Óƿ£VĕÅÞÿÆwƑ£ǖxÞĕ±ÇÝaUÑÈU¯UōÈÝwWŁĵ±ÝóĢÿ°IÞ±mÅĢ¯mÿ¥°UnÑŤĢĕĶwǬŻͪwŎ¼źÇĢĠĕˎŁ°óƨ¼Èam@¥°wǔǖ°ƨÇŤġƨŎŃôbÈÛŎĊ°@Ġw²ÑÞJÆÆb²°êĊUÞlÈ²VÈKĊÒĸĉ»ÅôťUÅÇk¯@ÇÑklÇÅlĢVÑó@°@ÛĸV¯ÇĊn¯Uĕƽ¯m¯bÈ@Ò°Ĭbĵ¼kxķýÇJk£ÝaUÑÅóĶǟkÓʉnĉÝ¼Ƒó»Þmn£mČ¯@ȮÿV¯ĸk@Ýów»ğġ±ǓLōV¼Əèķĉè±b@ÒţUÑóakl£Ó@¯L@ÇlUóȁ¯aġÈÅĕÝLķ¯Ė¯@WĬxÒÈnW°ţôU²ǓÓġ²V°¯ôǔÝLċk»Ý»Ý¯ÞVwÛÝÇōͩÈĉċ»ĉm¯£W¥ţKkóġƏW@¯±kōÈb@ÒÇaÆ¯akóÛÇ¦Ýa¯Ýĉ@Ç»ÛmǓxķƛ¯lVĀÅÞġbÇJUÅVĖƑWzō»ōWn@è¯ÞóVkwƩnkźÇÞÒÞ¯ýğÇUxÆÈnè±bĉÝ»ÈŃwwÞ@m»ÈV@ýÇ°ķxaÝ¯Xċ¥ÈóW@ôkxlnxVÈóĊkŤġ¼@°¯ŰƑL̻Ű±ŎÝVÞVÇÞÅÇakƞ@èğŎĸżƾ°ÒLÞôĠKȰĖźVÈÒĠ¤VôUÈþťL@ôǬÞlÜÈnÇÒUŚ@ĊƨW°°X@ČÇþƴĉÒķ¦@ĢôWĀôłUÞĢǬź°¼@ôV°bUÆnzm¤ƽĸÈ"],encodeOffsets:[[88133,36721]]}},{type:"Feature",id:"5425",properties:{name:"阿里地区",cp:[82.3645,32.7667],childNum:7},geometry:{type:"Polygon",coordinates:["@@Çƾķn£myVÅaU¯ó@¯»ŹġǫVÝóŁXÿġó@ĸ¥ĊÑƳÈý@ċW¯X¯ĉƧ@VřÈÑÇmkÛǫÝ@óŦKÇýVUó£ğÇÑŹUȯĕğLÝóK¯ÑƽķŻĠō@çlƝÈbÆÈÝUÝÞU²ō̼ůƒK°ů@¯UK±ĊƧbōÇmçÈġóÅóbźó¥kīÆ¯ólçKôĵUÅVŃķ¥nÅŏm¯¹Å»@ÑÇóxÝkʇȤU¤ķb@ƒ¯ĊÇx¯ĸĉKm°Āk¦lKnĬȀƾÛ¦WÆÅmǊĉ°ōUţ¤UŎ°ŎKÞłÆǓ¦Þř¯bmUÝl¯Umğl¯£șwÅǫaÝnĉĶk@¯Kō»ĉnaÞ»ťnkmlĸ¥UÅŻkÑťĉVôó°LôīĠUÿĉǕÅz±K¤²ō¤¯Ė¯UÝ¥VĵóÈťÝwķÈÑk¤óWýĵĕVĠVóǓķ°k±VU±ţ¦UǟÝÅJVÑ¥XUċUÅlÛƆǕÆȗƆ¯wŏÞÅ@ĉlÝóÒnUôÅlxólÝôÛ±LÛôÝL@ġ¯X¯ÇUÅ¼óaó¤¼XÒġŎóLk¦ôÅ¼ĸĠ¼KġƆô¦ÆƑÔĉĶ¯ImÒ°¦n°¯ÞlÝČnƒÒKĠÞĕklýƾťôIĖŤÒnƜm¼¯lnżóÞ@Ůó¦ôƽĖċŚn°Ý°ôÈUƜblÞó@ǖô°UÈƆ°XþôôlѢ²Ėm¦°@¤XĊblÜzkºƒĖmXŎWVóÞn°lĠxȚa°»żLźb@Æ°XĠÝȚxĊĕŤaȚ°È@@èŤ¦Ü¼WÞkÈ@V°lŤkŎ±²¦ƐUǉ°aÈÑŎbĢŎbÆ¥ÞIȘlôVÈUbkɲĶnmnXb̼òƾĖŎ@ĢȂÑôÓĠĖʊĊÔ"],encodeOffsets:[[88133,36721]]}},{type:"Feature",id:"5423",properties:{name:"日喀则地区",cp:[86.2427,29.5093],childNum:18},geometry:{type:"Polygon",coordinates:["@@ĶĖXþôl£ÒĸÇÞxÇŦôUĶÞ¦°V°ĕŎ£±£²LÆyĊǖĀğVóĬ¯KóôUĊŦlÒżVÆķ¦klnŦmÝ¼bĊmŎ¼L@°lĊĵÞmǬbÆȚx°¤Ġkn°VÞkVn°aŚÝǔ¥ÅÝŁōL¯ōVŤ£ŎVĊ¯nǉÆXÅÜ¥ǿƽmīLkl¥ÿn¯ĊL°ķÈw°ĉ@ƑĸaV£ʈȣÞlôwÈ@Ò¼Æ°ºŐnmÆĸ¦UńÆVóĶLèôkÅ°lĬ¦ŹôôaÆôÇĢnèŎÈƨaĉ²VLĢ»lţôĉUÇwkmlw@óôXÇČ¦°WÞbwĸÈ¯@þÇUn¼Ý@xxÇńÞ¼Ċ²amçÅÇVwĠÈþ°ÝÑÈÝlŹƪmlxôU°Ý@çmXŎŎ¼yƒXĕÆUVÈIĢaÆÝUÿ°kĸƜǔwnÜÈ¼Ċ@Þ°ÞbÈ¥Üôl°bÅÈb@ÑaÇ¯UU¯Vġ»¯aV¯Ç°ÅmnÑŤçǬVǬ±ĉ¯¥Vĕ¯Ýk£ōw@±ġÛ°ÇVÑ@Ûa@ČLƳÇa¯¤ÝIĵ¼U¥ƿōķÅţŻókÝóĕ¥¯U»Æ£X¯ġŃÛkÝ°V°ó¼¯èWôÞĖȎkĀƧĀówm¥¯JÅ¹ÝJÝōVVÅaÝƑ@ğŭÇ¯_ĵVnxÅónĵxÇĖĉVÝÈğVÒó¯±Żĉ£ķÆÅLǈĉýţÛ¯VnV¤ÝÈ@°ÅÞÝ¤ŰğŁm¦ÝxóK¥ɱÈUĠôêVôÛ¼ÇWÝçĵaō¦óĖƧlÇĢƑnŎÇV¼¼ºÛ@m¦ƽĉmm¯ÝKÛç¯bŏłĬb¼ÅLmxť°ÅUÝXkÝmĉ¦W¯KÒknÝaVÝè¯KɅńÝKnÞ¯¼"],encodeOffsets:[[84117,30927]]}},{type:"Feature",id:"5426",properties:{name:"林芝地区",cp:[95.4602,29.1138],childNum:7},geometry:{type:"Polygon",coordinates:["@@VÈłVôÈk@°K@Ôk¤lôbVÒŤ@Ñ²açĸĊƐçU»ŎǔKĢ²Ġ¼ôx@ÞlƨĬUl¯ÈLVÞJ°ÜnʊwÜbXêVÞ¯°anaU°wÆ¼ɴÑWÑ°mÈýÈam¥Þ£Ť@¥ôblÞĢź¥ôxÈÅmÝĕÅV»ĉōŤōnó»ÈīķIUĠÑ°ġĸLÞ¯VÒÆ@Āb¼WôÈ@V¼ôóŤKÈÑU»wVǫżnWÒÈx¼lŦ£ĊōŤx²¯@ÆU¯çÆ@¤°£é°k°lůÈó@¯ŤÇÈĉkkÿó¥ÝXķÑÜ@ÒóŚÝ¯°ĉówÇ±¦ÅJUÒĉĀķw¯°mĖ¯±akxÝÅn»lÑK@¯lU¯UVÑ¯óĊ¯mōğVǓƅÞWÝÈÛ@ƿô¯ÜġzÅþ¯ólmôʇġĊÅUͿřŏȁˋŁóÇˡōƧÇbw°Ķôk¦ÒnUþġÒÔkǔķèó@²@ŘōńĵyzġaÝ¤ÅI¤Ƀť¦ğÑ¯¤ķbó¯ó±U²°¤ČÜVnÈÆŚŎ°ôĢþÆzèVĀÇĀÇXŹÑ¯¤ówċķk¦łUÒġzÇ@ÆÝx@²Þ@Æ¤Uô¦U°xU"],encodeOffsets:[[94737,30809]]}},{type:"Feature",id:"5421",properties:{name:"昌都地区",cp:[97.0203,30.7068],childNum:11},geometry:{type:"Polygon",coordinates:["@@VĖm°ĉÈU°ķÜ¯@@ôUÒġkÆkÈlÒ@Èl°ÈVÆóŦÆ¼aÅĢɄwnōw@¥Ŏ¦°ŹÞmV°wnÿwwÝw@¯mÞŗ°wĠĸkÞğlĔ²¦°@ĕĸwVóal@nĢÇĊn°@¦źUXçǔůĸVÆKÈÝĠ²ÅĔô@lÈ_mzǖlaU¼ôwV°¯¦ĬÈal@ČÇ¼nIxô»ɜ@ƨ¥ɆŁŃǪȁkƛƨȍʊȡóĭ@ÈÇVůÞĸƅmēƨťÅÈʉVǵ°ġVŭÅɧ°ÿnɛ£mķ²ŃóÑUĉ°mÇ»¯@mxUĀ¯èţ°ȁÝçġU¯ÆÇţÈ@°ÇôŰ¯k¯lê¯¤£Å@èV°Å@±°ţwĉŎť¤k»ÇwXÑŻmUǬxV¼ÇÒţLóôU»Ç@Xó»a@ÿÅUÑÝ°ķK¯ĢğÒVĸJÇĬ¼môţŎĊŎU¼ÆĖnÞÇÆówŹ¦ġkÝóa¦ţ@Ý¤n¦ÇbÇþ¯nXÒɳÒÅ»¯xVmbb¯Ý°UWéÛaxʉÛm¯ÝIUÇKk°VƧīķU°ȭĀ@ċ°nm¤Ýnô¼ƒÞ»ĊʊmlÔĵǠÆôVÒÞbl¤ÈIĸþlw»Ķa¯ī@ÑÇ°anƾ°"],encodeOffsets:[[97302,31917]]}},{type:"Feature",id:"5422",properties:{name:"山南地区",cp:[92.2083,28.3392],childNum:12},geometry:{type:"Polygon",coordinates:["@@°ÞUĖ°¦²ĊôÇÜLǖĀɜȘŰÞLĸźêÞ@UÜUŤ°ɞ¯Ü°WŦĀmŎ¦ĢyVÑŁl¥Čĸôx°£źÒWÈÿÈUÿçÅyýóġō¯řÅmÇÛUċ¯£V±²°ôôĸa°£ĠÒŦ¥Ʉ£ÆJÞ£ĢbyĶzŎŃ@ŗ±ô@ĸçlǓÓĢÑVýmÑl¥ĵó¯̻̥ƛǫÝһÇƧĉyţ¼ҍēVĶĉŎ°ĸmÞVÝĸÒÛaċóŹĖèÈÈl¼k¤ÝX@`Þŏ¼Æō¼ÇçĉKUÝÝ£ğ¤@¦ġl¯Òġĉ¯ómóxÝÞğVƴċK@b@ÜUÒ¯ÈĢÜ@²xŎl¤"],encodeOffsets:[[92363,29672]]}},{type:"Feature",id:"5401",properties:{name:"拉萨市",cp:[91.1865,30.1465],childNum:8},geometry:{type:"Polygon",coordinates:["@@Ŏ²l@°XĢƐlôŤLX¦°¤ĊnČ¼ÇĊŎͪÞÈÜxU°ÝÞÞ¼¼lČÞKǓ°óU¯Ģ±ǔÔV±ŤóX¯ÇmÑwXī°@°ĕĸÞKÆĖĢÇ°bȂÇŁUV¯wVó¥VÅ£Ý@@±ÞwÅÈ@¥nōťÿ¯XÛɝ°ţ¯ÛVVÝ@ŹéķÝKȗůɛǕÿÛKóÈǫǫUţèmÒn¯Æ°ÈU°b¼UĢV°°V"],encodeOffsets:[[92059,30696]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/yun_nan_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"5308",properties:{name:"普洱市",cp:[100.7446,23.4229],childNum:10},geometry:{type:"Polygon",coordinates:["@@Uô²a@²²Ķ¥V°Ķ²bl¤kVxl@°Ś²@y@ô¦¯@xxVxUVbVÜm¼ŎĢmºXXWÆ@ĀmmXU°ÅÒm¼Þx°w@°XêĠ°»nV°Ul@k@V±ôī@£ČŃÆ£KÞý@¥k@ya@nWVUVwm£Jknm@wmknXX¥mUUlUnb¯°nkVInlIUw°nmk@@mlanXlanmk@wVWUw_@éĠanmUaÜ£mX¥¯@@óUmÝ¯¯ÞÝlKnxô£»»ĠJ°aVUÝÿV¥ÛbI@wmón¯yÛL@WkÅmÈ`IWa¯K@¯mUnmaXmbmak¯ĢÒÝm¯mV¯KÇb¯KÛWWX@aVknċLUWVkXóW@ka@ób¯Uwmb¥UUlaU¥U£maķKXkmÝ@kwmÑ¯k±ċbUUVakaġ¦kL@`a¯xmÅLUW@ċnÅUV°LkL@b°°@¤²nôôkl°kèÒÈzV¤ÈWôônV@¦@¼Ux"],encodeOffsets:[[101903,23637]]}},{type:"Feature",id:"5325",properties:{name:"红河哈尼族彝族自治州",cp:[103.0408,23.6041],childNum:13},geometry:{type:"Polygon",coordinates:["@@°°nÞôV@°@¦WnÛ¤Vbmnğb@ê`VxUX@xÆÞUnnWÞĸĢÈ@Çè@zÛÜWÅêl²KnV¯ĖĊx@bk@@°JÆ£Èblnnm°nlUkVUUwVmKnnVÞxVLX¥laX@@xl@VzÈVmk@b°ÈĸmV¦`WXbUbbX¼°x@aVVkn@lþnXUlVxŤÅyIUkaIŎĊ@lXx@bz@ô¥_V@ln@ôy@al_l`nmÈ»@kmXwWKU¯»aÅ@wmUÝKUaUUwW@w²»@kÆV£mm£VKkÑV@@»nw¥@kÆnllIVlnLVakalknJWmnaUaVÑVVÞn¥m@¯Uÿl@VçaXaV¯UyVLVk@nJlXLlkxlbla²Òl@nVJVkxKlkUaVķÝÑU@Åm¯@±Uó°ğńķĠmUÑ@Ç¯¯Å¼@nml@°¯¯`@w£@¯Çk@»nmċ¯U»I¯LÇĶÛn@bó°Uwm¯UmÇ¯aI@ykIVU¯bIğ¼¼ó¤mwkLÝÞ"],encodeOffsets:[[104243,23429]]}},{type:"Feature",id:"5326",properties:{name:"文山壮族苗族自治州",cp:[104.8865,23.5712],childNum:8},geometry:{type:"Polygon",coordinates:["@@wô@²¯maUmôUÆx@XbÞInlVUVwJVaUK°¥xmÞXnlKlnna°@ĊČÆwUmnkl@°£nyn@VV@Vak@@kÞÝbmx°Vnw°klÞInĖÞVlKl@Xa°KlVU@JnxU@ÈĢbUKlm@ak_wanWUk°l»k@Wk@lwU_@UalóU¥ÇnkJW@mVXx±bK@nV±a@Åa£ÝK²WknamKknÇk¯aVV¯ĀUÒ¥I@mm¯¯xÅW@@`k@ó»UU¯lm£ÅWlĵw@mmwÅmWU@y±UxmwU¯U¥Ý¥¯£m@kÇVUV°VbklLwUlUImk@±ÑkbkalwkWKkmI@UlUKVzU°WbbUè@kVĀ°@nm¦ÝUUUÒVbmbXnmIkllbUbmKUkkJmkÅ@l¦mx@¼U@lÒULn¤nU¤Å@l±¼@xXxVVVbÞLVn@xÆb°¼V"],encodeOffsets:[[106504,25037]]}},{type:"Feature",id:"5303",properties:{name:"曲靖市",cp:[103.9417,25.7025],childNum:9},geometry:{type:"Polygon",coordinates:["@@È¦lKÞĕUV¯Um¯ÇVUnVVUĉnĊÇƾLn°°ÈJÆw@lbÞa¦VXJ°¯W¯aÞJVkUa@lKnÅmWUk¯a¯»@m±@ÑkkbWWX_WÓU»_lkÑm@U»m@l@IWċn¯l@VanVUVUVwVxKÈVmUē@n@VÝÆLwVVwnVlmkUVÑÇ°ka@kÿÝaÞUl£ċĕX±±ĉa@UnVnalónk@wlUVmkÝJaW@ÅwóVVnnb±°@óxXLWxn@lÇ¼nmk_k`@bózm@kU@`¦ó@nW@ÜÅXWw@yb¦@ÒlnUb@xlÜk@²Ç@U¯bmy@kV@bb¦U`lLVx@bLl¼Þ¤@°VVÞU@WÞUbJ@nn@lnnmxUUUbK@ÇwklkUVWakn@lbU@@ULVxkKUn°¯Ò@¼km¦m@klȰ@lUl¦@Vl°wnnþĊUÆbUxbVĖU°annaVal@@b"],encodeOffsets:[[106099,27653]]}},{type:"Feature",id:"5323",properties:{name:"楚雄彝族自治州",cp:[101.6016,25.3619],childNum:10},geometry:{type:"Polygon",coordinates:["@@mÒXU`Wn@Xl±¦Uxnbl°knmKUxxVôUx°¼ôÒÈ°JlnÞKĠW°¦Vx²JVw_°¥@UV@@wnymknK¯I@²b°£V¥wUV¤nLkÆJÈwôô°l»Č¯ġVUU@@°ÝXl@U»°Å@U¯@w±¯VmUUlm@mÑnIVyUwmak£Vwm±@Çw@n@UxkwlÇnLmkÅ@±kka@kóJV¯Ç»U£lw¯Xalbl¥¯UX@aUaÈL@ÇVIVkaU¯mmakLWkUJ¯Umxn@kUx¯xmWÅīÝkkbŤbkxWmXwWk¯wKkLÅ¤ċń@¤óĬU²@@lk¯VmU¯¼@xV@k°l°kbU°nmVnU@°UVèÞÆbUÒÞnU¦V¼lô@Vl"],encodeOffsets:[[103433,26196]]}},{type:"Feature",id:"5329",properties:{name:"大理白族自治州",cp:[99.9536,25.6805],childNum:12},geometry:{type:"Polygon",coordinates:["@@lbKVIUa@²m@bxôÒÜxXLmbnl@K°¼kUôxôlV¦nJUÆnm@xÆwbXÆôôLUVwôK@wlmaVw@WknmIUmlnJla@_@kÝmKUaÑm¯Xw°aUaVl»²JVbÆJkôĶĀ²VVkmbVwUówVwnLlmk¯maVw²¥Wk@XmV_WnÑUk@kó»UV¥ÝmVÑÅaÝUçV@¯VUmn¯mVlak¯l¯U@@wğWé¯@¯xÝw¯¯Jċa¯U¥mLU¤bÞȤbÇLWUwmIUVW¼kb`UVb¯L±ĊÛkÿÝKkwKţêUĉþÈV¯ÞVbU°KVk²ÝmImV@kmUkVxm¯KXÈķJU¦V°ULWxL@môb@bkx±LnVUVLnkÜWnwlLÅƒmW@kkJU_VWĊÞ"],encodeOffsets:[[101408,26770]]}},{type:"Feature",id:"5309",properties:{name:"临沧市",cp:[99.613,24.0546],childNum:8},geometry:{type:"Polygon",coordinates:["@@xĢl`²X°Vx@x°Þ°KXağUÑWbnIl`X²°bxl°V@xVxk¦mbl@xXVÆzX¤Æk°kx@lźêlaX»VUnJVxXÈKaÝȣaV£nKV¦°Čb°I°n»ÆÑV¯nWn@ÿXÅWWn¹ġōn»ÛUaUVUww@w°ó¥@z±@ř¯@kUwlk£±aĵ¯Uĵ¦±±@bó±VÝ@ó¤w¯I@mÅóm±X¯IólK@°UllbzkKlln@@ÔºUmVk²ôÒxŎUVóLbmÈnmbnlax@z@Æ¦k"],encodeOffsets:[[101251,24734]]}},{type:"Feature",id:"5334",properties:{name:"迪庆藏族自治州",cp:[99.4592,27.9327],childNum:3},geometry:{type:"Polygon",coordinates:["@@WXw@akk@yk°īX¥Uóķ¯w@n»UaVaUÛ¯mV¼kÞċô@n¯xÛÒmV¯Ô@x@kwmÅa@UaÝ¯VÅyVa@ÿn»ÝVmankmmÞÅô@n£±ğzÇmU¦VmnÜmbn@°nV@xmzÅ@mºV¦k°ln¤¼õôn@xkÆIUxU@Ť¦VmVkmkXW¤XzVx@Æx¼Þ¯b@lVĸÞVm¼Xm¦VÞ@Æ¹Vón¥ÆKnKX¯x@èĊÈ±łXaÆxnlV@UÛlȻkğV¥m²ǉmÅÞĕƒƛm°ÆmX¤mznÆV¦ÞVVb°bnÞWbn°l@VÈ@VĵĊ±@óInxÆw¥@£ÞW¯ĸ£UUKk±akkkbmWmÈķaÆÇUÈÆW@wmknmU¯"],encodeOffsets:[[102702,28401]]}},{type:"Feature",id:"5306",properties:{name:"昭通市",cp:[104.0955,27.6031],childNum:11},geometry:{type:"Polygon",coordinates:["@@mnK@wmUÅ¥móXǓŏmX@VmL@xţnk@mlUŻÒğŋ@L@mmLkm@bXÅW¼ka¯lÇŹ¯aÇ»ÝÝ_@m@@a@UklwUm@ak@bUmbmbV¯ĕUaVwÅaĉVmým¯xUk@k¥VUX¤VÈm`@ńÇÜ@ĀknĔkƞÆĠÞUVôƆÞI@UxÆ¦nl@ĊĊnxUÒ°¦Vb¯WUnWIml@xnUbô¤¼ÈxlI»KV@ÈÔJkUĖ±ÆVb@nVÜVUVLwĠlknĠ@nx°¥Æ²mUw@mmÅUl¯UÑÑUmLllIl±@VkwW@w°@U»kUóI°»ĢÑL`nUĠ²lmbôV@nJUxÆ¦X¦l@ŎUV@lVKVÅV£UaÞUnW@¯VU@ó"],encodeOffsets:[[107787,28244]]}},{type:"Feature",id:"5301",properties:{name:"昆明市",cp:[102.9199,25.4663],childNum:11},geometry:{type:"Polygon",coordinates:["@@n@VkVUn²°@x°V@¯ÆV¼k@WÞ¯@@VVUĢċ°k¼VĊx¤Ōx°mVkÑÈL°x°X°VmĊLVxUĖ°bX¦VW@kȯlkn@¥ln@»°Ñ¯VmlLUwVK@V@ka@lmXbUlVlkÈx@LVaVVwnmm@km@mIVaÝ@XVUÝ¯U@Ý£k»K@aUwkKV_¥a@alU@nz°aVÈ@@±lÛk@wVakm@Ñ¥az@XxÆW@ÛX@m@y@aWw@kōĉJlbVJzţÆUwVkmWkým@UlU@b¯wVºUVUêĠXUaUbVĊUWXUmkKWnUUUVVVÝ@kk±¯Lk±WkXlVkl@wXbmLVUIVmk@Ubma@kkaVKUkmlXLWnJ¯ÒĊ°@zkºlLUŤn@@nô@lÆnmKkÈlxVw@@mÈx@n²Uxl¤nbVxUzmJÒn"],encodeOffsets:[[104828,25999]]}},{type:"Feature",id:"5307",properties:{name:"丽江市",cp:[100.448,26.955],childNum:5},geometry:{type:"Polygon",coordinates:["@@l@@w°ÓUnÜÑ°w@mČóÝlU»n°VÜUbVbm¼@°xôĸVW¦¯Ĭl@zll@bWxXaX@ÆĠÆaXwl@XaÆ¦n¼Jn@mnKW¯È»V¯°akVanXVwl@VyUĕVUbÈīlaUk°k¯l²VUkƛô@I@mVwĊaVakaÆbUVLaXIWKUwaWÑÅKUaVk°@Uw¯¥XğÝLkm¯IÇóÑ¯»anUl±UĵÿlóÅIaU±Ik¼UVb¯bWxn°ÒVbnLlÞ@@`kbmIkVnJmnXl@Uxbkn@xóLUxVKóóÅWaÅxw@nÅmVôXLlVU¤b¦m¼@ĀbUzUÆ°ÞVb@Æbnx"],encodeOffsets:[[101937,28227]]}},{type:"Feature",id:"5328",properties:{name:"西双版纳傣族自治州",cp:[100.8984,21.8628],childNum:3},geometry:{type:"Polygon",coordinates:["@@l²°nÒlxÞ@nWlLĸnbV¤V¦kbVV¦nax°Vôa@b@lôXlWUVXČKlmU@bWXXÜ°LÈa°LnU°ÞnÑġ°lnba¯¯KWó@kmK@UĉV@k°VV¹a@y_ċl_nÓlL@anI@óWl£VUlkĕlKVwU@kVam¯ÅL@bÝk@VnUbÇbÝwÅ@ċ¥¯lk¼ÅÒ°b@¦nlUn@ÇVmÆbWôU@ÝÅōm¯aUmkWWw@±n¯UèaL¯mLkwl@°mnÈÒ¯ów@VxĀU¤°Į°Xl"],encodeOffsets:[[102376,22579]]}},{type:"Feature",id:"5305",properties:{name:"保山市",cp:[99.0637,24.9884],childNum:5},geometry:{type:"Polygon",coordinates:["@@X°Il@¦È¼m¼ÞaÞÅlÈxV¼lVôÈÆlLÞ£ÈºlkUUw¯UĕVwĊ@n¦mlnVĸIWÇ°LnUwlVn@lnUnJÞl±U¯LVUa°ÝUÇĊýVŤéLlxÞLĀÜl²ĉ°KUaV_Źé@klw¯lÅW£ÅyUW@wknal¥Uw@wUk¯w¯aW±k_mJaXVÒĠWb¯L¯Ý@wwU¯±Wk_ġwwōKmb@¤bk°lĖôUJVnÅlťU¯°VbnbWxXmÞWUĀLyWzÛKmbUxVKknÝkVĀċ¤Ux@¯m@¦"],encodeOffsets:[[100440,25943]]}},{type:"Feature",id:"5304",properties:{name:"玉溪市",cp:[101.9312,23.8898],childNum:9},geometry:{type:"Polygon",coordinates:["@@lL°xXlWxXnlwaţlaÞlÆĬnX°wVwl@mnw°VVIXllKbnnV°lbUUJ@ÈÇKVb@bW°Vk¦kaWb°kxV¤È¼U°ôI@llbl²@@ó@mm@VţkKl¹@yĉ¯°ÑIXmWKnklVULlb@lnbVal@UnVJUnKWax@lkkUlW²XlK°l²@lÞUUUVVVXmlLVnXWVUĉVaVbWğVéUVU¹W»aVaaWX_U¥nÇķ¯@alUnÇUyk@@wW@kbW¦UKÝwUmmLUnVxUVVlk¯mmnmkÇaÅ¤¯I@l@@aĉw°ĕmUL±kÆéXÜÛ@yÈç@ÇġÝķXmmÝVÅlmnkbmWkb@nl@nm¯VxkJmUJml¯°makVVnV¦WWmnl@xmnlI¤nxUVUmX@b@zl@¦Ýþ"],encodeOffsets:[[103703,24874]]}},{type:"Feature",id:"5333",properties:{name:"怒江傈僳族自治州",cp:[99.1516,26.5594],childNum:4},geometry:{type:"Polygon",coordinates:["@@WyX£lWlnnUU¥@ţVVwJlÅ@wmöó»£kml¯U¥n¹Æ@ny@wmU@¯mnamÛnUV¥ÈnĠy²m¤@ÆónÝnmlnbÞU¥aV£kUKWómIU¥ókwVól»¯Lk@mnaWKÛwóÑw@a±n@VbUJLkaÝXĉUV`lI@lnXÆƑkKmxÛXmlUKVmU²Klw@aaó@nKXwVKU¯V¥mUnkm¥ĉ@UxVĖ°VxVklmÞkKWĀkVWnl°Lnm@°UxlV@nk¦JVÈ°VÒ@nX°@ÆlUômlnô²nxmłnVV¯x@Èm°XblVUl°@xkXU¤WXXWXÆmkÅJmÞw±bxUīkKmÅVUĖÝèVkx@lXlnk¤LkĖk¦xUL°¯Ė@LnK@b°xVI¥Ua°Ñ@»nm@¹KŎÞÈWln²n"],encodeOffsets:[[101071,28891]]}},{type:"Feature",id:"5331",properties:{name:"德宏傣族景颇族自治州",cp:[98.1299,24.5874],childNum:5},geometry:{type:"Polygon",coordinates:["@@¥n@°@VwČ£ÿUlÞlmULVwnaÜLXyzKVÿXÝnWXwmaUa°¯VŦÆkUmVIókĕl¯a@£nama@¯m¯ó@óyţbġkÅm±ÛammVkLwU`Wk@VkUmÅlUUKmbkkUVUw¦ó°¼bn°ô¦lºz@x¯@U°nU¤ţU°VƆ@ÈmlnzÞl°¦ÆaxUxLkxWƒn@²ŰW@°ÈXl°Llx"],encodeOffsets:[[100440,25943]]}}],UTF8Encoding:!0}}),n("echarts/util/mapData/geoJson/zhe_jiang_geo",[],function(){return{type:"FeatureCollection",features:[{type:"Feature",id:"3311",properties:{name:"丽水市",cp:[119.5642,28.1854],childNum:9},geometry:{type:"Polygon",coordinates:["@@@VbVl@XnUXKV@¦nxlUXVnKVmnLUV@bn¤lLXK²`nnlJXIVJIVnn°KnnVll@VLXWV@UkVaVKzV@VVaUK@U»VUl@@WnUU@wVLn@Vwl@XW°LVbn@VU@Xl`@XnKVbkl@XVJlUnlVxlL@lnXl@VUnV°°@aUVLXblWVXn@VVUV@L¤VLVUVbnalLUUVX_laVaWVzXKV@@a@KUmImmXama@kU@yVIUKaVa@kXK@aWU@VIUmW@kkVmU@VwUa@K@k@U`@kUKVk@UV@VaUm²Vy@klUUWUkVmUa@_KVaXaXmU@mUlWkaUX@mmkL@wJnVVÅbWKXa@@I@aJUUÇ@VULW@akLmb@K@aXXw@mVmUVkUy@£@aU@@VkUWm@kUKXUWU_mW@wkkmJUUkLWWUXW@IkJ@k@mW_kÓ_UlLm@I@aUa¯m@ka¯LUJ@mVVxUba@LUKkXbm@Uak@@a@Um`IUbUJ@nUVW@@LnVV@lUbVlUX@`@blXklWUmXlm¦U@@V¯bml@@nUb@llnn@VbX@lV@UVULmU@JVnbVbkbVWxU@@nUVk@"],encodeOffsets:[[121546,28992]]}},{type:"Feature",id:"3301",properties:{name:"杭州市",cp:[119.5313,29.8773],childNum:6},geometry:{type:"Polygon",coordinates:["@@X@l°KXXlWb@²`bIX`l@@bWl@n@VnLUV@V@°¦@l@XVlU@@xVbUb@Vkb@@XVJVzJ@LÞ@VmLUxUJ@LUVxbxXUl@VaÈwbaÞa@Vl@XUVx@V@VLlbnVal@lbVnnLnKnL@VlbVJXalIb@KUU@mVInJUVl@xUVLnU@UÞaV@lkV@UanKL@UlKVUnbÆmn@@nUlVnVJl@@UXUL@WVIVJVxVLXV@IÜKnbn@V¥V@@I@y°b@UUwnk°ÆƨVlUçXm£aÇIkV@WV@@aWIUWUIkb@WW@UnK@UU@kaWVkVIVVnU@UWVUV@VmVkKkWIkVWaULU`UImJUImmU@wmwUVIUWVkUamaU@mVkb@KVU@aVU@anKULVJU@kÛUJUVkkVakU@aVwkW@UWkXmWaULUaUK@XJUUmVU@UVUkJ@ImwmKU@k@lUW@@akKmkamIkWl_UwVm@UkaVUUa@UamakbWlkL@aUalU@mkL@U@UlmK@XkKm@Ýakb@xnXb`nUUU@U@wU@@mKkkV¯U@lULUbVbUb@Va@LºÝb@bLmKx@VUL@bk@mxULWl"],encodeOffsets:[[121185,30184]]}},{type:"Feature",id:"3303",properties:{name:"温州市",cp:[120.498,27.8119],childNum:9},geometry:{type:"Polygon",coordinates:["@@ll@xnXV`VXWVL@lXnlV@UV@@b@¤VzUlnVU@nWxW@b@LnalK@bXVKUÈ@VVI@b@J@WbXLÆaUUmI@xlKnn@VWlbkXV@nVWnWbUbL@`VbUnVlVXkV@lUz±VnUbU@@VUlVL@l_@V@l@LVbV@XLV`VÈlxn@lU@aaVVk@XJ@nl@@LU`°LVbL°a@aUVy@anI@aanV@²wÜJX@VVV°kna@WVkaWwU@m@kaUĕÝÝŤnÈaaóI»@±XWkUķ@kV±kwUkWwUÝ»ÛkɳlImaUaWóXÿǬkUnWVmmkKţnŏÞğlUlUx@XWbV@JkX°mb@VULVxUVk@@LWWk@WIkUkJmUkVmI@y@UakLmU@mUUUkaVk@mK@UlUU@UmKmbUUUJ@n@KVLUL@VkJWXX`mnULWlkL@JVLVb@°kxkU@LVV@VLV`UL@VUX"],encodeOffsets:[[122502,28334]]}},{type:"Feature",id:"3302",properties:{name:"宁波市",cp:[121.5967,29.6466],childNum:6},geometry:{type:"Polygon",coordinates:["@@Ċ¦ĸĀ°nXÞVKkƨƑźÿ°»n@wô¥ÜbU°ÆXÞWóçĉÝ±IUÈ¥@U°wÆ»²mm_@aXVKÞVlk@akk̅@£X»VwÆXWa¯aȗbKƽŰĊxLók@@¯nKUL@xkLÑkWULUUmJUXVU@mUX¯@V`mbXbV@@nn¤WXx@kJ@nVVUVl²UbÝVUVk@Wx@V@VXzmlaL@VlLU`XUVVVUnl@VbnJlnUVVnlUKkbmnnVxlJnxmbU@UL@KUVX@xmb@lk@mnVVUè"],encodeOffsets:[[123784,30977]]}},{type:"Feature",id:"3309",properties:{name:"舟山市",cp:[122.2559,30.2234],childNum:3},geometry:{type:"Polygon",coordinates:["@@l΢ƒʠþÆVĢLĊǬXĊÜXôVÑÆwlƏÈóVĭVǓ@ĉwɛkmK@ĉXīWaĉUĵÝm¯ĉwĉ±±nÅ¼¯x@VÇ¦V²JĊÞôèÝXÅW¯VÛaó¦@xm¯¼ŹĀ"],encodeOffsets:[[124437,30983]]}},{type:"Feature",id:"3310",properties:{name:"台州市",cp:[121.1353,28.6688],childNum:7},geometry:{type:"Polygon",coordinates:["@@lVIVWVz@bXJl@Xal@°nLll@nVxnVK@UJVb¦°k`UIWJXnÆ@bUJXl@lbWn@UzVV@bVVmVnnJVXnabKUKnUVVUnVLlKVLXaJm£@mU@WanaU_°@VWnV@UVWnIVVVKlXÒlK@wVKL°m@l@ôKwĉƾůUl£@»UVkm@ƅUaÛIŏmUk@mw@a£Wk@ţIm±@ankôUlaUUw¯ōabÇbţmÞÞVĖbl@@nVXxbUl@Xmb¯lUUUW@ÛI±xU@mb@bmJ@bUzV@b¯bKUa¯KV_@Kk@@mWI@lUUb@bkVm@kwUÇU_WKU@Ux@VUnllX@VnJ@UXV@bWL@lUbbVLUJ@zV@lnbWbnnnJV@L"],encodeOffsets:[[123312,29526]]}},{type:"Feature",id:"3307",properties:{name:"金华市",cp:[120.0037,29.1028],childNum:8},geometry:{type:"Polygon",coordinates:["@@nbVb@VbUVlb@VUnVxk`lXnJlbnlL@bX@V@klV@nLnx@JlIVU@VUVnVVI@WVLVbVKXbWnXl@VlXUxb@lVUbllVUIÜVnalKX@@bV@@aUUlUwUw@naWWUVaUUaVbLlxXJVk°UlkU¥@ka@LVlXLVlVWznVn@lxJl_@WX_@mVaa@alU@kVVnaKVLlKb@UUaVabnUWmXU@k@yVI@aÅWmXIVJl_¯¥UaVI@LmUUw@mkkmK¯k@Wbk@WI@aUyUXJkU@bU@WLUyXUbkbW`UVVkKmbUaVUUK£@KVUUUm@UWkXWaUKV@b¯¯mUV@UkmW@kkKwUmkkVUI@WlkUamL@Wk_W@UVm@Ua¯KWXk@Uxm@UK@xVmV@Xk@UVV¼@VLUbUU@yULUbVlU@@XlVUVVbU@lXXVW@XUVl@@VUVÈn@VVU@lVa@UmL@`X@`WL@VUX@lUL@xlx"],encodeOffsets:[[122119,29948]]}},{type:"Feature",id:"3308",properties:{name:"衢州市",cp:[118.6853,28.8666],childNum:5},geometry:{type:"Polygon",coordinates:["@@XkVKnwl@@aVK@UwnLK@aÞa¹@Kb@UVaUaVaVK@k°VUllnL@V@xV@V@VVm_Wam@wlaÞbn@lL@WnLk@V@VlK@nkVVb@blKXklakw@wVK@kVW@UXK@_W@_nKV@Ub@kVUUm@ÇVU@Uk@VU@WUXWW@kVUaVUkU@WWXUKk@Ukmm¯LmmUJUIWJkImm_±WLkKm£@aVUmKUnLmWUkVmw@¥ULVWm@WUka@UmmLmm@@bUX@@WUIm@UVUK@UVUUUVVJmb@bXnmV¼nnn¦mJUVLV@VW@UzUlVnUbl`UnVl@XU@kl@bmÈUxVk@@J@¼W@ÅaVVnzmV@WJk@kWJ@lXbWbXxmVnlLXb@°lKVXnWbWVXmbV@XlbI@Kn@@x@VLlm"],encodeOffsets:[[121185,30184]]}},{type:"Feature",id:"3306",properties:{name:"绍兴市",cp:[120.564,29.7565],childNum:6},geometry:{type:"Polygon",coordinates:["@@x@VnnVJnIVJV_VKXblUXJllLUUnU@UVVX@mVUUUJlXUlbV@@VLVmX@@XlaVJVXXJ@b@XU@lUJÈb¤ŌJçVUUnml@@kna@wWVU@LVKV@namwkIUwmnmlaVLkUmVUkmmIUak@VmUUVUWV_kK@UKbnkWyU@@UXwl@VUÞUVak±VUUU@mlI@wXWIWbUKkLUKVmUUmVVLLambUWmIUmnUU@aUUVym@Xkak@W@z@lWVXnmVaUbVb@VakLUKLmbUU@lkV@bbUb@nW`@Xk`Ikwm@mUXyUUkWKUk@Kb@lV¦klV¯UlWIkwKUabVVUbVXXmb@VxxkVVV@bU@@aW@kLmb@lVUIVKmL@bUV@bUV@LalnUV@nbVbUlVXJVUnx"],encodeOffsets:[[122997,30561]]}},{type:"Feature",id:"3304",properties:{name:"嘉兴市",cp:[120.9155,30.6354],childNum:6},geometry:{type:"Polygon",coordinates:["@@@blIX@@VÜVUnn@lklKnI°Þl`²LVKVbnbVaVLUVn@W¦@VkVVb@VI`@blLnLaX@VVb@U@XlVa@@kVaUKV»U_lWXU@albk@VllnLVKn@@UVIUw@y°IVVXU@VV@lwm@wVkƾaJLkΡƧƒlLÝUmW¯ķÿĉ¥IŋWnèkVƧU¯ÅmlVx@V¯az@@JU@U¦m@@nVmn@VLV"],encodeOffsets:[[123233,31382]]}},{type:"Feature",id:"3305",properties:{name:"湖州市",cp:[119.8608,30.7782],childNum:4},geometry:{type:"Polygon",coordinates:["@@kLlkm@VmÛU@UW@kJ@aUK@UnmmU@maÛL@JWUUKUwUIUJ@XKWV@Vk@UIUmVk@mm@ÅnmaUVkL@VKmLVbU@klU@ÝbV@mVUKV@wUkVmIUJ@nVV@LakJWbUIka@UmKmLKmmUUVk@@nmLX`WXUV@@nUlkmlU@UbxVVIlVnn@@nUÒ@°n@@xmb@VbnV@@b@`@L@L@x@blVklVbnnV@aXb°VlU@Wb°ULXWVUVVwÈwÜ»ĸaĠnUVw²X@V@lVU@wlaUUVm@knUV"],encodeOffsets:[[123379,31500]]}}],UTF8Encoding:!0}}),n("echarts/chart/gauge",["require","../component/base","./base","../util/shape/GaugePointer","zrender/shape/Text","zrender/shape/Line","zrender/shape/Rectangle","zrender/shape/Circle","zrender/shape/Sector","../config","../util/ecData","../util/accMath","zrender/tool/util","../chart"],function(e){function t(e,t,a,o,r){n.call(this,e,t,a,o,r),i.call(this),this.refresh(o)}var n=e("../component/base"),i=e("./base"),a=e("../util/shape/GaugePointer"),o=e("zrender/shape/Text"),r=e("zrender/shape/Line"),s=e("zrender/shape/Rectangle"),l=e("zrender/shape/Circle"),h=e("zrender/shape/Sector"),m=e("../config"),V=e("../util/ecData"),U=e("../util/accMath"),d=e("zrender/tool/util");return t.prototype={type:m.CHART_TYPE_GAUGE,_buildShape:function(){var e=this.series;this._paramsMap={};for(var t=0,n=e.length;n>t;t++)e[t].type===m.CHART_TYPE_GAUGE&&(e[t]=this.reformOption(e[t]),this.legendHoverLink=e[t].legendHoverLink||this.legendHoverLink,this._buildSingleGauge(t),this.buildMark(t));this.addShapeList()},_buildSingleGauge:function(e){var t=this.series[e];this._paramsMap[e]={center:this.parseCenter(this.zr,t.center),radius:this.parseRadius(this.zr,t.radius),startAngle:t.startAngle.toFixed(2)-0,endAngle:t.endAngle.toFixed(2)-0},this._paramsMap[e].totalAngle=this._paramsMap[e].startAngle-this._paramsMap[e].endAngle,this._colorMap(e),this._buildAxisLine(e),this._buildSplitLine(e),this._buildAxisTick(e),this._buildAxisLabel(e),this._buildPointer(e),this._buildTitle(e),this._buildDetail(e)},_buildAxisLine:function(e){var t=this.series[e];if(t.axisLine.show)for(var n,i,a=t.min,o=t.max-a,r=this._paramsMap[e],s=r.center,l=r.startAngle,h=r.totalAngle,m=r.colorArray,U=t.axisLine.lineStyle,d=this.parsePercent(U.width,r.radius[1]),p=r.radius[1],c=p-d,u=l,y=0,b=m.length;b>y;y++)i=l-h*(m[y][0]-a)/o,n=this._getSector(s,c,p,i,u,m[y][1],U),u=i,n._animationAdd="r",V.set(n,"seriesIndex",e),V.set(n,"dataIndex",y),this.shapeList.push(n)},_buildSplitLine:function(e){var t=this.series[e];if(t.splitLine.show)for(var n,i,a,o=this._paramsMap[e],s=t.splitNumber,l=t.min,h=t.max-l,m=t.splitLine,V=this.parsePercent(m.length,o.radius[1]),U=m.lineStyle,d=U.color,p=o.center,c=o.startAngle*Math.PI/180,u=o.totalAngle*Math.PI/180,y=o.radius[1],b=y-V,g=0;s>=g;g++)n=c-u/s*g,i=Math.sin(n),a=Math.cos(n),this.shapeList.push(new r({zlevel:this._zlevelBase+1,hoverable:!1,style:{xStart:p[0]+a*y,yStart:p[1]-i*y,xEnd:p[0]+a*b,yEnd:p[1]-i*b,strokeColor:"auto"===d?this._getColor(e,l+h/s*g):d,lineType:U.type,lineWidth:U.width,shadowColor:U.shadowColor,shadowBlur:U.shadowBlur,shadowOffsetX:U.shadowOffsetX,shadowOffsetY:U.shadowOffsetY}}))},_buildAxisTick:function(e){var t=this.series[e];if(t.axisTick.show)for(var n,i,a,o=this._paramsMap[e],s=t.splitNumber,l=t.min,h=t.max-l,m=t.axisTick,V=m.splitNumber,U=this.parsePercent(m.length,o.radius[1]),d=m.lineStyle,p=d.color,c=o.center,u=o.startAngle*Math.PI/180,y=o.totalAngle*Math.PI/180,b=o.radius[1],g=b-U,k=0,f=s*V;f>=k;k++)k%V!==0&&(n=u-y/f*k,i=Math.sin(n),a=Math.cos(n),this.shapeList.push(new r({zlevel:this._zlevelBase+1,hoverable:!1,style:{xStart:c[0]+a*b,yStart:c[1]-i*b,xEnd:c[0]+a*g,yEnd:c[1]-i*g,strokeColor:"auto"===p?this._getColor(e,l+h/f*k):p,lineType:d.type,lineWidth:d.width,shadowColor:d.shadowColor,shadowBlur:d.shadowBlur,shadowOffsetX:d.shadowOffsetX,shadowOffsetY:d.shadowOffsetY}})))},_buildAxisLabel:function(e){var t=this.series[e];if(t.axisLabel.show)for(var n,i,a,r,s=t.splitNumber,l=t.min,h=t.max-l,m=t.axisLabel.textStyle,V=this.getFont(m),d=m.color,p=this._paramsMap[e],c=p.center,u=p.startAngle,y=p.totalAngle,b=p.radius[1]-this.parsePercent(t.splitLine.length,p.radius[1])-10,g=0;s>=g;g++)r=U.accAdd(l,U.accMul(U.accDiv(h,s),g)),n=u-y/s*g,i=Math.sin(n*Math.PI/180),a=Math.cos(n*Math.PI/180),n=(n+360)%360,this.shapeList.push(new o({zlevel:this._zlevelBase+1,hoverable:!1,style:{x:c[0]+a*b,y:c[1]-i*b,color:"auto"===d?this._getColor(e,r):d,text:this._getLabelText(t.axisLabel.formatter,r),textAlign:n>=110&&250>=n?"left":70>=n||n>=290?"right":"center",textBaseline:n>=10&&170>=n?"top":n>=190&&350>=n?"bottom":"middle",textFont:V,shadowColor:m.shadowColor,shadowBlur:m.shadowBlur,shadowOffsetX:m.shadowOffsetX,shadowOffsetY:m.shadowOffsetY}}))},_buildPointer:function(e){var t=this.series[e];if(t.pointer.show){var n=t.max-t.min,i=t.pointer,o=this._paramsMap[e],r=this.parsePercent(i.length,o.radius[1]),s=this.parsePercent(i.width,o.radius[1]),h=o.center,m=this._getValue(e);
 m=m<t.max?m:t.max;var U=(o.startAngle-o.totalAngle/n*(m-t.min))*Math.PI/180,d="auto"===i.color?this._getColor(e,m):i.color,p=new a({zlevel:this._zlevelBase+1,style:{x:h[0],y:h[1],r:r,startAngle:o.startAngle*Math.PI/180,angle:U,color:d,width:s,shadowColor:i.shadowColor,shadowBlur:i.shadowBlur,shadowOffsetX:i.shadowOffsetX,shadowOffsetY:i.shadowOffsetY},highlightStyle:{brushType:"fill",width:s>2?2:s/2,color:"#fff"}});V.pack(p,this.series[e],e,this.series[e].data[0],0,this.series[e].data[0].name,m),this.shapeList.push(p),this.shapeList.push(new l({zlevel:this._zlevelBase+2,hoverable:!1,style:{x:h[0],y:h[1],r:i.width/2.5,color:"#fff"}}))}},_buildTitle:function(e){var t=this.series[e];if(t.title.show){var n=t.data[0],i=null!=n.name?n.name:"";if(""!==i){var a=t.title,r=a.offsetCenter,s=a.textStyle,l=s.color,h=this._paramsMap[e],m=h.center[0]+this.parsePercent(r[0],h.radius[1]),V=h.center[1]+this.parsePercent(r[1],h.radius[1]);this.shapeList.push(new o({zlevel:this._zlevelBase+(Math.abs(m-h.center[0])+Math.abs(V-h.center[1]))<2*s.fontSize?2:1,hoverable:!1,style:{x:m,y:V,color:"auto"===l?this._getColor(e):l,text:i,textAlign:"center",textFont:this.getFont(s),shadowColor:s.shadowColor,shadowBlur:s.shadowBlur,shadowOffsetX:s.shadowOffsetX,shadowOffsetY:s.shadowOffsetY}}))}}},_buildDetail:function(e){var t=this.series[e];if(t.detail.show){var n=t.detail,i=n.offsetCenter,a=n.backgroundColor,o=n.textStyle,r=o.color,l=this._paramsMap[e],h=this._getValue(e),m=l.center[0]-n.width/2+this.parsePercent(i[0],l.radius[1]),V=l.center[1]+this.parsePercent(i[1],l.radius[1]);this.shapeList.push(new s({zlevel:this._zlevelBase+(Math.abs(m+n.width/2-l.center[0])+Math.abs(V+n.height/2-l.center[1]))<o.fontSize?2:1,hoverable:!1,style:{x:m,y:V,width:n.width,height:n.height,brushType:"both",color:"auto"===a?this._getColor(e,h):a,lineWidth:n.borderWidth,strokeColor:n.borderColor,shadowColor:n.shadowColor,shadowBlur:n.shadowBlur,shadowOffsetX:n.shadowOffsetX,shadowOffsetY:n.shadowOffsetY,text:this._getLabelText(n.formatter,h),textFont:this.getFont(o),textPosition:"inside",textColor:"auto"===r?this._getColor(e,h):r}}))}},_getValue:function(e){var t=this.series[e].data[0];return null!=t.value?t.value:t},_colorMap:function(e){var t=this.series[e],n=t.min,i=t.max-n,a=t.axisLine.lineStyle.color;a instanceof Array||(a=[[1,a]]);for(var o=[],r=0,s=a.length;s>r;r++)o.push([a[r][0]*i+n,a[r][1]]);this._paramsMap[e].colorArray=o},_getColor:function(e,t){null==t&&(t=this._getValue(e));for(var n=this._paramsMap[e].colorArray,i=0,a=n.length;a>i;i++)if(n[i][0]>=t)return n[i][1];return n[n.length-1][1]},_getSector:function(e,t,n,i,a,o,r){return new h({zlevel:this._zlevelBase,hoverable:!1,style:{x:e[0],y:e[1],r0:t,r:n,startAngle:i,endAngle:a,brushType:"fill",color:o,shadowColor:r.shadowColor,shadowBlur:r.shadowBlur,shadowOffsetX:r.shadowOffsetX,shadowOffsetY:r.shadowOffsetY}})},_getLabelText:function(e,t){if(e){if("function"==typeof e)return e.call(this.myChart,t);if("string"==typeof e)return e.replace("{value}",t)}return t},refresh:function(e){e&&(this.option=e,this.series=e.series),this.backupShapeList(),this._buildShape()}},d.inherits(t,i),d.inherits(t,n),e("../chart").define("gauge",t),t}),n("echarts/util/shape/GaugePointer",["require","zrender/shape/Base","zrender/tool/util","./normalIsCover"],function(e){function t(e){n.call(this,e)}var n=e("zrender/shape/Base"),i=e("zrender/tool/util");return t.prototype={type:"gauge-pointer",buildPath:function(e,t){var n=t.r,i=t.width,a=t.angle,o=t.x-Math.cos(a)*i*(i>=n/3?1:2),r=t.y+Math.sin(a)*i*(i>=n/3?1:2);a=t.angle-Math.PI/2,e.moveTo(o,r),e.lineTo(t.x+Math.cos(a)*i,t.y-Math.sin(a)*i),e.lineTo(t.x+Math.cos(t.angle)*n,t.y-Math.sin(t.angle)*n),e.lineTo(t.x-Math.cos(a)*i,t.y+Math.sin(a)*i),e.lineTo(o,r)},getRect:function(e){if(e.__rect)return e.__rect;var t=2*e.width,n=e.x,i=e.y,a=n+Math.cos(e.angle)*e.r,o=i-Math.sin(e.angle)*e.r;return e.__rect={x:Math.min(n,a)-t,y:Math.min(i,o)-t,width:Math.abs(n-a)+t,height:Math.abs(i-o)+t},e.__rect},isCover:e("./normalIsCover")},i.inherits(t,n),t}),n("echarts/chart/funnel",["require","../component/base","./base","zrender/shape/Text","zrender/shape/Line","zrender/shape/Polygon","../config","../util/ecData","../util/number","zrender/tool/util","zrender/tool/color","zrender/tool/area","../chart"],function(e){function t(e,t,a,o,r){n.call(this,e,t,a,o,r),i.call(this),this.refresh(o)}var n=e("../component/base"),i=e("./base"),a=e("zrender/shape/Text"),o=e("zrender/shape/Line"),r=e("zrender/shape/Polygon"),s=e("../config"),l=e("../util/ecData"),h=e("../util/number"),m=e("zrender/tool/util"),V=e("zrender/tool/color"),U=e("zrender/tool/area");return t.prototype={type:s.CHART_TYPE_FUNNEL,_buildShape:function(){var e=this.series,t=this.component.legend;this._paramsMap={},this._selected={},this.selectedMap={};for(var n,i=0,a=e.length;a>i;i++)if(e[i].type===s.CHART_TYPE_FUNNEL){if(e[i]=this.reformOption(e[i]),this.legendHoverLink=e[i].legendHoverLink||this.legendHoverLink,n=e[i].name||"",this.selectedMap[n]=t?t.isSelected(n):!0,!this.selectedMap[n])continue;this._buildSingleFunnel(i),this.buildMark(i)}this.addShapeList()},_buildSingleFunnel:function(e){var t=this.component.legend,n=this.series[e],i=this._mapData(e),a=this._getLocation(e);this._paramsMap[e]={location:a,data:i};for(var o,r=0,s=[],l=0,m=i.length;m>l;l++)o=i[l].name,this.selectedMap[o]=t?t.isSelected(o):!0,this.selectedMap[o]&&!isNaN(i[l].value)&&(s.push(i[l]),r++);if(0!==r){for(var V,U,d,p,c=this._buildFunnelCase(e),u=n.funnelAlign,y=n.gap,b=r>1?(a.height-(r-1)*y)/r:a.height,g=a.y,k="descending"===n.sort?this._getItemWidth(e,s[0].value):h.parsePercent(n.minSize,a.width),f="descending"===n.sort?1:0,_=a.centerX,x=[],l=0,m=s.length;m>l;l++)if(o=s[l].name,this.selectedMap[o]&&!isNaN(s[l].value)){switch(V=m-2>=l?this._getItemWidth(e,s[l+f].value):"descending"===n.sort?h.parsePercent(n.minSize,a.width):h.parsePercent(n.maxSize,a.width),u){case"left":U=a.x;break;case"right":U=a.x+a.width-k;break;default:U=_-k/2}d=this._buildItem(e,s[l]._index,t?t.getColor(o):this.zr.getColor(s[l]._index),U,g,k,V,b,u),g+=b+y,p=d.style.pointList,x.unshift([p[0][0]-10,p[0][1]]),x.push([p[1][0]+10,p[1][1]]),0===l&&(0===k?(p=x.pop(),"center"==u&&(x[0][0]+=10),"right"==u&&(x[0][0]=p[0]),x[0][1]-="center"==u?10:15,1==m&&(p=d.style.pointList)):(x[x.length-1][1]-=5,x[0][1]-=5)),k=V}c&&(x.unshift([p[3][0]-10,p[3][1]]),x.push([p[2][0]+10,p[2][1]]),0===k?(p=x.pop(),"center"==u&&(x[0][0]+=10),"right"==u&&(x[0][0]=p[0]),x[0][1]+="center"==u?10:15):(x[x.length-1][1]+=5,x[0][1]+=5),c.style.pointList=x)}},_buildFunnelCase:function(e){var t=this.series[e];if(this.deepQuery([t,this.option],"calculable")){var n=this._paramsMap[e].location,i=10,a={hoverable:!1,style:{pointListd:[[n.x-i,n.y-i],[n.x+n.width+i,n.y-i],[n.x+n.width+i,n.y+n.height+i],[n.x-i,n.y+n.height+i]],brushType:"stroke",lineWidth:1,strokeColor:t.calculableHolderColor||this.ecTheme.calculableHolderColor}};return l.pack(a,t,e,void 0,-1),this.setCalculable(a),a=new r(a),this.shapeList.push(a),a}},_getLocation:function(e){var t,n=this.series[e],i=this.zr.getWidth(),a=this.zr.getHeight(),o=this.parsePercent(n.x,i),r=this.parsePercent(n.y,a);t=null==n.width?i-o-this.parsePercent(n.x2,i):this.parsePercent(n.width,i);var s;return s=null==n.height?a-r-this.parsePercent(n.y2,a):this.parsePercent(n.height,a),{x:o,y:r,width:t,height:s,centerX:o+t/2}},_mapData:function(e){function t(e,t){return"-"===e.value?1:"-"===t.value?-1:t.value-e.value}function n(e,n){return-t(e,n)}for(var i=this.series[e],a=m.clone(i.data),o=0,r=a.length;r>o;o++)a[o]._index=o;return"none"!=i.sort&&a.sort("descending"===i.sort?t:n),a},_buildItem:function(e,t,n,i,a,o,r,s,h){var m=this.series,V=m[e],U=V.data[t],d=this.getPolygon(e,t,n,i,a,o,r,s,h);l.pack(d,m[e],e,m[e].data[t],t,m[e].data[t].name),this.shapeList.push(d);var p=this.getLabel(e,t,n,i,a,o,r,s,h);l.pack(p,m[e],e,m[e].data[t],t,m[e].data[t].name),this.shapeList.push(p),this._needLabel(V,U,!1)||(p.invisible=!0);var c=this.getLabelLine(e,t,n,i,a,o,r,s,h);this.shapeList.push(c),this._needLabelLine(V,U,!1)||(c.invisible=!0);var u=[],y=[];return this._needLabelLine(V,U,!0)&&(u.push(c.id),y.push(c.id)),this._needLabel(V,U,!0)&&(u.push(p.id),y.push(d.id)),d.hoverConnect=u,p.hoverConnect=y,d},_getItemWidth:function(e,t){var n=this.series[e],i=this._paramsMap[e].location,a=n.min,o=n.max,r=h.parsePercent(n.minSize,i.width),s=h.parsePercent(n.maxSize,i.width);return t*(s-r)/(o-a)},getPolygon:function(e,t,n,i,a,o,s,l,h){var m,U=this.series[e],d=U.data[t],p=[d,U],c=this.deepMerge(p,"itemStyle.normal")||{},u=this.deepMerge(p,"itemStyle.emphasis")||{},y=this.getItemStyleColor(c.color,e,t,d)||n,b=this.getItemStyleColor(u.color,e,t,d)||("string"==typeof y?V.lift(y,-.2):y);switch(h){case"left":m=i;break;case"right":m=i+(o-s);break;default:m=i+(o-s)/2}var g={zlevel:this._zlevelBase,clickable:this.deepQuery(p,"clickable"),style:{pointList:[[i,a],[i+o,a],[m+s,a+l],[m,a+l]],brushType:"both",color:y,lineWidth:c.borderWidth,strokeColor:c.borderColor},highlightStyle:{color:b,lineWidth:u.borderWidth,strokeColor:u.borderColor}};return this.deepQuery([d,U,this.option],"calculable")&&(this.setCalculable(g),g.draggable=!0),new r(g)},getLabel:function(e,t,n,i,o,r,s,l,h){var d,p=this.series[e],c=p.data[t],u=this._paramsMap[e].location,y=m.merge(m.clone(c.itemStyle)||{},p.itemStyle),b="normal",g=y[b].label,k=g.textStyle||{},f=y[b].labelLine.length,_=this.getLabelText(e,t,b),x=this.getFont(k),L=n;g.position=g.position||y.normal.label.position,"inner"===g.position||"inside"===g.position||"center"===g.position?(d=h,L=Math.max(r,s)/2>U.getTextWidth(_,x)?"#fff":V.reverse(n)):d="left"===g.position?"right":"left";var W={zlevel:this._zlevelBase+1,style:{x:this._getLabelPoint(g.position,i,u,r,s,f,h),y:o+l/2,color:k.color||L,text:_,textAlign:k.align||d,textBaseline:k.baseline||"middle",textFont:x}};return b="emphasis",g=y[b].label||g,k=g.textStyle||k,f=y[b].labelLine.length||f,g.position=g.position||y.normal.label.position,_=this.getLabelText(e,t,b),x=this.getFont(k),L=n,"inner"===g.position||"inside"===g.position||"center"===g.position?(d=h,L=Math.max(r,s)/2>U.getTextWidth(_,x)?"#fff":V.reverse(n)):d="left"===g.position?"right":"left",W.highlightStyle={x:this._getLabelPoint(g.position,i,u,r,s,f,h),color:k.color||L,text:_,textAlign:k.align||d,textFont:x,brushType:"fill"},new a(W)},getLabelText:function(e,t,n){var i=this.series,a=i[e],o=a.data[t],r=this.deepQuery([o,a],"itemStyle."+n+".label.formatter");return r?"function"==typeof r?r.call(this.myChart,a.name,o.name,o.value):"string"==typeof r?(r=r.replace("{a}","{a0}").replace("{b}","{b0}").replace("{c}","{c0}"),r=r.replace("{a0}",a.name).replace("{b0}",o.name).replace("{c0}",o.value)):void 0:o.name},getLabelLine:function(e,t,n,i,a,r,s,l,h){var V=this.series[e],U=V.data[t],d=this._paramsMap[e].location,p=m.merge(m.clone(U.itemStyle)||{},V.itemStyle),c="normal",u=p[c].labelLine,y=p[c].labelLine.length,b=u.lineStyle||{},g=p[c].label;g.position=g.position||p.normal.label.position;var k={zlevel:this._zlevelBase+1,hoverable:!1,style:{xStart:this._getLabelLineStartPoint(i,d,r,s,h),yStart:a+l/2,xEnd:this._getLabelPoint(g.position,i,d,r,s,y,h),yEnd:a+l/2,strokeColor:b.color||n,lineType:b.type,lineWidth:b.width}};return c="emphasis",u=p[c].labelLine||u,y=p[c].labelLine.length||y,b=u.lineStyle||b,g=p[c].label||g,g.position=g.position,k.highlightStyle={xEnd:this._getLabelPoint(g.position,i,d,r,s,y,h),strokeColor:b.color||n,lineType:b.type,lineWidth:b.width},new o(k)},_getLabelPoint:function(e,t,n,i,a,o,r){switch(e="inner"===e||"inside"===e?"center":e){case"center":return"center"==r?t+i/2:"left"==r?t+10:t+i-10;case"left":return"auto"===o?n.x-10:"center"==r?n.centerX-Math.max(i,a)/2-o:"right"==r?t-(a>i?a-i:0)-o:n.x-o;default:return"auto"===o?n.x+n.width+10:"center"==r?n.centerX+Math.max(i,a)/2+o:"right"==r?n.x+n.width+o:t+Math.max(i,a)+o}},_getLabelLineStartPoint:function(e,t,n,i,a){return"center"==a?t.centerX:i>n?e+Math.min(n,i)/2:e+Math.max(n,i)/2},_needLabel:function(e,t,n){return this.deepQuery([t,e],"itemStyle."+(n?"emphasis":"normal")+".label.show")},_needLabelLine:function(e,t,n){return this.deepQuery([t,e],"itemStyle."+(n?"emphasis":"normal")+".labelLine.show")},refresh:function(e){e&&(this.option=e,this.series=e.series),this.backupShapeList(),this._buildShape()}},m.inherits(t,i),m.inherits(t,n),e("../chart").define("funnel",t),t}),n("echarts/chart/eventRiver",["require","../component/base","./base","../layout/eventRiver","zrender/shape/Polygon","../component/axis","../component/grid","../component/dataZoom","../config","../util/ecData","../util/date","zrender/tool/util","zrender/tool/color","../chart"],function(e){function t(e,t,a,o,r){n.call(this,e,t,a,o,r),i.call(this);var s=this;s._ondragend=function(){s.isDragend=!0},this.refresh(o)}var n=e("../component/base"),i=e("./base"),a=e("../layout/eventRiver"),o=e("zrender/shape/Polygon");e("../component/axis"),e("../component/grid"),e("../component/dataZoom");var r=e("../config"),s=e("../util/ecData"),l=e("../util/date"),h=e("zrender/tool/util"),m=e("zrender/tool/color");return t.prototype={type:r.CHART_TYPE_EVENTRIVER,_buildShape:function(){var e=this.series;this.selectedMap={},this._dataPreprocessing();for(var t=this.component.legend,n=[],i=0;i<e.length;i++)if(e[i].type===this.type){e[i]=this.reformOption(e[i]),this.legendHoverLink=e[i].legendHoverLink||this.legendHoverLink;var o=e[i].name||"";if(this.selectedMap[o]=t?t.isSelected(o):!0,!this.selectedMap[o])continue;this.buildMark(i),n.push(this.series[i])}a(n,this._intervalX,this.component.grid.getArea()),this._drawEventRiver(),this.addShapeList()},_dataPreprocessing:function(){for(var e,t,n=this.series,i=0,a=n.length;a>i;i++)if(n[i].type===this.type){e=this.component.xAxis.getAxis(n[i].xAxisIndex||0);for(var o=0,r=n[i].eventList.length;r>o;o++){t=n[i].eventList[o].evolution;for(var s=0,h=t.length;h>s;s++)t[s].timeScale=e.getCoord(l.getNewDate(t[s].time)-0),t[s].valueScale=Math.pow(t[s].value,.8)}}this._intervalX=Math.round(this.component.grid.getWidth()/40)},_drawEventRiver:function(){for(var e=this.series,t=0;t<e.length;t++){var n=e[t].name||"";if(e[t].type===this.type&&this.selectedMap[n])for(var i=0;i<e[t].eventList.length;i++)this._drawEventBubble(e[t].eventList[i],t,i)}},_drawEventBubble:function(e,t,n){var i=this.series,a=i[t],r=a.name||"",l=a.eventList[n],h=[l,a],V=this.component.legend,U=V?V.getColor(r):this.zr.getColor(t),d=this.deepMerge(h,"itemStyle.normal")||{},p=this.deepMerge(h,"itemStyle.emphasis")||{},c=this.getItemStyleColor(d.color,t,n,l)||U,u=this.getItemStyleColor(p.color,t,n,l)||("string"==typeof c?m.lift(c,-.2):c),y=this._calculateControlPoints(e),b={zlevel:this._zlevelBase,clickable:this.deepQuery(h,"clickable"),style:{pointList:y,smooth:"spline",brushType:"both",lineJoin:"round",color:c,lineWidth:d.borderWidth,strokeColor:d.borderColor},highlightStyle:{color:u,lineWidth:p.borderWidth,strokeColor:p.borderColor},draggable:"vertical",ondragend:this._ondragend};b=new o(b),this.addLabel(b,a,l,e.name),s.pack(b,i[t],t,i[t].eventList[n],n,i[t].eventList[n].name),this.shapeList.push(b)},_calculateControlPoints:function(e){var t=this._intervalX,n=e.y,i=e.evolution,a=i.length;if(!(1>a)){for(var o=[],r=[],s=0;a>s;s++)o.push(i[s].timeScale),r.push(i[s].valueScale);var l=[];l.push([o[0],n]);var s=0;for(s=0;a-1>s;s++)l.push([(o[s]+o[s+1])/2,r[s]/-2+n]);for(l.push([(o[s]+(o[s]+t))/2,r[s]/-2+n]),l.push([o[s]+t,n]),l.push([(o[s]+(o[s]+t))/2,r[s]/2+n]),s=a-1;s>0;s--)l.push([(o[s]+o[s-1])/2,r[s-1]/2+n]);return l}},ondragend:function(e,t){this.isDragend&&e.target&&(t.dragOut=!0,t.dragIn=!0,t.needRefresh=!1,this.isDragend=!1)},refresh:function(e){e&&(this.option=e,this.series=e.series),this.backupShapeList(),this._buildShape()}},h.inherits(t,i),h.inherits(t,n),e("../chart").define("eventRiver",t),t}),n("echarts/layout/eventRiver",["require"],function(){function e(e,o,r){function s(e,t){var n=e.importance,i=t.importance;return n>i?-1:i>n?1:0}function l(e,t){if(e.indexOf)return e.indexOf(t);for(var n=0,i=e.length;i>n;n++)if(e[n]===t)return n;return-1}for(var h=5,m=o,V=0;V<e.length;V++){for(var U=0;U<e[V].eventList.length;U++){null==e[V].eventList[U].weight&&(e[V].eventList[U].weight=1);for(var d=0,p=0;p<e[V].eventList[U].evolution.length;p++)d+=e[V].eventList[U].evolution[p].valueScale;e[V].eventList[U].importance=d*e[V].eventList[U].weight}e[V].eventList.sort(s)}for(var V=0;V<e.length;V++){null==e[V].weight&&(e[V].weight=1);for(var d=0,U=0;U<e[V].eventList.length;U++)d+=e[V].eventList[U].weight;e[V].importance=d*e[V].weight}e.sort(s);for(var c=Number.MAX_VALUE,u=0,V=0;V<e.length;V++)for(var U=0;U<e[V].eventList.length;U++)for(var p=0;p<e[V].eventList[U].evolution.length;p++){var y=e[V].eventList[U].evolution[p].timeScale;c=Math.min(c,y),u=Math.max(u,y)}for(var b=n(Math.floor(c),Math.ceil(u)),g=0,V=0;V<e.length;V++)for(var U=0;U<e[V].eventList.length;U++){var k=e[V].eventList[U];k.time=[],k.value=[];for(var p=0;p<e[V].eventList[U].evolution.length;p++)k.time.push(e[V].eventList[U].evolution[p].timeScale),k.value.push(e[V].eventList[U].evolution[p].valueScale);var f=l(k.value,Math.max.apply(Math,k.value)),_=i(b,k.time[f],k.time[f+1]),p=0;for(k.y=_+k.value[f]/2+h,p=0;p<k.time.length-1;p++){var x=i(b,k.time[p],k.time[p+1]);k.y-k.value[p]/2-h<x&&(k.y=x+k.value[p]/2+h)}var x=i(b,k.time[p],k.time[p]+m);for(k.y-k.value[p]/2-h<x&&(k.y=x+k.value[p]/2+h),e[V].y=k.y,g=Math.max(g,k.y+k.value[f]/2),p=0;p<k.time.length-1;p++)a(b,k.time[p],k.time[p+1],k.y+k.value[p]/2);a(b,k.time[p],k.time[p]+m,k.y+k.value[p]/2)}t(e,r,g,h)}function t(e,t,n,i){for(var a=t.y,o=(t.height-i)/n,r=0;r<e.length;r++){e[r].y=e[r].y*o+a;for(var s=e[r].eventList,l=0;l<s.length;l++){s[l].y=s[l].y*o+a;for(var h=s[l].evolution,m=0;m<h.length;m++)h[m].valueScale*=1*o}}}function n(e,t){var i={left:e,right:t,leftChild:null,rightChild:null,maxValue:0};if(t>e+1){var a=Math.round((e+t)/2);i.leftChild=n(e,a),i.rightChild=n(a,t)}return i}function i(e,t,n){if(1>n-t)return 0;var a=Math.round((e.left+e.right)/2),o=0;if(t==e.left&&n==e.right)o=e.maxValue;else if(a>=n&&null!=e.leftChild)o=i(e.leftChild,t,n);else if(t>=a&&null!=e.rightChild)o=i(e.rightChild,t,n);else{var r=0,s=0;null!=e.leftChild&&(r=i(e.leftChild,t,a)),null!=e.rightChild&&(s=i(e.rightChild,a,n)),o=r>s?r:s}return o}function a(e,t,n,i){if(null!=e){var o=Math.round((e.left+e.right)/2);e.maxValue=e.maxValue>i?e.maxValue:i,(Math.floor(10*t)!=Math.floor(10*e.left)||Math.floor(10*n)!=Math.floor(10*e.right))&&(o>=n?a(e.leftChild,t,n,i):t>=o?a(e.rightChild,t,n,i):(a(e.leftChild,t,o,i),a(e.rightChild,o,n,i)))}}return e});var i=t("zrender");i.tool={color:t("zrender/tool/color"),math:t("zrender/tool/math"),util:t("zrender/tool/util"),vector:t("zrender/tool/vector"),area:t("zrender/tool/area"),event:t("zrender/tool/event")},i.animation={Animation:t("zrender/animation/Animation"),Cip:t("zrender/animation/Clip"),easing:t("zrender/animation/easing")};var a=t("echarts");a.config=t("echarts/config"),a.util={mapData:{params:t("echarts/util/mapData/params")}},t("echarts/chart/gauge"),t("echarts/chart/funnel"),t("echarts/chart/scatter"),t("echarts/chart/k"),t("echarts/chart/radar"),t("echarts/chart/chord"),t("echarts/chart/force"),t("echarts/chart/line"),t("echarts/chart/bar"),t("echarts/chart/pie"),t("echarts/chart/eventRiver"),t("echarts/chart/map"),t("echarts/chart/island"),e.echarts=a,e.zrender=i}(window);
-var Chart=function(t){this.setOption(t||{}),this.otherChart=[]},fn=Chart.prototype;fn.setOption=function(t){this.option=t||{}},fn.addOtherChart=function(t){this.otherChart.push(t)},fn.setChart=function(t){this.chart=t},fn.setProperty=function(t,n){this[t]=n},fn.formatDate=function(t){t=new Date(t);var n=t.getHours(),r=t.getMinutes();return this.formatTime(n)+":"+this.formatTime(r)},fn.formatTime=function(t){return 10>t?"0"+t:t};
-!function(t){var a=function(t){this.init(t)},n=a.prototype;n.init=function(a){var n=this;n.range=a.range||10,n.Ele=a.Ele,n.data=a.data,n.paintFn=a.paintFn,n.paintArea=a.paintArea,n.htmlEle=t('<nav><ul class="pagination"></ul></nav>'),n.paintPage()},n.paintPage=function(){var t=this,a=t.totalPage();if(2>a)return void t.paintFn(t.data);var n,e=t.htmlEle.find(".pagination");for(e.append(t.getPrevEle()),n=0;a>n;n++){var i=t.getPageEle(n);t.bindAction(i),e.append(i)}var r=t.getNextEle();r.trigger("click"),e.append(r),t.Ele.html("").append(t.htmlEle)},n.bindAction=function(a){var n=this;a.on("click",function(){var a=this.innerText;n.htmlEle.find("li").removeClass("active"),t(this).addClass("active");var e=n.getCorrectData(a);n.paintFn(e)})},n.getCorrectData=function(t){var a,n=this,e=(t-1)*n.range,i=t*n.range,r=[];for(a=e;i>a;a++)r.push(n.data[a]);return r},n.totalPage=function(){var t=this,a=Math.ceil(t.data.length/t.range);return a},n.getPrevEle=function(){var a=this,n=t('<li class="prev"><a href="javascript:void(0);">&laquo;</a></li>');return n.on("click",function(){var t=a.htmlEle.find(".active");t.prev().hasClass("prev")||t.prev().trigger("click")}),n},n.getNextEle=function(){var a=this,n=t('<li class="next"><a href="javascript:void(0);">&raquo;</a></li>');return n.on("click",function(){var t=a.htmlEle.find(".active");t.next().hasClass("next")||t.next().trigger("click"),0===t.length&&a.htmlEle.find("li").eq(1).trigger("click")}),n},n.getPageEle=function(a){return t('<li><a href="javascript:void(0);" data="'+a+'">'+(a+1)+"</a></li>")},t.Page=function(t){return new a(t)}}($);
-var intime=new Chart({tooltip:{trigger:"axis"},legend:{padding:5,itemGap:10,data:["Client","Keeper","Restaurant"]},xAxis:[{type:"category",boundaryGap:!1,data:[]}],yAxis:[{type:"value",boundaryGap:[.1,.1]}],series:[{name:"Client",type:"line",data:[]},{name:"Keeper",type:"line",data:[]},{name:"Restaurant",type:"line",data:[]}],repair:!1});!function(t){function a(){var t=new Date,a=t.getFullYear(),e=t.getMonth()+1,i=t.getDate();return a+"-"+e+"-"+i+" 23:59"}function e(a){for(var e=a.xAxis[0].data[a.xAxis[0].data.length-1],i=parseInt(e.split(":")[0],10),n=parseInt(e.split(":")[1],10),s=i;24>s;s++)for(var r=n+1;60>r;r++)a.xAxis[0].data.push(t.formatTime(s)+":"+t.formatTime(r)),n=-1;console.log(i,n,a.xAxis[0].data)}t.reset=function(){var t=this;t.option.xAxis[0].data=[],t.option.series[0].data=[],t.option.series[1].data=[],t.option.series[2].data=[]},t.paint=function(t,i){var n=this;$.ajax({url:t+"?stats_minute="+(i||a()),success:function(t){if("object"==typeof t&&t.activity_stats_per_mintue.length>1){var a=t.activity_stats_per_mintue;n.reset(),a.map(function(t){n.option.xAxis[0].data.push(n.formatDate(t[0])),n.option.series[0].data.push(t[1]),n.option.series[1].data.push(t[2]),n.option.series[2].data.push(t[3])}),n.option.repair&&e(n.option),Charts["chart-main"].ele.show(),Charts["chart-main"].chart.setOption(n.option)}else Charts["chart-main"].ele.show(),Charts["chart-main"].chart.showLoading({text:"对不起，查询数据为空！"})}})}}(intime);
-var daycount={};daycount.itemStyle={normal:{barBorderRadius:5},emphasis:{barBorderRadius:5}},daycount.grid={x2:115,y2:115},function(t){function e(t,e,a){var r=[];return e.forEach(function(){r.push({})}),e.forEach(function(e,n){t.forEach(function(t){t[a]==e&&(1==a&&(r[n].name=t[0].toUpperCase()+"/"+e),2==a&&(r[n].name=e),r[n].value=t[3])})}),r}function a(t,e){var a=[];return e.forEach(function(e){a.push(t+""+e)}),a}function r(t,e,a){var r=[];return e.forEach(function(){r.push([])}),r.map(function(r,n){a.map(function(a){var i=function(t,a,r){for(var n=0,i=0;i<r.length;i++)r[i][1]==e[a]&&r[i][2]==t&&(n=r[i][3]);return n}(a,n,t);r.push(i)})}),r}function n(t,e){var a=[];return t.map(function(t){a.indexOf(t[e])<0&&a.push(t[e])}),a}function i(t){var e=[];return t.map(function(t){var a=[];a.push(t[0]),a.push(t[1]),a.push(t[2]+t[3]),a.push(t[4]),e.push(a)}),e}function o(t,e){var a=[];return e.map(function(e){var r=e[t];a.indexOf(r)<0&&a.push(r)}),a}function s(t,e,a,r,n){var i=0;return t.map(function(t){var o="all"==e?!0:e==t[0],s="all"==a?!0:a==t[1],c="all"==r?!0:r==t[2],p="all"==n?!0:n==t[3];o&&s&&c&&p&&(i+=t[4])}),i}function c(t,e,a,r){var n=[];return r.map(function(){n.push([])}),r.map(function(r,i){a.map(function(a){var o=s(t,e[0],a,r,"all");n[i].push(o)})}),n}t.paint=function(s){var p=this;window.init(!1),$.ajax({url:s,success:function(s){if("object"==typeof s&&s.app_os_ratio.length>0){var u=s.app_os_ratio;!function(t,e){var a=o(0,e),r=o(1,e),n=o(2,e),i=(o(3,e),[]);i=c(e,a,r,n);var s={title:{text:"Analysis of Napos",x:"center",y:"top"},tooltip:{trigger:"axis"},legend:{orient:"vertical",x:"right",y:"top",data:n},grid:t.grid,xAxis:[],yAxis:[{type:"value",axisLabel:{formatter:"{value}"}}],series:[]};s.xAxis.push({name:"NaposVersion",type:"category",data:r}),i.map(function(e,a){s.series.push({name:n[a],type:"bar",stack:"OS",itemStyle:t.itemStyle,data:e})}),Charts["chart-main"].ele.show(),Charts["chart-main"].chart.setOption(s)}(p,u,t),function(t,e){var o=i(e),s=n(o,1),c=a("NAPOS/",s),p=n(o,2),u=r(o,s,p);t.mergeList=o,t.naposVersions=s,t.systemVersions=p,t.dataArray=u,t.naposVersionsName=c;for(var l={title:{text:"Analysis of OS",x:"center",y:"top"},tooltip:{trigger:"axis"},legend:{orient:"vertical",x:"right",y:"top",data:c},grid:t.grid,series:[],xAxis:{name:"SystemVersion",type:"category",axisLabel:{interval:0},show:!0,data:p},yAxis:[{type:"value"}]},h=0;h<s.length;h++)l.series.push({name:c[h],type:"bar",stack:"Napos",data:u[h],itemStyle:t.itemStyle});Charts["chart-amass"].ele.show(),Charts["chart-amass"].chart.setOption(l)}(p,u),function(t){var a=t.mergeList,r=t.naposVersions,n=t.naposVersionsName,i=e(a,r,1),o={normal:{label:{formatter:function(t,e,a,r){return e+" - "+(r-0).toFixed(0)+"%"}}},emphasis:{label:{show:!0,position:"inner",formatter:"{b}\n{d}%"}}},s={title:{text:"Analysis of NAPOS",x:"center",y:"top"},tooltip:{trigger:"item",formatter:"{a} <br/>{b} : {c} ({d}%)"},legend:{orient:"vertical",x:"right",y:"top",data:n},calculable:!0,series:[{name:"NAPOS版本",type:"pie",radius:"55%",center:["50%","60%"],itemStyle:o,roseType:"area",data:i}]};Charts["chart-percent-napos"].ele.show(),Charts["chart-percent-napos"].chart.setOption(s)}(p,u),function(t){var a=t.mergeList,r=t.systemVersions,n=e(a,r,2),i={normal:{label:{formatter:function(t,e,a,r){return e+" - "+(r-0).toFixed(0)+"%"}}},emphasis:{label:{show:!0,position:"inner",formatter:"{b}\n{d}%"}}},o={title:{text:"Analysis of OS",x:"center",y:"top"},tooltip:{trigger:"item",formatter:"{a} <br/>{b} : {c} ({d}%)"},legend:{orient:"vertical",x:"right",y:"top",data:r},calculable:!0,series:[{name:"OS版本",type:"pie",radius:"55%",center:["50%","60%"],itemStyle:i,roseType:"area",data:n}]};Charts["chart-percent-os"].ele.show(),Charts["chart-percent-os"].chart.setOption(o)}(p,u)}}})},t.paintBySystem=function(t){window.init(!1),$.ajax({url:t,success:function(){}})}}(daycount);
-$(document).ready(function(){var a=["chart-main","chart-amass","chart-percent-napos","chart-percent-os"];window.Charts={},a.forEach(function(a){var r=$('<div class="chart"></div>');r.appendTo($("#chart")),Charts[a]={ele:r,chart:echarts.init(r[0])}}),window.interval=0,window.init=function(a){a&&$("#part-info").html("");for(var r in Charts)Charts[r].ele.hide(),Charts[r].chart.hideLoading(),Charts[r].chart.clear();clearInterval(interval)}});
-var Config={pageRange:15},Tool={substituteArray:function(t,e){return t.replace(/\{(.+?)\}/g,function(t,n){return e[n]})},formatDate:function(t){var e=new Date(t),n=e.getFullYear(),a=e.getMonth()+1,i=Tool.formatTime(e.getDate()),o=Tool.formatTime(e.getHours()),r=Tool.formatTime(e.getMinutes()),u=Tool.formatTime(e.getSeconds());return n+"/"+a+"/"+i+" "+o+":"+r+":"+u},formatTime:function(t){return 10>t?"0"+t:t},toTime:function(t){return new Date(t).getTime()},yesterday:function(){var t=new Date,e=t.getFullYear(),n=t.getMonth()+1,a=t.getDate();return e+"-"+n+"-"+a+" 23:59"}},navCb=function(){$(".action").on("click",function(){var t=$(this).attr("act"),e=$(this).attr("kind");switch(init(!0),e){case"intime":intime.paint(t),interval=setInterval(function(){intime.paint(t)},6e4);break;case"daycount":$("#part-info").load("./include/daycount.html",daycountCb);break;case"search":$("#part-info").load("./include/search.html",searchCb);break;case"clientinfo":$("#part-info").load("./include/clientinfo.html",clientinfoCb)}}),$(".action").eq(0).trigger("click")},clientinfoCb=function(){function t(t){var e=[],n=t.length,a=Tool.toTime(t[0][2]),i=Tool.toTime(t[n-1][3]),o=i-a,r=function(t){return((t-a)/o*100).toFixed(2)+"%"};return t.map(function(t){var n=r(Tool.toTime(t[2])),a=r(Tool.toTime(t[3]));a=a.split("%")[0]-n.split("%")[0]+"%",e.push([n,a,Tool.formatDate(t[2]),Tool.formatDate(t[3])])}),e}$(".clientinfo-submit").on("click",function(){var e=$(".model").val(),n=$(".time-start").val(),a=$(".time-end").val(),i=n?"&period_from="+n:"",o=a?"$period_to="+a:"",r="/clientinfo?uuid="+e+i+o;$.ajax({url:r,success:function(e){var n=e.activity_periods,a=e.client_infos,i=$(".result-client-info-template").html(),o=$(".result-client-info tbody");a.map(function(t){t[9]=Tool.formatDate(t[9])});var r=function(t,e){t=t||a,e=e||o;var n="";t.map(function(t){n+=Tool.substituteArray(i,t)}),e.html("").append(n)},u=($.Page({range:Config.pageRange,Ele:$("#page-clientinfo"),data:a,paintArea:o,paintFn:r}),$("#period-bar")),c=u.find(".tag-start"),l=u.find(".tag-end"),s=u.find(".period"),f=$(".result-client-period-template").html();c.text(Tool.formatDate(n[0][2])),l.text(Tool.formatDate(n[n.length-1][3]));var d=t(n),m=function(t,e){var n="";t.map(function(t){n+=Tool.substituteArray(f,t)}),e.html("").append(n)};m(d,s)}})})},daycountCb=function(){var t=function(t){var e={"default":"/apposratio",android:"",ios:"",windows:""};return e[t]};$(".daycount-submit").on("click",function(){var e=$(this).attr("act"),n=t(e),a=$(".daycount-date").val();a&&(n+="?stats_day="+a),"default"==e?daycount.paint(n):daycount.paintBySystem(n)}),daycount.paint(t("default")+"?stats_day="+Tool.yesterday)},searchCb=function(){function t(t,e,n,a){var i={client:"/userrstforclient?client=",user:"/clientrstforuser?user=",restaurant:"/clientuserforrst?rst="},o="",r="";return n&&(o="&period_from="+n),a&&(r="&period_to="+a),i[t]+e+o+r}$("#part-info input[name=search-kind]").on("click",function(){var t=$("#part-info input[name=search-kind]:checked").val();$(".radio-value").text(t)}),$(".search-submit").on("click",function(){var e=$(".radio-value").text(),n=$("input[name=model]").val(),a=$("input[name=time-begin]").val(),i=$("input[name=time-end]").val(),o=t(e,n,a,i),r=function(t){var e;return"client"==t&&(e=["ClientId","UserId","RestaurantId"]),"user"==t&&(e=["UserId","ClientId","RestaurantId"]),"restaurant"==t&&(e=["RestaurantId","UserId","ClientId"]),e}($(".radio-value").text());$("#part-info .result .tb_id").map(function(t,e){$(e).text(r[t])}),$.ajax({url:o,success:function(t){var e=t[Object.keys(t)[0]],n=$("#result-template").html();e.map(function(t){t[4]=Tool.formatDate(t[4]),t[5]=Tool.formatDate(t[5])});{var a=function(t,e){var a="";e=e||$(".result tbody"),t.map(function(t){a+=Tool.substituteArray(n,t)}),e.html("").append(a)};$.Page({range:Config.pageRange,Ele:$("#page-search"),data:e,paintFn:a})}}})})};
-$(document).ready(function(){$("#top").load("./include/top.html"),$("#nav").load("./include/navigate.html",navCb)});
+/**
+ * @preserve jQuery DateTimePicker plugin v2.4.1
+ * @homepage http://xdsoft.net/jqplugins/datetimepicker/
+ * (c) 2014, Chupurnov Valeriy.
+ */
+/*global document,window,jQuery,setTimeout,clearTimeout*/
+(function ($) {
+  'use strict';
+  var default_options  = {
+    i18n: {
+      ar: { // Arabic
+        months: [
+          "كانون الثاني", "شباط", "آذار", "نيسان", "مايو", "حزيران", "تموز", "آب", "أيلول", "تشرين الأول", "تشرين الثاني", "كانون الأول"
+        ],
+        dayOfWeek: [
+          "ن", "ث", "ع", "خ", "ج", "س", "ح"
+        ]
+      },
+      ro: { // Romanian
+        months: [
+          "ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"
+        ],
+        dayOfWeek: [
+          "l", "ma", "mi", "j", "v", "s", "d"
+        ]
+      },
+      id: { // Indonesian
+        months: [
+          "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+        ],
+        dayOfWeek: [
+          "Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Min"
+        ]
+      },
+      bg: { // Bulgarian
+        months: [
+          "Януари", "Февруари", "Март", "Април", "Май", "Юни", "Юли", "Август", "Септември", "Октомври", "Ноември", "Декември"
+        ],
+        dayOfWeek: [
+          "Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"
+        ]
+      },
+      fa: { // Persian/Farsi
+        months: [
+          'فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'
+        ],
+        dayOfWeek: [
+          'یکشنبه', 'دوشنبه', 'سه شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه', 'شنبه'
+        ]
+      },
+      ru: { // Russian
+        months: [
+          'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'
+        ],
+        dayOfWeek: [
+          "Вск", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"
+        ]
+      },
+      uk: { // Ukrainian
+        months: [
+          'Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Грудень'
+        ],
+        dayOfWeek: [
+          "Ндл", "Пнд", "Втр", "Срд", "Чтв", "Птн", "Сбт"
+        ]
+      },
+      en: { // English
+        months: [
+          "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+        ],
+        dayOfWeek: [
+          "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"
+        ]
+      },
+      el: { // Ελληνικά
+        months: [
+          "Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"
+        ],
+        dayOfWeek: [
+          "Κυρ", "Δευ", "Τρι", "Τετ", "Πεμ", "Παρ", "Σαβ"
+        ]
+      },
+      de: { // German
+        months: [
+          'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+        ],
+        dayOfWeek: [
+          "So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"
+        ]
+      },
+      nl: { // Dutch
+        months: [
+          "januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"
+        ],
+        dayOfWeek: [
+          "zo", "ma", "di", "wo", "do", "vr", "za"
+        ]
+      },
+      tr: { // Turkish
+        months: [
+          "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"
+        ],
+        dayOfWeek: [
+          "Paz", "Pts", "Sal", "Çar", "Per", "Cum", "Cts"
+        ]
+      },
+      fr: { //French
+        months: [
+          "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+        ],
+        dayOfWeek: [
+          "Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"
+        ]
+      },
+      es: { // Spanish
+        months: [
+          "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+        ],
+        dayOfWeek: [
+          "Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"
+        ]
+      },
+      th: { // Thai
+        months: [
+          'มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
+        ],
+        dayOfWeek: [
+          'อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'
+        ]
+      },
+      pl: { // Polish
+        months: [
+          "styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"
+        ],
+        dayOfWeek: [
+          "nd", "pn", "wt", "śr", "cz", "pt", "sb"
+        ]
+      },
+      pt: { // Portuguese
+        months: [
+          "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+        ],
+        dayOfWeek: [
+          "Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"
+        ]
+      },
+      ch: { // Simplified Chinese
+        months: [
+          "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"
+        ],
+        dayOfWeek: [
+          "日", "一", "二", "三", "四", "五", "六"
+        ]
+      },
+      se: { // Swedish
+        months: [
+          "Januari", "Februari", "Mars", "April", "Maj", "Juni", "Juli", "Augusti", "September",  "Oktober", "November", "December"
+        ],
+        dayOfWeek: [
+          "Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör"
+        ]
+      },
+      kr: { // Korean
+        months: [
+          "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"
+        ],
+        dayOfWeek: [
+          "일", "월", "화", "수", "목", "금", "토"
+        ]
+      },
+      it: { // Italian
+        months: [
+          "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"
+        ],
+        dayOfWeek: [
+          "Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"
+        ]
+      },
+      da: { // Dansk
+        months: [
+          "January", "Februar", "Marts", "April", "Maj", "Juni", "July", "August", "September", "Oktober", "November", "December"
+        ],
+        dayOfWeek: [
+          "Søn", "Man", "Tir", "Ons", "Tor", "Fre", "Lør"
+        ]
+      },
+      no: { // Norwegian
+        months: [
+          "Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Desember"
+        ],
+        dayOfWeek: [
+          "Søn", "Man", "Tir", "Ons", "Tor", "Fre", "Lør"
+        ]
+      },
+      ja: { // Japanese
+        months: [
+          "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"
+        ],
+        dayOfWeek: [
+          "日", "月", "火", "水", "木", "金", "土"
+        ]
+      },
+      vi: { // Vietnamese
+        months: [
+          "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"
+        ],
+        dayOfWeek: [
+          "CN", "T2", "T3", "T4", "T5", "T6", "T7"
+        ]
+      },
+      sl: { // Slovenščina
+        months: [
+          "Januar", "Februar", "Marec", "April", "Maj", "Junij", "Julij", "Avgust", "September", "Oktober", "November", "December"
+        ],
+        dayOfWeek: [
+          "Ned", "Pon", "Tor", "Sre", "Čet", "Pet", "Sob"
+        ]
+      },
+      cs: { // Čeština
+        months: [
+          "Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"
+        ],
+        dayOfWeek: [
+          "Ne", "Po", "Út", "St", "Čt", "Pá", "So"
+        ]
+      },
+      hu: { // Hungarian
+        months: [
+          "Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"
+        ],
+        dayOfWeek: [
+          "Va", "Hé", "Ke", "Sze", "Cs", "Pé", "Szo"
+        ]
+      },
+      az: { //Azerbaijanian (Azeri)
+        months: [
+          "Yanvar", "Fevral", "Mart", "Aprel", "May", "Iyun", "Iyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"
+        ],
+        dayOfWeek: [
+          "B", "Be", "Ça", "Ç", "Ca", "C", "Ş"
+        ]
+      },
+      bs: { //Bosanski
+        months: [
+          "Januar", "Februar", "Mart", "April", "Maj", "Jun", "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"
+        ],
+        dayOfWeek: [
+          "Ned", "Pon", "Uto", "Sri", "Čet", "Pet", "Sub"
+        ]
+      },
+      ca: { //Català
+        months: [
+          "Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"
+        ],
+        dayOfWeek: [
+          "Dg", "Dl", "Dt", "Dc", "Dj", "Dv", "Ds"
+        ]
+      },
+      'en-GB': { //English (British)
+        months: [
+          "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+        ],
+        dayOfWeek: [
+          "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"
+        ]
+      },
+      et: { //"Eesti"
+        months: [
+          "Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"
+        ],
+        dayOfWeek: [
+          "P", "E", "T", "K", "N", "R", "L"
+        ]
+      },
+      eu: { //Euskara
+        months: [
+          "Urtarrila", "Otsaila", "Martxoa", "Apirila", "Maiatza", "Ekaina", "Uztaila", "Abuztua", "Iraila", "Urria", "Azaroa", "Abendua"
+        ],
+        dayOfWeek: [
+          "Ig.", "Al.", "Ar.", "Az.", "Og.", "Or.", "La."
+        ]
+      },
+      fi: { //Finnish (Suomi)
+        months: [
+          "Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"
+        ],
+        dayOfWeek: [
+          "Su", "Ma", "Ti", "Ke", "To", "Pe", "La"
+        ]
+      },
+      gl: { //Galego
+        months: [
+          "Xan", "Feb", "Maz", "Abr", "Mai", "Xun", "Xul", "Ago", "Set", "Out", "Nov", "Dec"
+        ],
+        dayOfWeek: [
+          "Dom", "Lun", "Mar", "Mer", "Xov", "Ven", "Sab"
+        ]
+      },
+      hr: { //Hrvatski
+        months: [
+          "Siječanj", "Veljača", "Ožujak", "Travanj", "Svibanj", "Lipanj", "Srpanj", "Kolovoz", "Rujan", "Listopad", "Studeni", "Prosinac"
+        ],
+        dayOfWeek: [
+          "Ned", "Pon", "Uto", "Sri", "Čet", "Pet", "Sub"
+        ]
+      },
+      ko: { //Korean (한국어)
+        months: [
+          "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"
+        ],
+        dayOfWeek: [
+          "일", "월", "화", "수", "목", "금", "토"
+        ]
+      },
+      lt: { //Lithuanian (lietuvių)
+        months: [
+          "Sausio", "Vasario", "Kovo", "Balandžio", "Gegužės", "Birželio", "Liepos", "Rugpjūčio", "Rugsėjo", "Spalio", "Lapkričio", "Gruodžio"
+        ],
+        dayOfWeek: [
+          "Sek", "Pir", "Ant", "Tre", "Ket", "Pen", "Šeš"
+        ]
+      },
+      lv: { //Latvian (Latviešu)
+        months: [
+          "Janvāris", "Februāris", "Marts", "Aprīlis ", "Maijs", "Jūnijs", "Jūlijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris"
+        ],
+        dayOfWeek: [
+          "Sv", "Pr", "Ot", "Tr", "Ct", "Pk", "St"
+        ]
+      },
+      mk: { //Macedonian (Македонски)
+        months: [
+          "јануари", "февруари", "март", "април", "мај", "јуни", "јули", "август", "септември", "октомври", "ноември", "декември"
+        ],
+        dayOfWeek: [
+          "нед", "пон", "вто", "сре", "чет", "пет", "саб"
+        ]
+      },
+      mn: { //Mongolian (Монгол)
+        months: [
+          "1-р сар", "2-р сар", "3-р сар", "4-р сар", "5-р сар", "6-р сар", "7-р сар", "8-р сар", "9-р сар", "10-р сар", "11-р сар", "12-р сар"
+        ],
+        dayOfWeek: [
+          "Дав", "Мяг", "Лха", "Пүр", "Бсн", "Бям", "Ням"
+        ]
+      },
+      'pt-BR': { //Português(Brasil)
+        months: [
+          "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+        ],
+        dayOfWeek: [
+          "Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"
+        ]
+      },
+      sk: { //Slovenčina
+        months: [
+          "Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Október", "November", "December"
+        ],
+        dayOfWeek: [
+          "Ne", "Po", "Ut", "St", "Št", "Pi", "So"
+        ]
+      },
+      sq: { //Albanian (Shqip)
+        months: [
+          "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+        ],
+        dayOfWeek: [
+          "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"
+        ]
+      },
+      'sr-YU': { //Serbian (Srpski)
+        months: [
+          "Januar", "Februar", "Mart", "April", "Maj", "Jun", "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"
+        ],
+        dayOfWeek: [
+          "Ned", "Pon", "Uto", "Sre", "čet", "Pet", "Sub"
+        ]
+      },
+      sr: { //Serbian Cyrillic (Српски)
+        months: [
+          "јануар", "фебруар", "март", "април", "мај", "јун", "јул", "август", "септембар", "октобар", "новембар", "децембар"
+        ],
+        dayOfWeek: [
+          "нед", "пон", "уто", "сре", "чет", "пет", "суб"
+        ]
+      },
+      sv: { //Svenska
+        months: [
+          "Januari", "Februari", "Mars", "April", "Maj", "Juni", "Juli", "Augusti", "September", "Oktober", "November", "December"
+        ],
+        dayOfWeek: [
+          "Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör"
+        ]
+      },
+      'zh-TW': { //Traditional Chinese (繁體中文)
+        months: [
+          "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"
+        ],
+        dayOfWeek: [
+          "日", "一", "二", "三", "四", "五", "六"
+        ]
+      },
+      zh: { //Simplified Chinese (简体中文)
+        months: [
+          "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"
+        ],
+        dayOfWeek: [
+          "日", "一", "二", "三", "四", "五", "六"
+        ]
+      },
+      he: { //Hebrew (עברית)
+        months: [
+          'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'
+        ],
+        dayOfWeek: [
+          'א\'', 'ב\'', 'ג\'', 'ד\'', 'ה\'', 'ו\'', 'שבת'
+        ]
+      }
+    },
+    value: '',
+    lang: 'en',
+
+    format: 'Y/m/d H:i',
+    formatTime: 'H:i',
+    formatDate: 'Y/m/d',
+
+    startDate:  false, // new Date(), '1986/12/08', '-1970/01/05','-1970/01/05',
+    step: 60,
+    monthChangeSpinner: true,
+
+    closeOnDateSelect: false,
+    closeOnWithoutClick: true,
+    closeOnInputClick: true,
+
+    timepicker: true,
+    datepicker: true,
+    weeks: false,
+
+    defaultTime: false, // use formatTime format (ex. '10:00' for formatTime: 'H:i')
+    defaultDate: false, // use formatDate format (ex new Date() or '1986/12/08' or '-1970/01/05' or '-1970/01/05')
+
+    minDate: false,
+    maxDate: false,
+    minTime: false,
+    maxTime: false,
+
+    allowTimes: [],
+    opened: false,
+    initTime: true,
+    inline: false,
+    theme: '',
+
+    onSelectDate: function () {},
+    onSelectTime: function () {},
+    onChangeMonth: function () {},
+    onChangeYear: function () {},
+    onChangeDateTime: function () {},
+    onShow: function () {},
+    onClose: function () {},
+    onGenerate: function () {},
+
+    withoutCopyright: true,
+    inverseButton: false,
+    hours12: false,
+    next: 'xdsoft_next',
+    prev : 'xdsoft_prev',
+    dayOfWeekStart: 0,
+    parentID: 'body',
+    timeHeightInTimePicker: 25,
+    timepickerScrollbar: true,
+    todayButton: true,
+    defaultSelect: true,
+
+    scrollMonth: true,
+    scrollTime: true,
+    scrollInput: true,
+
+    lazyInit: false,
+    mask: false,
+    validateOnBlur: true,
+    allowBlank: true,
+    yearStart: 1950,
+    yearEnd: 2050,
+    style: '',
+    id: '',
+    fixed: false,
+    roundTime: 'round', // ceil, floor
+    className: '',
+    weekends: [],
+    disabledDates : [],
+    yearOffset: 0,
+    beforeShowDay: null,
+
+    enterLikeTab: true
+  };
+  // fix for ie8
+  if (!Array.prototype.indexOf) {
+    Array.prototype.indexOf = function (obj, start) {
+      var i, j;
+      for (i = (start || 0), j = this.length; i < j; i += 1) {
+        if (this[i] === obj) { return i; }
+      }
+      return -1;
+    };
+  }
+  Date.prototype.countDaysInMonth = function () {
+    return new Date(this.getFullYear(), this.getMonth() + 1, 0).getDate();
+  };
+  $.fn.xdsoftScroller = function (percent) {
+    return this.each(function () {
+      var timeboxparent = $(this),
+        pointerEventToXY = function (e) {
+          var out = {x: 0, y: 0},
+            touch;
+          if (e.type === 'touchstart' || e.type === 'touchmove' || e.type === 'touchend' || e.type === 'touchcancel') {
+            touch  = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+            out.x = touch.clientX;
+            out.y = touch.clientY;
+          } else if (e.type === 'mousedown' || e.type === 'mouseup' || e.type === 'mousemove' || e.type === 'mouseover' || e.type === 'mouseout' || e.type === 'mouseenter' || e.type === 'mouseleave') {
+            out.x = e.clientX;
+            out.y = e.clientY;
+          }
+          return out;
+        },
+        move = 0,
+        timebox,
+        parentHeight,
+        height,
+        scrollbar,
+        scroller,
+        maximumOffset = 100,
+        start = false,
+        startY = 0,
+        startTop = 0,
+        h1 = 0,
+        touchStart = false,
+        startTopScroll = 0,
+        calcOffset = function () {};
+      if (percent === 'hide') {
+        timeboxparent.find('.xdsoft_scrollbar').hide();
+        return;
+      }
+      if (!$(this).hasClass('xdsoft_scroller_box')) {
+        timebox = timeboxparent.children().eq(0);
+        parentHeight = timeboxparent[0].clientHeight;
+        height = timebox[0].offsetHeight;
+        scrollbar = $('<div class="xdsoft_scrollbar"></div>');
+        scroller = $('<div class="xdsoft_scroller"></div>');
+        scrollbar.append(scroller);
+
+        timeboxparent.addClass('xdsoft_scroller_box').append(scrollbar);
+        calcOffset = function calcOffset(event) {
+          var offset = pointerEventToXY(event).y - startY + startTopScroll;
+          if (offset < 0) {
+            offset = 0;
+          }
+          if (offset + scroller[0].offsetHeight > h1) {
+            offset = h1 - scroller[0].offsetHeight;
+          }
+          timeboxparent.trigger('scroll_element.xdsoft_scroller', [maximumOffset ? offset / maximumOffset : 0]);
+        };
+
+        scroller
+          .on('touchstart.xdsoft_scroller mousedown.xdsoft_scroller', function (event) {
+            if (!parentHeight) {
+              timeboxparent.trigger('resize_scroll.xdsoft_scroller', [percent]);
+            }
+
+            startY = pointerEventToXY(event).y;
+            startTopScroll = parseInt(scroller.css('margin-top'), 10);
+            h1 = scrollbar[0].offsetHeight;
+
+            if (event.type === 'mousedown') {
+              if (document) {
+                $(document.body).addClass('xdsoft_noselect');
+              }
+              $([document.body, window]).on('mouseup.xdsoft_scroller', function arguments_callee() {
+                $([document.body, window]).off('mouseup.xdsoft_scroller', arguments_callee)
+                  .off('mousemove.xdsoft_scroller', calcOffset)
+                  .removeClass('xdsoft_noselect');
+              });
+              $(document.body).on('mousemove.xdsoft_scroller', calcOffset);
+            } else {
+              touchStart = true;
+              event.stopPropagation();
+              event.preventDefault();
+            }
+          })
+          .on('touchmove', function (event) {
+            if (touchStart) {
+              event.preventDefault();
+              calcOffset(event);
+            }
+          })
+          .on('touchend touchcancel', function (event) {
+            touchStart =  false;
+            startTopScroll = 0;
+          });
+
+        timeboxparent
+          .on('scroll_element.xdsoft_scroller', function (event, percentage) {
+            if (!parentHeight) {
+              timeboxparent.trigger('resize_scroll.xdsoft_scroller', [percentage, true]);
+            }
+            percentage = percentage > 1 ? 1 : (percentage < 0 || isNaN(percentage)) ? 0 : percentage;
+
+            scroller.css('margin-top', maximumOffset * percentage);
+
+            setTimeout(function () {
+              timebox.css('marginTop', -parseInt((timebox[0].offsetHeight - parentHeight) * percentage, 10));
+            }, 10);
+          })
+          .on('resize_scroll.xdsoft_scroller', function (event, percentage, noTriggerScroll) {
+            var percent, sh;
+            parentHeight = timeboxparent[0].clientHeight;
+            height = timebox[0].offsetHeight;
+            percent = parentHeight / height;
+            sh = percent * scrollbar[0].offsetHeight;
+            if (percent > 1) {
+              scroller.hide();
+            } else {
+              scroller.show();
+              scroller.css('height', parseInt(sh > 10 ? sh : 10, 10));
+              maximumOffset = scrollbar[0].offsetHeight - scroller[0].offsetHeight;
+              if (noTriggerScroll !== true) {
+                timeboxparent.trigger('scroll_element.xdsoft_scroller', [percentage || Math.abs(parseInt(timebox.css('marginTop'), 10)) / (height - parentHeight)]);
+              }
+            }
+          });
+
+        timeboxparent.on('mousewheel', function (event) {
+          var top = Math.abs(parseInt(timebox.css('marginTop'), 10));
+
+          top = top - (event.deltaY * 20);
+          if (top < 0) {
+            top = 0;
+          }
+
+          timeboxparent.trigger('scroll_element.xdsoft_scroller', [top / (height - parentHeight)]);
+          event.stopPropagation();
+          return false;
+        });
+
+        timeboxparent.on('touchstart', function (event) {
+          start = pointerEventToXY(event);
+          startTop = Math.abs(parseInt(timebox.css('marginTop'), 10));
+        });
+
+        timeboxparent.on('touchmove', function (event) {
+          if (start) {
+            event.preventDefault();
+            var coord = pointerEventToXY(event);
+            timeboxparent.trigger('scroll_element.xdsoft_scroller', [(startTop - (coord.y - start.y)) / (height - parentHeight)]);
+          }
+        });
+
+        timeboxparent.on('touchend touchcancel', function (event) {
+          start = false;
+          startTop = 0;
+        });
+      }
+      timeboxparent.trigger('resize_scroll.xdsoft_scroller', [percent]);
+    });
+  };
+
+  $.fn.datetimepicker = function (opt) {
+    var KEY0 = 48,
+      KEY9 = 57,
+      _KEY0 = 96,
+      _KEY9 = 105,
+      CTRLKEY = 17,
+      DEL = 46,
+      ENTER = 13,
+      ESC = 27,
+      BACKSPACE = 8,
+      ARROWLEFT = 37,
+      ARROWUP = 38,
+      ARROWRIGHT = 39,
+      ARROWDOWN = 40,
+      TAB = 9,
+      F5 = 116,
+      AKEY = 65,
+      CKEY = 67,
+      VKEY = 86,
+      ZKEY = 90,
+      YKEY = 89,
+      ctrlDown  = false,
+      options = ($.isPlainObject(opt) || !opt) ? $.extend(true, {}, default_options, opt) : $.extend(true, {}, default_options),
+
+      lazyInitTimer = 0,
+      createDateTimePicker,
+      destroyDateTimePicker,
+      _xdsoft_datetime,
+
+      lazyInit = function (input) {
+        input
+          .on('open.xdsoft focusin.xdsoft mousedown.xdsoft', function initOnActionCallback(event) {
+            if (input.is(':disabled') || input.is(':hidden') || !input.is(':visible') || input.data('xdsoft_datetimepicker')) {
+              return;
+            }
+            clearTimeout(lazyInitTimer);
+            lazyInitTimer = setTimeout(function () {
+
+              if (!input.data('xdsoft_datetimepicker')) {
+                createDateTimePicker(input);
+              }
+              input
+                .off('open.xdsoft focusin.xdsoft mousedown.xdsoft', initOnActionCallback)
+                .trigger('open.xdsoft');
+            }, 100);
+          });
+      };
+
+    createDateTimePicker = function (input) {
+      var datetimepicker = $('<div ' + (options.id ? 'id="' + options.id + '"' : '') + ' ' + (options.style ? 'style="' + options.style + '"' : '') + ' class="xdsoft_datetimepicker xdsoft_' + options.theme + ' xdsoft_noselect ' + (options.weeks ? ' xdsoft_showweeks' : '') + options.className + '"></div>'),
+        xdsoft_copyright = $('<div class="xdsoft_copyright"><a target="_blank" href="http://xdsoft.net/jqplugins/datetimepicker/">xdsoft.net</a></div>'),
+        datepicker = $('<div class="xdsoft_datepicker active"></div>'),
+        mounth_picker = $('<div class="xdsoft_mounthpicker"><button type="button" class="xdsoft_prev"></button><button type="button" class="xdsoft_today_button"></button>' +
+          '<div class="xdsoft_label xdsoft_month"><span></span><i></i></div>' +
+          '<div class="xdsoft_label xdsoft_year"><span></span><i></i></div>' +
+          '<button type="button" class="xdsoft_next"></button></div>'),
+        calendar = $('<div class="xdsoft_calendar"></div>'),
+        timepicker = $('<div class="xdsoft_timepicker active"><button type="button" class="xdsoft_prev"></button><div class="xdsoft_time_box"></div><button type="button" class="xdsoft_next"></button></div>'),
+        timeboxparent = timepicker.find('.xdsoft_time_box').eq(0),
+        timebox = $('<div class="xdsoft_time_variant"></div>'),
+        /*scrollbar = $('<div class="xdsoft_scrollbar"></div>'),
+        scroller = $('<div class="xdsoft_scroller"></div>'),*/
+        monthselect = $('<div class="xdsoft_select xdsoft_monthselect"><div></div></div>'),
+        yearselect = $('<div class="xdsoft_select xdsoft_yearselect"><div></div></div>'),
+        triggerAfterOpen = false,
+        XDSoft_datetime,
+        //scroll_element,
+        xchangeTimer,
+        timerclick,
+        current_time_index,
+        setPos,
+        timer = 0,
+        timer1 = 0;
+
+      mounth_picker
+        .find('.xdsoft_month span')
+          .after(monthselect);
+      mounth_picker
+        .find('.xdsoft_year span')
+          .after(yearselect);
+
+      mounth_picker
+        .find('.xdsoft_month,.xdsoft_year')
+          .on('mousedown.xdsoft', function (event) {
+          var select = $(this).find('.xdsoft_select').eq(0),
+            val = 0,
+            top = 0,
+            visible = select.is(':visible'),
+            items,
+            i;
+
+          mounth_picker
+            .find('.xdsoft_select')
+              .hide();
+          if (_xdsoft_datetime.currentTime) {
+            val = _xdsoft_datetime.currentTime[$(this).hasClass('xdsoft_month') ? 'getMonth' : 'getFullYear']();
+          }
+
+          select[visible ? 'hide' : 'show']();
+          for (items = select.find('div.xdsoft_option'), i = 0; i < items.length; i += 1) {
+            if (items.eq(i).data('value') === val) {
+              break;
+            } else {
+              top += items[0].offsetHeight;
+            }
+          }
+
+          select.xdsoftScroller(top / (select.children()[0].offsetHeight - (select[0].clientHeight)));
+          event.stopPropagation();
+          return false;
+        });
+
+      mounth_picker
+        .find('.xdsoft_select')
+          .xdsoftScroller()
+        .on('mousedown.xdsoft', function (event) {
+          event.stopPropagation();
+          event.preventDefault();
+        })
+        .on('mousedown.xdsoft', '.xdsoft_option', function (event) {
+          var year = _xdsoft_datetime.currentTime.getFullYear();
+          if (_xdsoft_datetime && _xdsoft_datetime.currentTime) {
+            _xdsoft_datetime.currentTime[$(this).parent().parent().hasClass('xdsoft_monthselect') ? 'setMonth' : 'setFullYear']($(this).data('value'));
+          }
+
+          $(this).parent().parent().hide();
+
+          datetimepicker.trigger('xchange.xdsoft');
+          if (options.onChangeMonth && $.isFunction(options.onChangeMonth)) {
+            options.onChangeMonth.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+
+          if (year !== _xdsoft_datetime.currentTime.getFullYear() && $.isFunction(options.onChangeYear)) {
+            options.onChangeYear.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+        });
+
+      datetimepicker.setOptions = function (_options) {
+        options = $.extend(true, {}, options, _options);
+
+        if (_options.allowTimes && $.isArray(_options.allowTimes) && _options.allowTimes.length) {
+          options.allowTimes = $.extend(true, [], _options.allowTimes);
+        }
+
+        if (_options.weekends && $.isArray(_options.weekends) && _options.weekends.length) {
+          options.weekends = $.extend(true, [], _options.weekends);
+        }
+
+        if (_options.disabledDates && $.isArray(_options.disabledDates) && _options.disabledDates.length) {
+                    options.disabledDates = $.extend(true, [], _options.disabledDates);
+                }
+
+        if ((options.open || options.opened) && (!options.inline)) {
+          input.trigger('open.xdsoft');
+        }
+
+        if (options.inline) {
+          triggerAfterOpen = true;
+          datetimepicker.addClass('xdsoft_inline');
+          input.after(datetimepicker).hide();
+        }
+
+        if (options.inverseButton) {
+          options.next = 'xdsoft_prev';
+          options.prev = 'xdsoft_next';
+        }
+
+        if (options.datepicker) {
+          datepicker.addClass('active');
+        } else {
+          datepicker.removeClass('active');
+        }
+
+        if (options.timepicker) {
+          timepicker.addClass('active');
+        } else {
+          timepicker.removeClass('active');
+        }
+
+        if (options.value) {
+          if (input && input.val) {
+            input.val(options.value);
+          }
+          _xdsoft_datetime.setCurrentTime(options.value);
+        }
+
+        if (isNaN(options.dayOfWeekStart)) {
+          options.dayOfWeekStart = 0;
+        } else {
+          options.dayOfWeekStart = parseInt(options.dayOfWeekStart, 10) % 7;
+        }
+
+        if (!options.timepickerScrollbar) {
+          timeboxparent.xdsoftScroller('hide');
+        }
+
+        if (options.minDate && /^-(.*)$/.test(options.minDate)) {
+          options.minDate = _xdsoft_datetime.strToDateTime(options.minDate).dateFormat(options.formatDate);
+        }
+
+        if (options.maxDate &&  /^\+(.*)$/.test(options.maxDate)) {
+          options.maxDate = _xdsoft_datetime.strToDateTime(options.maxDate).dateFormat(options.formatDate);
+        }
+
+        mounth_picker
+          .find('.xdsoft_today_button')
+            .css('visibility', !options.todayButton ? 'hidden' : 'visible');
+
+        if (options.mask) {
+          var e,
+            getCaretPos = function (input) {
+              try {
+                if (document.selection && document.selection.createRange) {
+                  var range = document.selection.createRange();
+                  return range.getBookmark().charCodeAt(2) - 2;
+                }
+                if (input.setSelectionRange) {
+                  return input.selectionStart;
+                }
+              } catch (e) {
+                return 0;
+              }
+            },
+            setCaretPos = function (node, pos) {
+              node = (typeof node === "string" || node instanceof String) ? document.getElementById(node) : node;
+              if (!node) {
+                return false;
+              }
+              if (node.createTextRange) {
+                var textRange = node.createTextRange();
+                textRange.collapse(true);
+                textRange.moveEnd('character', pos);
+                textRange.moveStart('character', pos);
+                textRange.select();
+                return true;
+              }
+              if (node.setSelectionRange) {
+                node.setSelectionRange(pos, pos);
+                return true;
+              }
+              return false;
+            },
+            isValidValue = function (mask, value) {
+              var reg = mask
+                .replace(/([\[\]\/\{\}\(\)\-\.\+]{1})/g, '\\$1')
+                .replace(/_/g, '{digit+}')
+                .replace(/([0-9]{1})/g, '{digit$1}')
+                .replace(/\{digit([0-9]{1})\}/g, '[0-$1_]{1}')
+                .replace(/\{digit[\+]\}/g, '[0-9_]{1}');
+              return (new RegExp(reg)).test(value);
+            };
+          input.off('keydown.xdsoft');
+
+          if (options.mask === true) {
+            options.mask = options.format
+              .replace(/Y/g, '9999')
+              .replace(/F/g, '9999')
+              .replace(/m/g, '19')
+              .replace(/d/g, '39')
+              .replace(/H/g, '29')
+              .replace(/i/g, '59')
+              .replace(/s/g, '59');
+          }
+
+          if ($.type(options.mask) === 'string') {
+            if (!isValidValue(options.mask, input.val())) {
+              input.val(options.mask.replace(/[0-9]/g, '_'));
+            }
+
+            input.on('keydown.xdsoft', function (event) {
+              var val = this.value,
+                key = event.which,
+                pos,
+                digit;
+
+              if (((key >= KEY0 && key <= KEY9) || (key >= _KEY0 && key <= _KEY9)) || (key === BACKSPACE || key === DEL)) {
+                pos = getCaretPos(this);
+                digit = (key !== BACKSPACE && key !== DEL) ? String.fromCharCode((_KEY0 <= key && key <= _KEY9) ? key - KEY0 : key) : '_';
+
+                if ((key === BACKSPACE || key === DEL) && pos) {
+                  pos -= 1;
+                  digit = '_';
+                }
+
+                while (/[^0-9_]/.test(options.mask.substr(pos, 1)) && pos < options.mask.length && pos > 0) {
+                  pos += (key === BACKSPACE || key === DEL) ? -1 : 1;
+                }
+
+                val = val.substr(0, pos) + digit + val.substr(pos + 1);
+                if ($.trim(val) === '') {
+                  val = options.mask.replace(/[0-9]/g, '_');
+                } else {
+                  if (pos === options.mask.length) {
+                    event.preventDefault();
+                    return false;
+                  }
+                }
+
+                pos += (key === BACKSPACE || key === DEL) ? 0 : 1;
+                while (/[^0-9_]/.test(options.mask.substr(pos, 1)) && pos < options.mask.length && pos > 0) {
+                  pos += (key === BACKSPACE || key === DEL) ? -1 : 1;
+                }
+
+                if (isValidValue(options.mask, val)) {
+                  this.value = val;
+                  setCaretPos(this, pos);
+                } else if ($.trim(val) === '') {
+                  this.value = options.mask.replace(/[0-9]/g, '_');
+                } else {
+                  input.trigger('error_input.xdsoft');
+                }
+              } else {
+                if (([AKEY, CKEY, VKEY, ZKEY, YKEY].indexOf(key) !== -1 && ctrlDown) || [ESC, ARROWUP, ARROWDOWN, ARROWLEFT, ARROWRIGHT, F5, CTRLKEY, TAB, ENTER].indexOf(key) !== -1) {
+                  return true;
+                }
+              }
+
+              event.preventDefault();
+              return false;
+            });
+          }
+        }
+        if (options.validateOnBlur) {
+          input
+            .off('blur.xdsoft')
+            .on('blur.xdsoft', function () {
+              if (options.allowBlank && !$.trim($(this).val()).length) {
+                $(this).val(null);
+                datetimepicker.data('xdsoft_datetime').empty();
+              } else if (!Date.parseDate($(this).val(), options.format)) {
+                $(this).val((_xdsoft_datetime.now()).dateFormat(options.format));
+                datetimepicker.data('xdsoft_datetime').setCurrentTime($(this).val());
+              } else {
+                datetimepicker.data('xdsoft_datetime').setCurrentTime($(this).val());
+              }
+              datetimepicker.trigger('changedatetime.xdsoft');
+            });
+        }
+        options.dayOfWeekStartPrev = (options.dayOfWeekStart === 0) ? 6 : options.dayOfWeekStart - 1;
+
+        datetimepicker
+          .trigger('xchange.xdsoft')
+          .trigger('afterOpen.xdsoft');
+      };
+
+      datetimepicker
+        .data('options', options)
+        .on('mousedown.xdsoft', function (event) {
+          event.stopPropagation();
+          event.preventDefault();
+          yearselect.hide();
+          monthselect.hide();
+          return false;
+        });
+
+      //scroll_element = timepicker.find('.xdsoft_time_box');
+      timeboxparent.append(timebox);
+      timeboxparent.xdsoftScroller();
+
+      datetimepicker.on('afterOpen.xdsoft', function () {
+        timeboxparent.xdsoftScroller();
+      });
+
+      datetimepicker
+        .append(datepicker)
+        .append(timepicker);
+
+      if (options.withoutCopyright !== true) {
+        datetimepicker
+          .append(xdsoft_copyright);
+      }
+
+      datepicker
+        .append(mounth_picker)
+        .append(calendar);
+
+      $(options.parentID)
+        .append(datetimepicker);
+
+      XDSoft_datetime = function () {
+        var _this = this;
+        _this.now = function (norecursion) {
+          var d = new Date(),
+            date,
+            time;
+
+          if (!norecursion && options.defaultDate) {
+            date = _this.strToDate(options.defaultDate);
+            d.setFullYear(date.getFullYear());
+            d.setMonth(date.getMonth());
+            d.setDate(date.getDate());
+          }
+
+          if (options.yearOffset) {
+            d.setFullYear(d.getFullYear() + options.yearOffset);
+          }
+
+          if (!norecursion && options.defaultTime) {
+            time = _this.strtotime(options.defaultTime);
+            d.setHours(time.getHours());
+            d.setMinutes(time.getMinutes());
+          }
+
+          return d;
+        };
+
+        _this.isValidDate = function (d) {
+          if (Object.prototype.toString.call(d) !== "[object Date]") {
+            return false;
+          }
+          return !isNaN(d.getTime());
+        };
+
+        _this.setCurrentTime = function (dTime) {
+          _this.currentTime = (typeof dTime === 'string') ? _this.strToDateTime(dTime) : _this.isValidDate(dTime) ? dTime : _this.now();
+          datetimepicker.trigger('xchange.xdsoft');
+        };
+
+        _this.empty = function () {
+          _this.currentTime = null;
+        };
+
+        _this.getCurrentTime = function (dTime) {
+          return _this.currentTime;
+        };
+
+        _this.nextMonth = function () {
+          var month = _this.currentTime.getMonth() + 1,
+            year;
+          if (month === 12) {
+            _this.currentTime.setFullYear(_this.currentTime.getFullYear() + 1);
+            month = 0;
+          }
+
+          year = _this.currentTime.getFullYear();
+
+          _this.currentTime.setDate(
+            Math.min(
+              new Date(_this.currentTime.getFullYear(), month + 1, 0).getDate(),
+              _this.currentTime.getDate()
+            )
+          );
+          _this.currentTime.setMonth(month);
+
+          if (options.onChangeMonth && $.isFunction(options.onChangeMonth)) {
+            options.onChangeMonth.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+
+          if (year !== _this.currentTime.getFullYear() && $.isFunction(options.onChangeYear)) {
+            options.onChangeYear.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+
+          datetimepicker.trigger('xchange.xdsoft');
+          return month;
+        };
+
+        _this.prevMonth = function () {
+          var month = _this.currentTime.getMonth() - 1;
+          if (month === -1) {
+            _this.currentTime.setFullYear(_this.currentTime.getFullYear() - 1);
+            month = 11;
+          }
+          _this.currentTime.setDate(
+            Math.min(
+              new Date(_this.currentTime.getFullYear(), month + 1, 0).getDate(),
+              _this.currentTime.getDate()
+            )
+          );
+          _this.currentTime.setMonth(month);
+          if (options.onChangeMonth && $.isFunction(options.onChangeMonth)) {
+            options.onChangeMonth.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+          datetimepicker.trigger('xchange.xdsoft');
+          return month;
+        };
+
+        _this.getWeekOfYear = function (datetime) {
+          var onejan = new Date(datetime.getFullYear(), 0, 1);
+          return Math.ceil((((datetime - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+        };
+
+        _this.strToDateTime = function (sDateTime) {
+          var tmpDate = [], timeOffset, currentTime;
+
+          if (sDateTime && sDateTime instanceof Date && _this.isValidDate(sDateTime)) {
+            return sDateTime;
+          }
+
+          tmpDate = /^(\+|\-)(.*)$/.exec(sDateTime);
+          if (tmpDate) {
+            tmpDate[2] = Date.parseDate(tmpDate[2], options.formatDate);
+          }
+          if (tmpDate  && tmpDate[2]) {
+            timeOffset = tmpDate[2].getTime() - (tmpDate[2].getTimezoneOffset()) * 60000;
+            currentTime = new Date((_xdsoft_datetime.now()).getTime() + parseInt(tmpDate[1] + '1', 10) * timeOffset);
+          } else {
+            currentTime = sDateTime ? Date.parseDate(sDateTime, options.format) : _this.now();
+          }
+
+          if (!_this.isValidDate(currentTime)) {
+            currentTime = _this.now();
+          }
+
+          return currentTime;
+        };
+
+        _this.strToDate = function (sDate) {
+          if (sDate && sDate instanceof Date && _this.isValidDate(sDate)) {
+            return sDate;
+          }
+
+          var currentTime = sDate ? Date.parseDate(sDate, options.formatDate) : _this.now(true);
+          if (!_this.isValidDate(currentTime)) {
+            currentTime = _this.now(true);
+          }
+          return currentTime;
+        };
+
+        _this.strtotime = function (sTime) {
+          if (sTime && sTime instanceof Date && _this.isValidDate(sTime)) {
+            return sTime;
+          }
+          var currentTime = sTime ? Date.parseDate(sTime, options.formatTime) : _this.now(true);
+          if (!_this.isValidDate(currentTime)) {
+            currentTime = _this.now(true);
+          }
+          return currentTime;
+        };
+
+        _this.str = function () {
+          return _this.currentTime.dateFormat(options.format);
+        };
+        _this.currentTime = this.now();
+      };
+
+      _xdsoft_datetime = new XDSoft_datetime();
+
+      mounth_picker
+        .find('.xdsoft_today_button')
+        .on('mousedown.xdsoft', function () {
+          datetimepicker.data('changed', true);
+          _xdsoft_datetime.setCurrentTime(0);
+          datetimepicker.trigger('afterOpen.xdsoft');
+        }).on('dblclick.xdsoft', function () {
+          input.val(_xdsoft_datetime.str());
+          datetimepicker.trigger('close.xdsoft');
+        });
+      mounth_picker
+        .find('.xdsoft_prev,.xdsoft_next')
+        .on('mousedown.xdsoft', function () {
+          var $this = $(this),
+            timer = 0,
+            stop = false;
+
+          (function arguments_callee1(v) {
+            var month =  _xdsoft_datetime.currentTime.getMonth();
+            if ($this.hasClass(options.next)) {
+              _xdsoft_datetime.nextMonth();
+            } else if ($this.hasClass(options.prev)) {
+              _xdsoft_datetime.prevMonth();
+            }
+            if (options.monthChangeSpinner) {
+              if (!stop) {
+                timer = setTimeout(arguments_callee1, v || 100);
+              }
+            }
+          }(500));
+
+          $([document.body, window]).on('mouseup.xdsoft', function arguments_callee2() {
+            clearTimeout(timer);
+            stop = true;
+            $([document.body, window]).off('mouseup.xdsoft', arguments_callee2);
+          });
+        });
+
+      timepicker
+        .find('.xdsoft_prev,.xdsoft_next')
+        .on('mousedown.xdsoft', function () {
+          var $this = $(this),
+            timer = 0,
+            stop = false,
+            period = 110;
+          (function arguments_callee4(v) {
+            var pheight = timeboxparent[0].clientHeight,
+              height = timebox[0].offsetHeight,
+              top = Math.abs(parseInt(timebox.css('marginTop'), 10));
+            if ($this.hasClass(options.next) && (height - pheight) - options.timeHeightInTimePicker >= top) {
+              timebox.css('marginTop', '-' + (top + options.timeHeightInTimePicker) + 'px');
+            } else if ($this.hasClass(options.prev) && top - options.timeHeightInTimePicker >= 0) {
+              timebox.css('marginTop', '-' + (top - options.timeHeightInTimePicker) + 'px');
+            }
+            timeboxparent.trigger('scroll_element.xdsoft_scroller', [Math.abs(parseInt(timebox.css('marginTop'), 10) / (height - pheight))]);
+            period = (period > 10) ? 10 : period - 10;
+            if (!stop) {
+              timer = setTimeout(arguments_callee4, v || period);
+            }
+          }(500));
+          $([document.body, window]).on('mouseup.xdsoft', function arguments_callee5() {
+            clearTimeout(timer);
+            stop = true;
+            $([document.body, window])
+              .off('mouseup.xdsoft', arguments_callee5);
+          });
+        });
+
+      xchangeTimer = 0;
+      // base handler - generating a calendar and timepicker
+      datetimepicker
+        .on('xchange.xdsoft', function (event) {
+          clearTimeout(xchangeTimer);
+          xchangeTimer = setTimeout(function () {
+            var table = '',
+              start = new Date(_xdsoft_datetime.currentTime.getFullYear(), _xdsoft_datetime.currentTime.getMonth(), 1, 12, 0, 0),
+              i = 0,
+              j,
+              today = _xdsoft_datetime.now(),
+              maxDate = false,
+              minDate = false,
+              d,
+              y,
+              m,
+              w,
+              classes = [],
+              customDateSettings,
+              newRow = true,
+              time = '',
+              h = '',
+              line_time;
+
+            while (start.getDay() !== options.dayOfWeekStart) {
+              start.setDate(start.getDate() - 1);
+            }
+
+            table += '<table><thead><tr>';
+
+            if (options.weeks) {
+              table += '<th></th>';
+            }
+
+            for (j = 0; j < 7; j += 1) {
+              table += '<th>' + options.i18n[options.lang].dayOfWeek[(j + options.dayOfWeekStart) % 7] + '</th>';
+            }
+
+            table += '</tr></thead>';
+            table += '<tbody>';
+
+            if (options.maxDate !== false) {
+              maxDate = _xdsoft_datetime.strToDate(options.maxDate);
+              maxDate = new Date(maxDate.getFullYear(), maxDate.getMonth(), maxDate.getDate(), 23, 59, 59, 999);
+            }
+
+            if (options.minDate !== false) {
+              minDate = _xdsoft_datetime.strToDate(options.minDate);
+              minDate = new Date(minDate.getFullYear(), minDate.getMonth(), minDate.getDate());
+            }
+
+            while (i < _xdsoft_datetime.currentTime.countDaysInMonth() || start.getDay() !== options.dayOfWeekStart || _xdsoft_datetime.currentTime.getMonth() === start.getMonth()) {
+              classes = [];
+              i += 1;
+
+              d = start.getDate();
+              y = start.getFullYear();
+              m = start.getMonth();
+              w = _xdsoft_datetime.getWeekOfYear(start);
+
+              classes.push('xdsoft_date');
+
+              if (options.beforeShowDay && $.isFunction(options.beforeShowDay.call)) {
+                customDateSettings = options.beforeShowDay.call(datetimepicker, start);
+              } else {
+                customDateSettings = null;
+              }
+
+              if ((maxDate !== false && start > maxDate) || (minDate !== false && start < minDate) || (customDateSettings && customDateSettings[0] === false)) {
+                classes.push('xdsoft_disabled');
+              } else if (options.disabledDates.indexOf(start.dateFormat(options.formatDate)) !== -1) {
+                classes.push('xdsoft_disabled');
+              }
+
+              if (customDateSettings && customDateSettings[1] !== "") {
+                classes.push(customDateSettings[1]);
+              }
+
+              if (_xdsoft_datetime.currentTime.getMonth() !== m) {
+                classes.push('xdsoft_other_month');
+              }
+
+              if ((options.defaultSelect || datetimepicker.data('changed')) && _xdsoft_datetime.currentTime.dateFormat(options.formatDate) === start.dateFormat(options.formatDate)) {
+                classes.push('xdsoft_current');
+              }
+
+              if (today.dateFormat(options.formatDate) === start.dateFormat(options.formatDate)) {
+                classes.push('xdsoft_today');
+              }
+
+              if (start.getDay() === 0 || start.getDay() === 6 || options.weekends.indexOf(start.dateFormat(options.formatDate)) === -1) {
+                classes.push('xdsoft_weekend');
+              }
+
+              if (options.beforeShowDay && $.isFunction(options.beforeShowDay)) {
+                classes.push(options.beforeShowDay(start));
+              }
+
+              if (newRow) {
+                table += '<tr>';
+                newRow = false;
+                if (options.weeks) {
+                  table += '<th>' + w + '</th>';
+                }
+              }
+
+              table += '<td data-date="' + d + '" data-month="' + m + '" data-year="' + y + '"' + ' class="xdsoft_date xdsoft_day_of_week' + start.getDay() + ' ' + classes.join(' ') + '">' +
+                    '<div>' + d + '</div>' +
+                  '</td>';
+
+              if (start.getDay() === options.dayOfWeekStartPrev) {
+                table += '</tr>';
+                newRow = true;
+              }
+
+              start.setDate(d + 1);
+            }
+            table += '</tbody></table>';
+
+            calendar.html(table);
+
+            mounth_picker.find('.xdsoft_label span').eq(0).text(options.i18n[options.lang].months[_xdsoft_datetime.currentTime.getMonth()]);
+            mounth_picker.find('.xdsoft_label span').eq(1).text(_xdsoft_datetime.currentTime.getFullYear());
+
+            // generate timebox
+            time = '';
+            h = '';
+            m = '';
+            line_time = function line_time(h, m) {
+              var now = _xdsoft_datetime.now();
+              now.setHours(h);
+              h = parseInt(now.getHours(), 10);
+              now.setMinutes(m);
+              m = parseInt(now.getMinutes(), 10);
+              var optionDateTime = new Date(_xdsoft_datetime.currentTime)
+              optionDateTime.setHours(h);
+              optionDateTime.setMinutes(m);
+              classes = [];
+              if((options.minDateTime !== false && options.minDateTime > optionDateTime) || (options.maxTime !== false && _xdsoft_datetime.strtotime(options.maxTime).getTime() < now.getTime()) || (options.minTime !== false && _xdsoft_datetime.strtotime(options.minTime).getTime() > now.getTime())) {
+                classes.push('xdsoft_disabled');
+              }
+              if ((options.initTime || options.defaultSelect || datetimepicker.data('changed')) && parseInt(_xdsoft_datetime.currentTime.getHours(), 10) === parseInt(h, 10) && (options.step > 59 || Math[options.roundTime](_xdsoft_datetime.currentTime.getMinutes() / options.step) * options.step === parseInt(m, 10))) {
+                if (options.defaultSelect || datetimepicker.data('changed')) {
+                  classes.push('xdsoft_current');
+                } else if (options.initTime) {
+                  classes.push('xdsoft_init_time');
+                }
+              }
+              if (parseInt(today.getHours(), 10) === parseInt(h, 10) && parseInt(today.getMinutes(), 10) === parseInt(m, 10)) {
+                classes.push('xdsoft_today');
+              }
+              time += '<div class="xdsoft_time ' + classes.join(' ') + '" data-hour="' + h + '" data-minute="' + m + '">' + now.dateFormat(options.formatTime) + '</div>';
+            };
+
+            if (!options.allowTimes || !$.isArray(options.allowTimes) || !options.allowTimes.length) {
+              for (i = 0, j = 0; i < (options.hours12 ? 12 : 24); i += 1) {
+                for (j = 0; j < 60; j += options.step) {
+                  h = (i < 10 ? '0' : '') + i;
+                  m = (j < 10 ? '0' : '') + j;
+                  line_time(h, m);
+                }
+              }
+            } else {
+              for (i = 0; i < options.allowTimes.length; i += 1) {
+                h = _xdsoft_datetime.strtotime(options.allowTimes[i]).getHours();
+                m = _xdsoft_datetime.strtotime(options.allowTimes[i]).getMinutes();
+                line_time(h, m);
+              }
+            }
+
+            timebox.html(time);
+
+            opt = '';
+            i = 0;
+
+            for (i = parseInt(options.yearStart, 10) + options.yearOffset; i <= parseInt(options.yearEnd, 10) + options.yearOffset; i += 1) {
+              opt += '<div class="xdsoft_option ' + (_xdsoft_datetime.currentTime.getFullYear() === i ? 'xdsoft_current' : '') + '" data-value="' + i + '">' + i + '</div>';
+            }
+            yearselect.children().eq(0)
+                        .html(opt);
+
+            for (i = 0, opt = ''; i <= 11; i += 1) {
+              opt += '<div class="xdsoft_option ' + (_xdsoft_datetime.currentTime.getMonth() === i ? 'xdsoft_current' : '') + '" data-value="' + i + '">' + options.i18n[options.lang].months[i] + '</div>';
+            }
+            monthselect.children().eq(0).html(opt);
+            $(datetimepicker)
+              .trigger('generate.xdsoft');
+          }, 10);
+          event.stopPropagation();
+        })
+        .on('afterOpen.xdsoft', function () {
+          if (options.timepicker) {
+            var classType, pheight, height, top;
+            if (timebox.find('.xdsoft_current').length) {
+              classType = '.xdsoft_current';
+            } else if (timebox.find('.xdsoft_init_time').length) {
+              classType = '.xdsoft_init_time';
+            }
+            if (classType) {
+              pheight = timeboxparent[0].clientHeight;
+              height = timebox[0].offsetHeight;
+              top = timebox.find(classType).index() * options.timeHeightInTimePicker + 1;
+              if ((height - pheight) < top) {
+                top = height - pheight;
+              }
+              timeboxparent.trigger('scroll_element.xdsoft_scroller', [parseInt(top, 10) / (height - pheight)]);
+            } else {
+              timeboxparent.trigger('scroll_element.xdsoft_scroller', [0]);
+            }
+          }
+        });
+
+      timerclick = 0;
+      calendar
+        .on('click.xdsoft', 'td', function (xdevent) {
+          xdevent.stopPropagation();  // Prevents closing of Pop-ups, Modals and Flyouts in Bootstrap
+          timerclick += 1;
+          var $this = $(this),
+            currentTime = _xdsoft_datetime.currentTime;
+
+          if (currentTime === undefined || currentTime === null) {
+            _xdsoft_datetime.currentTime = _xdsoft_datetime.now();
+            currentTime = _xdsoft_datetime.currentTime;
+          }
+
+          if ($this.hasClass('xdsoft_disabled')) {
+            return false;
+          }
+
+          currentTime.setDate(1);
+          currentTime.setFullYear($this.data('year'));
+          currentTime.setMonth($this.data('month'));
+          currentTime.setDate($this.data('date'));
+
+          datetimepicker.trigger('select.xdsoft', [currentTime]);
+
+          input.val(_xdsoft_datetime.str());
+          if ((timerclick > 1 || (options.closeOnDateSelect === true || (options.closeOnDateSelect === 0 && !options.timepicker))) && !options.inline) {
+            datetimepicker.trigger('close.xdsoft');
+          }
+
+          if (options.onSelectDate && $.isFunction(options.onSelectDate)) {
+            options.onSelectDate.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'), xdevent);
+          }
+
+          datetimepicker.data('changed', true);
+          datetimepicker.trigger('xchange.xdsoft');
+          datetimepicker.trigger('changedatetime.xdsoft');
+          setTimeout(function () {
+            timerclick = 0;
+          }, 200);
+        });
+
+      timebox
+        .on('click.xdsoft', 'div', function (xdevent) {
+          xdevent.stopPropagation();
+          var $this = $(this),
+            currentTime = _xdsoft_datetime.currentTime;
+
+          if (currentTime === undefined || currentTime === null) {
+            _xdsoft_datetime.currentTime = _xdsoft_datetime.now();
+            currentTime = _xdsoft_datetime.currentTime;
+          }
+
+          if ($this.hasClass('xdsoft_disabled')) {
+            return false;
+          }
+          currentTime.setHours($this.data('hour'));
+          currentTime.setMinutes($this.data('minute'));
+          datetimepicker.trigger('select.xdsoft', [currentTime]);
+
+          datetimepicker.data('input').val(_xdsoft_datetime.str());
+          if (!options.inline) {
+            datetimepicker.trigger('close.xdsoft');
+          }
+
+          if (options.onSelectTime && $.isFunction(options.onSelectTime)) {
+            options.onSelectTime.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'), xdevent);
+          }
+          datetimepicker.data('changed', true);
+          datetimepicker.trigger('xchange.xdsoft');
+          datetimepicker.trigger('changedatetime.xdsoft');
+        });
+
+
+      datepicker
+        .on('mousewheel.xdsoft', function (event) {
+          if (!options.scrollMonth) {
+            return true;
+          }
+          if (event.deltaY < 0) {
+            _xdsoft_datetime.nextMonth();
+          } else {
+            _xdsoft_datetime.prevMonth();
+          }
+          return false;
+        });
+
+      input
+        .on('mousewheel.xdsoft', function (event) {
+          if (!options.scrollInput) {
+            return true;
+          }
+          if (!options.datepicker && options.timepicker) {
+            current_time_index = timebox.find('.xdsoft_current').length ? timebox.find('.xdsoft_current').eq(0).index() : 0;
+            if (current_time_index + event.deltaY >= 0 && current_time_index + event.deltaY < timebox.children().length) {
+              current_time_index += event.deltaY;
+            }
+            if (timebox.children().eq(current_time_index).length) {
+              timebox.children().eq(current_time_index).trigger('mousedown');
+            }
+            return false;
+          }
+          if (options.datepicker && !options.timepicker) {
+            datepicker.trigger(event, [event.deltaY, event.deltaX, event.deltaY]);
+            if (input.val) {
+              input.val(_xdsoft_datetime.str());
+            }
+            datetimepicker.trigger('changedatetime.xdsoft');
+            return false;
+          }
+        });
+
+      datetimepicker
+        .on('changedatetime.xdsoft', function (event) {
+          if (options.onChangeDateTime && $.isFunction(options.onChangeDateTime)) {
+            var $input = datetimepicker.data('input');
+            options.onChangeDateTime.call(datetimepicker, _xdsoft_datetime.currentTime, $input, event);
+            delete options.value;
+            $input.trigger('change');
+          }
+        })
+        .on('generate.xdsoft', function () {
+          if (options.onGenerate && $.isFunction(options.onGenerate)) {
+            options.onGenerate.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'));
+          }
+          if (triggerAfterOpen) {
+            datetimepicker.trigger('afterOpen.xdsoft');
+            triggerAfterOpen = false;
+          }
+        })
+        .on('click.xdsoft', function (xdevent) {
+          xdevent.stopPropagation();
+        });
+
+      current_time_index = 0;
+
+      setPos = function () {
+        var offset = datetimepicker.data('input').offset(), top = offset.top + datetimepicker.data('input')[0].offsetHeight - 1, left = offset.left, position = "absolute";
+        if (options.fixed) {
+          top -= $(window).scrollTop();
+          left -= $(window).scrollLeft();
+          position = "fixed";
+        } else {
+          if (top + datetimepicker[0].offsetHeight > $(window).height() + $(window).scrollTop()) {
+            top = offset.top - datetimepicker[0].offsetHeight + 1;
+          }
+          if (top < 0) {
+            top = 0;
+          }
+          if (left + datetimepicker[0].offsetWidth > $(window).width()) {
+            left = $(window).width() - datetimepicker[0].offsetWidth;
+          }
+        }
+        datetimepicker.css({
+          left: left,
+          top: top,
+          position: position
+        });
+      };
+      datetimepicker
+        .on('open.xdsoft', function (event) {
+          var onShow = true;
+          if (options.onShow && $.isFunction(options.onShow)) {
+            onShow = options.onShow.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'), event);
+          }
+          if (onShow !== false) {
+            datetimepicker.show();
+            setPos();
+            $(window)
+              .off('resize.xdsoft', setPos)
+              .on('resize.xdsoft', setPos);
+
+            if (options.closeOnWithoutClick) {
+              $([document.body, window]).on('mousedown.xdsoft', function arguments_callee6() {
+                datetimepicker.trigger('close.xdsoft');
+                $([document.body, window]).off('mousedown.xdsoft', arguments_callee6);
+              });
+            }
+          }
+        })
+        .on('close.xdsoft', function (event) {
+          var onClose = true;
+          mounth_picker
+            .find('.xdsoft_month,.xdsoft_year')
+              .find('.xdsoft_select')
+                .hide();
+          if (options.onClose && $.isFunction(options.onClose)) {
+            onClose = options.onClose.call(datetimepicker, _xdsoft_datetime.currentTime, datetimepicker.data('input'), event);
+          }
+          if (onClose !== false && !options.opened && !options.inline) {
+            datetimepicker.hide();
+          }
+          event.stopPropagation();
+        })
+        .on('toggle.xdsoft', function (event) {
+          if (datetimepicker.is(':visible')) {
+            datetimepicker.trigger('close.xdsoft');
+          } else {
+            datetimepicker.trigger('open.xdsoft');
+          }
+        })
+        .data('input', input);
+
+      timer = 0;
+      timer1 = 0;
+
+      datetimepicker.data('xdsoft_datetime', _xdsoft_datetime);
+      datetimepicker.setOptions(options);
+
+      function getCurrentValue() {
+
+        var ct = false, time;
+
+        if (options.startDate) {
+          ct = _xdsoft_datetime.strToDate(options.startDate);
+        } else {
+          ct = options.value || ((input && input.val && input.val()) ? input.val() : '');
+          if (ct) {
+            ct = _xdsoft_datetime.strToDateTime(ct);
+          } else if (options.defaultDate) {
+            ct = _xdsoft_datetime.strToDate(options.defaultDate);
+            if (options.defaultTime) {
+              time = _xdsoft_datetime.strtotime(options.defaultTime);
+              ct.setHours(time.getHours());
+              ct.setMinutes(time.getMinutes());
+            }
+          }
+        }
+
+        if (ct && _xdsoft_datetime.isValidDate(ct)) {
+          datetimepicker.data('changed', true);
+        } else {
+          ct = '';
+        }
+
+        return ct || 0;
+      }
+
+      _xdsoft_datetime.setCurrentTime(getCurrentValue());
+
+      input
+        .data('xdsoft_datetimepicker', datetimepicker)
+        .on('open.xdsoft focusin.xdsoft mousedown.xdsoft', function (event) {
+          if (input.is(':disabled') || input.is(':hidden') || !input.is(':visible') || (input.data('xdsoft_datetimepicker').is(':visible') && options.closeOnInputClick)) {
+            return;
+          }
+          clearTimeout(timer);
+          timer = setTimeout(function () {
+            if (input.is(':disabled') || input.is(':hidden') || !input.is(':visible')) {
+              return;
+            }
+
+            triggerAfterOpen = true;
+            _xdsoft_datetime.setCurrentTime(getCurrentValue());
+
+            datetimepicker.trigger('open.xdsoft');
+          }, 100);
+        })
+        .on('keydown.xdsoft', function (event) {
+          var val = this.value, elementSelector,
+            key = event.which;
+          if ([ENTER].indexOf(key) !== -1 && options.enterLikeTab) {
+            elementSelector = $("input:visible,textarea:visible");
+            datetimepicker.trigger('close.xdsoft');
+            elementSelector.eq(elementSelector.index(this) + 1).focus();
+            return false;
+          }
+          if ([TAB].indexOf(key) !== -1) {
+            datetimepicker.trigger('close.xdsoft');
+            return true;
+          }
+        });
+    };
+    destroyDateTimePicker = function (input) {
+      var datetimepicker = input.data('xdsoft_datetimepicker');
+      if (datetimepicker) {
+        datetimepicker.data('xdsoft_datetime', null);
+        datetimepicker.remove();
+        input
+          .data('xdsoft_datetimepicker', null)
+          .off('.xdsoft');
+        $(window).off('resize.xdsoft');
+        $([window, document.body]).off('mousedown.xdsoft');
+        if (input.unmousewheel) {
+          input.unmousewheel();
+        }
+      }
+    };
+    $(document)
+      .off('keydown.xdsoftctrl keyup.xdsoftctrl')
+      .on('keydown.xdsoftctrl', function (e) {
+        if (e.keyCode === CTRLKEY) {
+          ctrlDown = true;
+        }
+      })
+      .on('keyup.xdsoftctrl', function (e) {
+        if (e.keyCode === CTRLKEY) {
+          ctrlDown = false;
+        }
+      });
+    return this.each(function () {
+      var datetimepicker = $(this).data('xdsoft_datetimepicker');
+      if (datetimepicker) {
+        if ($.type(opt) === 'string') {
+          switch (opt) {
+          case 'show':
+            $(this).select().focus();
+            datetimepicker.trigger('open.xdsoft');
+            break;
+          case 'hide':
+            datetimepicker.trigger('close.xdsoft');
+            break;
+          case 'toggle':
+            datetimepicker.trigger('toggle.xdsoft');
+            break;
+          case 'destroy':
+            destroyDateTimePicker($(this));
+            break;
+          case 'reset':
+            this.value = this.defaultValue;
+            if (!this.value || !datetimepicker.data('xdsoft_datetime').isValidDate(Date.parseDate(this.value, options.format))) {
+              datetimepicker.data('changed', false);
+            }
+            datetimepicker.data('xdsoft_datetime').setCurrentTime(this.value);
+            break;
+          }
+        } else {
+          datetimepicker
+            .setOptions(opt);
+        }
+        return 0;
+      }
+      if ($.type(opt) !== 'string') {
+        if (!options.lazyInit || options.open || options.inline) {
+          createDateTimePicker($(this));
+        } else {
+          lazyInit($(this));
+        }
+      }
+    });
+  };
+  $.fn.datetimepicker.defaults = default_options;
+}(jQuery));
+(function () {
+
+/*! Copyright (c) 2013 Brandon Aaron (http://brandon.aaron.sh)
+ * Licensed under the MIT License (LICENSE.txt).
+ *
+ * Version: 3.1.12
+ *
+ * Requires: jQuery 1.2.2+
+ */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?module.exports=a:a(jQuery)}(function(a){function b(b){var g=b||window.event,h=i.call(arguments,1),j=0,l=0,m=0,n=0,o=0,p=0;if(b=a.event.fix(g),b.type="mousewheel","detail"in g&&(m=-1*g.detail),"wheelDelta"in g&&(m=g.wheelDelta),"wheelDeltaY"in g&&(m=g.wheelDeltaY),"wheelDeltaX"in g&&(l=-1*g.wheelDeltaX),"axis"in g&&g.axis===g.HORIZONTAL_AXIS&&(l=-1*m,m=0),j=0===m?l:m,"deltaY"in g&&(m=-1*g.deltaY,j=m),"deltaX"in g&&(l=g.deltaX,0===m&&(j=-1*l)),0!==m||0!==l){if(1===g.deltaMode){var q=a.data(this,"mousewheel-line-height");j*=q,m*=q,l*=q}else if(2===g.deltaMode){var r=a.data(this,"mousewheel-page-height");j*=r,m*=r,l*=r}if(n=Math.max(Math.abs(m),Math.abs(l)),(!f||f>n)&&(f=n,d(g,n)&&(f/=40)),d(g,n)&&(j/=40,l/=40,m/=40),j=Math[j>=1?"floor":"ceil"](j/f),l=Math[l>=1?"floor":"ceil"](l/f),m=Math[m>=1?"floor":"ceil"](m/f),k.settings.normalizeOffset&&this.getBoundingClientRect){var s=this.getBoundingClientRect();o=b.clientX-s.left,p=b.clientY-s.top}return b.deltaX=l,b.deltaY=m,b.deltaFactor=f,b.offsetX=o,b.offsetY=p,b.deltaMode=0,h.unshift(b,j,l,m),e&&clearTimeout(e),e=setTimeout(c,200),(a.event.dispatch||a.event.handle).apply(this,h)}}function c(){f=null}function d(a,b){return k.settings.adjustOldDeltas&&"mousewheel"===a.type&&b%120===0}var e,f,g=["wheel","mousewheel","DOMMouseScroll","MozMousePixelScroll"],h="onwheel"in document||document.documentMode>=9?["wheel"]:["mousewheel","DomMouseScroll","MozMousePixelScroll"],i=Array.prototype.slice;if(a.event.fixHooks)for(var j=g.length;j;)a.event.fixHooks[g[--j]]=a.event.mouseHooks;var k=a.event.special.mousewheel={version:"3.1.12",setup:function(){if(this.addEventListener)for(var c=h.length;c;)this.addEventListener(h[--c],b,!1);else this.onmousewheel=b;a.data(this,"mousewheel-line-height",k.getLineHeight(this)),a.data(this,"mousewheel-page-height",k.getPageHeight(this))},teardown:function(){if(this.removeEventListener)for(var c=h.length;c;)this.removeEventListener(h[--c],b,!1);else this.onmousewheel=null;a.removeData(this,"mousewheel-line-height"),a.removeData(this,"mousewheel-page-height")},getLineHeight:function(b){var c=a(b),d=c["offsetParent"in a.fn?"offsetParent":"parent"]();return d.length||(d=a("body")),parseInt(d.css("fontSize"),10)||parseInt(c.css("fontSize"),10)||16},getPageHeight:function(b){return a(b).height()},settings:{adjustOldDeltas:!0,normalizeOffset:!0}};a.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})});
+
+// Parse and Format Library
+//http://www.xaprb.com/blog/2005/12/12/javascript-closures-for-runtime-efficiency/
+/*
+ * Copyright (C) 2004 Baron Schwartz <baron at sequent dot org>
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as published by the
+ * Free Software Foundation, version 2.1.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ */
+Date.parseFunctions={count:0};Date.parseRegexes=[];Date.formatFunctions={count:0};Date.prototype.dateFormat=function(b){if(b=="unixtime"){return parseInt(this.getTime()/1000);}if(Date.formatFunctions[b]==null){Date.createNewFormat(b);}var a=Date.formatFunctions[b];return this[a]();};Date.createNewFormat=function(format){var funcName="format"+Date.formatFunctions.count++;Date.formatFunctions[format]=funcName;var code="Date.prototype."+funcName+" = function() {return ";var special=false;var ch="";for(var i=0;i<format.length;++i){ch=format.charAt(i);if(!special&&ch=="\\"){special=true;}else{if(special){special=false;code+="'"+String.escape(ch)+"' + ";}else{code+=Date.getFormatCode(ch);}}}eval(code.substring(0,code.length-3)+";}");};Date.getFormatCode=function(a){switch(a){case"d":return"String.leftPad(this.getDate(), 2, '0') + ";case"D":return"Date.dayNames[this.getDay()].substring(0, 3) + ";case"j":return"this.getDate() + ";case"l":return"Date.dayNames[this.getDay()] + ";case"S":return"this.getSuffix() + ";case"w":return"this.getDay() + ";case"z":return"this.getDayOfYear() + ";case"W":return"this.getWeekOfYear() + ";case"F":return"Date.monthNames[this.getMonth()] + ";case"m":return"String.leftPad(this.getMonth() + 1, 2, '0') + ";case"M":return"Date.monthNames[this.getMonth()].substring(0, 3) + ";case"n":return"(this.getMonth() + 1) + ";case"t":return"this.getDaysInMonth() + ";case"L":return"(this.isLeapYear() ? 1 : 0) + ";case"Y":return"this.getFullYear() + ";case"y":return"('' + this.getFullYear()).substring(2, 4) + ";case"a":return"(this.getHours() < 12 ? 'am' : 'pm') + ";case"A":return"(this.getHours() < 12 ? 'AM' : 'PM') + ";case"g":return"((this.getHours() %12) ? this.getHours() % 12 : 12) + ";case"G":return"this.getHours() + ";case"h":return"String.leftPad((this.getHours() %12) ? this.getHours() % 12 : 12, 2, '0') + ";case"H":return"String.leftPad(this.getHours(), 2, '0') + ";case"i":return"String.leftPad(this.getMinutes(), 2, '0') + ";case"s":return"String.leftPad(this.getSeconds(), 2, '0') + ";case"O":return"this.getGMTOffset() + ";case"T":return"this.getTimezone() + ";case"Z":return"(this.getTimezoneOffset() * -60) + ";default:return"'"+String.escape(a)+"' + ";}};Date.parseDate=function(a,c){if(c=="unixtime"){return new Date(!isNaN(parseInt(a))?parseInt(a)*1000:0);}if(Date.parseFunctions[c]==null){Date.createParser(c);}var b=Date.parseFunctions[c];return Date[b](a);};Date.createParser=function(format){var funcName="parse"+Date.parseFunctions.count++;var regexNum=Date.parseRegexes.length;var currentGroup=1;Date.parseFunctions[format]=funcName;var code="Date."+funcName+" = function(input) {\nvar y = -1, m = -1, d = -1, h = -1, i = -1, s = -1, z = -1;\nvar d = new Date();\ny = d.getFullYear();\nm = d.getMonth();\nd = d.getDate();\nvar results = input.match(Date.parseRegexes["+regexNum+"]);\nif (results && results.length > 0) {";var regex="";var special=false;var ch="";for(var i=0;i<format.length;++i){ch=format.charAt(i);if(!special&&ch=="\\"){special=true;}else{if(special){special=false;regex+=String.escape(ch);}else{obj=Date.formatCodeToRegex(ch,currentGroup);currentGroup+=obj.g;regex+=obj.s;if(obj.g&&obj.c){code+=obj.c;}}}}code+="if (y > 0 && z > 0){\nvar doyDate = new Date(y,0);\ndoyDate.setDate(z);\nm = doyDate.getMonth();\nd = doyDate.getDate();\n}";code+="if (y > 0 && m >= 0 && d > 0 && h >= 0 && i >= 0 && s >= 0)\n{return new Date(y, m, d, h, i, s);}\nelse if (y > 0 && m >= 0 && d > 0 && h >= 0 && i >= 0)\n{return new Date(y, m, d, h, i);}\nelse if (y > 0 && m >= 0 && d > 0 && h >= 0)\n{return new Date(y, m, d, h);}\nelse if (y > 0 && m >= 0 && d > 0)\n{return new Date(y, m, d);}\nelse if (y > 0 && m >= 0)\n{return new Date(y, m);}\nelse if (y > 0)\n{return new Date(y);}\n}return null;}";Date.parseRegexes[regexNum]=new RegExp("^"+regex+"$");eval(code);};Date.formatCodeToRegex=function(b,a){switch(b){case"D":return{g:0,c:null,s:"(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat)"};case"j":case"d":return{g:1,c:"d = parseInt(results["+a+"], 10);\n",s:"(\\d{1,2})"};case"l":return{g:0,c:null,s:"(?:"+Date.dayNames.join("|")+")"};case"S":return{g:0,c:null,s:"(?:st|nd|rd|th)"};case"w":return{g:0,c:null,s:"\\d"};case"z":return{g:1,c:"z = parseInt(results["+a+"], 10);\n",s:"(\\d{1,3})"};case"W":return{g:0,c:null,s:"(?:\\d{2})"};case"F":return{g:1,c:"m = parseInt(Date.monthNumbers[results["+a+"].substring(0, 3)], 10);\n",s:"("+Date.monthNames.join("|")+")"};case"M":return{g:1,c:"m = parseInt(Date.monthNumbers[results["+a+"]], 10);\n",s:"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"};case"n":case"m":return{g:1,c:"m = parseInt(results["+a+"], 10) - 1;\n",s:"(\\d{1,2})"};case"t":return{g:0,c:null,s:"\\d{1,2}"};case"L":return{g:0,c:null,s:"(?:1|0)"};case"Y":return{g:1,c:"y = parseInt(results["+a+"], 10);\n",s:"(\\d{4})"};case"y":return{g:1,c:"var ty = parseInt(results["+a+"], 10);\ny = ty > Date.y2kYear ? 1900 + ty : 2000 + ty;\n",s:"(\\d{1,2})"};case"a":return{g:1,c:"if (results["+a+"] == 'am') {\nif (h == 12) { h = 0; }\n} else { if (h < 12) { h += 12; }}",s:"(am|pm)"};case"A":return{g:1,c:"if (results["+a+"] == 'AM') {\nif (h == 12) { h = 0; }\n} else { if (h < 12) { h += 12; }}",s:"(AM|PM)"};case"g":case"G":case"h":case"H":return{g:1,c:"h = parseInt(results["+a+"], 10);\n",s:"(\\d{1,2})"};case"i":return{g:1,c:"i = parseInt(results["+a+"], 10);\n",s:"(\\d{2})"};case"s":return{g:1,c:"s = parseInt(results["+a+"], 10);\n",s:"(\\d{2})"};case"O":return{g:0,c:null,s:"[+-]\\d{4}"};case"T":return{g:0,c:null,s:"[A-Z]{3}"};case"Z":return{g:0,c:null,s:"[+-]\\d{1,5}"};default:return{g:0,c:null,s:String.escape(b)};}};Date.prototype.getTimezone=function(){return this.toString().replace(/^.*? ([A-Z]{3}) [0-9]{4}.*$/,"$1").replace(/^.*?\(([A-Z])[a-z]+ ([A-Z])[a-z]+ ([A-Z])[a-z]+\)$/,"$1$2$3");};Date.prototype.getGMTOffset=function(){return(this.getTimezoneOffset()>0?"-":"+")+String.leftPad(Math.floor(Math.abs(this.getTimezoneOffset())/60),2,"0")+String.leftPad(Math.abs(this.getTimezoneOffset())%60,2,"0");};Date.prototype.getDayOfYear=function(){var a=0;Date.daysInMonth[1]=this.isLeapYear()?29:28;for(var b=0;b<this.getMonth();++b){a+=Date.daysInMonth[b];}return a+this.getDate();};Date.prototype.getWeekOfYear=function(){var b=this.getDayOfYear()+(4-this.getDay());var a=new Date(this.getFullYear(),0,1);var c=(7-a.getDay()+4);return String.leftPad(Math.ceil((b-c)/7)+1,2,"0");};Date.prototype.isLeapYear=function(){var a=this.getFullYear();return((a&3)==0&&(a%100||(a%400==0&&a)));};Date.prototype.getFirstDayOfMonth=function(){var a=(this.getDay()-(this.getDate()-1))%7;return(a<0)?(a+7):a;};Date.prototype.getLastDayOfMonth=function(){var a=(this.getDay()+(Date.daysInMonth[this.getMonth()]-this.getDate()))%7;return(a<0)?(a+7):a;};Date.prototype.getDaysInMonth=function(){Date.daysInMonth[1]=this.isLeapYear()?29:28;return Date.daysInMonth[this.getMonth()];};Date.prototype.getSuffix=function(){switch(this.getDate()){case 1:case 21:case 31:return"st";case 2:case 22:return"nd";case 3:case 23:return"rd";default:return"th";}};String.escape=function(a){return a.replace(/('|\\)/g,"\\$1");};String.leftPad=function(d,b,c){var a=new String(d);if(c==null){c=" ";}while(a.length<b){a=c+a;}return a;};Date.daysInMonth=[31,28,31,30,31,30,31,31,30,31,30,31];Date.monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];Date.dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];Date.y2kYear=50;Date.monthNumbers={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};Date.patterns={ISO8601LongPattern:"Y-m-d H:i:s",ISO8601ShortPattern:"Y-m-d",ShortDatePattern:"n/j/Y",LongDatePattern:"l, F d, Y",FullDateTimePattern:"l, F d, Y g:i:s A",MonthDayPattern:"F d",ShortTimePattern:"g:i A",LongTimePattern:"g:i:s A",SortableDateTimePattern:"Y-m-d\\TH:i:s",UniversalSortableDateTimePattern:"Y-m-d H:i:sO",YearMonthPattern:"F, Y"};
+}());
+
+var Chart = function(opt) {
+  this.setOption(opt || {});
+  this.otherChart = [];
+};
+var fn = Chart.prototype;
+fn.setOption = function(opt) {
+  this.option = opt || {};
+};
+fn.addOtherChart = function(chart){
+  this.otherChart.push(chart);
+};
+
+fn.setChart = function(chart) {
+  this.chart = chart;
+};
+fn.setProperty = function(name,value){
+  this[name] = value;
+};
+
+fn.formatDate = function(date) {
+  date = new Date(date);
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  return this.formatTime(hours) + ':' + this.formatTime(minutes);
+};
+fn.formatTime = function(time) {
+  return time < 10 ? '0' + time : time;
+};
+(function($) {
+  var Page = function(options) {
+    this.init(options);
+  };
+  var fn = Page.prototype;
+  fn.init = function(options) {
+    var self = this;
+    self.range = options.range || 10;
+    self.Ele = options.Ele;
+    self.data = options.data;
+    self.paintFn = options.paintFn;
+    self.paintArea = options.paintArea;
+    self.htmlEle = $('<nav><ul class="pagination"></ul></nav>');
+    self.paintPage();
+  };
+
+  fn.paintPage = function() {
+    var self = this;
+    var totalPage = self.totalPage();
+    if (totalPage < 2){
+      self.paintFn(self.data);
+      return;
+    }
+    var pageUl = self.htmlEle.find('.pagination');
+    var i;
+    pageUl.append(self.getPrevEle());
+    for (i = 0; i < totalPage; i++) {
+      var pageItem = self.getPageEle(i);
+      self.bindAction(pageItem);
+      pageUl.append(pageItem);
+    }
+    var nextEle = self.getNextEle();
+    nextEle.trigger('click');
+    pageUl.append(nextEle);
+    self.Ele.html('').append(self.htmlEle);
+  };
+
+  fn.bindAction = function(item){
+    var self = this;
+    item.on('click',function(){
+      var page = this.innerText;
+      self.htmlEle.find('li').removeClass('active');
+      $(this).addClass('active');
+      var correctData = self.getCorrectData(page);
+      self.paintFn(correctData);
+    });
+  };
+
+  fn.getCorrectData = function(pageIndex){
+    var self = this;
+    var start = (pageIndex - 1) * self.range;
+    var end  = pageIndex * self.range;
+    var data = [], i;
+    for (i = start; i < end; i ++){
+      data.push(self.data[i]);
+    }
+    return data;
+  };
+
+  fn.totalPage = function() {
+    var self = this;
+    var total = Math.ceil(self.data.length / self.range);
+    return total;
+  };
+
+  fn.getPrevEle = function() {
+    var self = this;
+    var item = $('<li class="prev"><a href="javascript:void(0);">&laquo;</a></li>');
+    item.on('click',function(){
+      var pageEle = self.htmlEle.find('.active');
+      if(!pageEle.prev().hasClass('prev')){
+        pageEle.prev().trigger('click');
+      }
+    });
+    return item;
+  };
+
+  fn.getNextEle = function() {
+    var self = this;
+    var item = $('<li class="next"><a href="javascript:void(0);">&raquo;</a></li>');
+    item.on('click',function(){
+      var pageEle = self.htmlEle.find('.active');
+      if(!pageEle.next().hasClass('next')){
+        pageEle.next().trigger('click');
+      }
+      if(pageEle.length === 0){
+        self.htmlEle.find('li').eq(1).trigger('click');
+      }
+    });
+    return item;
+  };
+
+  fn.getPageEle = function(index) {
+    return $('<li><a href="javascript:void(0);" data="' + index + '">' + (index + 1) + '</a></li>');
+  };
+
+  $.Page = function(options) {
+    return new Page(options);
+  };
+})($);
+var intime = new Chart({
+  title: {},
+  tootip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['Client', 'Keeper', 'Restaurant']
+  },
+  xAxis: [{
+    type: 'category',
+    boundaryGap: false,
+    data: []
+  }],
+  yAxis: [{
+    type: 'value'
+  }],
+  series: [{
+    name: 'Client',
+    type: 'line',
+    data: []
+  }, {
+    name: 'Keeper',
+    type: 'line',
+    data: []
+  }, {
+    name: 'Restaurant',
+    type: 'line',
+    data: []
+  }]
+});
+
+(function(intime) {
+  intime.paintByTime = function(url) {
+    var self = this;
+    window.init(false, false);
+    self.option.xAxis[0].data = [];
+    self.option.series[0].data = [];
+    self.option.series[1].data = [];
+    self.option.series[2].data = [];
+    $.ajax({
+      url: url,
+      success: function(data) {
+        var list = data.activity_stats;
+        if (list.length < 1) {
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.showLoading({
+            text: '对不起，查询数据为空！', //loading话术
+          });
+          return;
+        }
+        (function(list) {
+          list.map(function(item, index) {
+            self.option.xAxis[0].data.push(item.time);
+            self.option.series[0].data.push(item.client);
+            self.option.series[1].data.push(item.keeper);
+            self.option.series[2].data.push(item.rst);
+          });
+          Charts['chart-main'].chart.hideLoading();
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.setOption(self.option);
+        })(list);
+      }
+    });
+  };
+
+  function today() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate();
+    return yy + '-' + mm + '-' + dd + ' 23:59';
+  }
+
+  function repair(option) {
+    //xAxis
+    var lastx = option.xAxis[0].data[option.xAxis[0].data.length - 1];
+    var lastH = parseInt(lastx.split(':')[0], 10);
+    var lastM = parseInt(lastx.split(':')[1], 10);
+    for (var i = lastH; i < 24; i++) {
+      for (var j = lastM + 1; j < 60; j++) {
+        option.xAxis[0].data.push(intime.formatTime(i) + ':' + intime.formatTime(j));
+        lastM = -1;
+      }
+    }
+    console.log(lastH, lastM, option.xAxis[0].data);
+  }
+})(intime);
+var daycount = {};
+daycount.itemStyle = {
+  normal: {
+    barBorderRadius: 5,
+  },
+  emphasis: {
+    barBorderRadius: 5,
+  }
+};
+daycount.pieItemStyle = {
+  normal: {
+    label: {
+      formatter: function(a, b, c, d) {
+        return b + ' - ' + (d - 0).toFixed(0) + '%';
+      }
+    }
+  },
+  emphasis: {
+    label: {
+      show: true,
+      position: 'inner',
+      formatter: "{b}\n{d}%"
+    }
+  }
+};
+daycount.grid = {
+  x2: 115,
+  y2: 115
+};
+(function(daycount) {
+  daycount.paint = function(url) {
+    var self = this;
+    window.init(false,true);
+    $.ajax({
+      url: url,
+      success: function(data) {
+        if (typeof data === "object" && data.app_os_ratio.length > 0) {
+          var list = data.app_os_ratio;
+
+          /*第一个chart 开始*/
+          (function(self, list, daycount) {
+            var allApps = getAllKind(0, list);
+            var allAppVersion = getAllKind(1, list);
+            var allSystems = getAllKind(2, list);
+            var allSystemVersion = getAllKind(3, list);
+            /* 绘制各个版本中 系统的数量*/
+            var sortBySystems = []; //sortBySystems[x][y] x:System y:appVersion
+            sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
+            var option = {
+              title: {
+                text: 'Analysis of Napos',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'axis'
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: allSystems
+              },
+              grid: self.grid,
+              xAxis: [],
+              yAxis: [{
+                type: 'value',
+                axisLabel: {
+                  formatter: '{value}'
+                }
+              }],
+              series: []
+            };
+            option.xAxis.push({
+              name: 'NaposVersion',
+              type: 'category',
+              data: allAppVersion
+            });
+            sortBySystems.map(function(item, index) {
+              option.series.push({
+                name: allSystems[index],
+                type: 'bar',
+                stack: 'OS',
+                itemStyle: self.itemStyle,
+                data: item
+              });
+            });
+            Charts['chart-main'].ele.show();
+            Charts['chart-main'].chart.setOption(option);
+          })(self, list, daycount);
+          /*第一个chart结束*/
+
+          /*chartAmass开始*/
+          (function(self, list) {
+            var mergeList = getMergeList(list);
+            var naposVersions = getVersionArray(mergeList, 1);
+            var naposVersionsName = getPreAddString('NAPOS/', naposVersions);
+            var systemVersions = getVersionArray(mergeList, 2);
+            var dataArray = getDataArray(mergeList, naposVersions, systemVersions);
+            /*add to self*/
+            self.mergeList = mergeList;
+            self.naposVersions = naposVersions;
+            self.systemVersions = systemVersions;
+            self.dataArray = dataArray;
+            self.naposVersionsName = naposVersionsName;
+            /*--*/
+            var optionAmass = {
+              title: {
+                text: 'Analysis of OS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'axis'
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVersionsName
+              },
+              grid: self.grid,
+              series: [],
+              xAxis: {
+                name: 'SystemVersion',
+                type: 'category',
+                axisLabel: {
+                  interval: 0
+                },
+                show: true,
+                data: systemVersions
+              },
+              yAxis: [{
+                type: 'value',
+              }]
+            };
+            for (var i = 0; i < naposVersions.length; i++) {
+              optionAmass.series.push({
+                name: naposVersionsName[i],
+                type: 'bar',
+                stack: 'Napos',
+                data: dataArray[i],
+                itemStyle: self.itemStyle
+              });
+            }
+            Charts['chart-amass'].ele.show();
+            Charts['chart-amass'].chart.setOption(optionAmass);
+          })(self, list);
+          /*chartAmass结束*/
+
+
+          /*chart-percent-napos开始*/
+          (function(self, list) {
+            var mergeList = self.mergeList;
+            var naposVersions = self.naposVersions;
+            var naposVersionsName = self.naposVersionsName;
+            var naposPercent = getPercentArray(mergeList, naposVersions, 1);
+            var itemStyle = {
+              normal: {
+                label: {
+                  formatter: function(a, b, c, d) {
+                    return b + ' - ' + (d - 0).toFixed(0) + '%';
+                  }
+                }
+              },
+              emphasis: {
+                label: {
+                  show: true,
+                  position: 'inner',
+                  formatter: "{b}\n{d}%"
+                }
+              }
+            };
+            var option = {
+              title: {
+                text: 'Analysis of NAPOS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVersionsName
+              },
+              calculable: true,
+              series: [{
+                name: 'NAPOS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: itemStyle,
+                roseType: 'area',
+                data: naposPercent
+              }]
+            };
+            Charts['chart-percent-napos'].ele.show();
+            Charts['chart-percent-napos'].chart.setOption(option);
+          })(self, list);
+          /*chart-percent-napos结束*/
+
+          /*chart-percent-os开始*/
+          (function(self, list) {
+            var mergeList = self.mergeList;
+            var systemVersions = self.systemVersions;
+            var osPercent = getPercentArray(mergeList, systemVersions, 2);
+            var itemStyle = {
+              normal: {
+                label: {
+                  formatter: function(a, b, c, d) {
+                    return b + ' - ' + (d - 0).toFixed(0) + '%';
+                  }
+                }
+              },
+              emphasis: {
+                label: {
+                  show: true,
+                  position: 'inner',
+                  formatter: "{b}\n{d}%"
+                }
+              }
+            };
+            var option = {
+              title: {
+                text: 'Analysis of OS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: systemVersions
+              },
+              calculable: true,
+              series: [{
+                name: 'OS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: itemStyle,
+                roseType: 'area',
+                data: osPercent
+              }]
+            };
+            Charts['chart-percent-os'].ele.show();
+            Charts['chart-percent-os'].chart.setOption(option);
+          })(self, list);
+          /*chart-percent-os结束*/
+        }
+      }
+    });
+  };
+  daycount.paintBySystem = function(url) {
+    var self = this;
+    window.init(false,true);
+    $.ajax({
+      url: url,
+      success: function(data) {
+        var os = Object.keys(data)[0];
+        var naposVers = data[os].napos_version;
+        var systemVers = data[os].system_version;
+        var sysVerInNapVer = data[os].system_version_in_napos_version;
+        var napVerInSysVer = data[os].napos_version_in_system_version;
+        /*start:napos in os*/
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var option = {
+            title: {
+              text: '',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'axis'
+            },
+            legend: {
+              orient: 'vertival',
+              x: 'right',
+              y: 'top',
+              data: systemVers
+            },
+            xAxis: [{
+              type: 'category',
+              data: naposVers
+            }],
+            yAxis: [{
+              type: 'value',
+              axisLabel: {
+                formatter: '{value}'
+              }
+            }],
+            series: []
+          };
+          napVerInSysVer.map(function(item, index) {
+            option.series.push({
+              name: systemVers[index],
+              type: 'bar',
+              stack: 'OS',
+              data: item
+            });
+          });
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end:napos in os*/
+        /*start:os in napos*/
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var option = {
+            title: {
+              text: '',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'axis'
+            },
+            legend: {
+              orient: 'vertival',
+              x: 'right',
+              y: 'top',
+              data: naposVers
+            },
+            xAxis: [{
+              type: 'category',
+              data: systemVers
+            }],
+            yAxis: [{
+              type: 'value',
+              axisLabel: {
+                formatter: '{value}'
+              }
+            }],
+            series: []
+          };
+          sysVerInNapVer.map(function(item, index) {
+            option.series.push({
+              name: naposVers[index],
+              type: 'bar',
+              stack: 'OS',
+              data: item
+            });
+          });
+          Charts['chart-amass'].ele.show();
+          Charts['chart-amass'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end:os in napos*/
+        /*start: percent in napos */
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var naposPercent = function(){
+           //
+          }();
+          var option = {
+              title: {
+                text: 'Analysis of NAPOS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c}({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVers
+              },
+              calculable: true,
+              series: [{
+                name: 'NAPOS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: self.pieItemStyle,
+                roseType: 'area',
+                data: naposPercent
+              }]
+            };
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end: percent in napos */
+      }
+    });
+  };
+
+  function getPercentArray(list, percentName, propertyIndex) {
+    var array = [];
+    percentName.forEach(function() {
+      array.push({});
+    });
+    percentName.forEach(function(item, index) {
+      list.forEach(function(listItem) {
+        if (listItem[propertyIndex] == item) {
+          if (propertyIndex == 1) {
+            array[index].name = listItem[0].toUpperCase() + '/' + item;
+          }
+          if (propertyIndex == 2) {
+            array[index].name = item;
+          }
+          array[index].value = listItem[3];
+        }
+      });
+    });
+    return array;
+  }
+
+  function getPreAddString(string, preArray) {
+    var array = [];
+    preArray.forEach(function(item) {
+      array.push(string + '' + item);
+    });
+    return array;
+  };
+
+  function getDataArray(mergeList, naposVersions, systemVersions) {
+    var data = [];
+    naposVersions.forEach(function() {
+      data.push([]);
+    });
+    data.map(function(item, index) {
+      systemVersions.map(function(system) {
+        var Num = function(system, index, mergeList) {
+          // var d = '-';
+          var d = 0;
+          for (var i = 0; i < mergeList.length; i++) {
+            if (mergeList[i][1] == naposVersions[index] && mergeList[i][2] == system) {
+              d = mergeList[i][3];
+            }
+          }
+          return d;
+        }(system, index, mergeList);
+        item.push(Num);
+
+      })
+    });
+    return data;
+  }
+
+  function getVersionArray(list, index) {
+    var array = [];
+    list.map(function(item) {
+      if (array.indexOf(item[index]) < 0) {
+        array.push(item[index]);
+      }
+    });
+    return array;
+  }
+
+  function getMergeList(list) {
+    var array = [];
+    list.map(function(item) {
+      var temp = [];
+      temp.push(item[0]);
+      temp.push(item[1]);
+      temp.push(item[2] + item[3]);
+      temp.push(item[4]);
+      array.push(temp);
+    });
+    return array;
+  }
+
+  function sort(list) {
+    var napos = {};
+    list.map(function(item) {
+      if (napos[item[1]] === undefined) {
+        napos[item[1]] = {};
+        napos[item[1]][item[2]] = {};
+      }
+      if (napos[item[1]][item[2]] === undefined) {
+        napos[item[1]][item[2]] = {};
+      }
+      napos[item[1]][item[2]][item[3]] = item[4];
+    });
+    return napos;
+  }
+
+  /*获取napos所有版本下各个系统的总和*/
+  /*参数为sort后的list*/
+  function getNaposVersion(list) {
+    for (var i in list) {
+      var version = list[i];
+      for (var sys in version) {
+        version[sys] = function(object) {
+          var obj = object;
+          var v = 0;
+          for (var sversion in obj) {
+            v += obj[sversion];
+          }
+          return v;
+        }(version[sys]);
+      }
+      version.all = function(version) {
+        var v = 0;
+        for (var sys in version) {
+          v += version[sys];
+        }
+        return v;
+      }(version);
+    }
+    return list;
+  }
+
+  function getAllKindSys(list) {
+    var systems = [];
+    for (var i in list) {
+      var version = list[i];
+      for (var j in version) {
+        if (j != 'all' && systems.indexOf(j) < 0) {
+          systems.push(j);
+        }
+      }
+    }
+    return systems;
+  }
+
+  function getAllKind(index, list) {
+    var array = [];
+    list.map(function(item) {
+      var value = item[index];
+      if (array.indexOf(value) < 0) {
+        array.push(value);
+      }
+    });
+    return array;
+  }
+
+  function getAllKindVersion(list, systems, type) {
+    var array = [];
+    for (var i = 0; i < systems.length; i++) {
+      array.push([]);
+    }
+    list.map(function(item) {
+      var system = type == 1 ? item[0] : item[2];
+      var version = type == 1 ? item[1] : item[3];
+      for (var i = 0; i < systems.length; i++) {
+        if (system == systems[i] && array[i].indexOf(version) < 0) {
+          array[i].push(version);
+        }
+      }
+    });
+    return array;
+  }
+
+  function queryByAppVersion(list, app, appVersion, systems, systemVersions) {
+    var systemsValue = [];
+    var i, j;
+    var sumSystemBySystemVersion = function(list, app, appVersion, systemVersion) {
+      var sum = 0;
+      list.map(function(item) {
+        if (item[0] == app && item[1] == appVersion && item[3] == systemVersion) {
+          sum += item[4];
+        }
+      });
+      return sum;
+    }
+    for (i = 0; i < systems.length; i++) {
+      systemsValue[i] = 0;
+    }
+    for (i = 0; i < systemVersions.length; i++) {
+      for (j = 0; j < systemVersions[i].length; j++) {
+        systemsValue[i] += sumSystemBySystemVersion(list, app, appVersion, systemVersions[i][j]);
+      }
+    }
+    return systemsValue;
+  }
+
+  function queryAppAppversionSystem(data, app, appversion, system) {
+    var sum = 0;
+    data.map(function(item) {
+      if (app == item[0] && appversion == item[1] && system == item[2]) {
+        sum += item[4];
+      }
+    });
+    return sum;
+  }
+
+  function query(data, app, appversion, system, systemversion) {
+    var sum = 0;
+    data.map(function(item) {
+      var j1 = app == 'all' ? true : (app == item[0]);
+      var j2 = appversion == 'all' ? true : (appversion == item[1]);
+      var j3 = system == 'all' ? true : (system == item[2]);
+      var j4 = systemversion == 'all' ? true : (systemversion == item[3]);
+      if (j1 && j2 && j3 && j4) {
+        sum += item[4];
+      }
+    });
+    return sum;
+  }
+
+  function getSortBySystem(list, allApps, allAppVersion, allSystems) {
+    var sortBySystems = [];
+    allSystems.map(function(item) {
+      sortBySystems.push([]);
+    });
+    allSystems.map(function(itemSystem, index) {
+      allAppVersion.map(function(itemAppVersion) {
+        var n = query(list, allApps[0], itemAppVersion, itemSystem, 'all');
+        sortBySystems[index].push(n);
+      });
+    });
+    return sortBySystems;
+  }
+
+})(daycount);
+$(document).ready(function(){
+  var chartsNames = ['chart-main','chart-amass','chart-percent-napos','chart-percent-os'];
+  window.Charts = {};
+  chartsNames.forEach(function(name){
+    var ele = $('<div class="chart"></div>');
+    ele.appendTo($('#chart'));
+    Charts[name] = {
+      ele: ele,
+      chart: echarts.init(ele[0])
+    };
+  });
+  window.interval = 0;
+  window.init = function(infoClear,intervalClear) {
+    if(infoClear){
+      $('#part-info').html('');
+    }
+    for(var i in Charts){
+      Charts[i].ele.hide();
+      Charts[i].chart.hideLoading();
+      Charts[i].chart.clear();
+    }
+    if(intervalClear){
+      clearInterval(interval);
+    }
+  };
+});
+var api = "http://monitor.napos.solo/api";
+var Config = {
+  pageRange: 15
+};
+
+var Tool = {
+  substituteArray: function(str, array) {
+    return str.replace(/\{(.+?)\}/g, function($0, $1) {
+      return array[$1];
+    });
+  },
+  formatDate: function(value) {
+    var date = new Date(value);
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = Tool.formatTime(date.getDate());
+    var h = Tool.formatTime(date.getHours());
+    var m = Tool.formatTime(date.getMinutes());
+    var s = Tool.formatTime(date.getSeconds());
+    return yy + '/' + mm + '/' + dd + ' ' + h + ':' + m + ':' + s;
+  },
+  formatTime: function(time) {
+    return time < 10 ? '0' + time : time;
+  },
+  toTime: function(date) {
+    return (new Date(date)).getTime();
+  },
+  now: function(){
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate();
+    var h = this.formatTime(date.getHours());
+    var m = this.formatTime(date.getMinutes());
+    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m;
+  },
+  yesterday: function() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate() - 1;
+    return yy + '-' + mm + '-' + dd + ' 00:00';
+  },
+  getStep: function(start, end) {
+    var startTime = (new Date(start)).getTime();
+    var endTime = (new Date(end)).getTime();
+    var m = 60000;
+    var points = 60;
+    var range = 1;
+    var dis = endTime - startTime;
+    if (dis < m * 60) {
+      range = 1;
+    } else {
+      range = Math.round(Math.abs(dis) / (m * points));
+    }
+    return range;
+  }
+};
+
+/*
+ * 载入右侧后执行的
+ */
+var navCb = function() {
+  $('.action').on('click', function() {
+    var url = $(this).attr('act');
+    var kind = $(this).attr('kind');
+    init(true, true);
+    switch (kind) {
+      case "intime":
+        // intime.paint();
+        // interval = setInterval(function() {
+        //   intime.paint();
+        // }, 60000);
+        $('#part-info').load('./include/intime.html', intimeCb);
+        break;
+      case "daycount":
+        $('#part-info').load('./include/daycount.html', daycountCb);
+        break;
+      case "search":
+        $('#part-info').load('./include/search.html', searchCb);
+        break;
+      case "clientinfo":
+        $('#part-info').load('./include/clientinfo.html', clientinfoCb);
+        break;
+      default:
+        break;
+    }
+  });
+  $('.action').eq(0).trigger('click');
+};
+/*
+ * 实时监控模块
+ */
+var intimeCb = function() {
+  var getUrl = function(start, end) {
+    var url = '/activitystats';
+    start = start || Tool.yesterday();
+    end = end || Tool.now();
+    var step = Tool.getStep(start, end);
+    url = url + '?period_from=' + start + '&period_to=' + end + '&step=' + step;
+    return url;
+  };
+  $('.intime-submit').on('click', function(e) {
+    e.preventDefault();
+    Charts['chart-main'].ele.show();
+    Charts['chart-main'].chart.showLoading({
+      text: '正在查询..', //loading话术
+    });
+    var start = $('.startTime').val();
+    var end = $('.endTime').val();
+    var url = api + getUrl(start, end);
+    intime.paintByTime(url);
+    window.interval = setInterval(function() {
+      intime.paintByTime(url);
+    }, 60000);
+  });
+  $('.startTime').val(Tool.yesterday());
+  $('.endTime').val(Tool.now());
+  $('.intime-submit').eq(0).trigger('click');
+};
+/*
+ * 活跃时段 版本变迁
+ */
+var clientinfoCb = function() {
+  $('.clientinfo-submit').on('click', function() {
+    var client = $('.model').val();
+    var start = $('.time-start').val();
+    var end = $('.time-end').val();
+    var s = start ? '&period_from=' + start : '';
+    var e = end ? '$period_to=' + end : '';
+    var url = '/clientinfo?uuid=' + client + s + e;
+    $.ajax({
+      url: api + url,
+      success: function(data) {
+        var activityPeriods = data.activity_periods;
+        var clientInfos = data.client_infos;
+        /*版本迁移*/
+        var html = '';
+        var templateClient = $('.result-client-info-template').html();
+        var clientInfoEle = $('.result-client-info tbody');
+        /**formatData*/
+        clientInfos.map(function(item) {
+          item[9] = Tool.formatDate(item[9]);
+        });
+        var clientInfosPaint = function(data, Ele) {
+          data = data || clientInfos;
+          Ele = Ele || clientInfoEle;
+          var html = '';
+          data.map(function(item) {
+            html += Tool.substituteArray(templateClient, item);
+          });
+          Ele.html('').append(html);
+        };
+        /*page*/
+        var page = $.Page({
+          range: Config.pageRange,
+          Ele: $('#page-clientinfo'),
+          data: clientInfos,
+          paintArea: clientInfoEle,
+          paintFn: clientInfosPaint
+        });
+
+
+
+        /*活跃时段*/
+        var barEle = $('#period-bar');
+        var startEle = barEle.find('.tag-start');
+        var endEle = barEle.find('.tag-end');
+        var periodEle = barEle.find('.period');
+        var templatePeroid = $('.result-client-period-template').html();
+        startEle.text(Tool.formatDate(activityPeriods[0][2]));
+        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1][3]));
+        var periodArray = getPeriod(activityPeriods);
+        var periodPaint = function(list, ele) {
+          var html = '';
+          list.map(function(item) {
+            html += Tool.substituteArray(templatePeroid, item);
+          });
+          ele.html('').append(html);
+        };
+        periodPaint(periodArray, periodEle);
+      }
+    });
+  });
+
+
+  function getPeriod(list) {
+    var array = [];
+    var len = list.length;
+    var startTime = Tool.toTime(list[0][2]);
+    var endTime = Tool.toTime(list[len - 1][3]);
+    var C = endTime - startTime;
+    var percent = function(value) {
+      return ((value - startTime) / C * 100).toFixed(2) + '%';
+    };
+    list.map(function(item, index) {
+      var a = percent(Tool.toTime(item[2]));
+      var b = percent(Tool.toTime(item[3]));
+      b = (b.split('%')[0] - a.split('%')[0]) + '%';
+      array.push([a, b, Tool.formatDate(item[2]), Tool.formatDate(item[3])]);
+    });
+    return array;
+  }
+};
+/*
+ * 日统计模块
+ */
+var daycountCb = function() {
+  var getUrl = function(act, date) {
+    var url = '/apposratio';
+    var obj = {
+      'default': '',
+      'android': 'android',
+      'ios': 'ios',
+      'windows': 'windows'
+    };
+    if (date) {
+      return url + '?platform=' + obj[act] + '&stats_day=' + date;
+    }
+    return url + '?platform=' + obj[act] + '&stats_day=' + Tool.yesterday();
+  };
+  $('.daycount-submit').on('click', function() {
+    var act = $(this).attr('act');
+    var value = $('.daycount-date').val();
+    var url = getUrl(act, value);
+    if (act == 'default') {
+      daycount.paint(url);
+    } else {
+      daycount.paintBySystem(url);
+    }
+  });
+  //$('.daycount-submit').eq(0).trigger('click');
+};
+/*
+ * 查询模块
+ */
+var searchCb = function() {
+  $('#part-info input[name=search-kind]').on('click', function() {
+    var value = $('#part-info input[name=search-kind]:checked').val();
+    $('.radio-value').text(value);
+  });
+  $('.search-submit').on('click', function() {
+    var kind = $('.radio-value').text();
+    var model = $('input[name=model]').val();
+    var startTime = $('input[name=time-begin]').val();
+    var endTime = $('input[name=time-end]').val();
+    var url = getUrl(kind, model, startTime, endTime);
+    var changeTb = function(value) {
+      var name;
+      if (value == 'client') {
+        name = ['ClientId', 'UserId', 'RestaurantId'];
+      }
+      if (value == 'user') {
+        name = ['UserId', 'ClientId', 'RestaurantId'];
+      }
+      if (value == 'restaurant') {
+        name = ['RestaurantId', 'UserId', 'ClientId'];
+      }
+      return name;
+    }($('.radio-value').text());
+    $('#part-info .result .tb_id').map(function(index, item) {
+      $(item).text(changeTb[index]);
+    });
+    $.ajax({
+      url: api + url,
+      success: function(data) {
+        var list = data[Object.keys(data)[0]];
+        var template = $('#result-template').html();
+        /*formateData*/
+        list.map(function(item) {
+          item[4] = Tool.formatDate(item[4]);
+          item[5] = Tool.formatDate(item[5]);
+        });
+        var resultPaint = function(data, Ele) {
+          var html = '';
+          Ele = Ele || $('.result tbody');
+          data.map(function(item) {
+            html += Tool.substituteArray(template, item);
+          });
+          Ele.html('').append(html);
+        };
+        /*page*/
+        var page = $.Page({
+          range: Config.pageRange,
+          Ele: $('#page-search'),
+          data: list,
+          paintFn: resultPaint
+        });
+      }
+    });
+
+  });
+
+  function substitute(str, sub) {
+    return str.replace(/\{(.+?)\}/g, function($0, $1) {
+      return $1 in sub ? sub[$1] : $0;
+    });
+  }
+
+  function getUrl(value, model, start, end) {
+    var url = {
+      'client': '/userrstforclient?client=',
+      'user': '/clientrstforuser?user=',
+      'restaurant': '/clientuserforrst?rst='
+    };
+    var s = '',
+      e = '';
+    if (start) {
+      s = '&period_from=' + start;
+    }
+    if (end) {
+      e = '&period_to=' + end;
+    }
+    return url[value] + model + s + e;
+  }
+};
+$(document).ready(function() {
+
+    $('#top').load('./include/top.html');
+    $('#nav').load('./include/navigate.html', navCb);
+  });

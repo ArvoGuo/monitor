@@ -10,7 +10,7 @@ $(document).ready(function(){
     };
   });
   window.interval = 0;
-  window.init = function(infoClear) {
+  window.init = function(infoClear,intervalClear) {
     if(infoClear){
       $('#part-info').html('');
     }
@@ -19,6 +19,8 @@ $(document).ready(function(){
       Charts[i].chart.hideLoading();
       Charts[i].chart.clear();
     }
-    clearInterval(interval);
+    if(intervalClear){
+      clearInterval(interval);
+    }
   };
 });

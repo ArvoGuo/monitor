@@ -8,6 +8,7 @@ var concat = require('gulp-concat');
 var jsList = ["bower_components/jquery-2.1.3.min/index.js",
   "bower_components/jquery-ui/jquery-ui.min.js",
   "bower_components/echarts/build/dist/echarts-all.js",
+  "develop/.tmp/datatimepicker.js",
   "develop/.tmp/Chart.js",
   "develop/.tmp/Page.js",
   "develop/.tmp/intime.js",
@@ -18,9 +19,25 @@ var jsList = ["bower_components/jquery-2.1.3.min/index.js",
 ];
 var cssList = ['bower_components/bootstrap/dist/css/bootstrap.min.css',
   'bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css',
+  'develop/datatimepicker.css',
   'develop/sass.css'
 ];
-var jsListShouldCompress = ["develop/js/Chart.js",
+var jsListShouldCompress = [
+  "develop/js/datatimepicker.js",
+  "develop/js/Chart.js",
+  "develop/js/Page.js",
+  "develop/js/intime.js",
+  "develop/js/daycount.js",
+  "develop/js/init.js",
+  "develop/js/cbModule.js",
+  "develop/js/app.js"
+];
+var devJsList = [
+"bower_components/jquery-2.1.3.min/index.js",
+  "bower_components/jquery-ui/jquery-ui.min.js",
+  "bower_components/echarts/build/dist/echarts-all.js",
+  "develop/js/datatimepicker.js",
+  "develop/js/Chart.js",
   "develop/js/Page.js",
   "develop/js/intime.js",
   "develop/js/daycount.js",
@@ -42,10 +59,21 @@ gulp.task('concat', function() {
     .pipe(gulp.dest('develop/'));
 });
 var watch = function() {
-  gulp.watch('develop/style/**/*.{sass,scss}', ['sass']);
+  gulp.watch('develop/style/**/*.{sass,scss}', ['sass','devcss']);
+  gulp.watch('develop/js/*',['devjs']);
 };
+gulp.task('devcss',function(){
+  gulp.src(cssList)
+    .pipe(concat('app.css'))
+    .pipe(gulp.dest('develop/'));
+});
+gulp.task('devjs',function(){
+  gulp.src(devJsList)
+  .pipe(concat('app.js'))
+  .pipe(gulp.dest('develop/'));
+});
 gulp.task('html:dist', ['sass'], function() {
-  return gulp.src(['develop/index.html', 'develop/app.{css,map}', 'develop/config.json'])
+  return gulp.src(['develop/index.html', 'develop/app.{css,map}'])
     .pipe(gulp.dest('dist'));
 });
 gulp.task('include:dist', function() {
@@ -61,6 +89,10 @@ gulp.task('js:dist', function() {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('config:dist',function(){
+
+});
+
 
 
 gulp.task('sass', sass);
@@ -68,4 +100,4 @@ gulp.task('serve', serve);
 gulp.task('watch', watch);
 gulp.task('build:dist', ['sass','uglifyjs','concat', 'js:dist', 'html:dist', 'images:dist', 'include:dist']);
 
-gulp.task('default', ['watch', 'sass', 'serve']);
+gulp.task('default', ['watch', 'sass']);

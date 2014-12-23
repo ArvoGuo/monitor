@@ -7,6 +7,22 @@ daycount.itemStyle = {
     barBorderRadius: 5,
   }
 };
+daycount.pieItemStyle = {
+  normal: {
+    label: {
+      formatter: function(a, b, c, d) {
+        return b + ' - ' + (d - 0).toFixed(0) + '%';
+      }
+    }
+  },
+  emphasis: {
+    label: {
+      show: true,
+      position: 'inner',
+      formatter: "{b}\n{d}%"
+    }
+  }
+};
 daycount.grid = {
   x2: 115,
   y2: 115
@@ -14,7 +30,7 @@ daycount.grid = {
 (function(daycount) {
   daycount.paint = function(url) {
     var self = this;
-    window.init(false );
+    window.init(false,true);
     $.ajax({
       url: url,
       success: function(data) {
@@ -243,16 +259,136 @@ daycount.grid = {
       }
     });
   };
-  daycount.paintBySystem = function(url){
+  daycount.paintBySystem = function(url) {
     var self = this;
-    window.init(false);
+    window.init(false,true);
     $.ajax({
       url: url,
-      success: function(data){
-
+      success: function(data) {
+        var os = Object.keys(data)[0];
+        var naposVers = data[os].napos_version;
+        var systemVers = data[os].system_version;
+        var sysVerInNapVer = data[os].system_version_in_napos_version;
+        var napVerInSysVer = data[os].napos_version_in_system_version;
+        /*start:napos in os*/
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var option = {
+            title: {
+              text: '',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'axis'
+            },
+            legend: {
+              orient: 'vertival',
+              x: 'right',
+              y: 'top',
+              data: systemVers
+            },
+            xAxis: [{
+              type: 'category',
+              data: naposVers
+            }],
+            yAxis: [{
+              type: 'value',
+              axisLabel: {
+                formatter: '{value}'
+              }
+            }],
+            series: []
+          };
+          napVerInSysVer.map(function(item, index) {
+            option.series.push({
+              name: systemVers[index],
+              type: 'bar',
+              stack: 'OS',
+              data: item
+            });
+          });
+          Charts['chart-main'].ele.show();
+          Charts['chart-main'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end:napos in os*/
+        /*start:os in napos*/
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var option = {
+            title: {
+              text: '',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'axis'
+            },
+            legend: {
+              orient: 'vertival',
+              x: 'right',
+              y: 'top',
+              data: naposVers
+            },
+            xAxis: [{
+              type: 'category',
+              data: systemVers
+            }],
+            yAxis: [{
+              type: 'value',
+              axisLabel: {
+                formatter: '{value}'
+              }
+            }],
+            series: []
+          };
+          sysVerInNapVer.map(function(item, index) {
+            option.series.push({
+              name: naposVers[index],
+              type: 'bar',
+              stack: 'OS',
+              data: item
+            });
+          });
+          Charts['chart-amass'].ele.show();
+          Charts['chart-amass'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end:os in napos*/
+        /*start: percent in napos */
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
+          var naposPercent = function(){
+           //
+          }();
+          var option = {
+              title: {
+                text: 'Analysis of NAPOS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c}({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: naposVers
+              },
+              calculable: true,
+              series: [{
+                name: 'NAPOS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: self.pieItemStyle,
+                roseType: 'area',
+                data: naposPercent
+              }]
+            };
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+        /*end: percent in napos */
       }
     });
-  }
+  };
 
   function getPercentArray(list, percentName, propertyIndex) {
     var array = [];

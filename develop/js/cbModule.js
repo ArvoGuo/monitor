@@ -1,3 +1,4 @@
+var api = "http://monitor.napos.solo/api";
 var Config = {
   pageRange: 15
 };
@@ -24,12 +25,35 @@ var Tool = {
   toTime: function(date) {
     return (new Date(date)).getTime();
   },
-  yesterday: function() {
+  now: function(){
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
     var dd = date.getDate();
-    return yy + '-' + mm + '-' + dd + ' 23:59';
+    var h = this.formatTime(date.getHours());
+    var m = this.formatTime(date.getMinutes());
+    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m;
+  },
+  yesterday: function() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate() - 1;
+    return yy + '-' + mm + '-' + dd + ' 00:00';
+  },
+  getStep: function(start, end) {
+    var startTime = (new Date(start)).getTime();
+    var endTime = (new Date(end)).getTime();
+    var m = 60000;
+    var points = 60;
+    var range = 1;
+    var dis = endTime - startTime;
+    if (dis < m * 60) {
+      range = 1;
+    } else {
+      range = Math.round(Math.abs(dis) / (m * points));
+    }
+    return range;
   }
 };
 
@@ -40,13 +64,14 @@ var navCb = function() {
   $('.action').on('click', function() {
     var url = $(this).attr('act');
     var kind = $(this).attr('kind');
-    init(true);
+    init(true, true);
     switch (kind) {
       case "intime":
-        intime.paint(url);
-        interval = setInterval(function() {
-          intime.paint(url);
-        }, 60000);
+        // intime.paint();
+        // interval = setInterval(function() {
+        //   intime.paint();
+        // }, 60000);
+        $('#part-info').load('./include/intime.html', intimeCb);
         break;
       case "daycount":
         $('#part-info').load('./include/daycount.html', daycountCb);
@@ -64,6 +89,36 @@ var navCb = function() {
   $('.action').eq(0).trigger('click');
 };
 /*
+ * 实时监控模块
+ */
+var intimeCb = function() {
+  var getUrl = function(start, end) {
+    var url = '/activitystats';
+    start = start || Tool.yesterday();
+    end = end || Tool.now();
+    var step = Tool.getStep(start, end);
+    url = url + '?period_from=' + start + '&period_to=' + end + '&step=' + step;
+    return url;
+  };
+  $('.intime-submit').on('click', function(e) {
+    e.preventDefault();
+    Charts['chart-main'].ele.show();
+    Charts['chart-main'].chart.showLoading({
+      text: '正在查询..', //loading话术
+    });
+    var start = $('.startTime').val();
+    var end = $('.endTime').val();
+    var url = api + getUrl(start, end);
+    intime.paintByTime(url);
+    window.interval = setInterval(function() {
+      intime.paintByTime(url);
+    }, 60000);
+  });
+  $('.startTime').val(Tool.yesterday());
+  $('.endTime').val(Tool.now());
+  $('.intime-submit').eq(0).trigger('click');
+};
+/*
  * 活跃时段 版本变迁
  */
 var clientinfoCb = function() {
@@ -75,7 +130,7 @@ var clientinfoCb = function() {
     var e = end ? '$period_to=' + end : '';
     var url = '/clientinfo?uuid=' + client + s + e;
     $.ajax({
-      url: url,
+      url: api + url,
       success: function(data) {
         var activityPeriods = data.activity_periods;
         var clientInfos = data.client_infos;
@@ -151,29 +206,30 @@ var clientinfoCb = function() {
  * 日统计模块
  */
 var daycountCb = function() {
-  var getUrl = function(act) {
+  var getUrl = function(act, date) {
+    var url = '/apposratio';
     var obj = {
-      'default': '/apposratio',
-      'android': '',
-      'ios': '',
-      'windows': ''
+      'default': '',
+      'android': 'android',
+      'ios': 'ios',
+      'windows': 'windows'
     };
-    return obj[act];
+    if (date) {
+      return url + '?platform=' + obj[act] + '&stats_day=' + date;
+    }
+    return url + '?platform=' + obj[act] + '&stats_day=' + Tool.yesterday();
   };
   $('.daycount-submit').on('click', function() {
     var act = $(this).attr('act');
-    var url = getUrl(act);
     var value = $('.daycount-date').val();
-    if (value) {
-      url += '?stats_day=' + value;
-    }
+    var url = getUrl(act, value);
     if (act == 'default') {
       daycount.paint(url);
     } else {
       daycount.paintBySystem(url);
     }
   });
-  daycount.paint(getUrl('default') + '?stats_day=' + Tool.yesterday);
+  //$('.daycount-submit').eq(0).trigger('click');
 };
 /*
  * 查询模块
@@ -206,7 +262,7 @@ var searchCb = function() {
       $(item).text(changeTb[index]);
     });
     $.ajax({
-      url: url,
+      url: api + url,
       success: function(data) {
         var list = data[Object.keys(data)[0]];
         var template = $('#result-template').html();
