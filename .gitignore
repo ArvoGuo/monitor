@@ -1,9 +1,8 @@
 .DS_Store
 *.pyc
-/develop/.tmp/*
+/develop/.tmp
 /node_modules
 /product
 /develop/bower_components/*
-/develop/images/*
 /dist
 /bower_components

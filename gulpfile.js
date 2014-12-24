@@ -1,25 +1,17 @@
 var gulp = require('gulp');
 var clean = require('gulp-clean');
 var runSequence = require('run-sequence');
-var config = require('./workflow/config.json');
-var sass = require('./workflow/tasks/sass');
-var serve = require('./workflow/tasks/serve');
+var sass = require('gulp-sass');
+var watch = require('gulp-watch');
+var plumber = require('gulp-plumber');
+var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
-var jsList = ["bower_components/jquery-2.1.3.min/index.js",
-  "bower_components/jquery-ui/jquery-ui.min.js",
-  "bower_components/echarts/build/dist/echarts-all.js",
-  "develop/.tmp/datatimepicker.js",
-  "develop/.tmp/Chart.js",
-  "develop/.tmp/Page.js",
-  "develop/.tmp/intime.js",
-  "develop/.tmp/daycount.js",
-  "develop/.tmp/init.js",
-  "develop/.tmp/cbModule.js",
-  "develop/.tmp/app.js"
-];
-var dependentJs = ["develop/bower_components/jquery-2.1.3.min/index.js",
-  "develop/bower_components/jquery-ui/jquery-ui.min.js",
+var browserSync = require('browser-sync');
+
+
+var componentJs = [
+  "develop/bower_components/jquery-2.1.3.min/index.js",
   "develop/bower_components/echarts/build/dist/echarts-all.js"
 ];
 var developJs = [
@@ -32,81 +24,12 @@ var developJs = [
   "develop/js/cbModule.js",
   "develop/js/app.js"
 ];
-var cssList = ['bower_components/bootstrap/dist/css/bootstrap.min.css',
-  'bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css',
-  'develop/datatimepicker.css',
-  'develop/sass.css'
+var componentCss = [
+  "develop/bower_components/bootstrap/dist/css/bootstrap.min.css"
 ];
-var jsListShouldCompress = [
-  "develop/js/datatimepicker.js",
-  "develop/js/Chart.js",
-  "develop/js/Page.js",
-  "develop/js/intime.js",
-  "develop/js/daycount.js",
-  "develop/js/init.js",
-  "develop/js/cbModule.js",
-  "develop/js/app.js"
-];
-var devJsList = [
-  "bower_components/jquery-2.1.3.min/index.js",
-  "bower_components/jquery-ui/jquery-ui.min.js",
-  "bower_components/echarts/build/dist/echarts-all.js",
-  "develop/js/datatimepicker.js",
-  "develop/js/Chart.js",
-  "develop/js/Page.js",
-  "develop/js/intime.js",
-  "develop/js/daycount.js",
-  "develop/js/init.js",
-  "develop/js/cbModule.js",
-  "develop/js/app.js"
-];
-gulp.task('uglifyjs', function() {
-  return gulp.src(jsListShouldCompress)
-    .pipe(uglify())
-    .pipe(gulp.dest('develop/.tmp/'));
-});
-gulp.task('concat', function() {
-  gulp.src(jsList)
-    .pipe(concat('app.js'))
-    .pipe(gulp.dest('develop/'));
-  gulp.src(cssList)
-    .pipe(concat('app.css'))
-    .pipe(gulp.dest('develop/'));
-});
-var watch = function() {
-  gulp.watch('develop/style/**/*.{sass,scss}', ['sass', 'devcss']);
-  gulp.watch('develop/js/*', ['devjs']);
-};
-gulp.task('devcss', function() {
-  gulp.src(cssList)
-    .pipe(concat('app.css'))
-    .pipe(gulp.dest('develop/'));
-});
-gulp.task('devjs', function() {
-  gulp.src(devJsList)
-    .pipe(concat('app.js'))
-    .pipe(gulp.dest('develop/'));
-});
-gulp.task('html:dist', ['sass'], function() {
-  return gulp.src(['develop/index.html', 'develop/app.{css,map}'])
-    .pipe(gulp.dest('dist'));
-});
-gulp.task('include:dist', function() {
-  return gulp.src('develop/include/*')
-    .pipe(gulp.dest('dist/include'));
-});
-gulp.task('images:dist', function() {
-  return gulp.src('bower_components/jquery-ui/themes/ui-lightness/images/*')
-    .pipe(gulp.dest('dist/images'));
-});
-gulp.task('js:dist', function() {
-  return gulp.src('develop/app.js')
-    .pipe(gulp.dest('dist'));
-});
 
-gulp.task('config:dist', function() {
 
-});
+
 gulp.task('dev:mindevjs', function() {
   return gulp.src(developJs)
     .pipe(uglify())
@@ -114,7 +37,7 @@ gulp.task('dev:mindevjs', function() {
     .pipe(gulp.dest('develop/.tmp/'));
 });
 gulp.task('dev:mergejs', function() {
-  return gulp.src(dependentJs.concat(['develop/.tmp/dev.js']))
+  return gulp.src(componentJs.concat(['develop/.tmp/dev.js']))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('develop/.tmp/'));
 });
@@ -127,6 +50,36 @@ gulp.task('dev:cleanjs', function() {
     }));
 });
 
+
+gulp.task('dev:sass', function() {
+  return gulp.src('develop/style/app.sass')
+    .pipe(sass())
+    .pipe(rename('dev.css'))
+    .pipe(gulp.dest('develop/.tmp/'));
+});
+gulp.task('dev:mergecss', function() {
+  return gulp.src(['develop/.tmp/dev.css', 'develop/style/dependence/*.css'].concat(componentCss))
+    .pipe(concat('app.css'))
+    .pipe(gulp.dest('develop/.tmp/'));
+});
+
+gulp.task('dev:cleancss', function() {
+  return gulp.src('develop/.tmp/dev.css', {
+      read: false
+    })
+    .pipe(clean({
+      force: true
+    }));
+});
+
+gulp.task('dev:css', function() {
+  runSequence(
+    'dev:sass',
+    'dev:mergecss',
+    'dev:cleancss'
+  );
+});
+
 gulp.task('dev:js', function() {
   runSequence('dev:mindevjs',
     'dev:mergejs',
@@ -134,11 +87,114 @@ gulp.task('dev:js', function() {
   );
 });
 
+gulp.task('dev', ['dev:css', 'dev:js']);
+
+gulp.task('serve', ['dev'], function() {
+  browserSync({
+    server: {
+      baseDir: ['develop/.tmp', 'develop/']
+    },
+    files: [
+      'develop/index.html',
+      'develop/.tmp/*',
+    ]
+  });
+  watch('develop/style/**/*.{sass,scss}', function(event, done) {
+    gulp.start('dev:css', function() {
+    });
+  }).pipe(plumber());
+  watch('develop/js/*',function (event,done) {
+    gulp.start('dev:js',function(){
+    });
+  }).pipe(plumber());
+});
 
 
-gulp.task('sass', sass);
-gulp.task('serve', serve);
-gulp.task('watch', watch);
-gulp.task('build:dist', ['sass', 'uglifyjs', 'concat', 'js:dist', 'html:dist', 'images:dist', 'include:dist']);
 
-gulp.task('default', ['watch', 'sass']);
+gulp.task('prod:mindevjs', function() {
+  return gulp.src(developJs)
+    .pipe(uglify())
+    .pipe(concat('prod.js'))
+    .pipe(gulp.dest('dist/'));
+});
+gulp.task('prod:mergejs', function() {
+  return gulp.src(componentJs.concat(['dist/prod.js']))
+    .pipe(concat('app.js'))
+    .pipe(gulp.dest('dist/'));
+});
+gulp.task('prod:cleanjs', function() {
+  return gulp.src('dist/prod.js', {
+      read: false
+    })
+    .pipe(clean({
+      force: true
+    }));
+});
+
+gulp.task('prod:sass', function() {
+  return gulp.src('develop/style/app.sass')
+    .pipe(sass())
+    .pipe(rename('prod.css'))
+    .pipe(gulp.dest('dist/'));
+});
+gulp.task('prod:mergecss', function() {
+  return gulp.src(['dist/prod.css', 'develop/style/dependence/*.css'].concat(componentCss))
+    .pipe(concat('app.css'))
+    .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('prod:cleancss', function() {
+  return gulp.src('dist/prod.css', {
+      read: false
+    })
+    .pipe(clean({
+      force: true
+    }));
+});
+
+gulp.task('prod:css', function() {
+  runSequence(
+    'prod:sass',
+    'prod:mergecss',
+    'prod:cleancss'
+  );
+});
+
+gulp.task('prod:js',function(){
+  runSequence('prod:mindevjs',
+    'prod:mergejs',
+    'prod:cleanjs'
+  );
+});
+
+gulp.task('prod:html',function(){
+  gulp.src('develop/index.html')
+    .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('prod:include',function(){
+  gulp.src('develop/include/*')
+    .pipe(gulp.dest('dist/include'));
+});
+
+gulp.task('serve:prod',['build:dist'],function(){
+  browserSync({
+    server: {
+      baseDir: ['dist']
+    },
+    files: [
+      'dist/*',
+    ]
+  });
+});
+
+//prod
+gulp.task('build:dist',['prod:js','prod:css','prod:html','prod:include']);
+gulp.task('default', ['serve']);
+
+
+
+
+
+
+
