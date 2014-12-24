@@ -31,20 +31,42 @@ var Tool = {
   toTime: function(date) {
     return (new Date(date)).getTime();
   },
-  now: function() {
+  now: function(day) {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
     var dd = date.getDate();
     var h = this.formatTime(date.getHours());
     var m = this.formatTime(date.getMinutes());
+    if (day) {
+      return yy + '-' + mm + '-' + dd;
+    }
     return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m;
   },
-  yesterday: function() {
+  today: function() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = date.getDate();
+    return yy + '-' + mm + '-' + dd;
+  },
+  datetimeBefore: function(m, d, h) {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1 - parseInt(m, 10);
+    var dd = date.getDate() - parseInt(d, 10);
+    var hh = date.getHours() - parseInt(h, 10);
+    var i = this.formatTime(date.getMinutes());
+    return yy + '-' + mm + '-' + dd + ' ' + this.formatTime(hh) + ':' + i;
+  },
+  yesterday: function(day) {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
     var dd = date.getDate() - 1;
+    if (day) {
+      return yy + '-' + mm + '-' + dd;
+    }
     return yy + '-' + mm + '-' + dd + ' 00:00';
   },
   getStep: function(start, end) {
@@ -73,16 +95,24 @@ var navCb = function() {
     init(true, true);
     switch (kind) {
       case "intime":
+        $('#chart').show();
         $('#part-info').load('./include/intime.html', intimeCb);
         break;
       case "daycount":
+        $('#chart').show();
         $('#part-info').load('./include/daycount.html', daycountCb);
         break;
       case "search":
+        $('#chart').hide();
         $('#part-info').load('./include/search.html', searchCb);
         break;
       case "clientinfo":
+        $('#chart').hide();
         $('#part-info').load('./include/clientinfo.html', clientinfoCb);
+        break;
+      case "rststats":
+        $('#chart').hide();
+        $('#part-info').load('./include/rststats.html', rststatCb);
         break;
       default:
         break;
@@ -90,12 +120,32 @@ var navCb = function() {
   });
   $('.action').eq(0).trigger('click');
 };
+
+/*
+ * 餐厅统计模块
+ */
+var rststatCb = function() {
+  $('.rststats-submit').on('click', function() {
+    var date = $('#rststats-date').val();
+    date = date || Tool.yesterday('day');
+    var url = '/multilogrst?stats_day=' + date;
+    $('#rststats-result').text('正在查询..');
+    $.ajax({
+      url: api + url,
+      success: function(data) {
+        var total = data.multiple_login_rst_count.count;
+        $('#rststats-result').text(total + '个客户端登陆餐厅');
+      }
+    });
+  });
+};
+
 /*
  * 实时监控模块
  */
 var intimeCb = function() {
   var getUrl = function(start, end) {
-    var url = '/activitystats';
+    var url = api + '/activitystats';
     start = start || Tool.yesterday();
     end = end || Tool.now();
     var step = Tool.getStep(start, end);
@@ -108,21 +158,53 @@ var intimeCb = function() {
     Charts['chart-main'].chart.showLoading({
       text: '正在查询..', //loading话术
     });
-
-    var start = $('.startTime').val();
-    var end = $('.endTime').val();
-    var url = api + getUrl(start, end);
+    var start = $('.start-time').val();
+    var end = $('.end-time').val();
+    var url = getUrl(start, end);
     intime.paintByTime(url);
-
-    // window.interval = setInterval(function() {
-    //   var start = $('.startTime').val();
-    //   $('.endTime').val(Tool.now());
-    //   var url = api + getUrl(start, Tool.now());
-    //   intime.paintByTime(url);
-    // }, 60000);
   });
-  $('.startTime').val(Tool.yesterday());
-  $('.endTime').val(Tool.now());
+
+  $('.intime-model').on('click', function() {
+    var model = $(this).attr('act');
+    var start = '';
+    var end = '';
+    var url = '';
+    if (model == 'hour') {
+      start = Tool.datetimeBefore(0, 0, 1);
+      end = Tool.now();
+    }
+    if (model == 'day') {
+      start = Tool.datetimeBefore(0, 1, 0);
+      end = Tool.now();
+    }
+    if (model == 'week') {
+      start = Tool.datetimeBefore(0, 7, 0);
+      end = Tool.now();
+    }
+    if (model == 'month') {
+      start = Tool.datetimeBefore(1, 0, 0);
+      end = Tool.now();
+    }
+    $('.start-time').val(start);
+    $('.end-time').val(end);
+    if (model == 'hour') {
+      url = getUrl(start, end);
+      intime.paintByTime(url);
+      window.interval = setInterval(function() {
+        start = Tool.datetimeBefore(0, 0, 1);
+        end = Tool.now();
+        var url = api + getUrl(start, Tool.now());
+        intime.paintByTime(url);
+      }, 60000);
+    } else {
+      clearInterval(interval);
+      url = getUrl(start, end);
+      intime.paintByTime(url);
+    }
+  });
+
+  $('.start-time').val(Tool.yesterday());
+  $('.end-time').val(Tool.now());
   $('.intime-submit').eq(0).trigger('click');
 };
 /*
@@ -173,8 +255,8 @@ var clientinfoCb = function() {
         var endEle = barEle.find('.tag-end');
         var periodEle = barEle.find('.period');
         var templatePeroid = $('.result-client-period-template').html();
-        startEle.text(Tool.formatDate(activityPeriods[0][active_from]));
-        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1][active_to]));
+        startEle.text(Tool.formatDate(activityPeriods[0].active_from));
+        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1].active_to));
         var periodArray = getPeriod(activityPeriods);
         var periodPaint = function(list, ele) {
           var html = '';
@@ -192,17 +274,17 @@ var clientinfoCb = function() {
   function getPeriod(list) {
     var array = [];
     var len = list.length;
-    var startTime = Tool.toTime(list[0][active_from]);
-    var endTime = Tool.toTime(list[len - 1][active_to]);
+    var startTime = Tool.toTime(list[0].active_from);
+    var endTime = Tool.toTime(list[len - 1].active_to);
     var C = endTime - startTime;
     var percent = function(value) {
       return ((value - startTime) / C * 100).toFixed(2) + '%';
     };
     list.map(function(item, index) {
-      var a = percent(Tool.toTime(item[active_from]));
-      var b = percent(Tool.toTime(item[active_to]));
+      var a = percent(Tool.toTime(item.active_from));
+      var b = percent(Tool.toTime(item.active_to));
       b = (b.split('%')[0] - a.split('%')[0]) + '%';
-      array.push([a, b, Tool.formatDate(item[active_from]), Tool.formatDate(item[active_to])]);
+      array.push([a, b, Tool.formatDate(item.active_from), Tool.formatDate(item.active_to)]);
     });
     return array;
   }
@@ -234,7 +316,8 @@ var daycountCb = function() {
       daycount.paintBySystem(url);
     }
   });
-  //$('.daycount-submit').eq(0).trigger('click');
+  $('.daycount-date').val(Tool.yesterday('day'));
+  $('.daycount-submit').eq(1).trigger('click');
 };
 /*
  * 查询模块
@@ -279,6 +362,7 @@ var searchCb = function() {
     });
 
   });
+
   function getUrl(value, model, start, end) {
     var url = {
       'client': '/userrstforclient?client=',

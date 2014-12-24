@@ -1,0 +1,18 @@
+<form role="form">
+  <div class="form-group">
+    <label for="">Date：</label>
+    <input type="text" class="form-control rststats-date" id="rststats-date">
+  </div>
+</form>
+<div>
+  <!-- <button class="btn btn-success rststats-submit" act="default">Query-Default</button> -->
+  <button class="btn btn-success rststats-submit" act="">Query</button>
+</div>
+<h3>Result：<span id="rststats-result"></span></h3>
+<script>
+  $('#rststats-date').datetimepicker({
+    format: 'Y-m-d',
+    timepicker: false,
+    closeOnDateSelect:true
+  })
+</script>

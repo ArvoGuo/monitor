@@ -1,1 +1,1 @@
-window.api = "http://monitor.napos.solo/api";
+window.api = "http://monitor.napos.io/api";

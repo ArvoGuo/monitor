@@ -8,7 +8,6 @@ var intime = new Chart({
   },
   xAxis: [{
     type: 'category',
-    boundaryGap: false,
     data: []
   }],
   yAxis: [{

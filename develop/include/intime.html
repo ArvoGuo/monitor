@@ -1,16 +1,24 @@
 <form role="form" class="form-inline intime-form">
   <div class="form-group">
     <label for="" class="">TimeStart:</label>
-    <input type="text" class="form-control intime-date startTime " id="intime-date-start">
+    <input type="text" class="form-control intime-date start-time " id="intime-date-start">
   </div>
    <div class="form-group">
     <label for="" class="">TimeEnd  :</label>
-    <input type="text" class="form-control intime-date endTime " id="intime-date-end">
+    <input type="text" class="form-control intime-date end-time " id="intime-date-end">
   </div>
    <div class="form-group">
     <button class="btn btn-success intime-submit" act="default">Query-Default</button>
   </div>
 </form>
+
+  <div class="row-button">
+    <button class="btn btn-primary intime-model" act="hour">One Hour</button>
+    <button class="btn btn-primary intime-model" act="day">One Day</button>
+    <button class="btn btn-primary intime-model" act="week">One Week</button>
+    <button class="btn btn-primary intime-model" act="month">One Month</button>
+  </div>
+
 <script>
   $('#intime-date-start').datetimepicker({
     format:'Y-m-d H:i'

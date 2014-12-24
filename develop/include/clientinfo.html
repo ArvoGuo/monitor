@@ -6,19 +6,19 @@
   </div>
   <div class="form-group">
     <label for="">TimeStart</label>
-    <input type="text" class="time-start form-control" >
+    <input type="text" class="time-start form-control" id="client-info-start" >
   </div>
   <div class="form-group">
     <label for="">TimeEnd</label>
-    <input type="text" class="time-end form-control">
+    <input type="text" class="time-end form-control" id="client-info-end">
   </div>
 </form>
 <button class="btn btn-success clientinfo-submit">Query</button>
 <div class="result-client-period">
   <div class="caption">activity time</div>
   <div class="bar" id="period-bar">
-    <div class="tag-start">timestart</div>
-    <div class="tag-end">timeend</div>
+    <div class="tag-start">start</div>
+    <div class="tag-end">end</div>
     <div class="period">
     </div>
   </div>
@@ -29,8 +29,8 @@
     <thead>
       <tr>
         <th>Date</th>
-        <th>System / Version</th>
-        <th>Application / Version</th>
+        <th>OS / Version</th>
+        <th>APP / Version</th>
       </tr>
     </thead>
     <tbody>
@@ -40,6 +40,14 @@
 
   </div>
 </div>
+<script>
+   $('#client-info-start').datetimepicker({
+    format: 'Y-m-d H:i',
+  });
+   $('#client-info-end').datetimepicker({
+    format: 'Y-m-d H:i',
+  });
+</script>
 <script type="text/template" class="result-client-info-template">
 <tr>
   <td>{active_time}</td>
