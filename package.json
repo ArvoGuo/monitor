@@ -17,9 +17,10 @@
     "node-sass": "^1.2.3",
     "run-sequence": "^1.0.2"
   },
-  "devDependencies": {},
-  "scripts": {
+  "devDependencies": {
+    "gulp-compile-handlebars": "^0.4.4"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ArvoGuo/monitor.git"
