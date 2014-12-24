@@ -178,7 +178,7 @@ gulp.task('prod:include', function() {
     .pipe(gulp.dest('dist/include'));
 });
 
-gulp.task('serve:prod', ['build:dist'], function() {
+gulp.task('serve:dist', function() {
   browserSync({
     server: {
       baseDir: ['dist']

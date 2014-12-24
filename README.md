@@ -12,7 +12,8 @@ gulp serve
 
 ### For Product Test
 
-gulp serve:prod
+gulp build:dist
+gulp serve:dist
 
 ### For Product Static
 
