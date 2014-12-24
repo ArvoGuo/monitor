@@ -12,10 +12,12 @@ var browserSync = require('browser-sync');
 var handlebars = require('gulp-compile-handlebars');
 var rev = require('gulp-rev');
 
-
 var componentJs = [
   "develop/bower_components/jquery-2.1.3.min/index.js",
   "develop/bower_components/echarts/build/dist/echarts-all.js"
+];
+var componentCss = [
+  "develop/bower_components/bootstrap/dist/css/bootstrap.min.css"
 ];
 var developJs = [
   "develop/js/datatimepicker.js",
@@ -27,11 +29,6 @@ var developJs = [
   "develop/js/cbModule.js",
   "develop/js/app.js"
 ];
-var componentCss = [
-  "develop/bower_components/bootstrap/dist/css/bootstrap.min.css"
-];
-
-
 
 gulp.task('dev:mindevjs', function() {
   return gulp.src(developJs)
