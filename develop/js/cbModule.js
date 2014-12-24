@@ -1,5 +1,4 @@
 //var api = "http://monitor.napos.solo/api";
-var api = "http://monitor.napos.io/api";
 var Config = {
   pageRange: 15
 };

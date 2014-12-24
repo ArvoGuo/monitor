@@ -6,6 +6,14 @@ npm install
 
 bower install
 
-### Output Static
+### For Develop
+
+gulp serve
+
+### For Product Test
+
+gulp serve:prod
+
+### For Product Static
 
 gulp build:dist

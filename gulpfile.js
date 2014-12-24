@@ -37,7 +37,7 @@ gulp.task('dev:mindevjs', function() {
     .pipe(gulp.dest('develop/.tmp/'));
 });
 gulp.task('dev:mergejs', function() {
-  return gulp.src(componentJs.concat(['develop/.tmp/dev.js']))
+  return gulp.src(componentJs.concat(['config/devconfig.js','develop/.tmp/dev.js']))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('develop/.tmp/'));
 });
@@ -118,7 +118,7 @@ gulp.task('prod:mindevjs', function() {
     .pipe(gulp.dest('dist/'));
 });
 gulp.task('prod:mergejs', function() {
-  return gulp.src(componentJs.concat(['dist/prod.js']))
+  return gulp.src(componentJs.concat(['config/prodconfig.js','dist/prod.js']))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('dist/'));
 });

@@ -1,0 +1,1 @@
+window.api = "http://monitor.napos.solo/api";
