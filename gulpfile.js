@@ -11,6 +11,9 @@ var concat = require('gulp-concat');
 var browserSync = require('browser-sync');
 var handlebars = require('gulp-compile-handlebars');
 var rev = require('gulp-rev');
+var cjson = ['config/devconfig.js','config/prodconfig.js'];
+var config = {};
+config.model = cjson[0];
 
 var componentJs = [
   "develop/bower_components/jquery-2.1.3.min/index.js",
@@ -32,12 +35,12 @@ var developJs = [
 
 gulp.task('dev:mindevjs', function() {
   return gulp.src(developJs)
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(concat('dev.js'))
     .pipe(gulp.dest('develop/.tmp/'));
 });
 gulp.task('dev:mergejs', function() {
-  return gulp.src(componentJs.concat(['config/devconfig.js', 'develop/.tmp/dev.js']))
+  return gulp.src(componentJs.concat([config.model, 'develop/.tmp/dev.js']))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('develop/.tmp/'));
 });
@@ -116,7 +119,7 @@ gulp.task('prod:mindevjs', function() {
     .pipe(gulp.dest('dist/'));
 });
 gulp.task('prod:mergejs', function() {
-  return gulp.src(componentJs.concat(['config/prodconfig.js', 'dist/prod.js']))
+  return gulp.src(componentJs.concat([config.model, 'dist/prod.js']))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('dist/'));
 });
@@ -227,6 +230,18 @@ gulp.task('hash:dist', function() {
 
 //prod
 gulp.task('build:dist', function(){
+  config.model = cjson[1];
+  runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+});
+
+gulp.task('build:dist:prod', function(){
+  config.model = cjson[1];
+  runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+});
+
+
+gulp.task('build:dist:dev', function(){
+  config.model = cjson[0];
   runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
 });
 gulp.task('default', ['serve']);

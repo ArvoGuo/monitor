@@ -267,7 +267,9 @@ daycount.grid = {
       success: function(data) {
         var os = Object.keys(data)[0];
         var naposVers = data[os].napos_version;
+        var naposVersNum = data[os].napos_version_num;
         var systemVers = data[os].system_version;
+        var systemVersNum = data[os].system_version_num;
         var sysVerInNapVer = data[os].system_version_in_napos_version;
         var napVerInSysVer = data[os].napos_version_in_system_version;
         /*start:napos in os*/
@@ -353,10 +355,17 @@ daycount.grid = {
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
         /*end:os in napos*/
         /*start: percent in napos */
-        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer) {
-          var naposPercent = function(){
-           //
-          }();
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposVersNum,systemVersNum) {
+          var naposPercent = function(naposVersNum,naposVers){
+            var array = [];
+            naposVers.map(function(item,index){
+              array.push({
+                name: item,
+                value: naposVersNum[index]
+              });
+            });
+            return array;
+          }(naposVersNum,naposVers);
           var option = {
               title: {
                 text: 'Analysis of NAPOS',
@@ -384,8 +393,56 @@ daycount.grid = {
                 data: naposPercent
               }]
             };
-        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer);
+
+            Charts['chart-percent-napos'].ele.show();
+            Charts['chart-percent-napos'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposVersNum,systemVersNum);
         /*end: percent in napos */
+        /*start: percent in os */
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposVersNum,systemVersNum){
+          var systemPercent = function(systemVersNum,systemVers){
+            var array = [];
+            systemVers.map(function(item,index){
+              array.push({
+                name: item,
+                value: systemVersNum[index]
+              });
+            });
+            return array;
+          }(systemVersNum,systemVers);
+          var option = {
+              title: {
+                text: 'Analysis of OS',
+                x: 'center',
+                y: 'top'
+              },
+              tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c}({d}%)"
+              },
+              legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'top',
+                data: systemVers
+              },
+              calculable: true,
+              series: [{
+                name: 'NAPOS版本',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', '60%'],
+                itemStyle: self.pieItemStyle,
+                roseType: 'area',
+                data: systemPercent
+              }]
+            };
+            Charts['chart-percent-os'].ele.show();
+            Charts['chart-percent-os'].chart.setOption(option);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposVersNum,systemVersNum);
+        /*end: percent in os */
+
+
       }
     });
   };

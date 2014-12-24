@@ -9,6 +9,12 @@ var Tool = {
       return array[$1];
     });
   },
+  substitute: function(str, sub) {
+    return str.replace(/\{(.+?)\}/g, function($0, $1) {
+      return $1 in sub ? sub[$1] : $0;
+    });
+  },
+
   formatDate: function(value) {
     var date = new Date(value);
     var yy = date.getFullYear();
@@ -25,7 +31,7 @@ var Tool = {
   toTime: function(date) {
     return (new Date(date)).getTime();
   },
-  now: function(){
+  now: function() {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
@@ -67,10 +73,6 @@ var navCb = function() {
     init(true, true);
     switch (kind) {
       case "intime":
-        // intime.paint();
-        // interval = setInterval(function() {
-        //   intime.paint();
-        // }, 60000);
         $('#part-info').load('./include/intime.html', intimeCb);
         break;
       case "daycount":
@@ -112,12 +114,12 @@ var intimeCb = function() {
     var url = api + getUrl(start, end);
     intime.paintByTime(url);
 
-    window.interval = setInterval(function() {
-      var start = $('.startTime').val();
-      var end = $('.endTime').val();
-      var url = api + getUrl(start, end);
-      intime.paintByTime(url);
-    }, 60000);
+    // window.interval = setInterval(function() {
+    //   var start = $('.startTime').val();
+    //   $('.endTime').val(Tool.now());
+    //   var url = api + getUrl(start, Tool.now());
+    //   intime.paintByTime(url);
+    // }, 60000);
   });
   $('.startTime').val(Tool.yesterday());
   $('.endTime').val(Tool.now());
@@ -152,7 +154,7 @@ var clientinfoCb = function() {
           Ele = Ele || clientInfoEle;
           var html = '';
           data.map(function(item) {
-            html += Tool.substituteArray(templateClient, item);
+            html += Tool.substitute(templateClient, item);
           });
           Ele.html('').append(html);
         };
@@ -165,21 +167,19 @@ var clientinfoCb = function() {
           paintFn: clientInfosPaint
         });
 
-
-
         /*活跃时段*/
         var barEle = $('#period-bar');
         var startEle = barEle.find('.tag-start');
         var endEle = barEle.find('.tag-end');
         var periodEle = barEle.find('.period');
         var templatePeroid = $('.result-client-period-template').html();
-        startEle.text(Tool.formatDate(activityPeriods[0][2]));
-        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1][3]));
+        startEle.text(Tool.formatDate(activityPeriods[0][active_from]));
+        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1][active_to]));
         var periodArray = getPeriod(activityPeriods);
         var periodPaint = function(list, ele) {
           var html = '';
           list.map(function(item) {
-            html += Tool.substituteArray(templatePeroid, item);
+            html += Tool.substitute(templatePeroid, item);
           });
           ele.html('').append(html);
         };
@@ -192,17 +192,17 @@ var clientinfoCb = function() {
   function getPeriod(list) {
     var array = [];
     var len = list.length;
-    var startTime = Tool.toTime(list[0][2]);
-    var endTime = Tool.toTime(list[len - 1][3]);
+    var startTime = Tool.toTime(list[0][active_from]);
+    var endTime = Tool.toTime(list[len - 1][active_to]);
     var C = endTime - startTime;
     var percent = function(value) {
       return ((value - startTime) / C * 100).toFixed(2) + '%';
     };
     list.map(function(item, index) {
-      var a = percent(Tool.toTime(item[2]));
-      var b = percent(Tool.toTime(item[3]));
+      var a = percent(Tool.toTime(item[active_from]));
+      var b = percent(Tool.toTime(item[active_to]));
       b = (b.split('%')[0] - a.split('%')[0]) + '%';
-      array.push([a, b, Tool.formatDate(item[2]), Tool.formatDate(item[3])]);
+      array.push([a, b, Tool.formatDate(item[active_from]), Tool.formatDate(item[active_to])]);
     });
     return array;
   }
@@ -212,7 +212,7 @@ var clientinfoCb = function() {
  */
 var daycountCb = function() {
   var getUrl = function(act, date) {
-    var url = '/apposratio';
+    var url = api + '/apposratio';
     var obj = {
       'default': '',
       'android': 'android',
@@ -220,9 +220,9 @@ var daycountCb = function() {
       'windows': 'windows'
     };
     if (date) {
-      return url + '?platform=' + obj[act] + '&stats_day=' + date;
+      return url + '?system=' + obj[act] + '&stats_day=' + date;
     }
-    return url + '?platform=' + obj[act] + '&stats_day=' + Tool.yesterday();
+    return url + '?system=' + obj[act] + '&stats_day=' + Tool.yesterday();
   };
   $('.daycount-submit').on('click', function() {
     var act = $(this).attr('act');
@@ -250,22 +250,6 @@ var searchCb = function() {
     var startTime = $('input[name=time-begin]').val();
     var endTime = $('input[name=time-end]').val();
     var url = getUrl(kind, model, startTime, endTime);
-    var changeTb = function(value) {
-      var name;
-      if (value == 'client') {
-        name = ['ClientId', 'UserId', 'RestaurantId'];
-      }
-      if (value == 'user') {
-        name = ['UserId', 'ClientId', 'RestaurantId'];
-      }
-      if (value == 'restaurant') {
-        name = ['RestaurantId', 'UserId', 'ClientId'];
-      }
-      return name;
-    }($('.radio-value').text());
-    $('#part-info .result .tb_id').map(function(index, item) {
-      $(item).text(changeTb[index]);
-    });
     $.ajax({
       url: api + url,
       success: function(data) {
@@ -273,14 +257,14 @@ var searchCb = function() {
         var template = $('#result-template').html();
         /*formateData*/
         list.map(function(item) {
-          item[4] = Tool.formatDate(item[4]);
-          item[5] = Tool.formatDate(item[5]);
+          item.active_from = Tool.formatDate(item.active_from);
+          item.active_to = Tool.formatDate(item.active_to);
         });
         var resultPaint = function(data, Ele) {
           var html = '';
           Ele = Ele || $('.result tbody');
           data.map(function(item) {
-            html += Tool.substituteArray(template, item);
+            html += Tool.substitute(template, item);
           });
           Ele.html('').append(html);
         };
@@ -295,13 +279,6 @@ var searchCb = function() {
     });
 
   });
-
-  function substitute(str, sub) {
-    return str.replace(/\{(.+?)\}/g, function($0, $1) {
-      return $1 in sub ? sub[$1] : $0;
-    });
-  }
-
   function getUrl(value, model, start, end) {
     var url = {
       'client': '/userrstforclient?client=',
