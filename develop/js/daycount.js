@@ -262,6 +262,12 @@ daycount.grid = {
   daycount.paintBySystem = function(url) {
     var self = this;
     window.init(false,true);
+    for (var i in Charts){
+      Charts[i].ele.show();
+      Charts[i].chart.showLoading({
+        text: '正在查询..', //loading话术
+      });
+    }
     $.ajax({
       url: url,
       success: function(data) {
@@ -316,6 +322,7 @@ daycount.grid = {
               data: item
             });
           });
+          Charts['chart-main'].chart.hideLoding();
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,systemNameVers,naposNameVers);
@@ -357,6 +364,7 @@ daycount.grid = {
               data: item
             });
           });
+          Charts['chart-amass'].chart.hideLoding();
           Charts['chart-amass'].ele.show();
           Charts['chart-amass'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposNameVers,systemNameVers);
@@ -401,6 +409,7 @@ daycount.grid = {
             }]
           };
 
+          Charts['chart-percent-napos'].chart.hideLoding();
           Charts['chart-percent-napos'].ele.show();
           Charts['chart-percent-napos'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposVersNum, systemVersNum, naposNameVers);
@@ -444,6 +453,7 @@ daycount.grid = {
               data: systemPercent
             }]
           };
+          Charts['chart-percent-os'].chart.hideLoding();
           Charts['chart-percent-os'].ele.show();
           Charts['chart-percent-os'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposVersNum, systemVersNum, systemNameVers);

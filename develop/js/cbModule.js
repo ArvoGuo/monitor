@@ -73,10 +73,10 @@ var Tool = {
     var startTime = (new Date(start)).getTime();
     var endTime = (new Date(end)).getTime();
     var m = 60000;
-    var points = 60;
+    var points = 200;
     var range = 1;
     var dis = endTime - startTime;
-    if (dis < m * 60) {
+    if (dis <= m * 60) {
       range = 1;
     } else {
       range = Math.round(Math.abs(dis) / (m * points));
@@ -154,6 +154,7 @@ var intimeCb = function() {
   };
   $('.intime-submit').on('click', function(e) {
     e.preventDefault();
+    clearInterval(window.interval);
     Charts['chart-main'].ele.show();
     Charts['chart-main'].chart.showLoading({
       text: '正在查询..', //loading话术
@@ -165,6 +166,7 @@ var intimeCb = function() {
   });
 
   $('.intime-model').on('click', function() {
+    clearInterval(window.interval);
     var model = $(this).attr('act');
     var start = '';
     var end = '';
@@ -197,7 +199,6 @@ var intimeCb = function() {
         intime.paintByTime(url);
       }, 60000);
     } else {
-      clearInterval(interval);
       url = getUrl(start, end);
       intime.paintByTime(url);
     }

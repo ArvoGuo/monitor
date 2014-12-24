@@ -36,6 +36,10 @@ var intime = new Chart({
     self.option.series[0].data = [];
     self.option.series[1].data = [];
     self.option.series[2].data = [];
+    Charts['chart-main'].ele.show();
+    Charts['chart-main'].chart.showLoading({
+      text: '正在查询..', //loading话术
+    });
     $.ajax({
       url: url,
       success: function(data) {
