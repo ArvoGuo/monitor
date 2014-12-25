@@ -95,7 +95,8 @@ var Tool = {
     } else {
       range = Math.round(Math.abs(dis) / (m * points));
     }
-    return range;
+
+    return range < 1 ? 1 : range;
   }
 };
 
@@ -107,7 +108,7 @@ var navCb = function() {
     var url = $(this).attr('act');
     var kind = $(this).attr('kind');
     init(true, true);
-    if (kind != 'intime'){
+    if (kind != 'intime') {
       navStatus = 'other';
     } else {
       navStatus = 'main';
@@ -233,7 +234,7 @@ var intimeCb = function() {
       window.interval = setInterval(function() {
         start = Tool.datetimeBefore(0, 0, 1);
         end = Tool.now();
-        var url = api + getUrl(start, Tool.now());
+        var url = getUrl(start, Tool.now());
         intime.paintByTime(url);
       }, 60000);
     } else {
