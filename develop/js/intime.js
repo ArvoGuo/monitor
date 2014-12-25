@@ -16,60 +16,15 @@ var intime = new Chart({
   series: [{
     name: 'Client',
     type: 'line',
-    data: [],
-    markPoint: {
-      data: [{
-        type: 'max',
-        name: '最大值'
-      }, {
-        type: 'min',
-        name: '最小值'
-      }]
-    },
-    markLine: {
-      data: [{
-        type: 'average',
-        name: '平均值'
-      }]
-    }
+    data: []
   }, {
     name: 'Keeper',
     type: 'line',
-    data: [],
-    markPoint: {
-      data: [{
-        type: 'max',
-        name: '最大值'
-      }, {
-        type: 'min',
-        name: '最小值'
-      }]
-    },
-    markLine: {
-      data: [{
-        type: 'average',
-        name: '平均值'
-      }]
-    }
+    data: []
   }, {
     name: 'Restaurant',
     type: 'line',
-    data: [],
-    markPoint: {
-      data: [{
-        type: 'max',
-        name: '最大值'
-      }, {
-        type: 'min',
-        name: '最小值'
-      }]
-    },
-    markLine: {
-      data: [{
-        type: 'average',
-        name: '平均值'
-      }]
-    }
+    data: []
   }]
 });
 

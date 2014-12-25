@@ -23,7 +23,7 @@ var Tool = {
     var h = Tool.formatTime(date.getHours());
     var m = Tool.formatTime(date.getMinutes());
     var s = Tool.formatTime(date.getSeconds());
-    return yy + '/' + mm + '/' + dd + ' ' + h + ':' + m + ':' + s;
+    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m + ':' + s;
   },
   formatTime: function(time) {
     return time < 10 ? '0' + time : time;
@@ -35,7 +35,7 @@ var Tool = {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
-    var dd = date.getDate();
+    var dd = this.formatTime(date.getDate());
     var h = this.formatTime(date.getHours());
     var m = this.formatTime(date.getMinutes());
     if (day) {
@@ -43,16 +43,23 @@ var Tool = {
     }
     return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m;
   },
+  todayZero: function() {
+    var date = new Date();
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = this.formatTime(date.getDate());
+    return yy + '-' + mm + '-' + dd + ' 00:00';
+  },
   today: function() {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
-    var dd = date.getDate();
+    var dd = this.formatTime(date.getDate());
     return yy + '-' + mm + '-' + dd;
   },
   datetimeBefore: function(m, d, h) {
     var time = new Date();
-    time  = time.getTime();
+    time = time.getTime();
     var unitH = 1000 * 60 * 60;
     var hTime = h * unitH;
     var dTime = d * unitH * 24;
@@ -60,8 +67,8 @@ var Tool = {
     var date = time - hTime - dTime - mTime;
     date = new Date(date);
     var yy = date.getFullYear();
-    var mm = date.getMonth() + 1 ;
-    var dd = date.getDate();
+    var mm = date.getMonth() + 1;
+    var dd = this.formatTime(date.getDate());
     var hh = this.formatTime(date.getHours());
     var i = this.formatTime(date.getMinutes());
     return yy + '-' + mm + '-' + dd + ' ' + hh + ':' + i;
@@ -70,7 +77,7 @@ var Tool = {
     var date = new Date();
     var yy = date.getFullYear();
     var mm = date.getMonth() + 1;
-    var dd = date.getDate() - 1;
+    var dd = this.formatTime(date.getDate()) - 1;
     if (day) {
       return yy + '-' + mm + '-' + dd;
     }
@@ -151,6 +158,20 @@ var rststatCb = function() {
  * 实时监控模块
  */
 var intimeCb = function() {
+  /*date init*/
+  var minDate ;
+  $.ajax({
+    url: api + '/earlyesttime',
+    success: function(data) {
+      if (data) {
+        minDate = new Date(data.earlyest_active_time);
+        $('#intime-date-start').datetimepicker({
+          minDate: minDate
+        });
+      }
+    }
+  });
+
   var getUrl = function(start, end) {
     var url = api + '/activitystats';
     start = start || Tool.yesterday();
@@ -194,6 +215,12 @@ var intimeCb = function() {
       start = Tool.datetimeBefore(1, 0, 0);
       end = Tool.now();
     }
+
+    if (minDate) {
+      if ((new Date(start)).getTime() < (new Date(minDate)).getTime()) {
+        start = Tool.formatDate(minDate);
+      }
+    }
     $('.start-time').val(start);
     $('.end-time').val(end);
     if (model == 'hour') {
@@ -210,10 +237,19 @@ var intimeCb = function() {
       intime.paintByTime(url);
     }
   });
+  /*default*/
+  (function(minDate) {
+    var start = Tool.todayZero();
+    if (minDate) {
+      if ((new Date(start)).getTime() < (new Date(minDate)).getTime()) {
+        start = Tool.formatDate(minDate);
+      }
+    }
+    $('.start-time').val(start);
+    $('.end-time').val(Tool.now());
+    $('.intime-submit').eq(0).trigger('click');
+  })(minDate);
 
-  $('.start-time').val(Tool.yesterday());
-  $('.end-time').val(Tool.now());
-  $('.intime-submit').eq(0).trigger('click');
 };
 /*
  * 活跃时段 版本变迁
