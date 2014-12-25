@@ -278,6 +278,7 @@ daycount.grid = {
         var systemVersNum = data[os].system_version_num;
         var sysVerInNapVer = data[os].system_version_in_napos_version;
         var napVerInSysVer = data[os].napos_version_in_system_version;
+
         var systemNameVers = systemVers.map(function(item) {
           return os.toUpperCase() + item;
         });
@@ -412,7 +413,7 @@ daycount.grid = {
               name: 'NAPOS版本',
               type: 'pie',
               radius: '55%',
-              center: ['50%', '60%'],
+              center: ['40%', '60%'],
               itemStyle: self.pieItemStyle,
               roseType: 'area',
               data: naposPercent

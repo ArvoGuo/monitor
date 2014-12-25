@@ -374,11 +374,7 @@ var daycountCb = function() {
     var act = $(this).attr('act');
     var value = $('.daycount-date').val();
     var url = getUrl(act, value);
-    if (act == 'default') {
-      daycount.paint(url);
-    } else {
-      daycount.paintBySystem(url);
-    }
+    daycount.paintBySystem(url);
   });
   $('.daycount-date').val(Tool.yesterday('day'));
   $('.daycount-submit').eq(1).trigger('click');
