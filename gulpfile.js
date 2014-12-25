@@ -227,21 +227,26 @@ gulp.task('rev:clean', function() {
 gulp.task('hash:dist', function() {
   runSequence('rev:fest', 'rev:compile','rev:clean');
 });
-
+gulp.task('dist:clean',function(){
+  return gulp.src('dist/*',{read:false})
+    .pipe(clean({
+      force:true
+    }));
+});
 //prod
 gulp.task('build:dist', function(){
   config.model = cjson[1];
-  runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
 });
 
 gulp.task('build:dist:prod', function(){
   config.model = cjson[1];
-  runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
 });
 
 
 gulp.task('build:dist:dev', function(){
   config.model = cjson[0];
-  runSequence('prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
 });
 gulp.task('default', ['serve']);

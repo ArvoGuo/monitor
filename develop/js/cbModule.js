@@ -139,16 +139,20 @@ var navCb = function() {
  * 餐厅统计模块
  */
 var rststatCb = function() {
+  initDateTimePicker();
   $('.rststats-submit').on('click', function() {
+    var self = this;
     var date = $('#rststats-date').val();
     date = date || Tool.yesterday('day');
     var url = '/multilogrst?stats_day=' + date;
-    $('#rststats-result').text('正在查询..');
+    $('#rststats-result').text('Query..');
+    $(self).addClass('disabled');
     $.ajax({
       url: api + url,
       success: function(data) {
+        $(self).removeClass('disabled');
         var total = data.multiple_login_rst_count.count;
-        $('#rststats-result').text(total + '个客户端登陆餐厅');
+        $('#rststats-result').text(total + ' restaurants login multiple clients.');
       }
     });
   });
@@ -165,7 +169,7 @@ var intimeCb = function() {
     success: function(data) {
       if (data) {
         minDate = new Date(data.earlyest_active_time);
-        $('#intime-date-start').datetimepicker({
+        $('#intime-date-start,.datetimepicker').datetimepicker({
           minDate: minDate
         });
       }
@@ -255,6 +259,8 @@ var intimeCb = function() {
  * 活跃时段 版本变迁
  */
 var clientinfoCb = function() {
+  var self = this;
+  initDateTimePicker();
   $('.clientinfo-submit').on('click', function() {
     var client = $('.model').val();
     var start = $('.time-start').val();
@@ -262,15 +268,17 @@ var clientinfoCb = function() {
     var s = start ? '&period_from=' + start : '';
     var e = end ? '$period_to=' + end : '';
     var url = '/clientinfo?uuid=' + client + s + e;
-    $('.note-client').text('查询中..');
+    $('.note-client').text(words.query);
+    $(self).addClass('disabled');
     $.ajax({
       url: api + url,
       success: function(data) {
+        $(self).removeClass('disabled');
         var activityPeriods = data.activity_periods;
         var clientInfos = data.client_infos;
         /*版本迁移*/
         if (!clientInfos || clientInfos.length < 1) {
-          $('#note-client-info').text('查询结果为空');
+          $('#note-client-info').text(words.empty);
         } else {
           $('#note-client-info').text('');
           var html = '';
@@ -299,10 +307,9 @@ var clientinfoCb = function() {
           });
         }
         if (!activityPeriods || activityPeriods.length < 1) {
-          $('#note-client-period').text('查询结果为空');
-
+          $('#note-client-period').text(words.empty);
         } else {
-          $('#note-client-period').text();
+          $('#note-client-period').text('');
           /*活跃时段*/
           var barEle = $('#period-bar');
           var startEle = barEle.find('.tag-start');
@@ -348,6 +355,7 @@ var clientinfoCb = function() {
  * 日统计模块
  */
 var daycountCb = function() {
+  initDateTimePicker();
   var getUrl = function(act, date) {
     var url = api + '/apposratio';
     var obj = {
@@ -378,23 +386,27 @@ var daycountCb = function() {
  * 查询模块
  */
 var searchCb = function() {
+  initDateTimePicker();
   $('#part-info input[name=search-kind]').on('click', function() {
     var value = $('#part-info input[name=search-kind]:checked').val();
     $('.radio-value').text(value);
   });
   $('.search-submit').on('click', function() {
+    var self = this;
     var kind = $('.radio-value').text();
     var model = $('input[name=model]').val();
     var startTime = $('input[name=time-begin]').val();
     var endTime = $('input[name=time-end]').val();
     var url = getUrl(kind, model, startTime, endTime);
-    $('#napos-query-note').text('查询中..');
+    $('#napos-query-note').text(words.query);
+    $(self).addClass('disabled');
     $.ajax({
       url: api + url,
       success: function(data) {
+        $(self).removeClass('disabled');
         var list = data[Object.keys(data)[0]];
         if (list.length < 1) {
-          $('#napos-query-note').text('查询结果为空');
+          $('#napos-query-note').text(words.empty);
         } else {
           $('#napos-query-note').text('');
         }

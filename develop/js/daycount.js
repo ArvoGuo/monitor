@@ -262,13 +262,13 @@ daycount.grid = {
   daycount.paintBySystem = function(url) {
     var self = this;
     window.init(false, true);
-    window.ChartsFn.loading('正在查询..');
+    window.ChartsFn.loading(words.query);
     $.ajax({
       url: url,
       success: function(data) {
         var os = Object.keys(data)[0];
         if (data[os].napos_version.length < 1) {
-          window.ChartsFn.loading('对不起，查询为空');
+          window.ChartsFn.loading(words.empty);
           return;
         }
         var appName = 'NAPOS';

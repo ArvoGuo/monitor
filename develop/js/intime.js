@@ -34,7 +34,7 @@ var intime = new Chart({
     window.init(false, false);
     Charts['chart-main'].ele.show();
     Charts['chart-main'].chart.showLoading({
-      text: '正在查询..', //loading话术
+      text: words.query, //loading话术
     });
     $.ajax({
       url: url,
@@ -43,7 +43,7 @@ var intime = new Chart({
         if (list.length < 1) {
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.showLoading({
-            text: '对不起，查询数据为空！', //loading话术
+            text: words.empty, //loading话术
           });
           return;
         }
