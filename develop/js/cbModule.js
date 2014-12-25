@@ -51,13 +51,20 @@ var Tool = {
     return yy + '-' + mm + '-' + dd;
   },
   datetimeBefore: function(m, d, h) {
-    var date = new Date();
+    var time = new Date();
+    time  = time.getTime();
+    var unitH = 1000 * 60 * 60;
+    var hTime = h * unitH;
+    var dTime = d * unitH * 24;
+    var mTime = m * unitH * 24 * 30;
+    var date = time - hTime - dTime - mTime;
+    date = new Date(date);
     var yy = date.getFullYear();
-    var mm = date.getMonth() + 1 - parseInt(m, 10);
-    var dd = date.getDate() - parseInt(d, 10);
-    var hh = date.getHours() - parseInt(h, 10);
+    var mm = date.getMonth() + 1 ;
+    var dd = date.getDate();
+    var hh = this.formatTime(date.getHours());
     var i = this.formatTime(date.getMinutes());
-    return yy + '-' + mm + '-' + dd + ' ' + this.formatTime(hh) + ':' + i;
+    return yy + '-' + mm + '-' + dd + ' ' + hh + ':' + i;
   },
   yesterday: function(day) {
     var date = new Date();

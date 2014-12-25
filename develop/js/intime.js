@@ -16,15 +16,60 @@ var intime = new Chart({
   series: [{
     name: 'Client',
     type: 'line',
-    data: []
+    data: [],
+    markPoint: {
+      data: [{
+        type: 'max',
+        name: '最大值'
+      }, {
+        type: 'min',
+        name: '最小值'
+      }]
+    },
+    markLine: {
+      data: [{
+        type: 'average',
+        name: '平均值'
+      }]
+    }
   }, {
     name: 'Keeper',
     type: 'line',
-    data: []
+    data: [],
+    markPoint: {
+      data: [{
+        type: 'max',
+        name: '最大值'
+      }, {
+        type: 'min',
+        name: '最小值'
+      }]
+    },
+    markLine: {
+      data: [{
+        type: 'average',
+        name: '平均值'
+      }]
+    }
   }, {
     name: 'Restaurant',
     type: 'line',
-    data: []
+    data: [],
+    markPoint: {
+      data: [{
+        type: 'max',
+        name: '最大值'
+      }, {
+        type: 'min',
+        name: '最小值'
+      }]
+    },
+    markLine: {
+      data: [{
+        type: 'average',
+        name: '平均值'
+      }]
+    }
   }]
 });
 
@@ -32,10 +77,6 @@ var intime = new Chart({
   intime.paintByTime = function(url) {
     var self = this;
     window.init(false, false);
-    self.option.xAxis[0].data = [];
-    self.option.series[0].data = [];
-    self.option.series[1].data = [];
-    self.option.series[2].data = [];
     Charts['chart-main'].ele.show();
     Charts['chart-main'].chart.showLoading({
       text: '正在查询..', //loading话术
@@ -44,6 +85,7 @@ var intime = new Chart({
       url: url,
       success: function(data) {
         var list = data.activity_stats;
+
         if (list.length < 1) {
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.showLoading({
@@ -51,6 +93,10 @@ var intime = new Chart({
           });
           return;
         }
+        self.option.xAxis[0].data = [];
+        self.option.series[0].data = [];
+        self.option.series[1].data = [];
+        self.option.series[2].data = [];
         (function(list) {
           list.map(function(item, index) {
             self.option.xAxis[0].data.push(item.time);

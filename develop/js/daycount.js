@@ -261,8 +261,8 @@ daycount.grid = {
   };
   daycount.paintBySystem = function(url) {
     var self = this;
-    window.init(false,true);
-    for (var i in Charts){
+    window.init(false, true);
+    for (var i in Charts) {
       Charts[i].ele.show();
       Charts[i].chart.showLoading({
         text: '正在查询..', //loading话术
@@ -272,6 +272,15 @@ daycount.grid = {
       url: url,
       success: function(data) {
         var os = Object.keys(data)[0];
+        if (data[os].napos_version.length < 1) {
+          for (var i in Charts) {
+            Charts[i].ele.show();
+            Charts[i].chart.showLoading({
+              text: '对不起，查询数据为空！', //loading话术
+            });
+          }
+          return;
+        }
         var appName = 'NAPOS';
         var naposVers = data[os].napos_version;
         var naposVersNum = data[os].napos_version_num;
@@ -286,7 +295,7 @@ daycount.grid = {
           return appName + item;
         });
         /*start:napos in os*/
-        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,systemNameVers,naposNameVers) {
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, systemNameVers, naposNameVers) {
           var option = {
             title: {
               text: '',
@@ -322,13 +331,13 @@ daycount.grid = {
               data: item
             });
           });
-          Charts['chart-main'].chart.hideLoding();
+          Charts['chart-main'].chart.hideLoading();
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.setOption(option);
-        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,systemNameVers,naposNameVers);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, systemNameVers, naposNameVers);
         /*end:napos in os*/
         /*start:os in napos*/
-        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposNameVers,systemNameVers) {
+        (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposNameVers, systemNameVers) {
           var option = {
             title: {
               text: '',
@@ -364,10 +373,10 @@ daycount.grid = {
               data: item
             });
           });
-          Charts['chart-amass'].chart.hideLoding();
+          Charts['chart-amass'].chart.hideLoading();
           Charts['chart-amass'].ele.show();
           Charts['chart-amass'].chart.setOption(option);
-        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer,naposNameVers,systemNameVers);
+        })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposNameVers, systemNameVers);
         /*end:os in napos*/
         /*start: percent in napos */
         (function(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposVersNum, systemVersNum, naposNameVers) {
@@ -409,7 +418,7 @@ daycount.grid = {
             }]
           };
 
-          Charts['chart-percent-napos'].chart.hideLoding();
+          Charts['chart-percent-napos'].chart.hideLoading();
           Charts['chart-percent-napos'].ele.show();
           Charts['chart-percent-napos'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposVersNum, systemVersNum, naposNameVers);
@@ -453,7 +462,7 @@ daycount.grid = {
               data: systemPercent
             }]
           };
-          Charts['chart-percent-os'].chart.hideLoding();
+          Charts['chart-percent-os'].chart.hideLoading();
           Charts['chart-percent-os'].ele.show();
           Charts['chart-percent-os'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposVersNum, systemVersNum, systemNameVers);
