@@ -40,7 +40,6 @@ var intime = new Chart({
       url: url,
       success: function(data) {
         var list = data.activity_stats;
-
         if (list.length < 1) {
           Charts['chart-main'].ele.show();
           Charts['chart-main'].chart.showLoading({
@@ -59,9 +58,12 @@ var intime = new Chart({
             self.option.series[1].data.push(item.keeper);
             self.option.series[2].data.push(item.rst);
           });
-          Charts['chart-main'].chart.hideLoading();
-          Charts['chart-main'].ele.show();
-          Charts['chart-main'].chart.setOption(self.option);
+
+          if( navStatus == 'main'){
+            Charts['chart-main'].chart.hideLoading();
+            Charts['chart-main'].ele.show();
+            Charts['chart-main'].chart.setOption(self.option);
+          }
         })(list);
       }
     });

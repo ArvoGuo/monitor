@@ -11,7 +11,7 @@ daycount.pieItemStyle = {
   normal: {
     label: {
       formatter: function(a, b, c, d) {
-        return b + ' - ' + (d - 0).toFixed(0) + '%';
+        return b + ' - ' + (d - 0).toFixed(2) + '%';
       }
     }
   },
@@ -262,23 +262,13 @@ daycount.grid = {
   daycount.paintBySystem = function(url) {
     var self = this;
     window.init(false, true);
-    for (var i in Charts) {
-      Charts[i].ele.show();
-      Charts[i].chart.showLoading({
-        text: '正在查询..', //loading话术
-      });
-    }
+    window.ChartsFn.loading('正在查询..');
     $.ajax({
       url: url,
       success: function(data) {
         var os = Object.keys(data)[0];
         if (data[os].napos_version.length < 1) {
-          for (var i in Charts) {
-            Charts[i].ele.show();
-            Charts[i].chart.showLoading({
-              text: '对不起，查询数据为空！', //loading话术
-            });
-          }
+          window.ChartsFn.loading('对不起，查询为空');
           return;
         }
         var appName = 'NAPOS';
@@ -305,10 +295,21 @@ daycount.grid = {
             tooltip: {
               trigger: 'axis'
             },
+            grid:{
+              x2: '40%'
+            },
             legend: {
               orient: 'vertival',
-              x: 'right',
-              y: 'top',
+              x: '62%',
+              itemWidth: 20,
+              formatter: function(name){
+                var len = name.length;
+                var max = 12;
+                if (len > max){
+                  return name.substring(0,max) + '..';
+                }
+                return name;
+              },
               data: systemNameVers
             },
             xAxis: [{
@@ -331,9 +332,9 @@ daycount.grid = {
               data: item
             });
           });
-          Charts['chart-main'].chart.hideLoading();
-          Charts['chart-main'].ele.show();
-          Charts['chart-main'].chart.setOption(option);
+          Charts['chart-os-napos'].chart.hideLoading();
+          Charts['chart-os-napos'].ele.show();
+          Charts['chart-os-napos'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, systemNameVers, naposNameVers);
         /*end:napos in os*/
         /*start:os in napos*/
@@ -373,9 +374,9 @@ daycount.grid = {
               data: item
             });
           });
-          Charts['chart-amass'].chart.hideLoading();
-          Charts['chart-amass'].ele.show();
-          Charts['chart-amass'].chart.setOption(option);
+          Charts['chart-napos-os'].chart.hideLoading();
+          Charts['chart-napos-os'].ele.show();
+          Charts['chart-napos-os'].chart.setOption(option);
         })(os, systemVers, naposVers, sysVerInNapVer, napVerInSysVer, naposNameVers, systemNameVers);
         /*end:os in napos*/
         /*start: percent in napos */
@@ -449,16 +450,23 @@ daycount.grid = {
               orient: 'vertical',
               x: 'right',
               y: 'top',
-              data: systemNameVers
+              data: systemNameVers,
+              formatter: function(name){
+                var len = name.length;
+                var max = 12;
+                if (len > max){
+                  return name.substring(0,max) + '..';
+                }
+                return name;
+              }
             },
             calculable: true,
             series: [{
               name: 'NAPOS版本',
               type: 'pie',
-              radius: '55%',
-              center: ['50%', '60%'],
+              radius: '50%',
+              center: ['40%', '60%'],
               itemStyle: self.pieItemStyle,
-              roseType: 'area',
               data: systemPercent
             }]
           };

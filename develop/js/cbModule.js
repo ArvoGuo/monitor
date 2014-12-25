@@ -107,25 +107,25 @@ var navCb = function() {
     var url = $(this).attr('act');
     var kind = $(this).attr('kind');
     init(true, true);
+    if (kind != 'intime'){
+      navStatus = 'other';
+    } else {
+      navStatus = 'main';
+    }
     switch (kind) {
       case "intime":
-        $('#chart').show();
         $('#part-info').load('./include/intime.html', intimeCb);
         break;
       case "daycount":
-        $('#chart').show();
         $('#part-info').load('./include/daycount.html', daycountCb);
         break;
       case "search":
-        $('#chart').hide();
         $('#part-info').load('./include/search.html', searchCb);
         break;
       case "clientinfo":
-        $('#chart').hide();
         $('#part-info').load('./include/clientinfo.html', clientinfoCb);
         break;
       case "rststats":
-        $('#chart').hide();
         $('#part-info').load('./include/rststats.html', rststatCb);
         break;
       default:
@@ -159,7 +159,7 @@ var rststatCb = function() {
  */
 var intimeCb = function() {
   /*date init*/
-  var minDate ;
+  var minDate;
   $.ajax({
     url: api + '/earlyesttime',
     success: function(data) {
@@ -262,54 +262,65 @@ var clientinfoCb = function() {
     var s = start ? '&period_from=' + start : '';
     var e = end ? '$period_to=' + end : '';
     var url = '/clientinfo?uuid=' + client + s + e;
+    $('.note-client').text('查询中..');
     $.ajax({
       url: api + url,
       success: function(data) {
         var activityPeriods = data.activity_periods;
         var clientInfos = data.client_infos;
         /*版本迁移*/
-        var html = '';
-        var templateClient = $('.result-client-info-template').html();
-        var clientInfoEle = $('.result-client-info tbody');
-        /**formatData*/
-        clientInfos.map(function(item) {
-          item[9] = Tool.formatDate(item[9]);
-        });
-        var clientInfosPaint = function(data, Ele) {
-          data = data || clientInfos;
-          Ele = Ele || clientInfoEle;
+        if (!clientInfos || clientInfos.length < 1) {
+          $('#note-client-info').text('查询结果为空');
+        } else {
+          $('#note-client-info').text('');
           var html = '';
-          data.map(function(item) {
-            html += Tool.substitute(templateClient, item);
+          var templateClient = $('.result-client-info-template').html();
+          var clientInfoEle = $('.result-client-info tbody');
+          /**formatData*/
+          clientInfos.map(function(item) {
+            item[9] = Tool.formatDate(item[9]);
           });
-          Ele.html('').append(html);
-        };
-        /*page*/
-        var page = $.Page({
-          range: Config.pageRange,
-          Ele: $('#page-clientinfo'),
-          data: clientInfos,
-          paintArea: clientInfoEle,
-          paintFn: clientInfosPaint
-        });
+          var clientInfosPaint = function(data, Ele) {
+            data = data || clientInfos;
+            Ele = Ele || clientInfoEle;
+            var html = '';
+            data.map(function(item) {
+              html += Tool.substitute(templateClient, item);
+            });
+            Ele.html('').append(html);
+          };
+          /*page*/
+          var page = $.Page({
+            range: Config.pageRange,
+            Ele: $('#page-clientinfo'),
+            data: clientInfos,
+            paintArea: clientInfoEle,
+            paintFn: clientInfosPaint
+          });
+        }
+        if (!activityPeriods || activityPeriods.length < 1) {
+          $('#note-client-period').text('查询结果为空');
 
-        /*活跃时段*/
-        var barEle = $('#period-bar');
-        var startEle = barEle.find('.tag-start');
-        var endEle = barEle.find('.tag-end');
-        var periodEle = barEle.find('.period');
-        var templatePeroid = $('.result-client-period-template').html();
-        startEle.text(Tool.formatDate(activityPeriods[0].active_from));
-        endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1].active_to));
-        var periodArray = getPeriod(activityPeriods);
-        var periodPaint = function(list, ele) {
-          var html = '';
-          list.map(function(item) {
-            html += Tool.substitute(templatePeroid, item);
-          });
-          ele.html('').append(html);
-        };
-        periodPaint(periodArray, periodEle);
+        } else {
+          $('#note-client-period').text();
+          /*活跃时段*/
+          var barEle = $('#period-bar');
+          var startEle = barEle.find('.tag-start');
+          var endEle = barEle.find('.tag-end');
+          var periodEle = barEle.find('.period');
+          var templatePeroid = $('.result-client-period-template').html();
+          startEle.text(Tool.formatDate(activityPeriods[0].active_from));
+          endEle.text(Tool.formatDate(activityPeriods[activityPeriods.length - 1].active_to));
+          var periodArray = getPeriod(activityPeriods);
+          var periodPaint = function(list, ele) {
+            var html = '';
+            list.map(function(item) {
+              html += Tool.substitute(templatePeroid, item);
+            });
+            ele.html('').append(html);
+          };
+          periodPaint(periodArray, periodEle);
+        }
       }
     });
   });
@@ -377,10 +388,16 @@ var searchCb = function() {
     var startTime = $('input[name=time-begin]').val();
     var endTime = $('input[name=time-end]').val();
     var url = getUrl(kind, model, startTime, endTime);
+    $('#napos-query-note').text('查询中..');
     $.ajax({
       url: api + url,
       success: function(data) {
         var list = data[Object.keys(data)[0]];
+        if (list.length < 1) {
+          $('#napos-query-note').text('查询结果为空');
+        } else {
+          $('#napos-query-note').text('');
+        }
         var template = $('#result-template').html();
         /*formateData*/
         list.map(function(item) {
