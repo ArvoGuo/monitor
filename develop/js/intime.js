@@ -6,16 +6,16 @@ var intime = new Chart({
   legend: {
     data: ['Client', 'Keeper', 'Restaurant']
   },
-  grid:{
+  grid: {
     y2: 100
   },
   xAxis: [{
     type: 'category',
     data: [],
     axisLabel: {
-                interval: 10,
-                rotate: 45
-              }
+      interval: 10,
+      rotate: 45
+    }
   }],
   yAxis: [{
     type: 'value'
@@ -60,13 +60,13 @@ var intime = new Chart({
         self.option.series[2].data = [];
         (function(list) {
           list.map(function(item, index) {
-            self.option.xAxis[0].data.push(item.time);
+            self.option.xAxis[0].data.push(formatDate(item.time));
             self.option.series[0].data.push(item.client);
             self.option.series[1].data.push(item.keeper);
             self.option.series[2].data.push(item.rst);
           });
 
-          if( navStatus == 'main'){
+          if (navStatus == 'main') {
             Charts['chart-main'].chart.hideLoading();
             Charts['chart-main'].ele.show();
             Charts['chart-main'].chart.setOption(self.option);
@@ -75,6 +75,17 @@ var intime = new Chart({
       }
     });
   };
+
+  function formatDate(value) {
+    var date = new Date(value);
+    var yy = date.getFullYear();
+    var mm = date.getMonth() + 1;
+    var dd = Tool.formatTime(date.getDate());
+    var h = Tool.formatTime(date.getHours());
+    var m = Tool.formatTime(date.getMinutes());
+    var s = Tool.formatTime(date.getSeconds());
+    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m + ':' + s;
+  }
 
   function today() {
     var date = new Date();
