@@ -7,6 +7,17 @@ daycount.itemStyle = {
     barBorderRadius: 5,
   }
 };
+daycount.barTipStyle = function(params, ticket, cb) {
+  var s = '';
+  for (var i = 0; i < params.length; i++) {
+    if (params[i].data == '-') {
+      continue;
+    }
+    s += params[i].seriesName + ' : ' + params[i].data + '</br>';
+  }
+  return s;
+};
+
 daycount.pieItemStyle = {
   normal: {
     label: {
@@ -28,6 +39,8 @@ daycount.grid = {
   y2: 115
 };
 (function(daycount) {
+
+  /* v0.1*/
   daycount.paint = function(url) {
     var self = this;
     window.init(false, true);
@@ -259,6 +272,7 @@ daycount.grid = {
       }
     });
   };
+  /* v0.2*/
   daycount.paintBySystem = function(url) {
     var self = this;
     window.init(false, true);
@@ -296,18 +310,18 @@ daycount.grid = {
             tooltip: {
               trigger: 'axis'
             },
-            grid:{
+            grid: {
               x2: '40%'
             },
             legend: {
               orient: 'vertival',
               x: '62%',
               itemWidth: 20,
-              formatter: function(name){
+              formatter: function(name) {
                 var len = name.length;
                 var max = 12;
-                if (len > max){
-                  return name.substring(0,max) + '..';
+                if (len > max) {
+                  return name.substring(0, max) + '..';
                 }
                 return name;
               },
@@ -452,11 +466,11 @@ daycount.grid = {
               x: 'right',
               y: 'top',
               data: systemNameVers,
-              formatter: function(name){
+              formatter: function(name) {
                 var len = name.length;
                 var max = 12;
-                if (len > max){
-                  return name.substring(0,max) + '..';
+                if (len > max) {
+                  return name.substring(0, max) + '..';
                 }
                 return name;
               }
@@ -481,6 +495,330 @@ daycount.grid = {
       }
     });
   };
+  /* v0.3*/
+  daycount.paintTop = function(url) {
+    var self = this;
+    window.init(false, true);
+    window.ChartsFn.loading(words.query);
+    $.ajax({
+      url: url,
+      success: function(data) {
+        data = {
+          "windows": {
+            "system_version_num": {
+              "5.1": 32001,
+              "5.2": 3411,
+              "4.0": 2012,
+              "6.1_x64": 123,
+              "6.2": 102,
+              "other": 2312
+            },
+            "napos_version_num": {
+              "3.1.4": 41201,
+              "3.2.1": 5211,
+              "3.2.0": 6112,
+              "3.3.0": 823,
+              "3.3.1": 2112,
+              "other": 222
+            },
+            "napos_version_list": [
+              "3.1.4", "3.2.1", "3.2.0", "3.3.0", "3.3.1", "other"
+            ],
+            "system_version_list": [
+              "5.1", "5.2","5.3", "4.0", "6.1_x64", "6.2", "other"
+            ],
+            "napos_version_in_system_version": {
+              "5.1": {
+                 "3.1.4": 41201,
+                "3.2.1": 5211,
+                "3.3.2": 12,
+                "other": 1231
+              },
+              "5.2": {
+                "3.1.4": 41201,
+                "3.2.1": 5211,
+                "3.2.0": 6112,
+                "other": 1231
+              },
+              "4.0": {
+                "3.1.4": 41201,
+                "3.2.1": 5211,
+                "3.2.0": 6112,
+                "3.3.0": 823,
+                "3.3.1": 112,
+                "other": 1231
+              },
+              "6.1_x64": {
+                "3.1.4": 41201,
+                "3.2.1": 5211,
+                "3.2.0": 6112,
+                "3.3.0": 823,
+                "3.3.1": 12,
+                "other": 1231
+              },
+              "6.2": {
+                "3.1.4": 41201,
+                "3.2.1": 5211,
+                "3.2.0": 6112,
+                "3.3.0": 823,
+                "3.3.1": 12,
+                "other": 231
+              },
+              "other": {
+                "3.1.4": 1201,
+                "3.2.1": 211,
+                "3.2.0": 112,
+                "3.3.0": 23,
+                "3.3.1": 2,
+                "other": 231
+              },
+            },
+            "system_version_in_napos_version": {
+              "3.1.4": {
+                "5.1": 2000,
+                "5.3": 4000,
+                "other": 2000
+              },
+              "3.2.1": {
+                "5.1": 2000,
+                "5.2": 3000,
+                "5.3": 4000,
+                "other": 2000
+              },
+              "3.2.0": {
+                "5.1": 2000,
+                "5.2": 3000,
+                "5.3": 4000,
+                "other": 2000
+              },
+              "3.3.0": {
+                "5.1": 2000,
+                "5.2": 3000,
+                "5.3": 4000,
+                "other": 2000
+              },
+              "3.3.1": {
+                "5.1": 2000,
+                "5.2": 3000,
+                "5.3": 4000,
+                "other": 2000
+              },
+              "other": {
+                "5.1": 2000,
+                "5.2": 3000,
+                "5.3": 4000,
+                "other": 2000
+              }
+            }
+          }
+        };
+        var os = Object.keys(data)[0];
+        data = data[os];
+        var naposVersionList = data.napos_version_list;
+        var systemVersionList = data.system_version_list;
+        var naposInSystem = data.napos_version_in_system_version;
+        var systemInNapos = data.system_version_in_napos_version;
+        var naposVerNum = data.napos_version_num;
+        var systemVerNum = data.system_version_num;
+        /* os in napos*/
+        (function(systemVersionList, systemInNapos, self) {
+          var xAxisData = getKeyArray(systemInNapos);
+          var option = {
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: {
+                type: 'shadow'
+              },
+              formatter: self.barTipStyle
+            },
+            legend: {
+              data: systemVersionList
+            },
+            xAxis: [{
+              type: 'category',
+              data: xAxisData
+            }],
+            yAxis: [{
+              type: 'value'
+            }],
+            series: []
+          };
+          xAxisData.map(function(item, index) {
+            var systemver = getKeyArray(systemInNapos[item]);
+            var len = systemver.length;
+            systemver.map(function(itemsystemver) {
+              option.series.push({
+                name: itemsystemver,
+                type: 'bar',
+                stack: 'os',
+                data: getFillArray(systemInNapos[item][itemsystemver], index, len)
+              });
+            });
+          });
+          ChartsFn.showOne('chart-os-napos', option);
+        })(systemVersionList, systemInNapos, self);
+
+        /* napos in os*/
+        (function(naposVersionList, naposInSystem, self) {
+          var xAxisData = getKeyArray(naposInSystem);
+          var option = {
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: {
+                type: 'shadow'
+              },
+              formatter: self.barTipStyle
+            },
+            legend: {
+              data: naposVersionList
+            },
+            xAxis: [{
+              type: 'category',
+              data: xAxisData
+            }],
+            yAxis: [{
+              type: 'value'
+            }],
+            series: []
+          };
+          xAxisData.map(function(item, index) {
+            var naposver = getKeyArray(naposInSystem[item]);
+            var len = naposver.length;
+            naposver.map(function(itemnaposver) {
+              option.series.push({
+                name: itemnaposver,
+                type: 'bar',
+                stack: 'os',
+                data: getFillArray(naposInSystem[item][itemnaposver], index, len)
+              });
+            });
+          });
+          ChartsFn.showOne('chart-napos-os', option);
+        })(naposVersionList, naposInSystem, self);
+
+        /* percent napos*/
+        (function(naposVerNum,self){
+          var naposPercent = function(naposVerNum){
+            var array = [];
+            for (var i in naposVerNum) {
+              array.push({
+                name: i,
+                value: naposVerNum[i]
+              });
+            }
+            return array;
+          }(naposVerNum);
+          var legendData = function(naposVerNum){
+            var array = [];
+            for (var i in naposVerNum){
+              array.push(i);
+            }
+            return array;
+          }(naposVerNum);
+          var option = {
+            title: {
+              text: 'Analysis of NAPOS',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'item',
+              formatter: "{a} <br/>{b} : {c}({d}%)"
+            },
+            legend: {
+              orient: 'vertical',
+              x: 'right',
+              y: 'top',
+              data: legendData
+            },
+            calculable: true,
+            series: [{
+              name: 'NAPOS版本',
+              type: 'pie',
+              radius: '55%',
+              center: ['40%', '60%'],
+              itemStyle: self.pieItemStyle,
+              roseType: 'area',
+              data: naposPercent
+            }]
+          };
+          ChartsFn.showOne('chart-percent-napos',option);
+        })(naposVerNum,self);
+
+        /* percent os*/
+        (function(systemVerNum,self){
+          var systemPercent = function(systemVerNum){
+            var array = [];
+            for (var i in systemVerNum) {
+              array.push({
+                name: i,
+                value: systemVerNum[i]
+              });
+            }
+            return array;
+          }(systemVerNum);
+          var legendData = function(systemVerNum){
+            var array = [];
+            for (var i in systemVerNum){
+              array.push(i);
+            }
+            return array;
+          }(systemVerNum);
+          var option = {
+            title: {
+              text: 'Analysis of NAPOS',
+              x: 'center',
+              y: 'top'
+            },
+            tooltip: {
+              trigger: 'item',
+              formatter: "{a} <br/>{b} : {c}({d}%)"
+            },
+            legend: {
+              orient: 'vertical',
+              x: 'right',
+              y: 'top',
+              data: legendData
+            },
+            calculable: true,
+            series: [{
+              name: 'NAPOS版本',
+              type: 'pie',
+              radius: '55%',
+              center: ['40%', '60%'],
+              itemStyle: self.pieItemStyle,
+              roseType: 'area',
+              data: systemPercent
+            }]
+          };
+          ChartsFn.showOne('chart-percent-os',option);
+        })(systemVerNum,self);
+
+
+      }
+    });
+  };
+
+  function getFillArray(value, index, len) {
+    var array = [];
+    for (var i = 0; i < len; i++) {
+      if (i == index) {
+        array.push(value);
+      } else {
+        array.push('-');
+      }
+    }
+    console.log(array)
+    return array;
+  }
+
+  function getKeyArray(list) {
+    var array = [];
+    for (var i in list) {
+      array.push(i);
+    }
+    return array;
+  }
 
   function getPercentArray(list, percentName, propertyIndex) {
     var array = [];

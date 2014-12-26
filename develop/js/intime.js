@@ -6,9 +6,16 @@ var intime = new Chart({
   legend: {
     data: ['Client', 'Keeper', 'Restaurant']
   },
+  grid:{
+    y2: 100
+  },
   xAxis: [{
     type: 'category',
-    data: []
+    data: [],
+    axisLabel: {
+                interval: 10,
+                rotate: 45
+              }
   }],
   yAxis: [{
     type: 'value'

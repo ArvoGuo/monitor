@@ -35,6 +35,11 @@ $(document).ready(function() {
       Charts[i].chart.clear();
     }
   };
+  ChartsFn.showOne = function(name,option){
+    Charts[name].chart.hideLoading();
+    Charts[name].ele.show();
+    Charts[name].chart.setOption(option);
+  };
   window.init = function(infoClear, intervalClear) {
     if (infoClear) {
       $('#part-info').html('');
