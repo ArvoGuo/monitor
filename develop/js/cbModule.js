@@ -1,6 +1,6 @@
 //var api = "http://monitor.napos.solo/api";
 var Config = {
-  pageRange: 15
+  pageRange: 2
 };
 
 var Tool = {
@@ -386,7 +386,7 @@ var daycountCb = function() {
 var searchCb = function() {
   initDateTimePicker();
   $('#part-info input[name=search-kind]').on('click', function() {
-    var value = $('#part-info input[name=search-kind]:checked').val();
+    var value = $(this).val();
     $('.radio-value').text(value);
   });
   $('.search-submit').on('click', function() {
@@ -414,6 +414,20 @@ var searchCb = function() {
           item.active_from = Tool.formatDate(item.active_from);
           item.active_to = Tool.formatDate(item.active_to);
         });
+        var bindTdAct = function(){
+          /*on click*/
+          $('.td_result').on('click',function(){
+            var self = this;
+            var act = $(this).attr('act');
+            var content = $(this).text();
+            $('.query-radio[act='+ act +']').trigger('click');
+            if (content == $('#query-model').val()) {
+              return;
+            }
+            $('#query-model').val(content);
+            $('.search-submit').trigger('click');
+          });
+        };
         var resultPaint = function(data, Ele) {
           var html = '';
           Ele = Ele || $('.result tbody');
@@ -421,6 +435,7 @@ var searchCb = function() {
             html += Tool.substitute(template, item);
           });
           Ele.html('').append(html);
+          bindTdAct();
         };
         /*page*/
         var page = $.Page({

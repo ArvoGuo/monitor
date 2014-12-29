@@ -18,6 +18,7 @@
     var self = this;
     var totalPage = self.totalPage();
     if (totalPage < 2){
+      self.Ele.html('');
       self.paintFn(self.data);
       return;
     }
