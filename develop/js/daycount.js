@@ -556,9 +556,9 @@ daycount.grid = {
             }],
             series: []
           };
+          var len = xAxisData.length;
           xAxisData.map(function(item, index) {
             var systemver = getKeyArray(systemInNapos[item]);
-            var len = systemver.length;
             systemver.map(function(itemsystemver) {
               option.series.push({
                 name: itemsystemver,
@@ -568,6 +568,7 @@ daycount.grid = {
               });
             });
           });
+          console.log(option)
           ChartsFn.showOne('chart-os-napos', option);
         })(systemVersionList, systemInNapos, self);
 
@@ -604,9 +605,9 @@ daycount.grid = {
             }],
             series: []
           };
+          var len = xAxisData.length;
           xAxisData.map(function(item, index) {
             var naposver = getKeyArray(naposInSystem[item]);
-            var len = naposver.length;
             naposver.map(function(itemnaposver) {
               option.series.push({
                 name: itemnaposver,
@@ -731,7 +732,6 @@ daycount.grid = {
         array.push('-');
       }
     }
-    console.log(array)
     return array;
   }
 
