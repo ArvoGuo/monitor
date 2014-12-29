@@ -358,7 +358,7 @@ var clientinfoCb = function() {
 var daycountCb = function() {
   initDateTimePicker();
   var getUrl = function(act, date) {
-    var url = api + '/apposratio';
+    var url = api + '/topapposratio';
     var obj = {
       'default': '',
       'android': 'android',
