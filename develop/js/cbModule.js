@@ -334,6 +334,12 @@ var clientinfoCb = function() {
     });
   });
 
+  /*default init*/
+  if ($.cookie('td-result-uuid')){
+    $('#client-info-client').val($.cookie('td-result-uuid'));
+    $('.clientinfo-submit').trigger('click');
+  }
+
 
   function getPeriod(list) {
     var array = [];
@@ -417,7 +423,7 @@ var searchCb = function() {
         });
         var bindTdAct = function(){
           /*on click*/
-          $('.td_result').on('click',function(){
+          $('.td-result').on('click',function(){
             var self = this;
             var act = $(this).attr('act');
             var content = $(this).text();
@@ -427,6 +433,11 @@ var searchCb = function() {
             }
             $('#query-model').val(content);
             $('.search-submit').trigger('click');
+          });
+          $('.td-result-uuid').on('click',function(){
+            var content = $(this).text();
+            $.cookie('td-result-uuid',content,{expires: 0.1});
+            $('.action[kind=clientinfo]').trigger('click');
           });
         };
         var resultPaint = function(data, Ele) {
