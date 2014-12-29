@@ -69,7 +69,7 @@ daycount.grid = {
             sortBySystems = getSortBySystem(list, allApps, allAppVersion, allSystems);
             var option = {
               title: {
-                text: 'Analysis of Napos',
+                text: 'Analysis of napos',
                 x: 'center',
                 y: 'top'
               },
@@ -127,7 +127,7 @@ daycount.grid = {
             /*--*/
             var optionAmass = {
               title: {
-                text: 'Analysis of OS',
+                text: 'Analysis of os',
                 x: 'center',
                 y: 'top'
               },
@@ -194,7 +194,7 @@ daycount.grid = {
             };
             var option = {
               title: {
-                text: 'Analysis of NAPOS',
+                text: 'Analysis of napos',
                 x: 'center',
                 y: 'top'
               },
@@ -247,7 +247,7 @@ daycount.grid = {
             };
             var option = {
               title: {
-                text: 'Analysis of OS',
+                text: 'Analysis of os',
                 x: 'center',
                 y: 'top'
               },
@@ -416,7 +416,7 @@ daycount.grid = {
           }(naposVersNum, naposVers);
           var option = {
             title: {
-              text: 'Analysis of NAPOS',
+              text: 'Analysis of napos',
               x: 'center',
               y: 'top'
             },
@@ -461,7 +461,7 @@ daycount.grid = {
           }(systemVersNum, systemVers);
           var option = {
             title: {
-              text: 'Analysis of OS',
+              text: 'Analysis of os',
               x: 'center',
               y: 'top'
             },
@@ -528,7 +528,7 @@ daycount.grid = {
           var xAxisData = getKeyArray(systemInNapos);
           var option = {
             title: {
-              text: 'Analysis of OSVersion In Napos',
+              text: 'Analysis of os version in napos',
               x: 'center',
               y: 'top'
             },
@@ -576,7 +576,7 @@ daycount.grid = {
           var xAxisData = getKeyArray(naposInSystem);
           var option = {
             title: {
-              text: 'Analysis of NaposVersion In OS',
+              text: 'Analysis of napos version in os',
               x: 'center',
               y: 'top'
             },
@@ -640,7 +640,7 @@ daycount.grid = {
           }(naposVerNum);
           var option = {
             title: {
-              text: 'Analysis of NAPOS',
+              text: 'Analysis of napos',
               x: 'center',
               y: 'top'
             },
@@ -689,7 +689,7 @@ daycount.grid = {
           }(systemVerNum);
           var option = {
             title: {
-              text: 'Analysis of OS',
+              text: 'Analysis of os',
               x: 'center',
               y: 'top'
             },
