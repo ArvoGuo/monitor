@@ -51,6 +51,9 @@
     var self = this;
     var start = (pageIndex - 1) * self.range;
     var end  = pageIndex * self.range;
+    if (pageIndex * self.range > self.data.length){
+      end = self.data.length;
+    }
     var data = [], i;
     for (i = start; i < end; i ++){
       data.push(self.data[i]);

@@ -23,14 +23,14 @@ var componentCss = [
   "develop/bower_components/bootstrap/dist/css/bootstrap.min.css"
 ];
 var developJs = [
-  "develop/js/datatimepicker.js",
-  "develop/js/Chart.js",
-  "develop/js/Page.js",
-  "develop/js/intime.js",
-  "develop/js/daycount.js",
-  "develop/js/init.js",
-  "develop/js/cbModule.js",
-  "develop/js/app.js"
+  "develop/js/components/datetimepicker.js",
+  "develop/js/class/Chart.js",
+  "develop/js/class/Page.js",
+  "develop/js/module/intime.js",
+  "develop/js/module/daycount.js",
+  "develop/js/controller/init.js",
+  "develop/js/controller/cbModule.js",
+  "develop/js/default/app.js"
 ];
 
 gulp.task('dev:mindevjs', function() {
@@ -105,7 +105,7 @@ gulp.task('serve', ['dev'], function() {
   watch('develop/style/**/*.{sass,scss}', function(event, done) {
     gulp.start('dev:css', function() {});
   }).pipe(plumber());
-  watch('develop/js/*', function(event, done) {
+  watch('develop/js/**/*', function(event, done) {
     gulp.start('dev:js', function() {});
   }).pipe(plumber());
 });
