@@ -11,7 +11,7 @@ var concat = require('gulp-concat');
 var browserSync = require('browser-sync');
 var handlebars = require('gulp-compile-handlebars');
 var rev = require('gulp-rev');
-var cjson = ['config/devconfig.js','config/prodconfig.js'];
+var cjson = ['config/devconfig.js', 'config/prodconfig.js'];
 var config = {};
 config.model = cjson[0];
 
@@ -225,28 +225,61 @@ gulp.task('rev:clean', function() {
 });
 
 gulp.task('hash:dist', function() {
-  runSequence('rev:fest', 'rev:compile','rev:clean');
+  runSequence('rev:fest', 'rev:compile', 'rev:clean');
 });
-gulp.task('dist:clean',function(){
-  return gulp.src('dist/*',{read:false})
+gulp.task('dist:clean', function() {
+  return gulp.src('dist/*', {
+      read: false
+    })
     .pipe(clean({
-      force:true
+      force: true
     }));
 });
 //prod
-gulp.task('build:dist', function(){
+// gulp.task('build:dist', function() {
+//   config.model = cjson[1];
+//   runSequence('dist:clean', 'prod:js', 'prod:css', 'prod:html', 'prod:include', 'hash:dist');
+// });
+gulp.task('build:dist', function() {
   config.model = cjson[1];
-  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean', 'prod:mindevjs',
+    'prod:mergejs',
+    'prod:cleanjs',
+    'prod:sass',
+    'prod:mergecss',
+    'prod:cleancss',
+    'prod:html',
+    'prod:include',
+    'rev:fest', 'rev:compile', 'rev:clean'
+  );
 });
 
-gulp.task('build:dist:prod', function(){
+gulp.task('build:dist:prod', function() {
   config.model = cjson[1];
-  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean', 'prod:mindevjs',
+    'prod:mergejs',
+    'prod:cleanjs',
+    'prod:sass',
+    'prod:mergecss',
+    'prod:cleancss',
+    'prod:html',
+    'prod:include',
+    'rev:fest', 'rev:compile', 'rev:clean'
+  );
 });
 
 
-gulp.task('build:dist:dev', function(){
+gulp.task('build:dist:dev', function() {
   config.model = cjson[0];
-  runSequence('dist:clean','prod:js', 'prod:css', 'prod:html', 'prod:include','hash:dist');
+  runSequence('dist:clean', 'prod:mindevjs',
+    'prod:mergejs',
+    'prod:cleanjs',
+    'prod:sass',
+    'prod:mergecss',
+    'prod:cleancss',
+    'prod:html',
+    'prod:include',
+    'rev:fest', 'rev:compile', 'rev:clean'
+  );
 });
 gulp.task('default', ['serve']);
