@@ -288,7 +288,7 @@ var clientinfoCb = function() {
           var clientInfoEle = $('.result-client-info tbody');
           /**formatData*/
           clientInfos.map(function(item) {
-            item[9] = Tool.formatDate(item[9]);
+            item.active_time = Tool.formatDate(item.active_time);
           });
           var clientInfosPaint = function(data, Ele) {
             data = data || clientInfos;
