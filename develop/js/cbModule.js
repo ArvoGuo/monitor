@@ -164,6 +164,7 @@ var rststatCb = function() {
       }
     });
   });
+  defaultCallBack();
 };
 
 /*
@@ -261,7 +262,7 @@ var intimeCb = function() {
     $('.end-time').val(Tool.now());
     $('.intime-submit').eq(0).trigger('click');
   })(minDate);
-
+  defaultCallBack();
 };
 /*
  * 活跃时段 版本变迁
@@ -364,6 +365,7 @@ var clientinfoCb = function() {
     });
     return array;
   }
+  defaultCallBack();
 };
 /*
  * 日统计模块
@@ -392,6 +394,7 @@ var daycountCb = function() {
   });
   $('.daycount-date').val(Tool.yesterday('day'));
   $('.daycount-submit').eq(1).trigger('click');
+  defaultCallBack();
 };
 /*
  * 查询模块
@@ -483,4 +486,5 @@ var searchCb = function() {
     }
     return url[value] + model + s + e;
   }
+  defaultCallBack();
 };

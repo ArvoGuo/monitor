@@ -25,7 +25,7 @@
   </div>
 </form>
 <div>
-  <button class="btn btn-success search-submit">Query</button>
+  <button class="btn btn-success search-submit submit">Query</button>
 </div>
 <h3 id="napos-query-note" ></h3>
 <table class="table table-striped result">
@@ -55,7 +55,7 @@
     closeOnDateSelect:true,
     onShow:function( ct ){
       this.setOptions({
-       minDate: new Date($('#query-start').val())? new Date($('#query-start').val()):false
+       minDate: $('#query-start').val()? new Date($('#query-start').val()):false
       })
     }
  })

@@ -35,7 +35,7 @@ $(document).ready(function() {
       Charts[i].chart.clear();
     }
   };
-  ChartsFn.showOne = function(name,option){
+  ChartsFn.showOne = function(name, option) {
     Charts[name].chart.hideLoading();
     Charts[name].ele.show();
     Charts[name].chart.setOption(option);
@@ -48,6 +48,13 @@ $(document).ready(function() {
     if (intervalClear) {
       clearInterval(interval);
     }
+  };
+  window.defaultCallBack = function() {
+    $('input').keydown(function(e) {
+      if (e && e.keyCode == 13) {
+        $('.submit').trigger('click');
+      }
+    });
   };
   window.initDateTimePicker = function() {
     $('.datetimepicker').datetimepicker({
@@ -64,4 +71,5 @@ $(document).ready(function() {
       }
     });
   };
+
 });
