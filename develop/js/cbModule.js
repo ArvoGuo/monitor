@@ -1,6 +1,6 @@
 //var api = "http://monitor.napos.solo/api";
 var Config = {
-  pageRange: 2
+  pageRange: 15
 };
 
 var Tool = {
@@ -113,6 +113,7 @@ var navCb = function() {
     } else {
       navStatus = 'main';
     }
+    $('.xdsoft_datetimepicker').remove();
     switch (kind) {
       case "intime":
         $('#part-info').load('./include/intime.html', intimeCb);
@@ -366,9 +367,9 @@ var daycountCb = function() {
       'windows': 'windows'
     };
     if (date) {
-      return url + '?system=' + obj[act] + '&stats_day=' + date;
+      return url + '?system=' + obj[act] + '&stats_day=' + date + '&top=10';
     }
-    return url + '?system=' + obj[act] + '&stats_day=' + Tool.yesterday();
+    return url + '?system=' + obj[act] + '&stats_day=' + Tool.yesterday() + '&top=10';
   };
   $('.daycount-submit').on('click', function() {
     var act = $(this).attr('act');

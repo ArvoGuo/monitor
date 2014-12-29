@@ -568,7 +568,6 @@ daycount.grid = {
               });
             });
           });
-          console.log(option)
           ChartsFn.showOne('chart-os-napos', option);
         })(systemVersionList, systemInNapos, self);
 
