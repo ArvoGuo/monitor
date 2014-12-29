@@ -21,9 +21,16 @@
 
 <script>
   $('#intime-date-start').datetimepicker({
-    format:'Y-m-d H:i'
+    format:'Y-m-d H:i',
+    maxDate: new Date()
   });
   $('#intime-date-end').datetimepicker({
-    format:'Y-m-d H:i'
+    format:'Y-m-d H:i',
+    maxDate: new Date(),
+    onShow:function( ct ){
+      this.setOptions({
+       minDate: new Date($('#intime-date-start').val())? new Date($('#intime-date-start').val()):false
+      })
+    }
   })
 </script>

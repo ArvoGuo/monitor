@@ -50,12 +50,15 @@ $(document).ready(function() {
     }
   };
   window.initDateTimePicker = function() {
+    $('.datetimepicker').datetimepicker({
+      maxDate: new Date()
+    });
     $.ajax({
       url: api + '/earlyesttime',
       success: function(data) {
         if (data) {
           $('.datetimepicker').datetimepicker({
-            minDate: new Date(data.earlyest_active_time)
+            minDate: new Date(data.earlyest_active_time),
           });
         }
       }

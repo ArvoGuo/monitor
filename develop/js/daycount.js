@@ -661,7 +661,7 @@ daycount.grid = {
               radius: '55%',
               center: ['50%', '60%'],
               itemStyle: self.pieItemStyle,
-              roseType: 'area',
+              roseType: 'radius',
               data: naposPercent
             }]
           };
@@ -710,7 +710,7 @@ daycount.grid = {
               radius: '55%',
               center: ['50%', '60%'],
               itemStyle: self.pieItemStyle,
-              roseType: 'area',
+              roseType: 'radius',
               data: systemPercent
             }]
           };

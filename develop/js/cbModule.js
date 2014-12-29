@@ -142,6 +142,11 @@ var navCb = function() {
  */
 var rststatCb = function() {
   initDateTimePicker();
+  if ($.cookie('restaurant-statistics')){
+    var v = $.cookie('restaurant-statistics').split('|||');
+    $('#rststats-date').val(v[0]);
+    $('#rststats-result').text(v[1]);
+  }
   $('.rststats-submit').on('click', function() {
     var self = this;
     var date = $('#rststats-date').val();
@@ -155,6 +160,7 @@ var rststatCb = function() {
         $(self).removeClass('disabled');
         var total = data.multiple_login_rst_count.count;
         $('#rststats-result').text(total + ' restaurants login multiple clients.');
+        $.cookie('restaurant-statistics',date + '|||' + $('#rststats-result').text(),{expires: 0.1});
       }
     });
   });
