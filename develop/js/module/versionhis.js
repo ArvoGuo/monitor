@@ -138,5 +138,5 @@
 
 
 
-  }
-})(Module['versionhis'])
+  };
+})(Module['versionhis']);

@@ -48,6 +48,7 @@ var versionhisCb = function(){
     var url = api + '/apposratiotrends?system=' + act;
     Module['versionhis'].paint(url);
   });
+  $('.versionhis-submit').eq(0).trigger('click');
   defaultCallBack();
 };
 /*

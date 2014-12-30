@@ -30,7 +30,7 @@ window.words = {
 
 ChartsFn.loading = function(words) {
   for (var i in Charts) {
-    if (i == 'chart-main') {
+    if (i == 'chart-main' || i == 'chart-versionhis-napos-in-os' || i == 'chart-versionhis-os-in-napos') {
       continue;
     }
     Charts[i].ele.show();
@@ -40,7 +40,7 @@ ChartsFn.loading = function(words) {
     });
   }
 };
-ChartsFn.loadingOne = function(name,words){
+ChartsFn.loadingOne = function(name, words) {
   Charts[name].ele.show();
   Charts[name].chart.showLoading({
     text: words,
