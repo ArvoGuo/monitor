@@ -43,7 +43,11 @@ var navCb = function() {
 */
 var versionhisCb = function(){
   initDateTimePicker();
-
+  $('.versionhis-submit').on('click',function(){
+    var act = $(this).attr('act');
+    var url = api + '/apposratiotrends?system=' + act;
+    Module['versionhis'].paint(url);
+  });
   defaultCallBack();
 };
 /*
