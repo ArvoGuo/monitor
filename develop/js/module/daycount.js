@@ -523,8 +523,8 @@
           return;
         }
         /* os in napos*/
-        (function(systemVersionList, systemInNapos, self) {
-          var xAxisData = getKeyArray(systemInNapos);
+        (function(systemVersionList, systemInNapos, self,naposVersionList) {
+          var xAxisData = naposVersionList;
           var option = {
             title: {
               text: 'Analysis of os version in napos',
@@ -568,10 +568,10 @@
             });
           });
           ChartsFn.showOne('chart-os-napos', option);
-        })(systemVersionList, systemInNapos, self);
+        })(systemVersionList, systemInNapos, self,naposVersionList);
 
         /* napos in os*/
-        (function(naposVersionList, naposInSystem, self) {
+        (function(naposVersionList, naposInSystem, self,systemVersionList) {
           var xAxisData = getKeyArray(naposInSystem);
           var option = {
             title: {
@@ -599,15 +599,15 @@
               axisLabel: {
                 rotate: 45
               },
-              data: xAxisData
+              data: systemVersionList
             }],
             yAxis: [{
               type: 'value'
             }],
             series: []
           };
-          var len = xAxisData.length;
-          xAxisData.map(function(item, index) {
+          var len = systemVersionList.length;
+          systemVersionList.map(function(item, index) {
             var naposver = getKeyArray(naposInSystem[item]);
             naposver.map(function(itemnaposver) {
               option.series.push({
@@ -619,10 +619,10 @@
             });
           });
           ChartsFn.showOne('chart-napos-os', option);
-        })(naposVersionList, naposInSystem, self);
+        })(naposVersionList, naposInSystem, self,systemVersionList);
 
         /* percent napos*/
-        (function(naposVerNum, self) {
+        (function(naposVerNum, self,naposVersionList) {
           var naposPercent = function(naposVerNum) {
             var array = [];
             for (var i in naposVerNum) {
@@ -654,7 +654,7 @@
               orient: 'vertical',
               x: 'right',
               y: 'top',
-              data: legendData
+              data: naposVersionList
             },
             calculable: true,
             series: [{
@@ -668,10 +668,10 @@
             }]
           };
           ChartsFn.showOne('chart-percent-napos', option);
-        })(naposVerNum, self);
+        })(naposVerNum, self,naposVersionList);
 
         /* percent os*/
-        (function(systemVerNum, self) {
+        (function(systemVerNum, self,systemVersionList) {
           var systemPercent = function(systemVerNum) {
             var array = [];
             for (var i in systemVerNum) {
@@ -703,7 +703,7 @@
               orient: 'vertical',
               x: 'right',
               y: 'top',
-              data: legendData
+              data: systemVersionList
             },
             calculable: true,
             series: [{
@@ -717,7 +717,7 @@
             }]
           };
           ChartsFn.showOne('chart-percent-os', option);
-        })(systemVerNum, self);
+        })(systemVerNum, self,systemVersionList);
 
 
       }
