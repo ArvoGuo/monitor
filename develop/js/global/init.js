@@ -24,7 +24,8 @@ $(document).ready(function() {
       }
       Charts[i].ele.show();
       Charts[i].chart.showLoading({
-        text: words
+        text: words,
+        effect: 'whirling'
       });
     }
   };

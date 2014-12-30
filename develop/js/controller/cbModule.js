@@ -130,13 +130,23 @@ var navCb = function() {
       case "rststats":
         $('#part-info').load('./include/rststats.html', rststatCb);
         break;
+      case "versionhistory":
+        $('#part-info').load('./include/versionhistory.html', versionhisCb);
+        break;
       default:
         break;
     }
   });
   $('.action').eq(0).trigger('click');
 };
+/*
+* 版本历史变迁
+*/
+var versionhisCb = function(){
+  initDateTimePicker();
 
+  defaultCallBack();
+};
 /*
  * 餐厅统计模块
  */
