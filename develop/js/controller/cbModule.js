@@ -300,7 +300,8 @@ var daycountCb = function() {
     }
     return url + '?system=' + obj[act] + '&stats_day=' + Tool.yesterday() + '&top=10';
   };
-  $('.daycount-submit').on('click', function() {
+  $('.daycount-submit').on('click', function(e) {
+    e.preventDefault();
     var act = $(this).attr('act');
     var value = $('.daycount-date').val();
     var url = getUrl(act, value);

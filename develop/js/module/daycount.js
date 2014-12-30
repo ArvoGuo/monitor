@@ -661,7 +661,7 @@
               name: 'NAPOS版本',
               type: 'pie',
               radius: '55%',
-              center: ['50%', '60%'],
+              center: ['50%', '45%'],
               itemStyle: self.pieItemStyle,
               roseType: 'radius',
               data: naposPercent
@@ -710,7 +710,7 @@
               name: 'OS版本',
               type: 'pie',
               radius: '55%',
-              center: ['50%', '60%'],
+              center: ['50%', '45%'],
               itemStyle: self.pieItemStyle,
               roseType: 'radius',
               data: systemPercent

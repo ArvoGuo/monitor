@@ -1,15 +1,16 @@
 <h1>Daily statistics</h1>
-<form role="form">
+<form role="form" class="form-inline">
   <div class="form-group">
     <label for="">Date：</label>
     <input type="text" class="form-control daycount-date datetimepicker" id="daycount-date">
   </div>
+  <div class="row-button">
+    <button class="btn btn-success daycount-submit" act="android">Query-Android</button>
+    <button class="btn btn-success daycount-submit" act="ios">Query-IOS</button>
+    <button class="btn btn-success daycount-submit" act="windows">Query-Windows</button>
+  </div>
 </form>
-<div>
-  <button class="btn btn-success daycount-submit" act="android">Query-Android</button>
-  <button class="btn btn-success daycount-submit" act="ios">Query-IOS</button>
-  <button class="btn btn-success daycount-submit" act="windows">Query-Windows</button>
-</div>
+
 <script>
   $('#daycount-date').datetimepicker({
     format: 'Y-m-d',
