@@ -27,8 +27,7 @@ var developJs = [
   "develop/js/components/datetimepicker.js",
   "develop/js/class/Chart.js",
   "develop/js/class/Page.js",
-  "develop/js/module/intime.js",
-  "develop/js/module/daycount.js",
+  "develop/js/module/*.js",
   "develop/js/controller/cbModule.js",
   "develop/js/default/app.js"
 ];

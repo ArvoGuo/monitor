@@ -1,53 +1,52 @@
-var daycount = {};
-daycount.itemStyle = {
-  normal: {
-    barBorderRadius: 5,
-  },
-  emphasis: {
-    barBorderRadius: 5,
-  }
-};
-daycount.barLegendFormat = function(name) {
-  var len = name.length;
-  var max = 12;
-  if (len > max) {
-    return name.substring(0, max) + '..';
-  }
-  return name;
-};
-daycount.barTipStyle = function(params, ticket, cb) {
-  var s = '';
-  for (var i = 0; i < params.length; i++) {
-    if (params[i].data == '-') {
-      continue;
+(function(daycount) {
+  /* set property*/
+  daycount.itemStyle = {
+    normal: {
+      barBorderRadius: 5,
+    },
+    emphasis: {
+      barBorderRadius: 5,
     }
-    s += params[i].seriesName + ' : ' + params[i].data + '</br>';
-  }
-  return s;
-};
+  };
+  daycount.barLegendFormat = function(name) {
+    var len = name.length;
+    var max = 12;
+    if (len > max) {
+      return name.substring(0, max) + '..';
+    }
+    return name;
+  };
+  daycount.barTipStyle = function(params, ticket, cb) {
+    var s = '';
+    for (var i = 0; i < params.length; i++) {
+      if (params[i].data == '-') {
+        continue;
+      }
+      s += params[i].seriesName + ' : ' + params[i].data + '</br>';
+    }
+    return s;
+  };
 
-daycount.pieItemStyle = {
-  normal: {
-    label: {
-      formatter: function(a, b, c, d) {
-        return b + ' - ' + (d - 0).toFixed(2) + '%';
+  daycount.pieItemStyle = {
+    normal: {
+      label: {
+        formatter: function(a, b, c, d) {
+          return b + ' - ' + (d - 0).toFixed(2) + '%';
+        }
+      }
+    },
+    emphasis: {
+      label: {
+        show: true,
+        position: 'inner',
+        formatter: "{b}\n{d}%"
       }
     }
-  },
-  emphasis: {
-    label: {
-      show: true,
-      position: 'inner',
-      formatter: "{b}\n{d}%"
-    }
-  }
-};
-daycount.grid = {
-  x2: 115,
-  y2: 115
-};
-(function(daycount) {
-
+  };
+  daycount.grid = {
+    x2: 115,
+    y2: 115
+  };
   /* v0.1*/
   daycount.paint = function(url) {
     var self = this;
@@ -961,4 +960,4 @@ daycount.grid = {
     return sortBySystems;
   }
 
-})(daycount);
+})(Module.daycount);

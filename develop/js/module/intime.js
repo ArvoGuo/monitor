@@ -1,41 +1,41 @@
-var intime = new Chart({
-  title: {},
-  tooltip: {
-    trigger: 'axis'
-  },
-  legend: {
-    data: ['Client', 'Keeper', 'Restaurant']
-  },
-  grid: {
-    y2: 100
-  },
-  xAxis: [{
-    type: 'category',
-    data: [],
-    axisLabel: {
-      interval: 10,
-      rotate: 45
-    }
-  }],
-  yAxis: [{
-    type: 'value'
-  }],
-  series: [{
-    name: 'Client',
-    type: 'line',
-    data: []
-  }, {
-    name: 'Keeper',
-    type: 'line',
-    data: []
-  }, {
-    name: 'Restaurant',
-    type: 'line',
-    data: []
-  }]
-});
-
 (function(intime) {
+  intime.option = {
+    title: {},
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['Client', 'Keeper', 'Restaurant']
+    },
+    grid: {
+      y2: 100
+    },
+    xAxis: [{
+      type: 'category',
+      data: [],
+      axisLabel: {
+        interval: 10,
+        rotate: 45
+      }
+    }],
+    yAxis: [{
+      type: 'value'
+    }],
+    series: [{
+      name: 'Client',
+      type: 'line',
+      data: []
+    }, {
+      name: 'Keeper',
+      type: 'line',
+      data: []
+    }, {
+      name: 'Restaurant',
+      type: 'line',
+      data: []
+    }]
+  };
+
   intime.paintByTime = function(url) {
     var self = this;
     window.init(false, false);
@@ -110,4 +110,5 @@ var intime = new Chart({
     }
     console.log(lastH, lastM, option.xAxis[0].data);
   }
-})(intime);
+
+})(Module.intime);

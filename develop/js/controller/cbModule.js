@@ -1,104 +1,3 @@
-//var api = "http://monitor.napos.solo/api";
-var Config = {
-  pageRange: 15
-};
-
-var Tool = {
-  substituteArray: function(str, array) {
-    return str.replace(/\{(.+?)\}/g, function($0, $1) {
-      return array[$1];
-    });
-  },
-  substitute: function(str, sub) {
-    return str.replace(/\{(.+?)\}/g, function($0, $1) {
-      return $1 in sub ? sub[$1] : $0;
-    });
-  },
-
-  formatDate: function(value) {
-    var date = new Date(value);
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = Tool.formatTime(date.getDate());
-    var h = Tool.formatTime(date.getHours());
-    var m = Tool.formatTime(date.getMinutes());
-    var s = Tool.formatTime(date.getSeconds());
-    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m + ':' + s;
-  },
-  formatTime: function(time) {
-    return time < 10 ? '0' + time : time;
-  },
-  toTime: function(date) {
-    return (new Date(date)).getTime();
-  },
-  now: function(day) {
-    var date = new Date();
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate());
-    var h = this.formatTime(date.getHours());
-    var m = this.formatTime(date.getMinutes());
-    if (day) {
-      return yy + '-' + mm + '-' + dd;
-    }
-    return yy + '-' + mm + '-' + dd + ' ' + h + ':' + m;
-  },
-  todayZero: function() {
-    var date = new Date();
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate());
-    return yy + '-' + mm + '-' + dd + ' 00:00';
-  },
-  today: function() {
-    var date = new Date();
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate());
-    return yy + '-' + mm + '-' + dd;
-  },
-  datetimeBefore: function(m, d, h) {
-    var time = new Date();
-    time = time.getTime();
-    var unitH = 1000 * 60 * 60;
-    var hTime = h * unitH;
-    var dTime = d * unitH * 24;
-    var mTime = m * unitH * 24 * 30;
-    var date = time - hTime - dTime - mTime;
-    date = new Date(date);
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate());
-    var hh = this.formatTime(date.getHours());
-    var i = this.formatTime(date.getMinutes());
-    return yy + '-' + mm + '-' + dd + ' ' + hh + ':' + i;
-  },
-  yesterday: function(day) {
-    var date = new Date();
-    var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate()) - 1;
-    if (day) {
-      return yy + '-' + mm + '-' + dd;
-    }
-    return yy + '-' + mm + '-' + dd + ' 00:00';
-  },
-  getStep: function(start, end) {
-    var startTime = (new Date(start)).getTime();
-    var endTime = (new Date(end)).getTime();
-    var m = 60000;
-    var points = 200;
-    var range = 1;
-    var dis = endTime - startTime;
-    if (dis <= m * 60) {
-      range = 1;
-    } else {
-      range = Math.round(Math.abs(dis) / (m * points));
-    }
-
-    return range < 1 ? 1 : range;
-  }
-};
 
 /*
  * 载入右侧后执行的
@@ -213,7 +112,7 @@ var intimeCb = function() {
     var start = $('.start-time').val();
     var end = $('.end-time').val();
     var url = getUrl(start, end);
-    intime.paintByTime(url);
+    Module['intime'].paintByTime(url);
   });
 
   $('.intime-model').on('click', function() {
@@ -248,16 +147,16 @@ var intimeCb = function() {
     $('.end-time').val(end);
     if (model == 'hour') {
       url = getUrl(start, end);
-      intime.paintByTime(url);
+      Module['intime'].paintByTime(url);
       window.interval = setInterval(function() {
         start = Tool.datetimeBefore(0, 0, 1);
         end = Tool.now();
         var url = getUrl(start, Tool.now());
-        intime.paintByTime(url);
+        Module['intime'].paintByTime(url);
       }, 60000);
     } else {
       url = getUrl(start, end);
-      intime.paintByTime(url);
+      Module['intime'].paintByTime(url);
     }
   });
   /*default*/
@@ -399,8 +298,7 @@ var daycountCb = function() {
     var act = $(this).attr('act');
     var value = $('.daycount-date').val();
     var url = getUrl(act, value);
-    //daycount.paintBySystem(url);
-    daycount.paintTop(url);
+    Module['daycount'].paintTop(url);
   });
   $('.daycount-date').val(Tool.yesterday('day'));
   $('.daycount-submit').eq(1).trigger('click');
