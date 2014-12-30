@@ -596,6 +596,9 @@
             grid: self.grid,
             xAxis: [{
               type: 'category',
+              axisLabel: {
+                rotate: 45
+              },
               data: xAxisData
             }],
             yAxis: [{

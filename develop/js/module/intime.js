@@ -5,10 +5,16 @@
       trigger: 'axis'
     },
     legend: {
+      orient: 'vertical',
+      x: 'right',
+      y: 'top',
       data: ['Client', 'Keeper', 'Restaurant']
     },
     grid: {
-      y2: 100
+      y: 20,
+      y2: 100,
+      x2: 100,
+      height: '60%'
     },
     xAxis: [{
       type: 'category',

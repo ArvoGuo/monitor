@@ -120,7 +120,8 @@ var intimeCb = function() {
     Module['intime'].paintByTime(url);
   });
 
-  $('.intime-model').on('click', function() {
+  $('.intime-model').on('click', function(e) {
+    e.preventDefault();
     clearInterval(window.interval);
     var model = $(this).attr('act');
     var start = '';
