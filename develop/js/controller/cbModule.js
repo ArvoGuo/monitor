@@ -15,7 +15,9 @@ var navCb = function() {
     $('.xdsoft_datetimepicker').remove();
     switch (kind) {
       case "intime":
-        $('#part-info').load('./include/intime.html', intimeCb);
+        $('#part-info').load('./include/intime.html', function(){
+          intimeCb(kind);
+        });
         break;
       case "daycount":
         $('#part-info').load('./include/daycount.html', daycountCb);
@@ -84,7 +86,8 @@ var rststatCb = function() {
 /*
  * 实时监控模块
  */
-var intimeCb = function() {
+var intimeCb = function(x) {
+  console.log(x)
   /*date init*/
   var minDate;
   $.ajax({
