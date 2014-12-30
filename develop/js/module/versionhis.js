@@ -4,9 +4,9 @@
   };
   vhis.paint = function(url) {
     var self = this;
+    window.init(false, true);
     ChartsFn.loadingOne('chart-versionhis-napos-in-os', words.query);
     ChartsFn.loadingOne('chart-versionhis-os-in-napos', words.query);
-    window.init(false, true);
     $.ajax({
       url: url,
       success: function(data) {
