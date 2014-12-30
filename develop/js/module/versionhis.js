@@ -1,6 +1,8 @@
 (function(vhis) {
   vhis.grid = {
+    y2: 100,
     x2: 120,
+    height: '60%'
   };
   vhis.paint = function(url) {
     var self = this;
@@ -13,7 +15,7 @@
         var os = Object.keys(data)[0];
         data = data[os];
         self.os = os;
-        if (data.napos_version_list < 0 ){
+        if (data.napos_version_list < 0) {
           ChartsFn.loadingOne('chart-versionhis-napos-in-os', words.empty);
           ChartsFn.loadingOne('chart-versionhis-os-in-napos', words.empty);
           return;
@@ -32,12 +34,14 @@
             tooltip: {
               trigger: 'axis'
             },
-            dataZoom : {
-              show : true,
-              realtime : true,
-              start : 0,
-              end : 100
+            dataZoom: {
+              show: true,
+              realtime: true,
+              start: 0,
+              end: 100,
+              y: 390
             },
+
             legend: {
               orient: 'vertical',
               x: 'right',
@@ -80,11 +84,12 @@
             tooltip: {
               trigger: 'axis'
             },
-            dataZoom : {
-              show : true,
-              realtime : true,
-              start : 0,
-              end : 100
+            dataZoom: {
+              show: true,
+              realtime: true,
+              start: 0,
+              end: 100,
+              y: 390
             },
             legend: {
               orient: 'vertical',
