@@ -512,6 +512,7 @@
       success: function(data) {
         var os = Object.keys(data)[0];
         data = data[os];
+        self.os = os;
         var naposVersionList = data.napos_version_list;
         var systemVersionList = data.system_version_list;
         var naposInSystem = data.napos_version_in_system_version;
@@ -527,7 +528,7 @@
           var xAxisData = naposVersionList;
           var option = {
             title: {
-              text: 'Analysis of os version in napos',
+              text: 'Analysis of '+ self.os +' version in napos',
               x: 'center',
               y: 'top'
             },
@@ -575,7 +576,7 @@
           var xAxisData = getKeyArray(naposInSystem);
           var option = {
             title: {
-              text: 'Analysis of napos version in os',
+              text: 'Analysis of napos version in ' + self.os,
               x: 'center',
               y: 'top'
             },
@@ -663,7 +664,6 @@
               radius: '55%',
               center: ['50%', '45%'],
               itemStyle: self.pieItemStyle,
-              roseType: 'radius',
               data: naposPercent
             }]
           };
@@ -691,7 +691,7 @@
           }(systemVerNum);
           var option = {
             title: {
-              text: 'Analysis of os',
+              text: 'Analysis of ' + self.os,
               x: 'center',
               y: 'top'
             },
@@ -712,7 +712,6 @@
               radius: '55%',
               center: ['50%', '45%'],
               itemStyle: self.pieItemStyle,
-              roseType: 'radius',
               data: systemPercent
             }]
           };

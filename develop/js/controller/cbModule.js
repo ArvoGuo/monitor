@@ -311,7 +311,7 @@ var daycountCb = function() {
     Module['daycount'].paintTop(url);
   });
   $('.daycount-date').val(Tool.yesterday('day'));
-  $('.daycount-submit').eq(1).trigger('click');
+  $('.daycount-submit').eq(0).trigger('click');
   defaultCallBack();
 };
 /*
