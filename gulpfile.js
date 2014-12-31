@@ -23,10 +23,9 @@ var componentCss = [
   "develop/bower_components/bootstrap/dist/css/bootstrap.min.css"
 ];
 var developJs = [
-  "develop/js/global/init.js",
-  "develop/js/components/datetimepicker.js",
-  "develop/js/class/Chart.js",
-  "develop/js/class/Page.js",
+  "develop/js/class/*.js",
+  "develop/js/global/*.js",
+  "develop/js/components/*.js",
   "develop/js/module/*.js",
   "develop/js/controller/cbModule.js",
   "develop/js/default/app.js"

@@ -7,31 +7,31 @@ var navCb = function() {
     var url = $(this).attr('act');
     var kind = $(this).attr('kind');
     init(true, true);
-    if (kind != 'intime') {
+    if (kind != '/intime') {
       navStatus = 'other';
     } else {
       navStatus = 'main';
     }
     $('.xdsoft_datetimepicker').remove();
     switch (kind) {
-      case "intime":
+      case "/intime":
         $('#part-info').load('./include/intime.html', function(){
           intimeCb(kind);
         });
         break;
-      case "daycount":
+      case "/daycount":
         $('#part-info').load('./include/daycount.html', daycountCb);
         break;
-      case "search":
+      case "/search":
         $('#part-info').load('./include/search.html', searchCb);
         break;
-      case "clientinfo":
+      case "/clientinfo":
         $('#part-info').load('./include/clientinfo.html', clientinfoCb);
         break;
-      case "rststats":
+      case "/rststats":
         $('#part-info').load('./include/rststats.html', rststatCb);
         break;
-      case "versionhistory":
+      case "/versionhistory":
         $('#part-info').load('./include/versionhistory.html', versionhisCb);
         break;
       default:

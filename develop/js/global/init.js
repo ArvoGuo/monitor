@@ -9,6 +9,7 @@ var chartsNames = ['chart-main',
 var moduleName = ['intime', 'daycount', 'versionhis'];
 window.Charts = {};
 window.Module = {};
+window.Hash = $.Hash();
 moduleName.forEach(function(name) {
   Module[name] = {};
 });
