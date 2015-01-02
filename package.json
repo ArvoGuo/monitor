@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArvoGuo/monitor.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArvoGuo/monitor/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ArvoGuo/monitor"
+  "homepage": ""
 }

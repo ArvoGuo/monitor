@@ -1,51 +1,9 @@
-
 /*
- * 载入右侧后执行的
+ * 版本历史变迁
  */
-var navCb = function() {
-  $('.action').on('click', function() {
-    var url = $(this).attr('act');
-    var kind = $(this).attr('kind');
-    init(true, true);
-    if (kind != '/intime') {
-      navStatus = 'other';
-    } else {
-      navStatus = 'main';
-    }
-    $('.xdsoft_datetimepicker').remove();
-    switch (kind) {
-      case "/intime":
-        $('#part-info').load('./include/intime.html', function(){
-          intimeCb(kind);
-        });
-        break;
-      case "/daycount":
-        $('#part-info').load('./include/daycount.html', daycountCb);
-        break;
-      case "/search":
-        $('#part-info').load('./include/search.html', searchCb);
-        break;
-      case "/clientinfo":
-        $('#part-info').load('./include/clientinfo.html', clientinfoCb);
-        break;
-      case "/rststats":
-        $('#part-info').load('./include/rststats.html', rststatCb);
-        break;
-      case "/versionhistory":
-        $('#part-info').load('./include/versionhistory.html', versionhisCb);
-        break;
-      default:
-        break;
-    }
-  });
-  $('.action').eq(0).trigger('click');
-};
-/*
-* 版本历史变迁
-*/
-var versionhisCb = function(){
+var versionhisCb = function() {
   initDateTimePicker();
-  $('.versionhis-submit').on('click',function(){
+  $('.versionhis-submit').on('click', function() {
     var act = $(this).attr('act');
     var url = api + '/apposratiotrends?system=' + act;
     Module['versionhis'].paint(url);
@@ -58,7 +16,7 @@ var versionhisCb = function(){
  */
 var rststatCb = function() {
   initDateTimePicker();
-  if ($.cookie('restaurant-statistics')){
+  if ($.cookie('restaurant-statistics')) {
     var v = $.cookie('restaurant-statistics').split('|||');
     $('#rststats-date').val(v[0]);
     $('#rststats-result').text(v[1]);
@@ -76,112 +34,15 @@ var rststatCb = function() {
         $(self).removeClass('disabled');
         var total = data.multiple_login_rst_count.count;
         $('#rststats-result').text(total + ' restaurants login multiple clients.');
-        $.cookie('restaurant-statistics',date + '|||' + $('#rststats-result').text(),{expires: 0.1});
-      }
-    });
-  });
-  defaultCallBack();
-};
-
-/*
- * 实时监控模块
- */
-var intimeCb = function(x) {
-  console.log(x)
-  /*date init*/
-  var minDate;
-  $.ajax({
-    url: api + '/earlyesttime',
-    success: function(data) {
-      if (data) {
-        minDate = new Date(data.earlyest_active_time);
-        $('#intime-date-start,.datetimepicker').datetimepicker({
-          minDate: minDate
+        $.cookie('restaurant-statistics', date + '|||' + $('#rststats-result').text(), {
+          expires: 0.1
         });
       }
-    }
-  });
-
-  var getUrl = function(start, end) {
-    var url = api + '/activitystats';
-    start = start || Tool.yesterday();
-    end = end || Tool.now();
-    var step = Tool.getStep(start, end);
-    url = url + '?period_from=' + start + '&period_to=' + end + '&step=' + step;
-    return url;
-  };
-  $('.intime-submit').on('click', function(e) {
-    e.preventDefault();
-    clearInterval(window.interval);
-    Charts['chart-main'].ele.show();
-    Charts['chart-main'].chart.showLoading({
-      text: '正在查询..', //loading话术
     });
-    var start = $('.start-time').val();
-    var end = $('.end-time').val();
-    var url = getUrl(start, end);
-    Module['intime'].paintByTime(url);
   });
-
-  $('.intime-model').on('click', function(e) {
-    e.preventDefault();
-    clearInterval(window.interval);
-    var model = $(this).attr('act');
-    var start = '';
-    var end = '';
-    var url = '';
-    if (model == 'hour') {
-      start = Tool.datetimeBefore(0, 0, 1);
-      end = Tool.now();
-    }
-    if (model == 'day') {
-      start = Tool.datetimeBefore(0, 1, 0);
-      end = Tool.now();
-    }
-    if (model == 'week') {
-      start = Tool.datetimeBefore(0, 7, 0);
-      end = Tool.now();
-    }
-    if (model == 'month') {
-      start = Tool.datetimeBefore(1, 0, 0);
-      end = Tool.now();
-    }
-
-    if (minDate) {
-      if ((new Date(start)).getTime() < (new Date(minDate)).getTime()) {
-        start = Tool.formatDate(minDate);
-      }
-    }
-    $('.start-time').val(start);
-    $('.end-time').val(end);
-    if (model == 'hour') {
-      url = getUrl(start, end);
-      Module['intime'].paintByTime(url);
-      window.interval = setInterval(function() {
-        start = Tool.datetimeBefore(0, 0, 1);
-        end = Tool.now();
-        var url = getUrl(start, Tool.now());
-        Module['intime'].paintByTime(url);
-      }, 60000);
-    } else {
-      url = getUrl(start, end);
-      Module['intime'].paintByTime(url);
-    }
-  });
-  /*default*/
-  (function(minDate) {
-    var start = Tool.todayZero();
-    if (minDate) {
-      if ((new Date(start)).getTime() < (new Date(minDate)).getTime()) {
-        start = Tool.formatDate(minDate);
-      }
-    }
-    $('.start-time').val(start);
-    $('.end-time').val(Tool.now());
-    $('.intime-submit').eq(0).trigger('click');
-  })(minDate);
   defaultCallBack();
 };
+
 /*
  * 活跃时段 版本变迁
  */
@@ -260,7 +121,7 @@ var clientinfoCb = function() {
   });
 
   /*default init*/
-  if ($.cookie('td-result-uuid')){
+  if ($.cookie('td-result-uuid')) {
     $('#client-info-client').val($.cookie('td-result-uuid'));
     $('.clientinfo-submit').trigger('click');
   }
@@ -348,22 +209,24 @@ var searchCb = function() {
           item.active_from = Tool.formatDate(item.active_from);
           item.active_to = Tool.formatDate(item.active_to);
         });
-        var bindTdAct = function(){
+        var bindTdAct = function() {
           /*on click*/
-          $('.td-result').on('click',function(){
+          $('.td-result').on('click', function() {
             var self = this;
             var act = $(this).attr('act');
             var content = $(this).text();
-            $('.query-radio[act='+ act +']').trigger('click');
+            $('.query-radio[act=' + act + ']').trigger('click');
             if (content == $('#query-model').val()) {
               return;
             }
             $('#query-model').val(content);
             $('.search-submit').trigger('click');
           });
-          $('.td-result-uuid').on('click',function(){
+          $('.td-result-uuid').on('click', function() {
             var content = $(this).text();
-            $.cookie('td-result-uuid',content,{expires: 0.1});
+            $.cookie('td-result-uuid', content, {
+              expires: 0.1
+            });
             $('.action[kind=clientinfo]').trigger('click');
           });
         };

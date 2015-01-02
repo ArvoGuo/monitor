@@ -10,6 +10,20 @@ var moduleName = ['intime', 'daycount', 'versionhis'];
 window.Charts = {};
 window.Module = {};
 window.Hash = $.Hash();
+window.ChartsFn = {};
+window.interval = 0;
+window.navStatus = 'main';
+window.words = {
+  query: 'Query..',
+  empty: 'Result is empty.'
+};
+window.onpopstate = function(e){
+  if (Hash.status == true){
+    console.log(123)
+    Router();
+    //$('.action[kind="'+ Hash.getPathName() +'"]').eq(0).trigger('click',Hash.getParamObj());
+  }
+};
 moduleName.forEach(function(name) {
   Module[name] = {};
 });
@@ -21,14 +35,6 @@ chartsNames.forEach(function(name) {
     chart: echarts.init(ele[0])
   };
 });
-window.ChartsFn = {};
-window.interval = 0;
-window.navStatus = 'main';
-window.words = {
-  query: 'Query..',
-  empty: 'Result is empty.'
-};
-
 ChartsFn.loading = function(words) {
   for (var i in Charts) {
     if (i == 'chart-main' || i == 'chart-versionhis-napos-in-os' || i == 'chart-versionhis-os-in-napos') {

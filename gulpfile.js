@@ -24,10 +24,11 @@ var componentCss = [
 ];
 var developJs = [
   "develop/js/class/*.js",
+  "develop/js/router/*.js",
   "develop/js/global/*.js",
   "develop/js/components/*.js",
   "develop/js/module/*.js",
-  "develop/js/controller/cbModule.js",
+  "develop/js/controller/*.js",
   "develop/js/default/app.js"
 ];
 
