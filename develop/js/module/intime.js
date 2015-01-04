@@ -42,7 +42,7 @@
     }]
   };
 
-  intime.paintByTime = function(url) {
+  intime.paintByTime = function(url,pathname) {
     var self = this;
     window.init(false, false);
     Charts['chart-main'].ele.show();
@@ -53,6 +53,9 @@
     $.ajax({
       url: url,
       success: function(data) {
+        if (Hash.getPathName()!= pathname ) {
+          return;
+        }
         var list = data.activity_stats;
         if (list.length < 1) {
           Charts['chart-main'].ele.show();
@@ -73,12 +76,9 @@
             self.option.series[1].data.push(item.keeper);
             self.option.series[2].data.push(item.rst);
           });
-
-          if (navStatus == 'main') {
             Charts['chart-main'].chart.hideLoading();
             Charts['chart-main'].ele.show();
             Charts['chart-main'].chart.setOption(self.option);
-          }
         })(list);
       }
     });

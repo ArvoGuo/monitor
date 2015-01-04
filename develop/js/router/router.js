@@ -4,28 +4,44 @@
 function Router (){
   var pathname = Hash.getPathName();
   var param = Hash.getParamObj();
+  init(true, true);
+  $('.xdsoft_datetimepicker').remove();
   switch (pathname) {
       case "/intime":
         $('#part-info').load('./include/intime.html', function(){
-          intimeCb(param);
+          intimeCb(param,pathname);
         });
         break;
       case "/daycount":
-        $('#part-info').load('./include/daycount.html', daycountCb);
+        $('#part-info').load('./include/daycount.html', function(){
+          daycountCb(param,pathname);
+        });
         break;
       case "/search":
-        $('#part-info').load('./include/search.html', searchCb);
+        $('#part-info').load('./include/search.html', function(){
+          searchCb(param,pathname);
+        });
         break;
       case "/clientinfo":
-        $('#part-info').load('./include/clientinfo.html', clientinfoCb);
+        $('#part-info').load('./include/clientinfo.html', function(){
+          clientinfoCb(param,pathname);
+        });
         break;
       case "/rststats":
-        $('#part-info').load('./include/rststats.html', rststatCb);
+        $('#part-info').load('./include/rststats.html', function(){
+          rststatCb(param,pathname);
+        });
         break;
       case "/versionhistory":
-        $('#part-info').load('./include/versionhistory.html', versionhisCb);
+        $('#part-info').load('./include/versionhistory.html', function(){
+          versionhisCb(param,pathname);
+        });
         break;
       default:
+        Hash.setPathName('intime');
+        $('#part-info').load('./include/intime.html', function(){
+          intimeCb();
+        });
         break;
     }
 }

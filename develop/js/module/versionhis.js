@@ -4,7 +4,7 @@
     x2: 120,
     height: '60%'
   };
-  vhis.paint = function(url) {
+  vhis.paint = function(url,pathname) {
     var self = this;
     window.init(false, true);
     ChartsFn.loadingOne('chart-versionhis-napos-in-os', words.query);
@@ -12,6 +12,9 @@
     $.ajax({
       url: url,
       success: function(data) {
+        if (Hash.getPathName() != pathname){
+          return;
+        }
         var os = Object.keys(data)[0];
         data = data[os];
         self.os = os;

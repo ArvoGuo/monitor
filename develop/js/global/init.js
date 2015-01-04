@@ -18,8 +18,7 @@ window.words = {
   empty: 'Result is empty.'
 };
 window.onpopstate = function(e){
-  if (Hash.status == true){
-    console.log(123)
+  if (Hash.status === true){
     Router();
     //$('.action[kind="'+ Hash.getPathName() +'"]').eq(0).trigger('click',Hash.getParamObj());
   }
@@ -192,8 +191,8 @@ window.Tool = {
   yesterday: function(day) {
     var date = new Date();
     var yy = date.getFullYear();
-    var mm = date.getMonth() + 1;
-    var dd = this.formatTime(date.getDate()) - 1;
+    var mm = this.formatTime(date.getMonth() + 1);
+    var dd = this.formatTime(date.getDate() - 1);
     if (day) {
       return yy + '-' + mm + '-' + dd;
     }

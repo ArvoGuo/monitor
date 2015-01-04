@@ -128,6 +128,18 @@
     return obj;
   };
 
+  fn.addParam = function(obj){
+    var self = this;
+    if (!self.checkHash()) {
+      return '';
+    }
+    var params = self.getParamObj();
+    for (var i in obj){
+      params[i] = obj[i];
+    }
+    self.setParams(params);
+  };
+
   $.Hash = function(option) {
     return new Hash(option);
   };

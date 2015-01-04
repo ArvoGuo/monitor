@@ -2,7 +2,7 @@
 /*
  * 实时监控模块
  */
-var intimeCb = function(params) {
+var intimeCb = function(params,pathname) {
   /*date init*/
   var minDate;
   $.ajax({
@@ -36,7 +36,7 @@ var intimeCb = function(params) {
     var start = $('.start-time').val();
     var end = $('.end-time').val();
     var url = getUrl(start, end);
-    Module['intime'].paintByTime(url);
+    Module['intime'].paintByTime(url,pathname);
     /*hash*/
     Hash.setParams({
       start: start,
@@ -79,16 +79,16 @@ var intimeCb = function(params) {
     $('.end-time').val(end);
     if (model == 'hour') {
       url = getUrl(start, end);
-      Module['intime'].paintByTime(url);
+      Module['intime'].paintByTime(url,pathname);
       window.interval = setInterval(function() {
         start = Tool.datetimeBefore(0, 0, 1);
         end = Tool.now();
         var url = getUrl(start, Tool.now());
-        Module['intime'].paintByTime(url);
+        Module['intime'].paintByTime(url,pathname);
       }, 60000);
     } else {
       url = getUrl(start, end);
-      Module['intime'].paintByTime(url);
+      Module['intime'].paintByTime(url,pathname);
     }
     /*hash*/
     Hash.setParams({

@@ -2,17 +2,17 @@
 <form role="form">
   <div class="form-group">
     <label for="clientradio" class="radio-inline">
-      <input type="radio" name="search-kind" act="client" class="query-radio" id="clientradio" value="client" checked>Client
+      <input type="radio" name="search-kind" act="Client" class="query-radio" id="clientradio" value="Client" checked>Client
     </label>
     <label for="userradio" class="radio-inline">
-      <input type="radio" name="search-kind" act="user" class="query-radio" id="userradio" value="user">User
+      <input type="radio" name="search-kind" act="User" class="query-radio" id="userradio" value="User">User
     </label>
     <label for="resradio" class="radio-inline">
-      <input type="radio" name="search-kind" act="restaurant" class="query-radio" id="resradio" value="restaurant">Restaurant
+      <input type="radio" name="search-kind" act="Restaurant" class="query-radio" id="resradio" value="Restaurant">Restaurant
     </label>
   </div>
   <div class="form-group">
-    <label for="" ><span class="radio-value">client</span>:</label>
+    <label for="" ><span class="radio-value">Client</span>:</label>
     <input type="text" name="model" id="query-model" class="form-control">
   </div>
    <div class="form-group">
@@ -25,7 +25,7 @@
   </div>
 </form>
 <div>
-  <button class="btn btn-success search-submit submit">Query</button>
+  <button class="btn btn-success search-submit submit" act="default">Query</button>
 </div>
 <h3 id="napos-query-note" ></h3>
 <table class="table table-striped result">
@@ -67,7 +67,7 @@
       <td class="td-result" act="client">{client_id}</td>
       <td class="td-result" act="user">{keeper_id}</td>
       <td class="td-result" act="restaurant">{rst_id}</td>
-      <td class="td-result-uuid">{uuid}</td>
+      <td class="td-result-uuid"><a href="#!/clientinfo?start=&end=&client={uuid}&action=default">{uuid}</a></td>
       <td>{active_from}</td>
       <td>{active_to}</td>
     </tr>
