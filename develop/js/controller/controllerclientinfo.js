@@ -1,4 +1,3 @@
-
 /*
  * 活跃时段 版本变迁
  */
@@ -42,11 +41,16 @@ var clientinfoCb = function(params) {
             });
             Ele.html('').append(html);
           };
+          var index = 1;
+          if (Hash.getParamObj().page) {
+            index = Hash.getParamObj().page;
+          }
           /*page*/
           var page = $.Page({
             range: Config.pageRange,
             Ele: $('#page-clientinfo'),
             data: clientInfos,
+            index: index,
             paintArea: clientInfoEle,
             paintFn: clientInfosPaint
           });
@@ -82,12 +86,12 @@ var clientinfoCb = function(params) {
       action: act
     });
   });
-  if (params && params.hasOwnProperty('action')){
+  if (params && params.hasOwnProperty('action')) {
     $('#client-info-client').val(params.client);
     $('.time-start').val(params.start);
     $('.time-end').val(params.end);
-    $('.clientinfo-submit[act='+ params.action +']').eq(0).trigger('click');
-  } else{
+    $('.clientinfo-submit[act=' + params.action + ']').eq(0).trigger('click');
+  } else {
     /*default init*/
     if ($.cookie('td-result-uuid')) {
       $('#client-info-client').val($.cookie('td-result-uuid'));

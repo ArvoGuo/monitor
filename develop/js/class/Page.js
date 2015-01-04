@@ -11,7 +11,22 @@
     self.paintFn = options.paintFn;
     self.paintArea = options.paintArea;
     self.htmlEle = $('<nav><ul class="pagination"></ul></nav>');
+    self.index = options.index;
     self.paintPage();
+    /*default page*/
+    self.defaultPage();
+  };
+
+  fn.defaultPage = function(){
+    var self = this;
+    var page = self.index;
+    if (page < 2){
+      page = 1;
+    }
+    if (page > self.totalPage()){
+      page = self.totalPage();
+    }
+    self.Ele.find('a[data='+ (page - 1) +']').eq(0).trigger('click');
   };
 
   fn.paintPage = function() {
@@ -44,6 +59,7 @@
       $(this).addClass('active');
       var correctData = self.getCorrectData(page);
       self.paintFn(correctData);
+      self.setHashPage(page);
     });
   };
 
@@ -96,6 +112,22 @@
 
   fn.getPageEle = function(index) {
     return $('<li><a href="javascript:void(0);" data="' + index + '">' + (index + 1) + '</a></li>');
+  };
+
+  fn.setHashPage = function(index) {
+    if (Hash){
+      Hash.addParam({
+        page: index
+      });
+    }
+  };
+
+  fn.turnHashPage = function(){
+    var self = this;
+    if (Hash && Hash.getParamObj().page) {
+      var page = Hash.getParamObj().page;
+      self.Ele.find('a[data='+ page-1 +']').eq(0).trigger('click');
+    }
   };
 
   $.Page = function(options) {

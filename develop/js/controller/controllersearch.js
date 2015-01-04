@@ -1,4 +1,3 @@
-
 /*
  * 查询模块
  */
@@ -47,13 +46,6 @@ var searchCb = function(params) {
             $('#query-model').val(content);
             $('.search-submit').trigger('click');
           });
-          // $('.td-result-uuid').on('click', function() {
-          //   var content = $(this).text();
-          //   $.cookie('td-result-uuid', content, {
-          //     expires: 0.1
-          //   });
-          //   $('.action[kind=clientinfo]').trigger('click');
-          // });
         };
         var resultPaint = function(data, Ele) {
           var html = '';
@@ -64,29 +56,34 @@ var searchCb = function(params) {
           Ele.html('').append(html);
           bindTdAct();
         };
+        var index = 1;
+        if (Hash.getParamObj().page){
+          index = Hash.getParamObj().page;
+        }
         /*page*/
         var page = $.Page({
           range: Config.pageRange,
           Ele: $('#page-search'),
           data: list,
+          index: index,
           paintFn: resultPaint
         });
       }
     });
-    Hash.setParams({
+    Hash.addParam({
       start: startTime,
-      end : endTime,
+      end: endTime,
       model: model,
       kind: kind,
       action: act
     });
   });
-  if (params && params.hasOwnProperty('action')){
-    $('#part-info input[name=search-kind][act='+ params.kind +']').eq(0).trigger('click');
+  if (params && params.hasOwnProperty('action')) {
+    $('#part-info input[name=search-kind][act=' + params.kind + ']').eq(0).trigger('click');
     $('input[name=time-begin]').val(params.start);
     $('input[name=time-end]').val(params.end);
     $('input[name=model]').val(params.model);
-    $('.search-submit[act='+ params.action +']').eq(0).trigger('click');
+    $('.search-submit[act=' + params.action + ']').eq(0).trigger('click');
   }
 
   function getUrl(value, model, start, end) {
