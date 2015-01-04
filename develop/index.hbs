@@ -6,7 +6,17 @@
   <title>WarDen Monitor</title>
 </head>
 <body>
-<div id="nav"></div>
+<div id="nav">
+  <h3><a href="javascript:location.href=location.origin">Warden</a></h3>
+  <ul>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/intime">Live data</a></li>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/daycount">Daily statistics</a></li>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/versionhistory">Version trend</a></li>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/search">Napos query</a></li>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/clientinfo">Client information</a></li>
+    <li><a class="action" href="javascript:void(0)" act="/" kind="/rststats">Rst stats</a></li>
+  </ul>
+</div>
 <div id="main">
   <div id="part-info" class="container"></div>
   <div id="chart"></div>
