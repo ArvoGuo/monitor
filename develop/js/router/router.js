@@ -39,8 +39,9 @@ function Router (){
         break;
       default:
         Hash.setPathName('intime');
+        pathname = Hash.getPathName();
         $('#part-info').load('./include/intime.html', function(){
-          intimeCb();
+          intimeCb(param,pathname);
         });
         break;
     }
