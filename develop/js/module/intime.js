@@ -1,48 +1,5 @@
 (function(intime) {
-  intime.option = {
-    title: {},
-    tooltip: {
-      trigger: 'axis'
-    },
-    legend: {
-      orient: 'vertical',
-      x: 'right',
-      y: 'top',
-      data: ['Client', 'Keeper', 'Restaurant']
-    },
-    grid: {
-      y: 20,
-      y2: 100,
-      x2: 100,
-      height: '60%'
-    },
-    xAxis: [{
-      type: 'category',
-      data: [],
-      axisLabel: {
-        interval: 10,
-        rotate: 45
-      }
-    }],
-    yAxis: [{
-      type: 'value'
-    }],
-    series: [{
-      name: 'Client',
-      type: 'line',
-      data: []
-    }, {
-      name: 'Keeper',
-      type: 'line',
-      data: []
-    }, {
-      name: 'Restaurant',
-      type: 'line',
-      data: []
-    }]
-  };
-
-  intime.paintByTime = function(url,pathname) {
+  intime.paintByTime = function(url, pathname) {
     var self = this;
     window.init(false, false);
     Charts['chart-main'].ele.show();
@@ -53,7 +10,7 @@
     $.ajax({
       url: url,
       success: function(data) {
-        if (Hash.getPathName()!= pathname ) {
+        if (Hash.getPathName() != pathname) {
           return;
         }
         var list = data.activity_stats;
@@ -65,21 +22,57 @@
           });
           return;
         }
-        self.option.xAxis[0].data = [];
-        self.option.series[0].data = [];
-        self.option.series[1].data = [];
-        self.option.series[2].data = [];
-        (function(list) {
-          list.map(function(item, index) {
-            self.option.xAxis[0].data.push(formatDate(item.time));
-            self.option.series[0].data.push(item.client);
-            self.option.series[1].data.push(item.keeper);
-            self.option.series[2].data.push(item.rst);
-          });
-            Charts['chart-main'].chart.hideLoading();
-            Charts['chart-main'].ele.show();
-            Charts['chart-main'].chart.setOption(self.option);
-        })(list);
+        var option = {
+          title: {},
+          tooltip: {
+            trigger: 'axis'
+          },
+          legend: {
+            orient: 'vertical',
+            x: 'right',
+            y: 'top',
+            data: ['Client', 'Keeper', 'Restaurant']
+          },
+          grid: {
+            y: 20,
+            y2: 100,
+            x2: 100,
+            height: '60%'
+          },
+          xAxis: [{
+            type: 'category',
+            data: [],
+            axisLabel: {
+              interval: 10,
+              rotate: 45
+            }
+          }],
+          yAxis: [{
+            type: 'value'
+          }],
+          series: [{
+            name: 'Client',
+            type: 'line',
+            data: []
+          }, {
+            name: 'Keeper',
+            type: 'line',
+            data: []
+          }, {
+            name: 'Restaurant',
+            type: 'line',
+            data: []
+          }]
+        };
+        list.map(function(item, index) {
+          option.xAxis[0].data.push(formatDate(item.time));
+          option.series[0].data.push(item.client);
+          option.series[1].data.push(item.keeper);
+          option.series[2].data.push(item.rst);
+        });
+        Charts['chart-main'].chart.hideLoading();
+        Charts['chart-main'].ele.show();
+        Charts['chart-main'].chart.setOption(option);
       }
     });
   };
