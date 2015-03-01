@@ -190,9 +190,10 @@ window.Tool = {
   },
   yesterday: function(day) {
     var date = new Date();
-    var yy = date.getFullYear();
-    var mm = this.formatTime(date.getMonth() + 1);
-    var dd = this.formatTime(date.getDate() - 1);
+    var yesterday = new Date(date.getTime() - 1000 * 60 * 60 * 24);
+    var yy = yesterday.getFullYear();
+    var mm = this.formatTime(yesterday.getMonth() + 1);
+    var dd = this.formatTime(yesterday.getDate());
     if (day) {
       return yy + '-' + mm + '-' + dd;
     }
